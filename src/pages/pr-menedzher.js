@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Image, Text, Box, Icon, List } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, StackItem, Menu, Stack, Section } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Menu, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 import { FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki } from "react-icons/fa";
 import { MdKeyboardArrowLeft } from "react-icons/md";
@@ -18,9 +18,9 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Components.EmbedHTML font="4000 14px/18px 'AvenirNextCyrMedium'" color="#ffffff" />
 		<Section
 			id="header"
+			class="noprint"
 			quarkly-title="Header"
 			padding="0px 0px 0px 0px"
 			border-width="0px 0px 2px 0px"
@@ -433,7 +433,7 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="140px 0 40px 0" sm-padding="110px 0 0px 0" lg-padding="120px 0 80px 0">
+		<Section padding="40px 0 40px 0" sm-padding="110px 0 0px 0" lg-padding="120px 0 80px 0">
 			<Override slot="SectionContent" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" max-width="850px">
 				{"    "}
@@ -466,7 +466,7 @@ export default (() => {
 						display="inline-block"
 						sm-text-align="center"
 						sm-margin="0px 0px 0px 0px"
-						text-align="center"
+						text-align="left"
 						color="#263238"
 						sm-font="normal 900 53px/1.2 'AvenirNextCyrBold', sans-serif"
 					>
@@ -505,7 +505,7 @@ export default (() => {
 						display="inline-block"
 						sm-text-align="center"
 						sm-margin="0px 0px 0px 0px"
-						text-align="center"
+						text-align="left"
 						color="#333"
 						sm-font="normal 900 53px/1.2 'AvenirNextCyrBold', sans-serif"
 						letter-spacing=".2"
@@ -539,7 +539,7 @@ export default (() => {
 						display="inline-block"
 						sm-text-align="center"
 						sm-margin="0px 0px 0px 0px"
-						text-align="center"
+						text-align="left"
 						color="#333"
 						sm-font="normal 900 53px/1.2 'AvenirNextCyrBold', sans-serif"
 						letter-spacing=".2"
@@ -591,7 +591,7 @@ export default (() => {
 						display="inline-block"
 						sm-text-align="center"
 						sm-margin="0px 0px 0px 0px"
-						text-align="center"
+						text-align="left"
 						color="#333"
 						sm-font="normal 900 53px/1.2 'AvenirNextCyrBold', sans-serif"
 						letter-spacing=".2"
@@ -663,6 +663,7 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Section
+			class="noprint"
 			quarkly-title="Footer"
 			padding="0px 0px 0px 0px"
 			border-width="2px 0px 0px 0px"
@@ -926,5 +927,18 @@ export default (() => {
 		>
 			Made on Quarkly
 		</Link>
+		<RawHtml>
+			<style place={"endOfHead"} rawKey={"601c3c7d7571e39a08c18a0b"}>
+				{"input.fileText {\n    opacity: 1 !important;\n}\n* {\n  -webkit-tap-highlight-color: transparent!important;\n}\n@font-face {\n  font-family: 'AvenirNextCyrRegular';\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.eot');\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.woff') format('woff'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.ttf') format('truetype');\n  font-weight: normal;\n  font-style: normal;\n}\n@font-face {\n  font-family: 'AvenirNextCyrMedium';\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.eot');\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.woff') format('woff'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.ttf') format('truetype');\n  font-weight: normal;\n  font-style: normal;\n}\n@font-face {\n  font-family: 'AvenirNextCyrBold';\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.eot');\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.woff') format('woff'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.ttf') format('truetype');\n  font-weight: normal;\n  font-style: normal;\n}\n@font-face {\n  font-family: 'AvenirNextCyrDemi';\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Demi.otf');\n  font-weight: normal;\n  font-style: normal;\n}\nbody {\n  font-family: 'AvenirNextCyrRegular', sans-serif;\n  font-weight: normal;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}"}
+			</style>
+			<link
+				href={"/nubexPrint.css"}
+				media={"print"}
+				type={"text/css"}
+				rel={"stylesheet"}
+				place={"endOfHead"}
+				rawKey={"601c3cb7f03035695e1bad36"}
+			/>
+		</RawHtml>
 	</Theme>;
 });

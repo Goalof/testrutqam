@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Image, Text, Box, Icon, Button, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, StackItem, Menu, Stack, Section } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Menu, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 import { FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki, FaBoxes, FaFileCode } from "react-icons/fa";
 export default (() => {
@@ -643,18 +643,19 @@ export default (() => {
 													<Button
 														background="rgba(0, 119, 204, 0)"
 														color="inherit"
-														font="normal 300 12px/24px 'AvenirNextCyrDemi', sans-serif"
+														font="normal 300 13px/24px 'AvenirNextCyrDemi', sans-serif"
 														letter-spacing=".2px"
 														display="flex"
 														align-items="center"
 														padding="8px 24px 8px 12px"
+														focus-box-shadow="none"
 													>
 														<Icon
 															category="fa"
 															icon={FaBoxes}
 															color="#inherit"
 															margin="0px 8px 0px 0px"
-															size="17px"
+															size="20px"
 														/>
 														ВСЕ ВАКАНСИИ (13)
 													</Button>
@@ -665,16 +666,17 @@ export default (() => {
 													<Button
 														background="rgba(0, 119, 204, 0)"
 														color="inherit"
-														font="normal 300 12px/24px 'AvenirNextCyrDemi', sans-serif"
+														font="normal 300 13px/24px 'AvenirNextCyrDemi', sans-serif"
 														letter-spacing=".2"
 														display="flex"
 														align-items="center"
 														padding="8px 24px 8px 12px"
+														focus-box-shadow="none"
 													>
 														<Icon
 															category="fa"
 															icon={FaFileCode}
-															size="17px"
+															size="20px"
 															color="inherit"
 															margin="0px 8px 0px 0px"
 														/>
@@ -682,11 +684,11 @@ export default (() => {
 													</Button>
 												</Components.TabItem>
 											</Components.TabList>
-											<Components.TabPanels width="100%">
+											<Components.TabPanels width="90%">
 												<Components.TabPanel tabId="one">
-													<Box width="85%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 														<Link
-															href="#"
+															href="/pr-menedzher"
 															text-decoration-line="initial"
 															color="#263238"
 															font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -705,7 +707,7 @@ export default (() => {
 														</Text>
 														<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 													</Box>
-													<Box width="85%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 														<Link
 															href="#"
 															text-decoration-line="initial"
@@ -726,7 +728,7 @@ export default (() => {
 														</Text>
 														<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 													</Box>
-													<Box width="85%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 														<Link
 															href="#"
 															text-decoration-line="initial"
@@ -1075,5 +1077,18 @@ export default (() => {
 		>
 			Made on Quarkly
 		</Link>
+		<RawHtml>
+			<style place={"endOfHead"} rawKey={"601c3c7d7571e39a08c18a0b"}>
+				{"input.fileText {\n    opacity: 1 !important;\n}\n* {\n  -webkit-tap-highlight-color: transparent!important;\n}\n@font-face {\n  font-family: 'AvenirNextCyrRegular';\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.eot');\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.woff') format('woff'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.ttf') format('truetype');\n  font-weight: normal;\n  font-style: normal;\n}\n@font-face {\n  font-family: 'AvenirNextCyrMedium';\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.eot');\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.woff') format('woff'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.ttf') format('truetype');\n  font-weight: normal;\n  font-style: normal;\n}\n@font-face {\n  font-family: 'AvenirNextCyrBold';\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.eot');\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.woff') format('woff'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.ttf') format('truetype');\n  font-weight: normal;\n  font-style: normal;\n}\n@font-face {\n  font-family: 'AvenirNextCyrDemi';\n  src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Demi.otf');\n  font-weight: normal;\n  font-style: normal;\n}\nbody {\n  font-family: 'AvenirNextCyrRegular', sans-serif;\n  font-weight: normal;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}"}
+			</style>
+			<link
+				href={"/nubexPrint.css"}
+				media={"print"}
+				type={"text/css"}
+				rel={"stylesheet"}
+				place={"endOfHead"}
+				rawKey={"601c3cb7f03035695e1bad36"}
+			/>
+		</RawHtml>
 	</Theme>;
 });
