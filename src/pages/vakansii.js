@@ -697,7 +697,7 @@ export default (() => {
 															PR-менеджер
 														</Link>
 														<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
-															Проект Quarkly | Москва
+															Проект Quarkly | Москва{" "}
 														</Text>
 														<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
 															Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
