@@ -503,6 +503,7 @@ export default (() => {
 									padding="8px 12px 8px 12px"
 									font="normal 400 14px/22px 'AvenirNextCyrMedium'"
 									transition="all 0.2s linear 0s"
+									focus-box-shadow="none"
 								>
 									Москва
 								</Button>
@@ -539,6 +540,7 @@ export default (() => {
 									font="normal 400 14px/22px 'AvenirNextCyrMedium'"
 									border-width="0px"
 									transition="all 0.2s linear 0s"
+									focus-box-shadow="none"
 								>
 									Санкт-Петербург
 								</Button>
@@ -575,6 +577,7 @@ export default (() => {
 									font="normal 400 14px/22px 'AvenirNextCyrMedium'"
 									border-width="0px"
 									transition="all 0.2s linear 0s"
+									focus-box-shadow="none"
 								>
 									Ростов-на-Дону
 								</Button>
@@ -611,6 +614,7 @@ export default (() => {
 									font="normal 400 14px/22px 'AvenirNextCyrMedium'"
 									border-width="0px"
 									transition="all 0.2s linear 0s"
+									focus-box-shadow="none"
 								>
 									Черкассы
 								</Button>
@@ -643,7 +647,7 @@ export default (() => {
 													<Button
 														background="rgba(0, 119, 204, 0)"
 														color="inherit"
-														font="normal 300 13px/24px 'AvenirNextCyrDemi', sans-serif"
+														font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
 														letter-spacing=".2px"
 														display="flex"
 														align-items="center"
@@ -666,7 +670,7 @@ export default (() => {
 													<Button
 														background="rgba(0, 119, 204, 0)"
 														color="inherit"
-														font="normal 300 13px/24px 'AvenirNextCyrDemi', sans-serif"
+														font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
 														letter-spacing=".2"
 														display="flex"
 														align-items="center"
@@ -1089,6 +1093,9 @@ export default (() => {
 				place={"endOfHead"}
 				rawKey={"601c3cb7f03035695e1bad36"}
 			/>
+			<script place={"endOfBody"} rawKey={"601c896290d000fef278db0b"}>
+				{"$(function(){\n    $('input[type=file]').each(function() {\n      var $input = $(this),\n          $label = $input.next('.js-labelFile'),\n          labelVal = $label.html();\n\n      $input.hide();\n      $input.on('change', function(element) {\n          var fileName = '';\n          if (element.target.value) fileName = element.target.value.split('\\\\').pop();\n          fileName ? $label.addClass('has-file').find('.js-fileName').html(fileName) : $label.removeClass('has-file').html(labelVal);\n      });\n    });\n  });"}
+			</script>
 		</RawHtml>
 	</Theme>;
 });

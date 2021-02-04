@@ -939,6 +939,9 @@ export default (() => {
 				place={"endOfHead"}
 				rawKey={"601c3cb7f03035695e1bad36"}
 			/>
+			<script place={"endOfBody"} rawKey={"601c896290d000fef278db0b"}>
+				{"$(function(){\n    $('input[type=file]').each(function() {\n      var $input = $(this),\n          $label = $input.next('.js-labelFile'),\n          labelVal = $label.html();\n\n      $input.hide();\n      $input.on('change', function(element) {\n          var fileName = '';\n          if (element.target.value) fileName = element.target.value.split('\\\\').pop();\n          fileName ? $label.addClass('has-file').find('.js-fileName').html(fileName) : $label.removeClass('has-file').html(labelVal);\n      });\n    });\n  });"}
+			</script>
 		</RawHtml>
 	</Theme>;
 });
