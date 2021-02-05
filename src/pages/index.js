@@ -640,28 +640,34 @@ export default (() => {
 								Резюме *
 							</Text>
 							<Box
-								className="upload_form"
 								position="relative"
 								border-width="2px"
 								border-style="dashed"
-								margin="0px 0px 19px 0px"
+								margin="auto auto 19px auto"
 								border-color="#c5cfdb"
 								transition="border 0.2s linear 0s"
 								hover-border-color="#58646f"
 								border-radius="5px"
 								cursor="pointer"
+								align-items="center"
+								justify-content="center"
+								left="auto"
+								bottom="auto"
+								right="auto"
+								top="auto"
+								padding="auto auto 0px auto"
 							>
 								<Input
-									className="fileResume"
+									className="custom-file-input"
 									width="100%"
 									type="file"
 									name="about-me"
 									font="normal 300 14px/32px 'AvenirNextCyrMedium', sans-serif"
 									border-width="0px"
 									transition="border 0.2s linear 0s"
-									margin="0px 4px 0px 0px"
+									margin="auto auto auto auto"
 									border-radius="5px"
-									padding="0px 16px 0px 16px"
+									padding="auto auto auto auto"
 									focus-border-color="#58646f"
 									hover-border-color="#58646f"
 									required
@@ -672,9 +678,12 @@ export default (() => {
 									align-items="center"
 									justify-content="center"
 									cursor="pointer"
-									position="relative"
 									z-index="9"
 									text-align="center"
+									left="auto"
+									right="auto"
+									top="auto"
+									bottom="auto"
 								/>
 								<Text
 									className="fileText"
@@ -2104,10 +2113,10 @@ export default (() => {
 				rawKey={"601c3cb7f03035695e1bad36"}
 			/>
 			<style place={"endOfHead"} rawKey={"601c8cac4316710fc00ca4bd"}>
-				{".main_input_file {\n\tdisplay: none;\n}\n\n.upload_form div {\n\twidth: 100px;\n\theight: 32px;\n\tbackground: #3498db;\n\tborder-radius: 4px;\n\tcolor: #fff;\n\ttext-align: center;\n\tline-height: 32px;\n\tfont-family: arial;\n\tfont-size:14px;\n\tdisplay: inline-block;\n\tvertical-align: top;\n}\n\n.upload_form div:hover {\n\tbackground: #2980b9;\n\tcursor: pointer;\n}\n\n#f_name {\n\tbackground: transparent;\n\tborder: 0;\n\tdisplay: inline-block;\n\tvertical-align: top;\n\theight: 30px;\n\tpadding: 0 8px;\n\twidth: 150px;\n}"}
+				{".custom-file-input {\n  display:inline-block;\n  position:relative;\n  width:250px;\n  height:30px;\n  background-color:black;\n  color:white;\n  font:normal normal 13px/30px Helmet,FreeSans,Sans-Serif;\n  border-radius:3px;\n  overflow:hidden;\n  cursor:text;\n}\n\n.custom-file-input input {\n  /* sembunyikan dengan `opacity:0` */\n  opacity:0;\n  filter:alpha(opacity=0);\n  /* pastikan elemen ini selalu berada di sebelah atas */\n  display:block;\n  position:absolute;\n  top:0;\n  right:0;\n  margin:0;\n  padding:0;\n  font-size:2000%;\n  z-index:4;\n  cursor:pointer;\n}\n\n.custom-file-input span {\n  display:block;\n  position:absolute;\n  top:0;\n  right:0;\n  bottom:0;\n  left:0;\n  padding:0 10px;\n  overflow:hidden;\n}\n\n.custom-file-input span + span {\n  left:auto;\n  background-color:#234;\n  border-radius:0 3px 3px 0;\n  padding:0 15px;\n  box-shadow:0 0 3px black,0 0 10px black;\n}\n\n\n/* Dora the Explorer */\n\n.custom-file-input input::-ms-value {display:none}\n\n.custom-file-input input::-ms-browse {\n  display:block;\n  margin:0;\n  padding:0;\n  cursor:inherit;\n}"}
 			</style>
 			<script place={"endOfBody"} rawKey={"601c908aa5c34f7be294ee96"}>
-				{"\n\t$(document).ready(function() {\n\n\t\t$(\".main_input_file\").change(function() {\n\n\t\t\tvar f_name = [];\n\n\t\t\tfor (var i = 0; i < $(this).get(0).files.length; ++i) {\n\n\t\t\t\tf_name.push(\" \" + $(this).get(0).files[i].name);\n\n\t\t\t}\n\n\t\t\t$(\"#f_name\").val(f_name.join(\", \"));\n\t\t});\n\n\t});"}
+				{"(function() {\n    var input = document.getElementsByClassName('custom-file-input');\n    for (var i = 0, len = input.length; i < len; ++i) {\n        var theInput = input[i].getElementsByTagName('input')[0];\n        theInput.onchange = function() {\n            this.parentNode.parentNode.children[0].innerHTML = this.value;\n            this.title = this.value;\n        };\n    }\n})();"}
 			</script>
 		</RawHtml>
 	</Theme>;
