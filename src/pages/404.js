@@ -51,7 +51,9 @@ export default (() => {
 			<style place={"endOfHead"} rawKey={"601c8cac4316710fc00ca4bd"}>
 				{".file-upload input[type=\"file\"]{\n\ndisplay: none;/* скрываем input file */\n\n}\n\n/* задаем стили кнопки выбора файла*/\n\n.file-upload {\n\nposition: relative;\n\noverflow: hidden;\n\nwidth: 250px;\n\nheight: 40px;\n\nbackground: #4169E1;\n\nborder-radius: 10px;\n\ncolor: #fff;\n\ntext-align: center;\n\n}\n\n.file-upload:hover {\n\nbackground: #1E90FF;\n\n}\n\n/* Растягиваем label на всю область блока .file-upload */\n\n.file-upload label {\n\ndisplay: block;\n\nposition: absolute;\n\ntop: 0;\n\nleft: 0;\n\nwidth: 100%;\n\nheight: 100%;\n\ncursor: pointer;\n\n}\n\n/* стиль текста на кнопке*/\n\n.file-upload span {\n\nline-height: 40px;\n\nfont-weight:bold;\n\n}"}
 			</style>
-			<link href={"/filedow.js"} place={"endOfBody"} rawKey={"601c8e62c891277dc65d2a2b"} />
+			<script place={"endOfBody"} rawKey={"601c908aa5c34f7be294ee96"}>
+				{"$(document).ready( function() {\n    $('#bntUpload').click(function(){\n        $(\"#so_file\").click();\n    });\n     \n    $('#so_file').change(function() {\n        $('#selected_filename').text($('#so_file')[0].files[0].name);\n    });\n});"}
+			</script>
 		</RawHtml>
 	</Theme>;
 });

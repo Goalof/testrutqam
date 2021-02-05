@@ -3,19 +3,12 @@ import atomize from "@quarkly/atomize"; // Put your HTML here:
 
 const customHtml = `
 
-<div class="file-upload">
-
-<label>
-
-<input type="file" name="file" onchange="getFileName ();" id="uploaded-file">
-
-<span>Выберите файл</span>
-
-</label>
-
-</div>
-
-<div id="file-name"></div>  
+<form>
+    <input id="so_file" type="file" style="display:none;"/>
+</form>
+ 
+<button id="bntUpload">Add File</button>
+<span id="selected_filename">No file selected</span> 
 `;
 
 const EmbedHTML = ({
