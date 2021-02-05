@@ -639,6 +639,7 @@ export default (() => {
 								Резюме *
 							</Text>
 							<Box
+								className="file_select"
 								position="relative"
 								border-width="2px"
 								border-style="dashed"
