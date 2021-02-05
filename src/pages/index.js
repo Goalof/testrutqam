@@ -1441,7 +1441,6 @@ export default (() => {
 						Комфортные
 						<br />
 						условия работы
-						<br />
 					</Text>
 					{"    "}
 				</StackItem>
