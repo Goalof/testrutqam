@@ -16,7 +16,6 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Components.EmbedHTML />
 		<Section
 			height="100vh"
 			background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/Photo2.jpg?v=2021-01-25T00:03:55.645Z) center/cover no-repeat scroll padding-box"
@@ -658,10 +657,9 @@ export default (() => {
 								padding="auto auto 0px auto"
 							>
 								<Input
-									className="custom-file-input"
 									width="100%"
 									type="file"
-									name="about-me"
+									name="resume"
 									font="normal 300 14px/32px 'AvenirNextCyrMedium', sans-serif"
 									border-width="0px"
 									transition="border 0.2s linear 0s"
@@ -2118,6 +2116,8 @@ export default (() => {
 			<script place={"endOfBody"} rawKey={"601c908aa5c34f7be294ee96"}>
 				{"(function() {\n    var input = document.getElementsByClassName('custom-file-input');\n    for (var i = 0, len = input.length; i < len; ++i) {\n        var theInput = input[i].getElementsByTagName('input')[0];\n        theInput.onchange = function() {\n            this.parentNode.parentNode.children[0].innerHTML = this.value;\n            this.title = this.value;\n        };\n    }\n})();"}
 			</script>
+			<link href={"https://usocial.pro/usocial/usocial.js?uid=9ea07854d3162f51&v=6.1.5"} rel={""} place={"endOfBody"} rawKey={"601d3779666a716123b8dc6e"} />
+			<link href={"https://usocial.pro/usocial/usocial.js?uid=9ea07854d3162f51&v=6.1.5"} place={"endOfHead"} rawKey={"601d37a3c58ae6e1a248acac"} />
 		</RawHtml>
 	</Theme>;
 });
