@@ -54,8 +54,6 @@ export default (() => {
 			<script place={"endOfBody"} rawKey={"601c908aa5c34f7be294ee96"}>
 				{"(function() {\n    var input = document.getElementsByClassName('custom-file-input');\n    for (var i = 0, len = input.length; i < len; ++i) {\n        var theInput = input[i].getElementsByTagName('input')[0];\n        theInput.onchange = function() {\n            this.parentNode.parentNode.children[0].innerHTML = this.value;\n            this.title = this.value;\n        };\n    }\n})();"}
 			</script>
-			<link href={"https://usocial.pro/usocial/usocial.js?uid=9ea07854d3162f51&v=6.1.5"} rel={""} place={"endOfBody"} rawKey={"601d3779666a716123b8dc6e"} />
-			<link href={"https://usocial.pro/usocial/usocial.js?uid=9ea07854d3162f51&v=6.1.5"} place={"endOfHead"} rawKey={"601d37a3c58ae6e1a248acac"} />
 		</RawHtml>
 	</Theme>;
 });
