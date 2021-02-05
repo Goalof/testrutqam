@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Box, Icon, Input, Span, Button, Strong } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box, Icon, Input, Button, Span, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Menu, Stack, Formspree, Section } from "@quarkly/components";
@@ -697,10 +697,6 @@ export default (() => {
 									z-index="1"
 								>
 									Выберите файл
-									<br />
-									<Span color="#8da8b8" font="400 14px/20px AvenirNextCyrRegular, sans-serif">
-										или перетащите его сюда для загрузки
-									</Span>
 								</Text>
 								<Components.FileLabel />
 							</Box>
