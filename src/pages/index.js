@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Box, Icon, Input, Button, Span, Strong } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box, Icon, Input, Span, Button, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Menu, Stack, Formspree, Section } from "@quarkly/components";
@@ -692,11 +692,25 @@ export default (() => {
 									right="15%"
 									bottom="30%"
 									top="30%"
-									padding="0 0 0 0"
+									padding="20px 20px 20px 20px"
 									margin="0 0 0 0"
 									z-index="1"
 								>
 									Выберите файл
+									<br />
+									<Span
+										color="#8da8b8"
+										font="400 14px/20px AvenirNextCyrRegular, sans-serif"
+										data-q-widget-type="PRIMITIVE"
+										overflow-wrap="normal"
+										word-break="normal"
+										white-space="normal"
+										text-indent="0"
+										text-overflow="clip"
+										hyphens="manual"
+									>
+										Отправьте нам ваше резюме
+									</Span>
 								</Text>
 								<Components.FileLabel />
 							</Box>
