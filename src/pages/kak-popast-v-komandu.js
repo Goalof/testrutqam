@@ -827,10 +827,10 @@ export default (() => {
 				rawKey={"601c3cb7f03035695e1bad36"}
 			/>
 			<style place={"endOfHead"} rawKey={"601c8cac4316710fc00ca4bd"}>
-				{".file-upload input[type=\"file\"]{\n\ndisplay: none;/* скрываем input file */\n\n}\n\n/* задаем стили кнопки выбора файла*/\n\n.file-upload {\n\nposition: relative;\n\noverflow: hidden;\n\nwidth: 250px;\n\nheight: 40px;\n\nbackground: #4169E1;\n\nborder-radius: 10px;\n\ncolor: #fff;\n\ntext-align: center;\n\n}\n\n.file-upload:hover {\n\nbackground: #1E90FF;\n\n}\n\n/* Растягиваем label на всю область блока .file-upload */\n\n.file-upload label {\n\ndisplay: block;\n\nposition: absolute;\n\ntop: 0;\n\nleft: 0;\n\nwidth: 100%;\n\nheight: 100%;\n\ncursor: pointer;\n\n}\n\n/* стиль текста на кнопке*/\n\n.file-upload span {\n\nline-height: 40px;\n\nfont-weight:bold;\n\n}"}
+				{".main_input_file {\n\tdisplay: none;\n}\n\n.upload_form div {\n\twidth: 100px;\n\theight: 32px;\n\tbackground: #3498db;\n\tborder-radius: 4px;\n\tcolor: #fff;\n\ttext-align: center;\n\tline-height: 32px;\n\tfont-family: arial;\n\tfont-size:14px;\n\tdisplay: inline-block;\n\tvertical-align: top;\n}\n\n.upload_form div:hover {\n\tbackground: #2980b9;\n\tcursor: pointer;\n}\n\n#f_name {\n\tbackground: transparent;\n\tborder: 0;\n\tdisplay: inline-block;\n\tvertical-align: top;\n\theight: 30px;\n\tpadding: 0 8px;\n\twidth: 150px;\n}"}
 			</style>
 			<script place={"endOfBody"} rawKey={"601c908aa5c34f7be294ee96"}>
-				{"$(document).ready( function() {\n    $('#bntUpload').click(function(){\n        $(\"#so_file\").click();\n    });\n     \n    $('#so_file').change(function() {\n        $('#selected_filename').text($('#so_file')[0].files[0].name);\n    });\n});"}
+				{"\n\t$(document).ready(function() {\n\n\t\t$(\".main_input_file\").change(function() {\n\n\t\t\tvar f_name = [];\n\n\t\t\tfor (var i = 0; i < $(this).get(0).files.length; ++i) {\n\n\t\t\t\tf_name.push(\" \" + $(this).get(0).files[i].name);\n\n\t\t\t}\n\n\t\t\t$(\"#f_name\").val(f_name.join(\", \"));\n\t\t});\n\n\t});"}
 			</script>
 		</RawHtml>
 	</Theme>;
