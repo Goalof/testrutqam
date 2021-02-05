@@ -670,8 +670,8 @@ export default (() => {
 									hover-border-color="#58646f"
 									required
 									as="input"
+									data="test"
 									min-height="96px"
-									display="none"
 									flex-direction="column"
 									align-items="center"
 									justify-content="center"
@@ -682,6 +682,7 @@ export default (() => {
 									right="auto"
 									top="auto"
 									bottom="auto"
+									display="none"
 								/>
 								<Text
 									className="fileText"
