@@ -508,6 +508,7 @@ export default (() => {
 				<Section padding="10px 0 40px 0">
 					<Override slot="SectionContent" align-items="center" />
 					<Components.EmbedHTML />
+					<Components.EmbedJS />
 				</Section>
 			</Components.PopUp>
 			<Stack margin="0px 0px 0px 0px" max-width="750px" width="100%" gap="16px">
@@ -1852,6 +1853,7 @@ export default (() => {
 				src={""}
 				type={""}
 				referrerpolicy={""}
+				async={true}
 				place={"endOfBody"}
 				rawKey={"601edfb422a983df27535bf9"}
 			>

@@ -2,17 +2,15 @@ import React, { useRef, useLayoutEffect } from "react";
 import atomize from "@quarkly/atomize"; // Put your JS here:
 
 const customJs = `
-document.querySelector('.file_select').addEventListener('click', function () {
-    this.querySelector('input[type="file"]').click();
-});
-document.querySelector('.file_select [type="file"]').addEventListener('change', function () {
-    var names = [];
-    for (var i = 0; i < this.files.length; i++) {
-        names.push(this.files[i].name);
-    }
-    document.querySelector('[data-file-name="' + this.getAttribute('name') + '"]').innerHTML = names.join(', ');
-    document.querySelector('.file_select').classList.add('active');
-});
+    var widgetOptions317053 = {
+        bg_color: "transparent"
+    };
+    (function() {
+        var a = document.createElement("script"), h = "head";
+        a.async = true;
+        a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=317053&t="+Math.floor(new Date()/18e5);
+        document.getElementsByTagName(h)[0].appendChild(a)
+    })(); 
 `;
 
 const EmbedJS = ({

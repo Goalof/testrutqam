@@ -1391,6 +1391,7 @@ export default (() => {
 				src={""}
 				type={""}
 				referrerpolicy={""}
+				async={true}
 				place={"endOfBody"}
 				rawKey={"601edfb422a983df27535bf9"}
 			>
