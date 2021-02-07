@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Box, Icon, Input, Span, Button, Strong } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box, Icon, Span, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Menu, Stack, Formspree, Section } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Menu, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 import { FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki } from "react-icons/fa";
 export default (() => {
@@ -507,283 +507,7 @@ export default (() => {
 				/>
 				<Section padding="10px 0 40px 0">
 					<Override slot="SectionContent" align-items="center" />
-					<Text text-align="center" color="#4a8cfa" font="30px 'AvenirNextCyrMedium'" margin="20px 0px 28px 0px">
-						Отправить резюме
-					</Text>
-					<Formspree
-						errorMessage="Something went wrong"
-						completeText="Success"
-						endpoint="xpzobepb"
-						display="flex"
-						flex-direction="column"
-						width="100%"
-						align-items="stretch"
-						justify-content="stretch"
-						padding="0px 0px 0px 0px"
-						max-width="472px"
-					>
-						<Box width="100%">
-							<Text color="#8da8b8" font="600 14px AvenirNextCyrRegular, sans-serif" margin="0px 0px 12px 0px">
-								Ваше имя *
-							</Text>
-							<Input
-								margin-right="4px"
-								width="100%"
-								type="text"
-								name="name"
-								font="normal 300 14px/32px 'AvenirNextCyrMedium', sans-serif"
-								border-color="#c5cfdb"
-								border-width="2px"
-								transition="border 0.2s linear 0s"
-								margin="0px 4px 19px 0px"
-								border-radius="5px"
-								padding="0px 16px 0px 16px"
-								focus-border-color="#58646f"
-								hover-border-color="#58646f"
-								display="block"
-								required
-							/>
-						</Box>
-						<Box width="100%" display="flex" flex-direction="row" justify-content="space-between">
-							<Box display="flex" flex-direction="column" width="100%" max-width="220px">
-								<Text color="#8da8b8" font="600 14px AvenirNextCyrRegular, sans-serif" margin="0px 0px 12px 0px">
-									Ваш E-mail *
-								</Text>
-								<Input
-									width="100%"
-									type="email"
-									name="email"
-									font="normal 300 14px/32px 'AvenirNextCyrMedium', sans-serif"
-									border-color="#c5cfdb"
-									border-width="2px"
-									transition="border 0.2s linear 0s"
-									margin="0px 4px 19px 0px"
-									border-radius="5px"
-									padding="0px 16px 0px 16px"
-									focus-border-color="#58646f"
-									hover-border-color="#58646f"
-									display="block"
-									required
-								/>
-							</Box>
-							<Box display="flex" flex-direction="column" width="100%" max-width="220px">
-								<Text color="#8da8b8" font="600 14px AvenirNextCyrRegular, sans-serif" margin="0px 0px 12px 0px">
-									Ваш телефон *
-								</Text>
-								<Input
-									width="100%"
-									type="tel"
-									name="phone"
-									font="normal 300 14px/32px 'AvenirNextCyrMedium', sans-serif"
-									border-color="#c5cfdb"
-									border-width="2px"
-									transition="border 0.2s linear 0s"
-									margin="0px 4px 19px 0px"
-									border-radius="5px"
-									padding="0px 16px 0px 16px"
-									focus-border-color="#58646f"
-									hover-border-color="#58646f"
-									display="block"
-									required
-								/>
-							</Box>
-						</Box>
-						<Box width="100%">
-							<Text color="#8da8b8" font="600 14px AvenirNextCyrRegular, sans-serif" margin="0px 0px 12px 0px">
-								Город *
-							</Text>
-							<Input
-								margin-right="4px"
-								width="100%"
-								type="text"
-								name="city"
-								font="normal 300 14px/32px 'AvenirNextCyrMedium', sans-serif"
-								border-color="#c5cfdb"
-								border-width="2px"
-								transition="border 0.2s linear 0s"
-								margin="0px 4px 19px 0px"
-								border-radius="5px"
-								padding="0px 16px 0px 16px"
-								focus-border-color="#58646f"
-								hover-border-color="#58646f"
-								display="block"
-								required
-							/>
-						</Box>
-						<Box width="100%">
-							<Text color="#8da8b8" font="600 14px AvenirNextCyrRegular, sans-serif" margin="0px 0px 12px 0px">
-								Коротко о себе
-							</Text>
-							<Input
-								margin-right="4px"
-								width="100%"
-								type="text"
-								name="about-me"
-								font="normal 300 14px/32px 'AvenirNextCyrMedium', sans-serif"
-								border-color="#c5cfdb"
-								border-width="2px"
-								transition="border 0.2s linear 0s"
-								margin="0px 4px 19px 0px"
-								border-radius="5px"
-								padding="0px 16px 0px 16px"
-								focus-border-color="#58646f"
-								hover-border-color="#58646f"
-								display="block"
-								required={false}
-								as="textarea"
-								min-height="96px"
-							/>
-						</Box>
-						<Box className="example-1" width="100%" align-items="center" justify-content="center">
-							<Text color="#8da8b8" font="600 14px AvenirNextCyrRegular, sans-serif" margin="0px 0px 12px 0px">
-								Резюме *
-							</Text>
-							<Box
-								className="file_select"
-								position="relative"
-								border-width="2px"
-								border-style="dashed"
-								margin="auto auto 19px auto"
-								border-color="#c5cfdb"
-								transition="border 0.2s linear 0s"
-								hover-border-color="#58646f"
-								border-radius="5px"
-								cursor="pointer"
-								align-items="center"
-								justify-content="center"
-								left="auto"
-								bottom="auto"
-								right="auto"
-								top="auto"
-								padding="auto auto 0px auto"
-							>
-								<Input
-									width="100%"
-									type="file"
-									name="resume"
-									font="normal 300 14px/32px 'AvenirNextCyrMedium', sans-serif"
-									border-width="0px"
-									transition="border 0.2s linear 0s"
-									margin="auto auto auto auto"
-									border-radius="5px"
-									padding="auto auto auto auto"
-									focus-border-color="#58646f"
-									hover-border-color="#58646f"
-									required
-									as="input"
-									data="test"
-									min-height="96px"
-									flex-direction="column"
-									align-items="center"
-									justify-content="center"
-									cursor="pointer"
-									z-index="9"
-									text-align="center"
-									left="auto"
-									right="auto"
-									top="auto"
-									bottom="auto"
-									display="none"
-								/>
-								<Text
-									className="fileText"
-									color="#4a8cfa"
-									font="600 14px AvenirNextCyrRegular, sans-serif"
-									text-align="center"
-									left="15%"
-									right="15%"
-									bottom="30%"
-									top="30%"
-									padding="20px 20px 20px 20px"
-									margin="0 0 0 0"
-									z-index="1"
-								>
-									Выберите файл
-									<br />
-									<Span
-										color="#8da8b8"
-										font="400 14px/20px AvenirNextCyrRegular, sans-serif"
-										data-q-widget-type="PRIMITIVE"
-										overflow-wrap="normal"
-										word-break="normal"
-										white-space="normal"
-										text-indent="0"
-										text-overflow="clip"
-										hyphens="manual"
-									>
-										Отправьте нам ваше резюме
-									</Span>
-								</Text>
-								<Components.FileLabel />
-								<Components.FileLabel />
-							</Box>
-						</Box>
-						<Box width="100%">
-							<Text color="#8da8b8" font="600 14px AvenirNextCyrRegular, sans-serif" margin="0px 0px 12px 0px">
-								Приложите ссылку на своё портфолио
-							</Text>
-							<Input
-								margin-right="4px"
-								width="100%"
-								type="text"
-								name="portfolio"
-								font="normal 300 14px/32px 'AvenirNextCyrMedium', sans-serif"
-								border-color="#c5cfdb"
-								border-width="2px"
-								transition="border 0.2s linear 0s"
-								margin="0px 4px 19px 0px"
-								border-radius="5px"
-								padding="0px 16px 0px 16px"
-								focus-border-color="#58646f"
-								hover-border-color="#58646f"
-								display="block"
-								required={false}
-							/>
-						</Box>
-						<Box width="100%">
-							<Text color="#8da8b8" font="600 14px AvenirNextCyrRegular, sans-serif" margin="0px 0px 12px 0px">
-								Почему вы хотите работать у нас
-							</Text>
-							<Input
-								margin-right="4px"
-								width="100%"
-								type="text"
-								name="about-me"
-								font="normal 300 14px/32px 'AvenirNextCyrMedium', sans-serif"
-								border-color="#c5cfdb"
-								border-width="2px"
-								transition="border 0.2s linear 0s"
-								margin="0px 4px 19px 0px"
-								border-radius="5px"
-								padding="0px 16px 0px 16px"
-								focus-border-color="#58646f"
-								hover-border-color="#58646f"
-								display="block"
-								required={false}
-								as="textarea"
-								min-height="96px"
-							/>
-							<Box display="flex" align-items="center">
-								<Input type="checkbox" value="yes" checked />
-								<Text margin="0px 0px 0px 4px" font="600 14px AvenirNextCyrRegular, sans-serif" color="#8da8b8">
-									Даю согласие на обработку моих персональных данных
-								</Text>
-							</Box>
-						</Box>
-						<Box display="flex" align-items="center" justify-content="center">
-							<Button
-								border-radius="5px"
-								font="normal 600 16px/1.5 'AvenirNextCyrRegular', sans-serif"
-								padding="12px 15px 12px 15px"
-								background="#4a8cfa"
-								hover-background="#437de0"
-								margin="30px 0px 10px 0px"
-								transition="all 0.2s linear 0s"
-							>
-								Отправить резюме
-							</Button>
-						</Box>
-					</Formspree>
+					<Components.EmbedHTML />
 				</Section>
 			</Components.PopUp>
 			<Stack margin="0px 0px 0px 0px" max-width="750px" width="100%" gap="16px">
@@ -2087,7 +1811,6 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Components.EmbedJS />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
@@ -2125,6 +1848,15 @@ export default (() => {
 			<style place={"endOfHead"} rawKey={"601c8cac4316710fc00ca4bd"}>
 				{".custom-file-input {\n  display:inline-block;\n  position:relative;\n  width:250px;\n  height:30px;\n  background-color:black;\n  color:white;\n  font:normal normal 13px/30px Helmet,FreeSans,Sans-Serif;\n  border-radius:3px;\n  overflow:hidden;\n  cursor:text;\n}\n\n.custom-file-input input {\n  /* sembunyikan dengan `opacity:0` */\n  opacity:0;\n  filter:alpha(opacity=0);\n  /* pastikan elemen ini selalu berada di sebelah atas */\n  display:block;\n  position:absolute;\n  top:0;\n  right:0;\n  margin:0;\n  padding:0;\n  font-size:2000%;\n  z-index:4;\n  cursor:pointer;\n}\n\n.custom-file-input span {\n  display:block;\n  position:absolute;\n  top:0;\n  right:0;\n  bottom:0;\n  left:0;\n  padding:0 10px;\n  overflow:hidden;\n}\n\n.custom-file-input span + span {\n  left:auto;\n  background-color:#234;\n  border-radius:0 3px 3px 0;\n  padding:0 15px;\n  box-shadow:0 0 3px black,0 0 10px black;\n}\n\n\n/* Dora the Explorer */\n\n.custom-file-input input::-ms-value {display:none}\n\n.custom-file-input input::-ms-browse {\n  display:block;\n  margin:0;\n  padding:0;\n  cursor:inherit;\n}"}
 			</style>
+			<script
+				src={""}
+				type={""}
+				referrerpolicy={""}
+				place={"endOfBody"}
+				rawKey={"601edfb422a983df27535bf9"}
+			>
+				{"    var widgetOptions317053 = {\n        bg_color: \"transparent\"\n    };\n    (function() {\n        var a = document.createElement(\"script\"), h = \"head\";\n        a.async = true;\n        a.src = (document.location.protocol == \"https:\" ? \"https:\" : \"http:\") + \"//ucalc.pro/api/widget.js?id=317053&t=\"+Math.floor(new Date()/18e5);\n        document.getElementsByTagName(h)[0].appendChild(a)\n    })();"}
+			</script>
 		</RawHtml>
 	</Theme>;
 });
