@@ -420,6 +420,7 @@ export default (() => {
 							color="#263238"
 							hover-color="#4a8cfa"
 						/>
+						<Override slot="item-pr-menedzher" display="none" />
 					</Menu>
 					{"        "}
 				</StackItem>
@@ -453,365 +454,195 @@ export default (() => {
 			<Override slot="SectionContent" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" max-width="1170px" width="100%">
 				<StackItem width="100%">
-					<Components.Tabs
-						defaultTab="one"
-						orientation="Horizontal"
-						width="100%"
-						height="auto"
-						align="center"
-						margin="0px 0px 0px 0px"
-					>
-						<Components.TabList
-							sm-width="100%"
-							sm-display="flex"
-							sm-flex-direction="column"
-							padding="0px 0px 0px 0px"
+					<Components.Tabs2 defaultTab="msk" width="100%">
+						<Override slot="Tab msk" border-radius="5px 0px 0px 5px">
+							Все вакансии
+						</Override>
+						<Override slot="Tab spb" border-radius="0px">
+							Москва
+						</Override>
+						<Override
+							slot="Tab"
+							background="#fff"
+							color="#4a8cfa"
+							font="normal 400 14px/22px 'AvenirNextCyrMedium'"
+							margin="0px 2px 0px 0px"
+							focus-box-shadow="none"
+						/>
+						<Override slot="Tab :active" background="#ffe02d" color="#263238">
+							Все вакансии
+						</Override>
+						<Override
+							slot="Tablist"
+							align-items="center"
+							justify-content="center"
 							position="relative"
 							top="-90px"
-						>
-							<Override slot="TabList Wrapper" sm-flex-direction="column" />
-							<Components.TabItem
-								tabId="one"
-								color="#263238"
-								background="#E4E9ED"
-								transition="all 0.2s linear 0s"
-								margin="0px 2px 0px 0px"
-								border-radius="5px 0px 0px 5px"
-							>
-								<Override
-									slot="Selected Tab"
-									color="#fff"
-									border-width="2px"
-									background="#4a8cfa"
-									border-style="solid"
-									border-color="#4a8cfa"
-								/>
-								<Override
-									slot="Tab"
-									border-color="rgba(74, 140, 250, 0)"
-									border-width="2px"
-									border-style="solid"
-									color="inherit"
-									transition="all 0.2s linear 0s"
-									border-radius="5px 0px 0px 5px"
-									margin="0px 0px 0px 0px"
-								/>
-								<Button
-									background="rgba(0, 119, 204, 0)"
-									color="inherit"
-									padding="8px 12px 8px 12px"
-									font="normal 400 14px/22px 'AvenirNextCyrMedium'"
-									transition="all 0.2s linear 0s"
-									focus-box-shadow="none"
-								>
-									Москва
-								</Button>
-							</Components.TabItem>
-							<Components.TabItem
-								tabId="two"
-								background="#E4E9ED"
-								color="#263238"
-								border-color="#263238"
-								transition="all 0.2s linear 0s"
-								margin="0px 2px 0px 0px"
-							>
-								<Override
-									slot="Selected Tab"
-									color="#fff"
-									background="#4a8cfa"
-									border-width="2px"
-									border-style="solid"
-									border-color="#4a8cfa"
-								/>
-								<Override
-									slot="Tab"
-									border-radius="0px"
-									border-width="2px"
-									border-style="solid"
-									border-color="rgba(0, 0, 0, 0)"
-									transition="all 0.2s linear 0s"
-									margin="0px 0px 0px 0px"
-								/>
-								<Button
-									background="rgba(0, 119, 204, 0)"
-									color="inherit"
-									padding="8px 12px 8px 12px"
-									font="normal 400 14px/22px 'AvenirNextCyrMedium'"
-									border-width="0px"
-									transition="all 0.2s linear 0s"
-									focus-box-shadow="none"
-								>
-									Санкт-Петербург
-								</Button>
-							</Components.TabItem>
-							<Components.TabItem
-								tabId="three"
-								background="#E4E9ED"
-								color="#263238"
-								border-color="#263238"
-								transition="all 0.2s linear 0s"
-								margin="0px 2px 0px 0px"
-							>
-								<Override
-									slot="Selected Tab"
-									color="#fff"
-									background="#4a8cfa"
-									border-width="2px"
-									border-style="solid"
-									border-color="#4a8cfa"
-								/>
-								<Override
-									slot="Tab"
-									border-radius="0px"
-									border-width="2px"
-									border-style="solid"
-									border-color="rgba(0, 0, 0, 0)"
-									transition="all 0.2s linear 0s"
-									margin="0px 2px 0px 0px"
-								/>
-								<Button
-									background="rgba(0, 119, 204, 0)"
-									color="inherit"
-									padding="8px 12px 8px 12px"
-									font="normal 400 14px/22px 'AvenirNextCyrMedium'"
-									border-width="0px"
-									transition="all 0.2s linear 0s"
-									focus-box-shadow="none"
-								>
-									Ростов-на-Дону
-								</Button>
-							</Components.TabItem>
-							<Components.TabItem
-								tabId="four"
-								background="#E4E9ED"
-								color="#263238"
-								border-color="#263238"
-								transition="all 0.2s linear 0s"
-								border-radius="0px 5px 5px 0px"
-							>
-								<Override
-									slot="Selected Tab"
-									color="#fff"
-									background="#4a8cfa"
-									border-width="2px"
-									border-style="solid"
-									border-color="#4a8cfa"
-								/>
-								<Override
-									slot="Tab"
-									border-radius="0px 5px 5px 0px"
-									border-width="2px"
-									border-style="solid"
-									border-color="rgba(0, 0, 0, 0)"
-									transition="all 0.2s linear 0s"
-									margin="0px 2px 0px 0px"
-								/>
-								<Button
-									background="rgba(0, 119, 204, 0)"
-									color="inherit"
-									padding="8px 12px 8px 12px"
-									font="normal 400 14px/22px 'AvenirNextCyrMedium'"
-									border-width="0px"
-									transition="all 0.2s linear 0s"
-									focus-box-shadow="none"
-								>
-									Черкассы
-								</Button>
-							</Components.TabItem>
-						</Components.TabList>
-						<Components.TabPanels margin="0px 0px 0px 0px">
-							<Components.TabPanel tabId="one">
-								<Stack margin="0px 0px 0px 0px">
-									<StackItem width="100%" display="flex" lg-width="50%" sm-width="100%">
-										<Override
-											slot="StackItemContent"
-											align-items="flex-start"
-											justify-content="flex-start"
-											flex-direction="column"
-											lg-align-items="center"
-										/>
-										{"        "}
-										<Components.Tabs
-											defaultTab="one"
-											orientation="Vertical"
-											width="100%"
-											flex-direction="row-reverse"
-											justify-content="space-between"
-											height="auto"
-										>
-											<Components.TabList>
-												<Components.TabItem tabId="one">
-													<Override slot="Selected Tab" color="#3d72cc" />
-													<Override slot="Tab" color="#afc1db" />
-													<Button
-														background="rgba(0, 119, 204, 0)"
+						/>
+						<Override slot="Tab rnd">
+							Some Text
+						</Override>
+						<Components.Tab2 tabId="msk">
+							<Stack margin="0px 0px 0px 0px">
+								<StackItem width="100%" display="flex" lg-width="50%" sm-width="100%">
+									<Override
+										slot="StackItemContent"
+										align-items="flex-start"
+										justify-content="flex-start"
+										flex-direction="column"
+										lg-align-items="center"
+									/>
+									{"        "}
+									<Components.Tabs
+										defaultTab="one"
+										orientation="Vertical"
+										width="100%"
+										flex-direction="row-reverse"
+										justify-content="space-between"
+										height="auto"
+									>
+										<Components.TabList>
+											<Components.TabItem tabId="one">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+												>
+													<Icon
+														category="fa"
+														icon={FaBoxes}
+														color="#inherit"
+														margin="0px 8px 0px 0px"
+														size="20px"
+													/>
+													ВСЕ ВАКАНСИИ (13)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="two">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+												>
+													<Icon
+														category="fa"
+														icon={FaFileCode}
+														size="20px"
 														color="inherit"
-														font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
-														letter-spacing=".2px"
-														display="flex"
-														align-items="center"
-														padding="8px 24px 8px 12px"
-														focus-box-shadow="none"
+														margin="0px 8px 0px 0px"
+													/>
+													РАЗРАБОТКА (6)
+												</Button>
+											</Components.TabItem>
+										</Components.TabList>
+										<Components.TabPanels width="90%">
+											<Components.TabPanel tabId="one">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/pr-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
 													>
-														<Icon
-															category="fa"
-															icon={FaBoxes}
-															color="#inherit"
-															margin="0px 8px 0px 0px"
-															size="20px"
-														/>
-														ВСЕ ВАКАНСИИ (13)
-													</Button>
-												</Components.TabItem>
-												<Components.TabItem tabId="two">
-													<Override slot="Selected Tab" color="#3d72cc" />
-													<Override slot="Tab" color="#afc1db" />
-													<Button
-														background="rgba(0, 119, 204, 0)"
-														color="inherit"
-														font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
-														letter-spacing=".2"
-														display="flex"
-														align-items="center"
-														padding="8px 24px 8px 12px"
-														focus-box-shadow="none"
-													>
-														<Icon
-															category="fa"
-															icon={FaFileCode}
-															size="20px"
-															color="inherit"
-															margin="0px 8px 0px 0px"
-														/>
-														РАЗРАБОТКА (6)
-													</Button>
-												</Components.TabItem>
-											</Components.TabList>
-											<Components.TabPanels width="90%">
-												<Components.TabPanel tabId="one">
-													<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-														<Link
-															href="/pr-menedzher"
-															text-decoration-line="initial"
-															color="#263238"
-															font="22px 'AvenirNextCyrMedium', sans-serif"
-															margin="0px 0px 0px 0px"
-															transition="color 0.2s linear 0s"
-															hover-color="#4a8cfa"
-														>
-															PR-менеджер
-														</Link>
-														<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
-															Проект Quarkly | Москва{" "}
-														</Text>
-														<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
-															Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
-															<br />
-														</Text>
-														<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-													</Box>
-													<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-														<Link
-															href="#"
-															text-decoration-line="initial"
-															color="#263238"
-															font="22px 'AvenirNextCyrMedium', sans-serif"
-															margin="0px 0px 0px 0px"
-															transition="color 0.2s linear 0s"
-															hover-color="#4a8cfa"
-														>
-															PR-менеджер
-														</Link>
-														<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
-															Проект Quarkly | Москва
-														</Text>
-														<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
-															Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
-															<br />
-														</Text>
-														<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-													</Box>
-													<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-														<Link
-															href="#"
-															text-decoration-line="initial"
-															color="#263238"
-															font="22px 'AvenirNextCyrMedium', sans-serif"
-															margin="0px 0px 0px 0px"
-															transition="color 0.2s linear 0s"
-															hover-color="#4a8cfa"
-														>
-															PR-менеджер
-														</Link>
-														<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
-															Проект Quarkly | Москва
-														</Text>
-														<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
-															Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
-															<br />
-														</Text>
-														<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-													</Box>
-												</Components.TabPanel>
-												<Components.TabPanel tabId="two">
-													<Text>
-														Tab 2
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
+														Проект Quarkly | Москва{" "}
 													</Text>
-												</Components.TabPanel>
-											</Components.TabPanels>
-										</Components.Tabs>
-										{"    "}
-									</StackItem>
-									{"        "}
-								</Stack>
-							</Components.TabPanel>
-							<Components.TabPanel tabId="two">
-								<Stack margin="0px 0px 0px 0px">
-									<StackItem width="100%" display="flex" lg-width="50%" sm-width="100%">
-										<Override
-											slot="StackItemContent"
-											align-items="flex-start"
-											justify-content="flex-start"
-											flex-direction="column"
-											lg-align-items="center"
-										/>
-										{"            "}
-									</StackItem>
-									{"        "}
-								</Stack>
-							</Components.TabPanel>
-							<Components.TabPanel tabId="three">
-								<Stack margin="0px 0px 0px 0px">
-									<StackItem width="100%" display="flex" lg-width="50%" sm-width="100%">
-										<Override
-											slot="StackItemContent"
-											align-items="flex-start"
-											justify-content="flex-start"
-											flex-direction="column"
-											lg-align-items="center"
-										/>
-										{"            "}
-									</StackItem>
-									{"        "}
-								</Stack>
-							</Components.TabPanel>
-							<Components.TabPanel tabId="four">
-								<Stack margin="0px 0px 0px 0px">
-									<StackItem width="100%" display="flex" lg-width="50%" sm-width="100%">
-										<Override
-											slot="StackItemContent"
-											align-items="flex-start"
-											justify-content="flex-start"
-											flex-direction="column"
-											lg-align-items="center"
-										/>
-										{"            "}
-									</StackItem>
-									{"        "}
-								</Stack>
-							</Components.TabPanel>
-						</Components.TabPanels>
-					</Components.Tabs>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="#"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
+														Проект Quarkly | Москва
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="#"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
+														Проект Quarkly | Москва
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="two">
+												<Text>
+													Tab 2
+												</Text>
+											</Components.TabPanel>
+										</Components.TabPanels>
+									</Components.Tabs>
+									{"    "}
+								</StackItem>
+								{"        "}
+							</Stack>
+						</Components.Tab2>
+						<Components.Tab2 tabId="spb">
+							<Text>
+								sadasdasd
+							</Text>
+						</Components.Tab2>
+						<Components.Tab2 tabId="rnd">
+							<Text>
+								sadasdasd
+							</Text>
+						</Components.Tab2>
+						<Components.Tab2 tabId="fl">
+							<Text>
+								sadasdasd
+							</Text>
+						</Components.Tab2>
+					</Components.Tabs2>
 				</StackItem>
 				{"        "}
 			</Stack>
