@@ -5,7 +5,7 @@ import MobileSide from "./MobileSide";
 import { FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki } from "react-icons/fa";
 const defaultProps = {
 	"id": "header",
-	"class": "noprint",
+	"className": "noprint",
 	"quarkly-title": "Header",
 	"padding": "0px 0px 0px 0px",
 	"border-width": "0px 0px 2px 0px",
