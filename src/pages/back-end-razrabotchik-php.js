@@ -40,14 +40,14 @@ export default (() => {
 							icon={MdKeyboardArrowLeft}
 							color="inherit"
 							size="20px"
-							margin="-1px 2px 0px 0px"
+							margin="-1px 2px 0px -2px"
 							hover-color="inherit"
 						/>
 						К списку вакансий
 					</Link>
 					<Text
-						font="normal 500 64px/1.2 'AvenirNextCyrDemi', sans-serif"
-						margin="0px 0px 15px -3px"
+						font="normal 500 44px/1.2 'AvenirNextCyrDemi', sans-serif"
+						margin="0px 0px 25px -3px"
 						display="inline-block"
 						sm-margin="0px 0px 20px 0px"
 						text-align="left"
@@ -56,7 +56,6 @@ export default (() => {
 					>
 						Back-end разработчик (PHP)
 						<br />
-						{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 18px/1.2 'AvenirNextCyrMedium', sans-serif"
@@ -275,7 +274,7 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Section
-			class="noprint"
+			className="noprint"
 			quarkly-title="Footer"
 			padding="0px 0px 0px 0px"
 			border-width="2px 0px 0px 0px"
