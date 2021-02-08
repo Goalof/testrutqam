@@ -27,11 +27,11 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "pr-menedzher": {
+    "vacancies/pr-menedzher": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "back-end-razrabotchik-php": {
+    "vacancies/back-end-razrabotchik-php": {
         "overflow-y": "",
         "overflow-x": "hidden"
     }

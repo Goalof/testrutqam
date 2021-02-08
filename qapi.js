@@ -10,9 +10,7 @@ export default {
 				"600f46ff5a9875001e4c7d39",
 				"600f4705d34e73001fe66b63",
 				"600f470cd34e73001fe66b65",
-				"600f4712aae0d1001eea89d8",
-				"601aec246c1e89001ea0b09f",
-				"6021800f8954e5001ef155bf"
+				"600f4712aae0d1001eea89d8"
 			]
 		},
 		"600e0aca11b69c001f4aa726": {
@@ -28,7 +26,11 @@ export default {
 		"600f46ff5a9875001e4c7d39": {
 			"id": "600f46ff5a9875001e4c7d39",
 			"pageUrl": "vacancies",
-			"name": "Вакансии"
+			"name": "Вакансии",
+			"children": [
+				"601aec246c1e89001ea0b09f",
+				"6021800f8954e5001ef155bf"
+			]
 		},
 		"600f4705d34e73001fe66b63": {
 			"id": "600f4705d34e73001fe66b63",
@@ -56,12 +58,18 @@ export default {
 		"601aec246c1e89001ea0b09f": {
 			"id": "601aec246c1e89001ea0b09f",
 			"pageUrl": "pr-menedzher",
-			"name": "PR-менеджер"
+			"name": "PR-менеджер",
+			"seo": {
+				"title": "PR-менеджер"
+			}
 		},
 		"6021800f8954e5001ef155bf": {
 			"id": "6021800f8954e5001ef155bf",
 			"pageUrl": "back-end-razrabotchik-php",
-			"name": "Back-end разработчик (PHP)"
+			"name": "Back-end разработчик (PHP)",
+			"seo": {
+				"title": "Работа в uCoz – Back-end разработчик (PHP)"
+			}
 		}
 	},
 	"mode": "production",
