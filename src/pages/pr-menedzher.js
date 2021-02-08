@@ -26,6 +26,7 @@ export default (() => {
 					{"        "}
 					<Link
 						href="/vacancies"
+						className="noprint"
 						margin="0px 0px 20px 0px"
 						text-decoration-line="initial"
 						color="#4a8cfa"
@@ -277,7 +278,6 @@ export default (() => {
 							hover-color="#333"
 							transition="color 0.3s ease 0s"
 						/>
-						<Override slot="popup" />
 						<Section padding="0px 0 40px 0">
 							<Override slot="SectionContent" align-items="center" width="100%" />
 							<Components.EmbedHTML width="100%" />
