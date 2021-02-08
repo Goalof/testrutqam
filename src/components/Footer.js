@@ -3,7 +3,7 @@ import { useOverrides, Override, StackItem, Stack, Section } from "@quarkly/comp
 import { Image, Link, Text, Box, Icon } from "@quarkly/widgets";
 import { FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki } from "react-icons/fa";
 const defaultProps = {
-	"class": "noprint",
+	"className": "noprint",
 	"quarkly-title": "Footer",
 	"padding": "0px 0px 0px 0px",
 	"border-width": "2px 0px 0px 0px",
@@ -317,7 +317,7 @@ const overrides = {
 	}
 };
 
-const Footer = props => {
+const Foooter = props => {
 	const {
 		override,
 		children,
@@ -364,8 +364,8 @@ const Footer = props => {
 	</Section>;
 };
 
-Object.assign(Footer, { ...Section,
+Object.assign(Foooter, { ...Section,
 	defaultProps,
 	overrides
 });
-export default Footer;
+export default Foooter;
