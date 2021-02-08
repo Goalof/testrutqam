@@ -637,6 +637,54 @@ export default (() => {
 							<br />
 						</Text>
 					</Box>
+					<Components.PopUp
+						left="-30px"
+						bottom="auto"
+						right="auto"
+						top="40%"
+						transition="all 0.5s ease 0s"
+					>
+						<Override
+							slot="button"
+							color="#263238"
+							font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
+							letter-spacing=".1px"
+							background="#ffd83a"
+							padding="0px 15px 0px 15px"
+							transition="all 0.2s linear 0s"
+							left="-30px"
+							bottom="auto"
+							right="auto"
+							top="40%"
+							hover-left="0px"
+							border-radius="5px"
+							margin="30px 0px 10px 0px"
+						>
+							Откликнуться на вакансию
+						</Override>
+						<Override
+							slot="wrapper"
+							background="#ffffff"
+							max-width="672px"
+							width="100%"
+							margin="0px 0px 0px 0px"
+							padding="0px 0px 0px 0px"
+							border-radius="0px"
+						/>
+						<Override
+							slot="close"
+							color="#c5cfdb"
+							padding="0.7rem 0.7rem .5rem .5rem"
+							size="20px"
+							hover-color="#333"
+							transition="color 0.3s ease 0s"
+						/>
+						<Section padding="0px 0 40px 0">
+							<Override slot="SectionContent" align-items="center" width="100%" />
+							<Components.EmbedHTML width="100%" />
+							<Components.EmbedJS />
+						</Section>
+					</Components.PopUp>
 					{"    "}
 				</StackItem>
 				<StackItem width="100%">
