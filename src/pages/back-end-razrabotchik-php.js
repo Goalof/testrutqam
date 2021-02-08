@@ -1,14 +1,15 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Image, Box, Icon } from "@quarkly/widgets";
+import { Theme, Link, Icon, Text, List, Image, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
+import { RawHtml, Override, Section, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
+import { MdKeyboardArrowLeft } from "react-icons/md";
 import { FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"kak-popast-v-komandu"} />
+		<GlobalQuarklyPageStyles pageUrl={"back-end-razrabotchik-php"} />
 		<Helmet>
 			<title>
 				Quarkly export
@@ -17,130 +18,264 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.Header />
-		<Section padding="150px 0 80px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/Advice.jpg?v=2021-01-29T22:37:50.668Z) 0% 0% /cover repeat scroll padding-box">
+		<Section padding="140px 0 60px 0" sm-padding="110px 0 40px 0" lg-padding="120px 0 80px 0">
 			<Override slot="SectionContent" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" max-width="850px">
 				{"    "}
 				<StackItem width="100%" display="flex">
-					<Override slot="StackItemContent" align-items="center" justify-content="center" />
+					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
 					{"        "}
+					<Link
+						href="/vacancies"
+						margin="0px 0px 20px 0px"
+						text-decoration-line="initial"
+						color="#4a8cfa"
+						font="14px 'AvenirNextCyrMedium', sans-serif"
+						transition="color 0.2s linear 0s"
+						hover-color="#3d72cc"
+						display="flex"
+					>
+						<Icon
+							category="md"
+							icon={MdKeyboardArrowLeft}
+							color="inherit"
+							size="20px"
+							margin="-1px 2px 0px 0px"
+							hover-color="inherit"
+						/>
+						К списку вакансий
+					</Link>
 					<Text
 						font="normal 500 64px/1.2 'AvenirNextCyrDemi', sans-serif"
-						margin="0px 0px 5px 0px"
+						margin="0px 0px 15px -3px"
 						display="inline-block"
-						sm-text-align="center"
-						sm-margin="0px 0px 30px 0px"
-						text-align="center"
-						color="#ffffff"
+						sm-margin="0px 0px 20px 0px"
+						text-align="left"
+						color="#263238"
+						sm-font="normal 500 40px/1.2 'AvenirNextCyrDemi', sans-serif"
 					>
-						Как попасть в команду?
+						Back-end разработчик (PHP)
+						<br />
+						{"\n\n"}
 					</Text>
+					<Text
+						font="normal 400 18px/1.2 'AvenirNextCyrMedium', sans-serif"
+						margin="0px 0px 20px 0px"
+						display="inline-block"
+						sm-margin="0px 0px 10px 0px"
+						text-align="center"
+						color="#333"
+						letter-spacing=".2"
+					>
+						Проект Divly, uSocial| Санкт-Петербург
+					</Text>
+					<Text
+						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						letter-spacing="0.3px"
+						color="#333"
+					>
+						Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду back-end разработчика.
+					</Text>
+					<Text
+						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
+						margin="24px 0px 18px 0px"
+						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						text-align="left"
+						color="#333"
+						letter-spacing=".2"
+					>
+						Задачи:
+					</Text>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Разработка веб-проектов (https://divly.ru/ и https://usocial.pro/) разного уровня сложности, а также поддержка существующих проектов
+						</Text>
+					</List>
+					<Text
+						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
+						margin="20px 0px 18px 0px"
+						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						text-align="left"
+						color="#333"
+						letter-spacing=".2"
+					>
+						Требования:
+						<br />
+					</Text>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Опыт публикации вакансий на инфоплощадках IT-тематики (англоязычных и русскоязычных).
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Естественно, высочайший уровень коммуникативных и презентационных навыков.
+							<br />
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Незаурядные способности в написании грамотных, эффективных и интересных текстов.
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Свободный английский язык.
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Инициативность, трезвость мышления и бизнес-ориентированность.
+							<br />
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Знание и понимание веба (нужно говорить на одном языке с аудитрией и разработчиками продуктов).
+							<br />
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Наличие деловых контактов на рынке digital/IT будет бесспорным плюсом.
+						</Text>
+					</List>
+					<Text
+						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
+						margin="20px 0px 12px 0px"
+						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						text-align="left"
+						color="#333"
+						letter-spacing=".2"
+					>
+						Условия:
+						<br />
+					</Text>
+					<Box
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+						lg-margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+					>
+						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Удаленная работа.
+							<br />
+						</Text>
+					</Box>
+					<Box
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
+					>
+						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							«Белая» заработная плата, уровень определяется по результатам собеседования.
+						</Text>
+					</Box>
+					<Box
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
+					>
+						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Все возможности для профессионального роста и развития. (конференции, обучение).
+							<br />
+						</Text>
+					</Box>
+					<Components.PopUp
+						left="-30px"
+						bottom="auto"
+						right="auto"
+						top="40%"
+						transition="all 0.5s ease 0s"
+					>
+						<Override
+							slot="button"
+							color="#263238"
+							font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
+							letter-spacing=".1px"
+							background="#ffd83a"
+							padding="0px 15px 0px 15px"
+							transition="all 0.2s linear 0s"
+							left="-30px"
+							bottom="auto"
+							right="auto"
+							top="40%"
+							hover-left="0px"
+							border-radius="5px"
+							margin="30px 0px 10px 0px"
+							hover-background="#e6c235"
+						>
+							Откликнуться на вакансию
+						</Override>
+						<Override
+							slot="wrapper"
+							background="#ffffff"
+							max-width="672px"
+							width="100%"
+							margin="0px 0px 0px 0px"
+							padding="0px 0px 0px 0px"
+							border-radius="0px"
+							height="100%"
+							overflow-y="scroll"
+							max-height="1150px"
+						/>
+						<Override
+							slot="close"
+							color="#c5cfdb"
+							padding="0.7rem 0.7rem .5rem .5rem"
+							size="20px"
+							hover-color="#333"
+							transition="color 0.3s ease 0s"
+						/>
+						<Section padding="0px 0 40px 0">
+							<Override slot="SectionContent" align-items="center" width="100%" />
+							<Components.EmbedHTML width="100%" />
+							<Components.EmbedJS />
+						</Section>
+					</Components.PopUp>
 					{"    "}
 				</StackItem>
+				<Components.Pechat />
 				{"    "}
 			</Stack>
 		</Section>
-		<Section padding="20px 0 20px 0" sm-padding="110px 0 60px 0" lg-padding="120px 0 80px 0">
-			<Override slot="SectionContent" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" max-width="850px" width="100%">
-				<StackItem width="100%">
-					<Text font="--lead" text-align="center">
-						HR хотят переделать этот блок, но еще не знают как
-					</Text>
-				</StackItem>
-				{"        "}
-			</Stack>
-		</Section>
-		<Section padding="60px 0 60px 0" sm-padding="110px 0 60px 0" lg-padding="120px 0 80px 0" background="#eef2f3">
-			<Override slot="SectionContent" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" max-width="1170px" width="100%">
-				<StackItem width="100%">
-					<Override slot="StackItemContent" align-items="center" justify-content="center" />
-					<Text
-						font="normal 400 48px/54px 'AvenirNextCyrMedium', sans-serif"
-						color="#4a8cfa"
-						text-align="center"
-						padding="0px 20% 0px 20%"
-						margin="0px 0px 30px 0px"
-					>
-						7 советов, как понравиться нашему HR-менеджеру:{"\n\n"}
-					</Text>
-				</StackItem>
-				<StackItem width="33.333%">
-					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
-					<Text font="normal 400 48px/54px 'AvenirNextCyrMedium', sans-serif" color="#aec1d9" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						01
-					</Text>
-					<Text font="normal 300 18px/26px 'AvenirNextCyrRegular', sans-serif" color="#58646f" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						Не забывайте о правилах этикета. На работу можно опоздать, на собеседование — ни в коем случае
-					</Text>
-				</StackItem>
-				<StackItem width="33.333%">
-					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
-					<Text font="normal 400 48px/54px 'AvenirNextCyrMedium', sans-serif" color="#aec1d9" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						02
-					</Text>
-					<Text font="normal 300 18px/26px 'AvenirNextCyrRegular', sans-serif" color="#58646f" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						На время собеседования отключите телефон или поставьте его на беззвучный режим
-					</Text>
-				</StackItem>
-				<StackItem width="33.333%">
-					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
-					<Text font="normal 400 48px/54px 'AvenirNextCyrMedium', sans-serif" color="#aec1d9" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						03
-					</Text>
-					<Text font="normal 300 18px/26px 'AvenirNextCyrRegular', sans-serif" color="#58646f" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						Если вы волнуетесь, лучше сразу скажите об этом — это снимет напряжение и точно не испортит впечатление о вас{"\n\n"}
-					</Text>
-				</StackItem>
-				<StackItem width="33.333%">
-					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
-					<Text font="normal 400 48px/54px 'AvenirNextCyrMedium', sans-serif" color="#aec1d9" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						04
-					</Text>
-					<Text font="normal 300 18px/26px 'AvenirNextCyrRegular', sans-serif" color="#58646f" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						Говорите правду. Мы обычные люди и искренность нас подкупает всегда и в любых ситуациях{"\n\n"}
-					</Text>
-				</StackItem>
-				<StackItem width="33.333%">
-					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
-					<Text font="normal 400 48px/54px 'AvenirNextCyrMedium', sans-serif" color="#aec1d9" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						05
-					</Text>
-					<Text font="normal 300 18px/26px 'AvenirNextCyrRegular', sans-serif" color="#58646f" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						Пожалуйста, узнайте о нашей компании больше — это поможет вам оценить возможности нашего совместного развития{"\n\n"}
-					</Text>
-				</StackItem>
-				<StackItem width="33.333%">
-					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
-					<Text font="normal 400 48px/54px 'AvenirNextCyrMedium', sans-serif" color="#aec1d9" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						06
-					</Text>
-					<Text font="normal 300 18px/26px 'AvenirNextCyrRegular', sans-serif" color="#58646f" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						Задавайте нам вопросы.
-						<br />
-						Любые: о зарплате, отпуске, обеде и том, как быстро влиться в коллектив{"\n\n"}
-					</Text>
-				</StackItem>
-				<StackItem width="33.333%">
-					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
-				</StackItem>
-				<StackItem width="33.333%">
-					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
-					<Text font="normal 400 48px/54px 'AvenirNextCyrMedium', sans-serif" color="#aec1d9" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						07
-					</Text>
-					<Text font="normal 300 18px/26px 'AvenirNextCyrRegular', sans-serif" color="#58646f" padding="0px 0px 0px 0px" margin="0px 0px 16px 0px">
-						Самое главное — приходите на собеседование в хорошем настроении!{"\n\n"}
-					</Text>
-				</StackItem>
-				<StackItem width="33.333%">
-					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
-				</StackItem>
-				{"        "}
-			</Stack>
-		</Section>
 		<Section
+			class="noprint"
 			quarkly-title="Footer"
 			padding="0px 0px 0px 0px"
 			border-width="2px 0px 0px 0px"
@@ -170,7 +305,7 @@ export default (() => {
 							margin="3px 0px 0px 22px"
 							display="inline-block"
 							color="#9BABBF"
-							lg-margin="10px 0px 0px 22px"
+							lg-margin="10px 0px 0px 0px"
 						>
 							<Link
 								href="https://blog.ucoz.ru/"
@@ -191,7 +326,7 @@ export default (() => {
 							margin="3px 0px 0px 22px"
 							display="inline-block"
 							color="#9BABBF"
-							lg-margin="10px 0px 0px 22px"
+							lg-margin="10px 0px 0px 0px"
 						>
 							<Link
 								href="http://www.ucoz.ru/all/"
@@ -212,7 +347,7 @@ export default (() => {
 							margin="3px 0px 0px 22px"
 							display="inline-block"
 							color="#9BABBF"
-							lg-margin="10px 0px 0px 22px"
+							lg-margin="10px 0px 0px 0px"
 						>
 							<Link
 								href="http://ua.uteam.pro/"
@@ -232,7 +367,7 @@ export default (() => {
 							margin="3px 0px 0px 22px"
 							display="inline-block"
 							color="#9BABBF"
-							lg-margin="10px 0px 0px 22px"
+							lg-margin="10px 0px 0px 0px"
 						>
 							<Link
 								href="http://en.uteam.pro/"
@@ -276,7 +411,6 @@ export default (() => {
 							border-radius="50%"
 							padding="5px 5px 5px 5px"
 							transition="all 0.2s linear 0s"
-							hover-background="inherit"
 							size="20px"
 							hover-color="inherit"
 							color="inherit"

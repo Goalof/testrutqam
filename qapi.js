@@ -11,7 +11,8 @@ export default {
 				"600f4705d34e73001fe66b63",
 				"600f470cd34e73001fe66b65",
 				"600f4712aae0d1001eea89d8",
-				"601aec246c1e89001ea0b09f"
+				"601aec246c1e89001ea0b09f",
+				"6021800f8954e5001ef155bf"
 			]
 		},
 		"600e0aca11b69c001f4aa726": {
@@ -56,6 +57,11 @@ export default {
 			"id": "601aec246c1e89001ea0b09f",
 			"pageUrl": "pr-menedzher",
 			"name": "PR-менеджер"
+		},
+		"6021800f8954e5001ef155bf": {
+			"id": "6021800f8954e5001ef155bf",
+			"pageUrl": "back-end-razrabotchik-php",
+			"name": "Back-end разработчик (PHP)"
 		}
 	},
 	"mode": "production",

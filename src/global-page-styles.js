@@ -30,6 +30,10 @@ const pageStyles = {
     "pr-menedzher": {
         "overflow-y": "",
         "overflow-x": "hidden"
+    },
+    "back-end-razrabotchik-php": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
     }
 };
 
