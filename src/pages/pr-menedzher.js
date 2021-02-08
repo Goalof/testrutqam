@@ -671,6 +671,9 @@ export default (() => {
 							margin="0px 0px 0px 0px"
 							padding="0px 0px 0px 0px"
 							border-radius="0px"
+							height="100%"
+							overflow-y="scroll"
+							max-height="1150px"
 						/>
 						<Override
 							slot="close"
@@ -680,6 +683,7 @@ export default (() => {
 							hover-color="#333"
 							transition="color 0.3s ease 0s"
 						/>
+						<Override slot="popup" />
 						<Section padding="0px 0 40px 0">
 							<Override slot="SectionContent" align-items="center" width="100%" />
 							<Components.EmbedHTML width="100%" />

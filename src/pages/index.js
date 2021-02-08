@@ -498,6 +498,7 @@ export default (() => {
 					border-radius="0px"
 					overflow-y="scroll"
 					height="100%"
+					max-height="1150px"
 				/>
 				<Override
 					slot="close"
