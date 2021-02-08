@@ -497,6 +497,7 @@ export default (() => {
 					padding="0px 0px 0px 0px"
 					border-radius="0px"
 					overflow-y="scroll"
+					height="100%"
 				/>
 				<Override
 					slot="close"
