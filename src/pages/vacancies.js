@@ -1,15 +1,14 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Box, Icon, List } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box, Icon, Button, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Menu, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
-import { FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki } from "react-icons/fa";
-import { MdKeyboardArrowLeft } from "react-icons/md";
+import { FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki, FaBoxes, FaFileCode } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"pr-menedzher"} />
+		<GlobalQuarklyPageStyles pageUrl={"vacancies"} />
 		<Helmet>
 			<title>
 				Quarkly export
@@ -17,16 +16,15 @@ export default (() => {
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} type={"image/x-icon"} />
 		</Helmet>
+		{" "}
 		<Section
 			id="header"
-			class="noprint"
 			quarkly-title="Header"
 			padding="0px 0px 0px 0px"
 			border-width="0px 0px 2px 0px"
 			border-style="solid"
 			border-color="#dbe6f4"
 			transition="all 400ms ease 0s"
-			nout-border-radius="6px"
 			lg-position="fixed"
 			position="fixed"
 			background="#ffffff"
@@ -422,9 +420,6 @@ export default (() => {
 							color="#263238"
 							hover-color="#4a8cfa"
 						/>
-						<Override slot="link-uteam">
-							uTeam
-						</Override>
 						<Override slot="item-pr-menedzher" display="none" />
 					</Menu>
 					{"        "}
@@ -432,271 +427,230 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="140px 0 60px 0" sm-padding="110px 0 0px 0" lg-padding="120px 0 80px 0">
+		<Section padding="150px 0 80px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/vac_head.jpg?v=2021-01-28T20:18:22.116Z) 0% 0% /cover repeat scroll padding-box">
 			<Override slot="SectionContent" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" max-width="850px">
 				{"    "}
 				<StackItem width="100%" display="flex">
-					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
+					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					{"        "}
-					<Link
-						href="/vacancies"
-						margin="0px 0px 20px 0px"
-						text-decoration-line="initial"
-						color="#4a8cfa"
-						font="14px 'AvenirNextCyrMedium', sans-serif"
-						transition="color 0.2s linear 0s"
-						hover-color="#3d72cc"
-						display="flex"
-					>
-						<Icon
-							category="md"
-							icon={MdKeyboardArrowLeft}
-							color="inherit"
-							size="20px"
-							margin="-1px 2px 0px 0px"
-							hover-color="inherit"
-						/>
-						К списку вакансий
-					</Link>
 					<Text
 						font="normal 500 64px/1.2 'AvenirNextCyrDemi', sans-serif"
-						margin="0px 0px 15px -3px"
+						margin="0px 0px 5px 0px"
 						display="inline-block"
 						sm-text-align="center"
-						sm-margin="0px 0px 0px 0px"
-						text-align="left"
-						color="#263238"
-						sm-font="normal 900 53px/1.2 'AvenirNextCyrBold', sans-serif"
-					>
-						PR-менеджер
-					</Text>
-					<Text
-						font="normal 400 18px/1.2 'AvenirNextCyrMedium', sans-serif"
-						margin="0px 0px 20px 0px"
-						display="inline-block"
-						sm-text-align="center"
-						sm-margin="0px 0px 0px 0px"
+						sm-margin="0px 0px 30px 0px"
 						text-align="center"
-						color="#333"
-						sm-font="normal 900 53px/1.2 'AvenirNextCyrBold', sans-serif"
-						letter-spacing=".2"
+						color="#ffffff"
 					>
-						Проект Quarkly| Москва
-						<br />
+						Вакансии
 					</Text>
-					<Text
-						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						sm-text-align="center"
-						sm-margin="0px 0px 0px 0px"
-						letter-spacing="0.3px"
-						sm-font="normal 400 18px/26px 'AvenirNextCyrRegular', sans-serif"
-						color="#333"
-					>
-						Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
-						<br />
-					</Text>
-					<Text
-						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
-						margin="24px 0px 18px 0px"
-						display="inline-block"
-						sm-text-align="center"
-						sm-margin="0px 0px 0px 0px"
-						text-align="left"
-						color="#333"
-						sm-font="normal 900 53px/1.2 'AvenirNextCyrBold', sans-serif"
-						letter-spacing=".2"
-					>
-						Задачи:
-					</Text>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Разработка и реализация PR стратегии продвижения проекта Quarkly на российском и зарубежных рынках.
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Написание и размещение информационных материалов: комментарии, новости, пресс-релизы, аналитические исследования, в том числе и развернутые статьи на технические темы, связанные с деятельностью и продуктами компании.
-							<br />
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Взаимодействие с профессиональными сообществами, инфлюэнсерами. Организация участия в мероприятиях (конференции, митапы и пр.)
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Поддержание и расширение контактов со СМИ.
-						</Text>
-					</List>
-					<Text
-						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
-						margin="20px 0px 18px 0px"
-						display="inline-block"
-						sm-text-align="center"
-						sm-margin="0px 0px 0px 0px"
-						text-align="left"
-						color="#333"
-						sm-font="normal 900 53px/1.2 'AvenirNextCyrBold', sans-serif"
-						letter-spacing=".2"
-					>
-						Требования:
-						<br />
-					</Text>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт публикации вакансий на инфоплощадках IT-тематики (англоязычных и русскоязычных).
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Естественно, высочайший уровень коммуникативных и презентационных навыков.
-							<br />
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Незаурядные способности в написании грамотных, эффективных и интересных текстов.
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Свободный английский язык.
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Инициативность, трезвость мышления и бизнес-ориентированность.
-							<br />
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Знание и понимание веба (нужно говорить на одном языке с аудитрией и разработчиками продуктов).
-							<br />
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Наличие деловых контактов на рынке digital/IT будет бесспорным плюсом.
-						</Text>
-					</List>
-					<Text
-						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
-						margin="20px 0px 12px 0px"
-						display="inline-block"
-						sm-text-align="center"
-						sm-margin="0px 0px 0px 0px"
-						text-align="left"
-						color="#333"
-						sm-font="normal 900 53px/1.2 'AvenirNextCyrBold', sans-serif"
-						letter-spacing=".2"
-					>
-						Условия:
-						<br />
-					</Text>
-					<Box display="flex" align-items="center" margin="0px 0px 6px 0px">
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-						/>
-						<Text margin="6px 0px 6px 0px">
-							Удаленная работа.
-							<br />
-						</Text>
-					</Box>
-					<Box display="flex" align-items="center" margin="0px 0px 6px 0px">
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-						/>
-						<Text margin="6px 0px 6px 0px">
-							«Белая» заработная плата, уровень определяется по результатам собеседования.
-						</Text>
-					</Box>
-					<Box display="flex" align-items="center" margin="0px 0px 6px 0px">
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-						/>
-						<Text margin="6px 0px 6px 0px">
-							Все возможности для профессионального роста и развития. (конференции, обучение).
-							<br />
-						</Text>
-					</Box>
-					<Components.PopUp
-						left="-30px"
-						bottom="auto"
-						right="auto"
-						top="40%"
-						transition="all 0.5s ease 0s"
-					>
-						<Override
-							slot="button"
-							color="#263238"
-							font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
-							letter-spacing=".1px"
-							background="#ffd83a"
-							padding="0px 15px 0px 15px"
-							transition="all 0.2s linear 0s"
-							left="-30px"
-							bottom="auto"
-							right="auto"
-							top="40%"
-							hover-left="0px"
-							border-radius="5px"
-							margin="30px 0px 10px 0px"
-							hover-background="#e6c235"
-						>
-							Откликнуться на вакансию
-						</Override>
-						<Override
-							slot="wrapper"
-							background="#ffffff"
-							max-width="672px"
-							width="100%"
-							margin="0px 0px 0px 0px"
-							padding="0px 0px 0px 0px"
-							border-radius="0px"
-							height="100%"
-							overflow-y="scroll"
-							max-height="1150px"
-						/>
-						<Override
-							slot="close"
-							color="#c5cfdb"
-							padding="0.7rem 0.7rem .5rem .5rem"
-							size="20px"
-							hover-color="#333"
-							transition="color 0.3s ease 0s"
-						/>
-						<Override slot="popup" />
-						<Section padding="0px 0 40px 0">
-							<Override slot="SectionContent" align-items="center" width="100%" />
-							<Components.EmbedHTML width="100%" />
-							<Components.EmbedJS />
-						</Section>
-					</Components.PopUp>
 					{"    "}
 				</StackItem>
-				<Components.Pechat />
 				{"    "}
 			</Stack>
 		</Section>
+		<Section padding="0px 0 20px 0" sm-padding="110px 0 60px 0" lg-padding="120px 0 80px 0">
+			<Override slot="SectionContent" align-items="center" />
+			<Stack margin="0px 0px 0px 0px" max-width="1170px" width="100%">
+				<StackItem width="100%">
+					<Components.Tabs2 defaultTab="all" width="100%">
+						<Override slot="Tab all" border-radius="5px 0px 0px 5px">
+							Все вакансии
+						</Override>
+						<Override slot="Tab msk" border-radius="0px">
+							Москва
+						</Override>
+						<Override slot="Tab spb" border-radius="0px">
+							Санкт-Петербург
+						</Override>
+						<Override
+							slot="Tab"
+							background="#fff"
+							color="#4a8cfa"
+							font="normal 400 14px/22px 'AvenirNextCyrMedium'"
+							margin="0px 2px 0px 0px"
+							focus-box-shadow="none"
+						/>
+						<Override slot="Tab :active" background="#ffe02d" color="#263238">
+							Все вакансии
+						</Override>
+						<Override
+							slot="Tablist"
+							align-items="center"
+							justify-content="center"
+							position="relative"
+							top="-90px"
+						/>
+						<Override slot="Tab rnd">
+							Ростов на дону
+						</Override>
+						<Components.Tab2 tabId="all">
+							<Stack margin="0px 0px 0px 0px">
+								<StackItem width="100%" display="flex" lg-width="50%" sm-width="100%">
+									<Override
+										slot="StackItemContent"
+										align-items="flex-start"
+										justify-content="flex-start"
+										flex-direction="column"
+										lg-align-items="center"
+									/>
+									{"        "}
+									<Components.Tabs
+										defaultTab="one"
+										orientation="Vertical"
+										width="100%"
+										flex-direction="row-reverse"
+										justify-content="space-between"
+										height="auto"
+									>
+										<Components.TabList>
+											<Components.TabItem tabId="one">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+												>
+													<Icon
+														category="fa"
+														icon={FaBoxes}
+														color="#inherit"
+														margin="0px 8px 0px 0px"
+														size="20px"
+													/>
+													ВСЕ ВАКАНСИИ (13)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="two">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+												>
+													<Icon
+														category="fa"
+														icon={FaFileCode}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													РАЗРАБОТКА (6)
+												</Button>
+											</Components.TabItem>
+										</Components.TabList>
+										<Components.TabPanels width="90%">
+											<Components.TabPanel tabId="one">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/pr-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="#"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
+														Проект Quarkly | Москва
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="#"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
+														Проект Quarkly | Москва
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="two">
+												<Text>
+													Tab 2
+												</Text>
+											</Components.TabPanel>
+										</Components.TabPanels>
+									</Components.Tabs>
+									{"    "}
+								</StackItem>
+								{"        "}
+							</Stack>
+						</Components.Tab2>
+						<Components.Tab2 tabId="msk">
+							<Text>
+								sadasdasd
+							</Text>
+						</Components.Tab2>
+						<Components.Tab2 tabId="spb">
+							<Text>
+								sadasdasd
+							</Text>
+						</Components.Tab2>
+						<Components.Tab2 tabId="rnd">
+							<Text>
+								sadasdasd
+							</Text>
+						</Components.Tab2>
+					</Components.Tabs2>
+				</StackItem>
+				{"        "}
+			</Stack>
+		</Section>
 		<Section
-			class="noprint"
 			quarkly-title="Footer"
 			padding="0px 0px 0px 0px"
 			border-width="2px 0px 0px 0px"
@@ -726,7 +680,7 @@ export default (() => {
 							margin="3px 0px 0px 22px"
 							display="inline-block"
 							color="#9BABBF"
-							lg-margin="10px 0px 0px 0px"
+							lg-margin="10px 0px 0px 22px"
 						>
 							<Link
 								href="https://blog.ucoz.ru/"
@@ -747,7 +701,7 @@ export default (() => {
 							margin="3px 0px 0px 22px"
 							display="inline-block"
 							color="#9BABBF"
-							lg-margin="10px 0px 0px 0px"
+							lg-margin="10px 0px 0px 22px"
 						>
 							<Link
 								href="http://www.ucoz.ru/all/"
@@ -768,7 +722,7 @@ export default (() => {
 							margin="3px 0px 0px 22px"
 							display="inline-block"
 							color="#9BABBF"
-							lg-margin="10px 0px 0px 0px"
+							lg-margin="10px 0px 0px 22px"
 						>
 							<Link
 								href="http://ua.uteam.pro/"
@@ -788,7 +742,7 @@ export default (() => {
 							margin="3px 0px 0px 22px"
 							display="inline-block"
 							color="#9BABBF"
-							lg-margin="10px 0px 0px 0px"
+							lg-margin="10px 0px 0px 22px"
 						>
 							<Link
 								href="http://en.uteam.pro/"

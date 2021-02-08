@@ -11,7 +11,7 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "vakansii": {
+    "vacancies": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },

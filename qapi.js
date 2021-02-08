@@ -26,7 +26,7 @@ export default {
 		},
 		"600f46ff5a9875001e4c7d39": {
 			"id": "600f46ff5a9875001e4c7d39",
-			"pageUrl": "vakansii",
+			"pageUrl": "vacancies",
 			"name": "Вакансии"
 		},
 		"600f4705d34e73001fe66b63": {
