@@ -29,7 +29,18 @@ export default {
 			"name": "Вакансии",
 			"children": [
 				"601aec246c1e89001ea0b09f",
-				"6021800f8954e5001ef155bf"
+				"6021800f8954e5001ef155bf",
+				"6021983471e66d001efb272c",
+				"6021ad18179f5c00220697c5",
+				"6021af38977a55001e57abe6",
+				"6021b0b56c1e89001ea0c4d2",
+				"6021b474977a55001e57abfc",
+				"6021b5c8bfd603001f71caf1",
+				"6021b7b4bfd603001f71cb03",
+				"6021bbab6c1e89001ea0c504",
+				"6021c2d971e66d001efb27ac",
+				"6021c41a8954e5001ef1565f",
+				"6021c527179f5c0022069847"
 			]
 		},
 		"600f4705d34e73001fe66b63": {
@@ -69,6 +80,94 @@ export default {
 			"name": "Back-end разработчик (PHP)",
 			"seo": {
 				"title": "Работа в uCoz – Back-end разработчик (PHP)"
+			}
+		},
+		"6021983471e66d001efb272c": {
+			"id": "6021983471e66d001efb272c",
+			"pageUrl": "specialist-po-seo-optimizacii-sajtov",
+			"name": "Специалист по SEO-оптимизации сайтов",
+			"seo": {
+				"title": "Специалист по SEO-оптимизации сайтов"
+			}
+		},
+		"6021ad18179f5c00220697c5": {
+			"id": "6021ad18179f5c00220697c5",
+			"pageUrl": "sborka-sajtov-na-konstruktore-sajtov-ukit",
+			"name": "Сборка сайтов на конструкторе сайтов uKit",
+			"seo": {
+				"title": "Сборка сайтов на конструкторе сайтов uKit"
+			}
+		},
+		"6021af38977a55001e57abe6": {
+			"id": "6021af38977a55001e57abe6",
+			"pageUrl": "sborshik-sajtov-na-konstruktorah-ucozuweb",
+			"name": "Сборщик сайтов на конструкторах uCoz/uWeb",
+			"seo": {
+				"title": "Сборщик сайтов на конструкторах uCoz/uWeb"
+			}
+		},
+		"6021b0b56c1e89001ea0c4d2": {
+			"id": "6021b0b56c1e89001ea0c4d2",
+			"pageUrl": "junior-nodejs-razrabotchik",
+			"name": "Junior node.js разработчик",
+			"seo": {
+				"title": "Junior node.js разработчик"
+			}
+		},
+		"6021b474977a55001e57abfc": {
+			"id": "6021b474977a55001e57abfc",
+			"pageUrl": "menedzher-dizajner-shablonov",
+			"name": "Менеджер-дизайнер шаблонов",
+			"seo": {
+				"title": "Менеджер-дизайнер шаблонов"
+			}
+		},
+		"6021b5c8bfd603001f71caf1": {
+			"id": "6021b5c8bfd603001f71caf1",
+			"pageUrl": "specialist-sluzhby-tehnicheskoj-podderzhki",
+			"name": "Специалист службы технической поддержки",
+			"seo": {
+				"title": "Специалист службы технической поддержки"
+			}
+		},
+		"6021b7b4bfd603001f71cb03": {
+			"id": "6021b7b4bfd603001f71cb03",
+			"pageUrl": "senior-nodejs-engineer",
+			"name": "Senior Node.js engineer",
+			"seo": {
+				"title": "Senior Node.js engineer"
+			}
+		},
+		"6021bbab6c1e89001ea0c504": {
+			"id": "6021bbab6c1e89001ea0c504",
+			"pageUrl": "programmist-perl",
+			"name": "Программист Perl",
+			"seo": {
+				"title": "Программист Perl"
+			}
+		},
+		"6021c2d971e66d001efb27ac": {
+			"id": "6021c2d971e66d001efb27ac",
+			"pageUrl": "specialist-sluzhby-tehnicheskoj-podderzhki1",
+			"name": "Специалист службы технической поддержки",
+			"seo": {
+				"title": "Специалист службы технической поддержки"
+			}
+		},
+		"6021c41a8954e5001ef1565f": {
+			"id": "6021c41a8954e5001ef1565f",
+			"pageUrl": "pr-menedzher1",
+			"name": "PR-менеджер",
+			"seo": {
+				"title": "PR-менеджер"
+			}
+		},
+		"6021c527179f5c0022069847": {
+			"id": "6021c527179f5c0022069847",
+			"pageUrl": "technology-evangelistdeveloper-advocate",
+			"name": "Technology Evangelist/Developer Advocate",
+			"seo": {
+				"title": "Technology Evangelist/Developer Advocate"
 			}
 		}
 	},

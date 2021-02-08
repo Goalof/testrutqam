@@ -34,6 +34,50 @@ const pageStyles = {
     "vacancies/back-end-razrabotchik-php": {
         "overflow-y": "",
         "overflow-x": "hidden"
+    },
+    "vacancies/specialist-po-seo-optimizacii-sajtov": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/sborka-sajtov-na-konstruktore-sajtov-ukit": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/sborshik-sajtov-na-konstruktorah-ucozuweb": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/junior-nodejs-razrabotchik": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/menedzher-dizajner-shablonov": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/specialist-sluzhby-tehnicheskoj-podderzhki": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/senior-nodejs-engineer": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/programmist-perl": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/specialist-sluzhby-tehnicheskoj-podderzhki1": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/pr-menedzher1": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/technology-evangelistdeveloper-advocate": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
     }
 };
 

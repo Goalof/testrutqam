@@ -66,7 +66,7 @@ export default (() => {
 						color="#333"
 						letter-spacing=".2"
 					>
-						Проект Divly, uSocial| Санкт-Петербург
+						Проект Divly, uSocial | Санкт-Петербург
 					</Text>
 					<Text
 						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
@@ -190,7 +190,7 @@ export default (() => {
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
 						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							Молодой, дружный и профессиональный коллектив{"\n\n"}
 						</Text>
 					</Box>
@@ -209,7 +209,7 @@ export default (() => {
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
 						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							Оформление по ТК с первого рабочего дня
 						</Text>
 					</Box>
@@ -228,7 +228,7 @@ export default (() => {
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
 						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							Уровень заработной платы определяется по результатам собеседования
 						</Text>
 					</Box>
@@ -247,7 +247,7 @@ export default (() => {
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
 						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							Все возможности для профессионального роста и развития. (конференции, обучение)
 						</Text>
 					</Box>
@@ -266,7 +266,7 @@ export default (() => {
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
 						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							ДМС{"\n\n"}
 						</Text>
 					</Box>
@@ -285,7 +285,7 @@ export default (() => {
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
 						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							Питание в офисе за счет компании
 						</Text>
 					</Box>
@@ -304,7 +304,7 @@ export default (() => {
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
 						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							Комфортные условия работы, гибкий график
 							<br />
 							{"\n\n"}
