@@ -496,6 +496,7 @@ export default (() => {
 					margin="0px 0px 0px 0px"
 					padding="0px 0px 0px 0px"
 					border-radius="0px"
+					overflow-y="scroll"
 				/>
 				<Override
 					slot="close"
@@ -1155,7 +1156,7 @@ export default (() => {
 				<StackItem width="33.3333%" display="flex" sm-width="50%">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" flex-direction="column" />
 					{"        "}
-					<Image width="74px" height="70px" src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/icon5-1.svg?v=2021-01-27T14:59:58.227Z" />
+					<Image width="74px" height="70px" src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/work.svg?v=2021-02-08T10:30:40.438Z" />
 					<Text
 						font="normal 500 15px/18px 'AvenirNextCyrMedium'"
 						margin="23px 0px 0px 0px"
@@ -1329,7 +1330,7 @@ export default (() => {
 		</Section>
 		<Section padding="60px 0 80px 0" sm-padding="30px 0 40px 0">
 			<Override slot="SectionContent" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" max-width="975px" width="100%">
+			<Stack margin="0px 0px 0px 0px" max-width="900px" width="100%">
 				{"    "}
 				<StackItem width="100%" display="flex">
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
@@ -1417,7 +1418,7 @@ export default (() => {
 					{"    "}
 				</StackItem>
 			</Stack>
-			<Stack margin="10px 0px 0px 0px" max-width="975px" width="100%">
+			<Stack margin="10px 0px 0px 0px" max-width="900px" width="100%">
 				{"        "}
 				<StackItem width="33.33%" display="flex" sm-width="100%">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" flex-direction="column" />
