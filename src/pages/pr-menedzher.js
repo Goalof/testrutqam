@@ -286,7 +286,7 @@ export default (() => {
 					</Components.PopUp>
 					{"    "}
 				</StackItem>
-				<Components.Pechat />
+				<Components.SocialPrint />
 				{"    "}
 			</Stack>
 		</Section>
