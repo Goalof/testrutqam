@@ -103,7 +103,7 @@ export default (() => {
 						</Override>
 						<Components.Tab2 tabId="all">
 							<Stack margin="0px 0px 0px 0px">
-								<StackItem width="100%" display="flex" lg-width="\\\\" sm-width="100%">
+								<StackItem width="100%" display="flex" lg-width="\\\\\\\\" sm-width="100%">
 									<Override
 										slot="StackItemContent"
 										align-items="flex-start"
@@ -527,25 +527,291 @@ export default (() => {
 													</Text>
 												</Box>
 											</Components.TabPanel>
-											<Components.TabPanel tabId="two">
-												<Text>
-													Tab 2
-												</Text>
+											<Components.TabPanel tabId="two" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/back-end-razrabotchik-php"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Back-end разработчик (PHP)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly, uSocial | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду back-end разработчика.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborka-sajtov-na-konstruktore-sajtov-ukit"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборка сайтов на конструкторе сайтов uKit
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду начинающих веб-мастеров или студентов сборки сайтов на конструкторе uKit.com
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborshik-sajtov-na-konstruktorah-ucozuweb"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборщик сайтов на конструкторах uCoz/uWeb
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/junior-nodejs-razrabotchik"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Junior node.js разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Приглашаем на работу Junior node.js разработчика.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/senior-nodejs-engineer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Senior Node.js engineer
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В команду проекта uKit разыскивается разработчик, имеющий не менее первого дана по Javascript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/programmist-perl"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Программист Perl
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Вы не знакомы с Perl, но не боитесь попробовать? Это верный выбор и не смотря на то, что данный язык на сегодня не является мейнстримом, как специалист вы только выиграете: перловики на сегодня весьма востребованы именно по причине своей редкости.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 											</Components.TabPanel>
-											<Components.TabPanel tabId="three">
-												<Text>
-													Tab 2
-												</Text>
+											<Components.TabPanel tabId="three" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/menedzher-dizajner-shablonov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Менеджер-дизайнер шаблонов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду менеджера-дизайнера для создания шаблонов для конструктора сайтов uKit. Эта работа для вас если вы знакомы с процессом создания шаблонов для сайтов, имеете опыт работы в студии веб-дизайна.
+													</Text>
+												</Box>
 											</Components.TabPanel>
-											<Components.TabPanel tabId="four">
-												<Text>
-													Tab 2
-												</Text>
+											<Components.TabPanel tabId="four" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCalc | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Требуется специалист тех.поддержки: внимательный, грамотный, заинтересованный и просто хороший человек.
+													</Text>
+												</Box>
 											</Components.TabPanel>
-											<Components.TabPanel tabId="five">
-												<Text>
-													Tab 2
-												</Text>
+											<Components.TabPanel tabId="five" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/pr-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-po-seo-optimizacii-sajtov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист по SEO-оптимизации сайтов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду специалиста по SEO-оптимизации сайтов.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/pr-menedzher1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/technology-evangelistdeveloper-advocate"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Technology Evangelist/Developer Advocate
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем человека для продвижения на англоязычном рынке проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+													</Text>
+												</Box>
 											</Components.TabPanel>
 										</Components.TabPanels>
 									</Components.Tabs>
@@ -555,21 +821,2286 @@ export default (() => {
 							</Stack>
 						</Components.Tab2>
 						<Components.Tab2 tabId="msk">
-							<Text>
-								sadasdasd
-							</Text>
+							<Stack margin="0px 0px 0px 0px">
+								<StackItem width="100%" display="flex" lg-width="\\\\\\\\" sm-width="100%">
+									<Override
+										slot="StackItemContent"
+										align-items="flex-start"
+										justify-content="flex-start"
+										flex-direction="column"
+										lg-align-items="center"
+										md-padding="30px 0px 0px 0px"
+									/>
+									{"        "}
+									<Components.Tabs
+										defaultTab="one"
+										orientation="Vertical"
+										width="100%"
+										flex-direction="row-reverse"
+										justify-content="space-between"
+										height="auto"
+									>
+										<Components.TabList md-display="none">
+											<Components.TabItem tabId="one">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="fa"
+														icon={FaBoxes}
+														color="#inherit"
+														margin="0px 8px 0px 0px"
+														size="20px"
+													/>
+													ВСЕ ВАКАНСИИ (1)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="five">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="bs"
+														icon={BsPieChartFill}
+														size="18px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (1)
+												</Button>
+											</Components.TabItem>
+										</Components.TabList>
+										<Components.TabPanels width="80%" md-width="100%">
+											<Components.TabPanel tabId="one" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/pr-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="five" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/pr-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+												</Box>
+											</Components.TabPanel>
+										</Components.TabPanels>
+									</Components.Tabs>
+									{"    "}
+								</StackItem>
+								{"        "}
+							</Stack>
 						</Components.Tab2>
 						<Components.Tab2 tabId="spb">
-							<Text>
-								sadasdasd
-							</Text>
+							<Stack margin="0px 0px 0px 0px">
+								<StackItem width="100%" display="flex" lg-width="\\\\\\\\" sm-width="100%">
+									<Override
+										slot="StackItemContent"
+										align-items="flex-start"
+										justify-content="flex-start"
+										flex-direction="column"
+										lg-align-items="center"
+										md-padding="30px 0px 0px 0px"
+									/>
+									{"        "}
+									<Components.Tabs
+										defaultTab="one"
+										orientation="Vertical"
+										width="100%"
+										flex-direction="row-reverse"
+										justify-content="space-between"
+										height="auto"
+									>
+										<Components.TabList md-display="none">
+											<Components.TabItem tabId="one">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="fa"
+														icon={FaBoxes}
+														color="#inherit"
+														margin="0px 8px 0px 0px"
+														size="20px"
+													/>
+													ВСЕ ВАКАНСИИ (13)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="two">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="fa"
+														icon={FaFileCode}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													РАЗРАБОТКА (6)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="three">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													text-transform="uppercase"
+												>
+													<Icon
+														category="md"
+														icon={MdTouchApp}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													Менеджмет (1)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="four">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="io"
+														icon={IoIosChatboxes}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													ПОДДЕРЖКА (2)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="five">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="bs"
+														icon={BsPieChartFill}
+														size="18px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (4)
+												</Button>
+											</Components.TabItem>
+										</Components.TabList>
+										<Components.TabPanels width="80%" md-width="100%">
+											<Components.TabPanel tabId="one" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/pr-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/back-end-razrabotchik-php"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Back-end разработчик (PHP)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly, uSocial | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду back-end разработчика.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-po-seo-optimizacii-sajtov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист по SEO-оптимизации сайтов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду специалиста по SEO-оптимизации сайтов.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborka-sajtov-na-konstruktore-sajtov-ukit"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборка сайтов на конструкторе сайтов uKit
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду начинающих веб-мастеров или студентов сборки сайтов на конструкторе uKit.com
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborshik-sajtov-na-konstruktorah-ucozuweb"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборщик сайтов на конструкторах uCoz/uWeb
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/junior-nodejs-razrabotchik"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Junior node.js разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Приглашаем на работу Junior node.js разработчика.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/menedzher-dizajner-shablonov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Менеджер-дизайнер шаблонов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду менеджера-дизайнера для создания шаблонов для конструктора сайтов uKit. Эта работа для вас если вы знакомы с процессом создания шаблонов для сайтов, имеете опыт работы в студии веб-дизайна.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCalc | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/senior-nodejs-engineer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Senior Node.js engineer
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В команду проекта uKit разыскивается разработчик, имеющий не менее первого дана по Javascript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/programmist-perl"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Программист Perl
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Вы не знакомы с Perl, но не боитесь попробовать? Это верный выбор и не смотря на то, что данный язык на сегодня не является мейнстримом, как специалист вы только выиграете: перловики на сегодня весьма востребованы именно по причине своей редкости.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Требуется специалист тех.поддержки: внимательный, грамотный, заинтересованный и просто хороший человек.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/pr-menedzher1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/technology-evangelistdeveloper-advocate"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Technology Evangelist/Developer Advocate
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем человека для продвижения на англоязычном рынке проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="two" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/back-end-razrabotchik-php"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Back-end разработчик (PHP)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly, uSocial | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду back-end разработчика.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborka-sajtov-na-konstruktore-sajtov-ukit"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборка сайтов на конструкторе сайтов uKit
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду начинающих веб-мастеров или студентов сборки сайтов на конструкторе uKit.com
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborshik-sajtov-na-konstruktorah-ucozuweb"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборщик сайтов на конструкторах uCoz/uWeb
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/junior-nodejs-razrabotchik"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Junior node.js разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Приглашаем на работу Junior node.js разработчика.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/senior-nodejs-engineer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Senior Node.js engineer
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В команду проекта uKit разыскивается разработчик, имеющий не менее первого дана по Javascript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/programmist-perl"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Программист Perl
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Вы не знакомы с Perl, но не боитесь попробовать? Это верный выбор и не смотря на то, что данный язык на сегодня не является мейнстримом, как специалист вы только выиграете: перловики на сегодня весьма востребованы именно по причине своей редкости.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="three" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/menedzher-dizajner-shablonov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Менеджер-дизайнер шаблонов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду менеджера-дизайнера для создания шаблонов для конструктора сайтов uKit. Эта работа для вас если вы знакомы с процессом создания шаблонов для сайтов, имеете опыт работы в студии веб-дизайна.
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="four" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCalc | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Требуется специалист тех.поддержки: внимательный, грамотный, заинтересованный и просто хороший человек.
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="five" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/pr-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-po-seo-optimizacii-sajtov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист по SEO-оптимизации сайтов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду специалиста по SEO-оптимизации сайтов.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/pr-menedzher1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/technology-evangelistdeveloper-advocate"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Technology Evangelist/Developer Advocate
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем человека для продвижения на англоязычном рынке проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+													</Text>
+												</Box>
+											</Components.TabPanel>
+										</Components.TabPanels>
+									</Components.Tabs>
+									{"    "}
+								</StackItem>
+								{"        "}
+							</Stack>
 						</Components.Tab2>
 						<Components.Tab2 tabId="rnd">
-							<Text>
-								sadasdasd
-							</Text>
+							<Stack margin="0px 0px 0px 0px">
+								<StackItem width="100%" display="flex" lg-width="\\\\\\\\" sm-width="100%">
+									<Override
+										slot="StackItemContent"
+										align-items="flex-start"
+										justify-content="flex-start"
+										flex-direction="column"
+										lg-align-items="center"
+										md-padding="30px 0px 0px 0px"
+									/>
+									{"        "}
+									<Components.Tabs
+										defaultTab="one"
+										orientation="Vertical"
+										width="100%"
+										flex-direction="row-reverse"
+										justify-content="space-between"
+										height="auto"
+									>
+										<Components.TabList md-display="none">
+											<Components.TabItem tabId="one">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="fa"
+														icon={FaBoxes}
+														color="#inherit"
+														margin="0px 8px 0px 0px"
+														size="20px"
+													/>
+													ВСЕ ВАКАНСИИ (13)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="two">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="fa"
+														icon={FaFileCode}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													РАЗРАБОТКА (6)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="three">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													text-transform="uppercase"
+												>
+													<Icon
+														category="md"
+														icon={MdTouchApp}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													Менеджмет (1)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="four">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="io"
+														icon={IoIosChatboxes}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													ПОДДЕРЖКА (2)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="five">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="bs"
+														icon={BsPieChartFill}
+														size="18px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (4)
+												</Button>
+											</Components.TabItem>
+										</Components.TabList>
+										<Components.TabPanels width="80%" md-width="100%">
+											<Components.TabPanel tabId="one" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/pr-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/back-end-razrabotchik-php"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Back-end разработчик (PHP)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly, uSocial | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду back-end разработчика.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-po-seo-optimizacii-sajtov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист по SEO-оптимизации сайтов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду специалиста по SEO-оптимизации сайтов.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborka-sajtov-na-konstruktore-sajtov-ukit"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборка сайтов на конструкторе сайтов uKit
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду начинающих веб-мастеров или студентов сборки сайтов на конструкторе uKit.com
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborshik-sajtov-na-konstruktorah-ucozuweb"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборщик сайтов на конструкторах uCoz/uWeb
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/junior-nodejs-razrabotchik"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Junior node.js разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Приглашаем на работу Junior node.js разработчика.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/menedzher-dizajner-shablonov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Менеджер-дизайнер шаблонов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду менеджера-дизайнера для создания шаблонов для конструктора сайтов uKit. Эта работа для вас если вы знакомы с процессом создания шаблонов для сайтов, имеете опыт работы в студии веб-дизайна.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCalc | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/senior-nodejs-engineer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Senior Node.js engineer
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В команду проекта uKit разыскивается разработчик, имеющий не менее первого дана по Javascript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/programmist-perl"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Программист Perl
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Вы не знакомы с Perl, но не боитесь попробовать? Это верный выбор и не смотря на то, что данный язык на сегодня не является мейнстримом, как специалист вы только выиграете: перловики на сегодня весьма востребованы именно по причине своей редкости.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Требуется специалист тех.поддержки: внимательный, грамотный, заинтересованный и просто хороший человек.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/pr-menedzher1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/technology-evangelistdeveloper-advocate"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Technology Evangelist/Developer Advocate
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем человека для продвижения на англоязычном рынке проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="two" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/back-end-razrabotchik-php"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Back-end разработчик (PHP)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly, uSocial | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду back-end разработчика.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborka-sajtov-na-konstruktore-sajtov-ukit"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборка сайтов на конструкторе сайтов uKit
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду начинающих веб-мастеров или студентов сборки сайтов на конструкторе uKit.com
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborshik-sajtov-na-konstruktorah-ucozuweb"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборщик сайтов на конструкторах uCoz/uWeb
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/junior-nodejs-razrabotchik"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Junior node.js разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Приглашаем на работу Junior node.js разработчика.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/senior-nodejs-engineer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Senior Node.js engineer
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В команду проекта uKit разыскивается разработчик, имеющий не менее первого дана по Javascript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/programmist-perl"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Программист Perl
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Вы не знакомы с Perl, но не боитесь попробовать? Это верный выбор и не смотря на то, что данный язык на сегодня не является мейнстримом, как специалист вы только выиграете: перловики на сегодня весьма востребованы именно по причине своей редкости.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="three" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/menedzher-dizajner-shablonov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Менеджер-дизайнер шаблонов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду менеджера-дизайнера для создания шаблонов для конструктора сайтов uKit. Эта работа для вас если вы знакомы с процессом создания шаблонов для сайтов, имеете опыт работы в студии веб-дизайна.
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="four" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCalc | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Требуется специалист тех.поддержки: внимательный, грамотный, заинтересованный и просто хороший человек.
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="five" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/pr-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-po-seo-optimizacii-sajtov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист по SEO-оптимизации сайтов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду специалиста по SEO-оптимизации сайтов.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/pr-menedzher1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/technology-evangelistdeveloper-advocate"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Technology Evangelist/Developer Advocate
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем человека для продвижения на англоязычном рынке проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+													</Text>
+												</Box>
+											</Components.TabPanel>
+										</Components.TabPanels>
+									</Components.Tabs>
+									{"    "}
+								</StackItem>
+								{"        "}
+							</Stack>
 						</Components.Tab2>
-						<Components.Tab2 tabId="fl" />
+						<Components.Tab2 tabId="fl">
+							<Stack margin="0px 0px 0px 0px">
+								<StackItem width="100%" display="flex" lg-width="\\\\\\\\" sm-width="100%">
+									<Override
+										slot="StackItemContent"
+										align-items="flex-start"
+										justify-content="flex-start"
+										flex-direction="column"
+										lg-align-items="center"
+										md-padding="30px 0px 0px 0px"
+									/>
+									{"        "}
+									<Components.Tabs
+										defaultTab="one"
+										orientation="Vertical"
+										width="100%"
+										flex-direction="row-reverse"
+										justify-content="space-between"
+										height="auto"
+									>
+										<Components.TabList md-display="none">
+											<Components.TabItem tabId="one">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="fa"
+														icon={FaBoxes}
+														color="#inherit"
+														margin="0px 8px 0px 0px"
+														size="20px"
+													/>
+													ВСЕ ВАКАНСИИ (13)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="two">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="fa"
+														icon={FaFileCode}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													РАЗРАБОТКА (6)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="three">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													text-transform="uppercase"
+												>
+													<Icon
+														category="md"
+														icon={MdTouchApp}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													Менеджмет (1)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="four">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="io"
+														icon={IoIosChatboxes}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													ПОДДЕРЖКА (2)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="five">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="bs"
+														icon={BsPieChartFill}
+														size="18px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (4)
+												</Button>
+											</Components.TabItem>
+										</Components.TabList>
+										<Components.TabPanels width="80%" md-width="100%">
+											<Components.TabPanel tabId="one" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/pr-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/back-end-razrabotchik-php"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Back-end разработчик (PHP)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly, uSocial | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду back-end разработчика.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-po-seo-optimizacii-sajtov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист по SEO-оптимизации сайтов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду специалиста по SEO-оптимизации сайтов.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborka-sajtov-na-konstruktore-sajtov-ukit"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборка сайтов на конструкторе сайтов uKit
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду начинающих веб-мастеров или студентов сборки сайтов на конструкторе uKit.com
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborshik-sajtov-na-konstruktorah-ucozuweb"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборщик сайтов на конструкторах uCoz/uWeb
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/junior-nodejs-razrabotchik"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Junior node.js разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Приглашаем на работу Junior node.js разработчика.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/menedzher-dizajner-shablonov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Менеджер-дизайнер шаблонов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду менеджера-дизайнера для создания шаблонов для конструктора сайтов uKit. Эта работа для вас если вы знакомы с процессом создания шаблонов для сайтов, имеете опыт работы в студии веб-дизайна.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCalc | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/senior-nodejs-engineer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Senior Node.js engineer
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В команду проекта uKit разыскивается разработчик, имеющий не менее первого дана по Javascript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/programmist-perl"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Программист Perl
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Вы не знакомы с Perl, но не боитесь попробовать? Это верный выбор и не смотря на то, что данный язык на сегодня не является мейнстримом, как специалист вы только выиграете: перловики на сегодня весьма востребованы именно по причине своей редкости.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Требуется специалист тех.поддержки: внимательный, грамотный, заинтересованный и просто хороший человек.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/pr-menedzher1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/technology-evangelistdeveloper-advocate"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Technology Evangelist/Developer Advocate
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем человека для продвижения на англоязычном рынке проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="two" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/back-end-razrabotchik-php"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Back-end разработчик (PHP)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly, uSocial | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду back-end разработчика.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborka-sajtov-na-konstruktore-sajtov-ukit"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборка сайтов на конструкторе сайтов uKit
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду начинающих веб-мастеров или студентов сборки сайтов на конструкторе uKit.com
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/sborshik-sajtov-na-konstruktorah-ucozuweb"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Сборщик сайтов на конструкторах uCoz/uWeb
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/junior-nodejs-razrabotchik"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Junior node.js разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Приглашаем на работу Junior node.js разработчика.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/senior-nodejs-engineer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Senior Node.js engineer
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В команду проекта uKit разыскивается разработчик, имеющий не менее первого дана по Javascript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/programmist-perl"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Программист Perl
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Вы не знакомы с Perl, но не боитесь попробовать? Это верный выбор и не смотря на то, что данный язык на сегодня не является мейнстримом, как специалист вы только выиграете: перловики на сегодня весьма востребованы именно по причине своей редкости.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="three" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/menedzher-dizajner-shablonov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Менеджер-дизайнер шаблонов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду менеджера-дизайнера для создания шаблонов для конструктора сайтов uKit. Эта работа для вас если вы знакомы с процессом создания шаблонов для сайтов, имеете опыт работы в студии веб-дизайна.
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="four" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCalc | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Требуется специалист тех.поддержки: внимательный, грамотный, заинтересованный и просто хороший человек.
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="five" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/pr-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/specialist-po-seo-optimizacii-sajtov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Специалист по SEO-оптимизации сайтов
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Divly | Санкт-Петербург
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group приглашает в свою команду специалиста по SEO-оптимизации сайтов.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/pr-menedzher1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														PR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Москва{" "}
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														href="/vacancies/technology-evangelistdeveloper-advocate"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Technology Evangelist/Developer Advocate
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Quarkly | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем человека для продвижения на англоязычном рынке проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
+													</Text>
+												</Box>
+											</Components.TabPanel>
+										</Components.TabPanels>
+									</Components.Tabs>
+									{"    "}
+								</StackItem>
+								{"        "}
+							</Stack>
+						</Components.Tab2>
 					</Components.Tabs2>
 				</StackItem>
 				{"        "}
