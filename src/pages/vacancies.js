@@ -1,11 +1,14 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Button, Hr, Box, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, Button, Hr, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
-import { FaBoxes, FaFileCode, FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki } from "react-icons/fa";
+import { FaBoxes, FaFileCode } from "react-icons/fa";
+import { MdTouchApp } from "react-icons/md";
+import { IoIosChatboxes } from "react-icons/io";
+import { BsPieChartFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"vacancies"} />
@@ -42,7 +45,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section padding="0px 0 20px 0">
+		<Section padding="0px 0 40px 0">
 			<Override slot="SectionContent" align-items="center" md-margin="0px 0px 0px 0px" md-width="100%" />
 			<Stack margin="0px 0px 0px 0px" max-width="1170px" width="100%">
 				<StackItem width="100%">
@@ -100,7 +103,7 @@ export default (() => {
 						</Override>
 						<Components.Tab2 tabId="all">
 							<Stack margin="0px 0px 0px 0px">
-								<StackItem width="100%" display="flex" lg-width="\\" sm-width="100%">
+								<StackItem width="100%" display="flex" lg-width="\\\\" sm-width="100%">
 									<Override
 										slot="StackItemContent"
 										align-items="flex-start"
@@ -131,6 +134,7 @@ export default (() => {
 													align-items="center"
 													padding="8px 24px 8px 12px"
 													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
 												>
 													<Icon
 														category="fa"
@@ -149,11 +153,12 @@ export default (() => {
 													background="rgba(0, 119, 204, 0)"
 													color="inherit"
 													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
-													letter-spacing=".2"
+													letter-spacing=".2px"
 													display="flex"
 													align-items="center"
 													padding="8px 24px 8px 12px"
 													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
 												>
 													<Icon
 														category="fa"
@@ -165,8 +170,81 @@ export default (() => {
 													РАЗРАБОТКА (6)
 												</Button>
 											</Components.TabItem>
+											<Components.TabItem tabId="three">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													text-transform="uppercase"
+												>
+													<Icon
+														category="md"
+														icon={MdTouchApp}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													Менеджмет (1)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="four">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="io"
+														icon={IoIosChatboxes}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													ПОДДЕРЖКА (2)
+												</Button>
+											</Components.TabItem>
+											<Components.TabItem tabId="five">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+												>
+													<Icon
+														category="bs"
+														icon={BsPieChartFill}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (4)
+												</Button>
+											</Components.TabItem>
 										</Components.TabList>
-										<Components.TabPanels width="90%" md-width="100%">
+										<Components.TabPanels width="80%" md-width="100%">
 											<Components.TabPanel tabId="one" md-width="100%">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
@@ -447,10 +525,24 @@ export default (() => {
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем человека для продвижения на англоязычном рынке проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
 													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="two">
+												<Text>
+													Tab 2
+												</Text>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="three">
+												<Text>
+													Tab 2
+												</Text>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="four">
+												<Text>
+													Tab 2
+												</Text>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="five">
 												<Text>
 													Tab 2
 												</Text>
@@ -483,248 +575,7 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Section
-			quarkly-title="Footer"
-			padding="0px 0px 0px 0px"
-			border-width="2px 0px 0px 0px"
-			border-style="solid"
-			border-color="#dbe6f4"
-			transition="all 400ms ease 0s"
-			lg-padding="10px 0px 10px 0px"
-		>
-			<Override slot="SectionContent" max-width="1170px" width="100%" />
-			<Stack margin="0px 0px 0px 0px" gap="0px">
-				<StackItem width="70%" display="flex" lg-width="100%">
-					<Override slot="StackItemContent" align-items="flex-end" padding="13px 30px 14px 30px" />
-					{"        "}
-					<Box display="flex" align-items="center" lg-flex-direction="column" lg-width="100%">
-						<Link href="/">
-							<Image
-								src="https://screenshot.ukit.com/src/goalov/21/2021-01-27-03-36-00.png"
-								color="#ffffff"
-								width="121px"
-								height="40px"
-								margin="3px 10px 3px 3px"
-								padding="0px 0px 0px 0px"
-							/>
-						</Link>
-						<Text
-							font="normal 300 14px/19px 'AvenirNextCyrMedium', sans-serif"
-							margin="3px 0px 0px 22px"
-							display="inline-block"
-							color="#9BABBF"
-							lg-margin="10px 0px 0px 22px"
-						>
-							<Link
-								href="https://blog.ucoz.ru/"
-								color="#AEC1D9"
-								text-decoration-line="initial"
-								hover-color="#4a8cfa"
-								transition="color 0.2s ease 0s"
-								font="400 14px/19px 'AvenirNextCyrMedium'"
-								target="_blank"
-								lg-padding="0px 0px 0px 0px"
-								lg-margin="0px 0px 0px 0px"
-							>
-								Блог компании
-							</Link>
-						</Text>
-						<Text
-							font="normal 300 14px/19px 'AvenirNextCyrMedium', sans-serif"
-							margin="3px 0px 0px 22px"
-							display="inline-block"
-							color="#9BABBF"
-							lg-margin="10px 0px 0px 22px"
-						>
-							<Link
-								href="http://www.ucoz.ru/all/"
-								color="#AEC1D9"
-								text-decoration-line="initial"
-								hover-color="#4a8cfa"
-								transition="color 0.2s ease 0s"
-								font="400 14px/19px 'AvenirNextCyrMedium'"
-								target="_blank"
-								lg-padding="0px 0px 0px 0px"
-								lg-margin="0px 0px 0px 0px"
-							>
-								Наши проекты
-							</Link>
-						</Text>
-						<Text
-							font="normal 300 14px/19px 'AvenirNextCyrMedium', sans-serif"
-							margin="3px 0px 0px 22px"
-							display="inline-block"
-							color="#9BABBF"
-							lg-margin="10px 0px 0px 22px"
-						>
-							<Link
-								href="http://ua.uteam.pro/"
-								color="#4a8cfa"
-								text-decoration-line="initial"
-								hover-color="#3d72cc"
-								transition="color 0.2s ease 0s"
-								font="300 14px/19px 'AvenirNextCyrMedium'"
-								lg-padding="0px 0px 0px 0px"
-								lg-margin="0px 0px 0px 0px"
-							>
-								Вакансії в Україні{" "}
-							</Link>
-						</Text>
-						<Text
-							font="normal 300 14px/19px 'AvenirNextCyrMedium', sans-serif"
-							margin="3px 0px 0px 22px"
-							display="inline-block"
-							color="#9BABBF"
-							lg-margin="10px 0px 0px 22px"
-						>
-							<Link
-								href="http://en.uteam.pro/"
-								color="#4a8cfa"
-								text-decoration-line="initial"
-								hover-color="#3d72cc"
-								transition="color 0.2s ease 0s"
-								font="300 14px/19px 'AvenirNextCyrMedium'"
-								lg-padding="0px 0px 0px 0px"
-								lg-margin="0px 0px 0px 0px"
-							>
-								Careers for Foreigners
-							</Link>
-						</Text>
-					</Box>
-				</StackItem>
-				<StackItem width="30%" display="flex" lg-width="100%">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						padding="13px 30px 14px 30px"
-						justify-content="flex-end"
-						lg-justify-content="center"
-					/>
-					<Link
-						href="https://www.facebook.com/ucoz"
-						target="_blank"
-						margin="0px 15px 0px 0px"
-						border-color="#AFC1D8"
-						color="#AFC1D8"
-						border-radius="50%"
-						border-width="2px"
-						border-style="solid"
-						hover-background="#4a8cfa"
-						hover-color="#ffffff"
-						hover-border-color="#4a8cfa"
-					>
-						<Icon
-							category="fa"
-							icon={FaVk}
-							border-radius="50%"
-							padding="5px 5px 5px 5px"
-							transition="all 0.2s linear 0s"
-							size="20px"
-							hover-color="inherit"
-							color="inherit"
-						/>
-					</Link>
-					<Link
-						href="https://www.facebook.com/ucoz"
-						target="_blank"
-						margin="0px 15px 0px 0px"
-						border-color="#AFC1D8"
-						color="#AFC1D8"
-						border-radius="50%"
-						border-width="2px"
-						border-style="solid"
-						hover-background="#4a8cfa"
-						hover-color="#ffffff"
-						hover-border-color="#4a8cfa"
-					>
-						<Icon
-							category="fa"
-							icon={FaFacebookF}
-							border-radius="50%"
-							padding="5px 5px 5px 5px"
-							transition="all 0.2s linear 0s"
-							size="20px"
-							hover-color="inherit"
-							color="inherit"
-						/>
-					</Link>
-					<Link
-						href="https://twitter.com/ucoz_ru"
-						target="_blank"
-						margin="0px 15px 0px 0px"
-						border-color="#AFC1D8"
-						color="#AFC1D8"
-						border-radius="50%"
-						border-width="2px"
-						border-style="solid"
-						hover-background="#4a8cfa"
-						hover-color="#ffffff"
-						hover-border-color="#4a8cfa"
-					>
-						<Icon
-							category="fa"
-							icon={FaTwitter}
-							border-radius="50%"
-							padding="5px 5px 5px 5px"
-							transition="all 0.2s linear 0s"
-							size="20px"
-							hover-color="inherit"
-							color="inherit"
-						/>
-					</Link>
-					<Link
-						href="https://instagram.com/ucoz_ru"
-						target="_blank"
-						margin="0px 15px 0px 0px"
-						border-color="#AFC1D8"
-						color="#AFC1D8"
-						border-radius="50%"
-						border-width="2px"
-						border-style="solid"
-						hover-background="#4a8cfa"
-						hover-color="#ffffff"
-						hover-border-color="#4a8cfa"
-					>
-						<Icon
-							category="fa"
-							icon={FaInstagram}
-							border-radius="50%"
-							padding="5px 5px 5px 5px"
-							transition="all 0.2s linear 0s"
-							size="20px"
-							hover-color="inherit"
-							color="inherit"
-						/>
-					</Link>
-					<Link
-						href="http://ok.ru/ucozru"
-						target="_blank"
-						margin="0px 15px 0px 0px"
-						border-color="#AFC1D8"
-						color="#AFC1D8"
-						border-radius="50%"
-						border-width="2px"
-						border-style="solid"
-						hover-background="#4a8cfa"
-						hover-color="#ffffff"
-						hover-border-color="#4a8cfa"
-					>
-						<Icon
-							category="fa"
-							icon={FaOdnoklassniki}
-							border-radius="50%"
-							padding="5px 5px 5px 5px"
-							transition="all 0.2s linear 0s"
-							size="20px"
-							hover-color="inherit"
-							color="inherit"
-						/>
-					</Link>
-					{"        "}
-				</StackItem>
-				{"        "}
-			</Stack>
-		</Section>
+		<Components.Footer />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
