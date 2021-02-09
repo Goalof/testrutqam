@@ -236,7 +236,7 @@ export default (() => {
 													<Icon
 														category="bs"
 														icon={BsPieChartFill}
-														size="20px"
+														size="18px"
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
