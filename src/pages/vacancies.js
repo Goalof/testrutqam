@@ -11,14 +11,14 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"vacancies"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Вакансии - Работа в uTeam
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа."} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} type={"image/x-icon"} />
 		</Helmet>
 		{" "}
 		<Components.Header />
-		<Section padding="150px 0 80px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/vac_head.jpg?v=2021-01-28T20:18:22.116Z) 0% 0% /cover repeat scroll padding-box">
+		<Section padding="150px 0 150px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/vac_head.jpg?v=2021-01-28T20:18:22.116Z) 0% 0% /cover repeat scroll padding-box" md-padding="150px 0 80px 0" sm-padding="150px 0 80px 0">
 			<Override slot="SectionContent" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" max-width="850px">
 				{"    "}
@@ -30,9 +30,10 @@ export default (() => {
 						margin="0px 0px 5px 0px"
 						display="inline-block"
 						sm-text-align="center"
-						sm-margin="0px 0px 30px 0px"
+						sm-margin="0px 0px 0px 0px"
 						text-align="center"
 						color="#ffffff"
+						sm-font="normal 500 48px/1.2 'AvenirNextCyrDemi', sans-serif"
 					>
 						Вакансии
 					</Text>
@@ -41,12 +42,13 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section padding="0px 0 20px 0" sm-padding="110px 0 60px 0" lg-padding="120px 0 80px 0">
-			<Override slot="SectionContent" align-items="center" />
+		<Section padding="0px 0 20px 0">
+			<Override slot="SectionContent" align-items="center" md-margin="0px 0px 0px 0px" md-width="100%" />
 			<Stack margin="0px 0px 0px 0px" max-width="1170px" width="100%">
 				<StackItem width="100%">
+					<Override slot="StackItemContent" md-width="100%" />
 					<Components.Tabs2 defaultTab="all" width="100%">
-						<Override slot="Tab all" border-radius="5px 0px 0px 5px">
+						<Override slot="Tab all" border-radius="5px 0px 0px 5px" md-border-radius="0px">
 							Все вакансии
 						</Override>
 						<Override slot="Tab msk" border-radius="0px">
@@ -62,8 +64,20 @@ export default (() => {
 							font="normal 400 14px/22px 'AvenirNextCyrMedium'"
 							margin="0px 2px 0px 0px"
 							focus-box-shadow="none"
+							padding="10px 24px 10px 24px"
+							border-radius="0px"
+							md-width="100%"
+							md-background="#E4E9ED"
+							md-color="#333"
+							md-margin="0px 32px 0px 32px"
 						/>
-						<Override slot="Tab :active" background="#ffe02d" color="#263238">
+						<Override
+							slot="Tab :active"
+							background="#ffe02d"
+							color="#263238"
+							md-border-radius="0px"
+							md-background="#ffe02d"
+						>
 							Все вакансии
 						</Override>
 						<Override
@@ -71,20 +85,29 @@ export default (() => {
 							align-items="center"
 							justify-content="center"
 							position="relative"
-							top="-90px"
+							top="-130px"
+							md-position="sticky"
+							md-flex-direction="column"
 						/>
 						<Override slot="Tab rnd">
-							Ростов на дону
+							Ростов-на-Дону
+						</Override>
+						<Override slot="Tab 6021ccde9e849bcf1214b34e">
+							Удаленная работа
+						</Override>
+						<Override slot="Tab fl" border-radius="0px 5px 5px 0px" md-border-radius="0px">
+							Удаленная работа
 						</Override>
 						<Components.Tab2 tabId="all">
 							<Stack margin="0px 0px 0px 0px">
-								<StackItem width="100%" display="flex" lg-width="50%" sm-width="100%">
+								<StackItem width="100%" display="flex" lg-width="\\" sm-width="100%">
 									<Override
 										slot="StackItemContent"
 										align-items="flex-start"
 										justify-content="flex-start"
 										flex-direction="column"
 										lg-align-items="center"
+										md-padding="30px 0px 0px 0px"
 									/>
 									{"        "}
 									<Components.Tabs
@@ -95,7 +118,7 @@ export default (() => {
 										justify-content="space-between"
 										height="auto"
 									>
-										<Components.TabList>
+										<Components.TabList md-display="none">
 											<Components.TabItem tabId="one">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
@@ -143,9 +166,9 @@ export default (() => {
 												</Button>
 											</Components.TabItem>
 										</Components.TabList>
-										<Components.TabPanels width="90%">
-											<Components.TabPanel tabId="one">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+										<Components.TabPanels width="90%" md-width="100%">
+											<Components.TabPanel tabId="one" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
 														href="/vacancies/pr-menedzher"
 														text-decoration-line="initial"
@@ -199,12 +222,11 @@ export default (() => {
 														Специалист по SEO-оптимизации сайтов
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
-														Проект Divly | Санкт-Петербург{"\n\n"}
+														Проект Divly | Санкт-Петербург
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
 														Компания uKit Group приглашает в свою команду специалиста по SEO-оптимизации сайтов.
 														<br />
-														{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -221,12 +243,11 @@ export default (() => {
 														Сборка сайтов на конструкторе сайтов uKit
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
-														Проект Divly | Санкт-Петербург{"\n\n"}
+														Проект Divly | Санкт-Петербург
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
 														Компания uKit Group г. Санкт-Петербург приглашает в свою дружную команду начинающих веб-мастеров или студентов сборки сайтов на конструкторе uKit.com
 														<br />
-														{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -243,12 +264,11 @@ export default (() => {
 														Сборщик сайтов на конструкторах uCoz/uWeb
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
-														Проект Divly | Санкт-Петербург{"\n\n"}
+														Проект Divly | Санкт-Петербург
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
 														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
 														<br />
-														{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -270,7 +290,6 @@ export default (() => {
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
 														Приглашаем на работу Junior node.js разработчика.
 														<br />
-														{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -312,7 +331,6 @@ export default (() => {
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
 														Компания uKit Group г. Санкт-Петербург приглашает в свою команду сборщика сайтов на конструкторе uCoz/uWeb
 														<br />
-														{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -354,7 +372,6 @@ export default (() => {
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrRegular', sans-serif" color="#333">
 														Вы не знакомы с Perl, но не боитесь попробовать? Это верный выбор и не смотря на то, что данный язык на сегодня не является мейнстримом, как специалист вы только выиграете: перловики на сегодня весьма востребованы именно по причине своей редкости.
 														<br />
-														{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -447,6 +464,7 @@ export default (() => {
 								sadasdasd
 							</Text>
 						</Components.Tab2>
+						<Components.Tab2 tabId="fl" />
 					</Components.Tabs2>
 				</StackItem>
 				{"        "}

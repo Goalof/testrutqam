@@ -12,7 +12,6 @@ const defaultProps = {
 	"border-style": "solid",
 	"border-color": "#dbe6f4",
 	"transition": "all 400ms ease 0s",
-	"nout-border-radius": "6px",
 	"lg-position": "fixed",
 	"position": "fixed",
 	"background": "#ffffff",
