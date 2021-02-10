@@ -439,9 +439,10 @@ export default (() => {
 						object-position="50% 49%"
 						nout-width="70%"
 						nout-margin="0px -2px 0px 0px"
+						display="none"
 					/>
-					<Text color="#ffffff" font="900 496px/1 'AvenirNextCyrDemi', sans-serif">
-						165
+					<Text color="#ffffff" font="900 496px/0.6 'AvenirNextCyrDemi', sans-serif" margin="0px 0px 40px -24px">
+						125
 					</Text>
 					<Box
 						padding="0 14% 0 14%"
