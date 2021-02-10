@@ -441,8 +441,14 @@ export default (() => {
 						nout-margin="0px -2px 0px 0px"
 						display="none"
 					/>
-					<Text color="#ffffff" font="900 496px/0.6 'AvenirNextCyrDemi', sans-serif" margin="0px 0px 40px -24px">
-						125
+					<Text
+						color="#ffffff"
+						font="1000 3000%/0.6 'AvenirNextCyrDemi', sans-serif"
+						margin="0px 0px 40px -10px"
+						width="100%"
+						text-align="right"
+					>
+						165
 					</Text>
 					<Box
 						padding="0 14% 0 14%"
