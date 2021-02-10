@@ -443,8 +443,8 @@ export default (() => {
 					/>
 					<Text
 						color="#ffffff"
-						font="1000 50vh/0.6 'AvenirNextCyrDemi', sans-serif"
-						margin="0px 0px 40px -10px"
+						font="1000 29vw/0.6 'AvenirNextCyrDemi', sans-serif"
+						margin="-10px 0px 40px 0px"
 						width="100%"
 						text-align="right"
 					>
