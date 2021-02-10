@@ -245,7 +245,7 @@ export default (() => {
 								</Link>
 							</Components.TabPanel>
 							<Components.TabPanel tabId="two">
-								<GoogleMap query="Лифляндская ул. 6" margin="15px 0px 0px 0px" z-index="0" sm-margin="15px 0px 20px 0px" />
+								<GoogleMap query=". г. Санкт-Петербург, пр. Московский, дом 22, литер Т" margin="15px 0px 0px 0px" z-index="0" sm-margin="15px 0px 20px 0px" />
 								<Box display="flex" margin="0px 0px 25px 0px" sm-flex-direction="column">
 									<Box
 										display="flex"
@@ -272,9 +272,7 @@ export default (() => {
 											color="#333"
 											margin="0px 0px 0px 0px"
 										>
-											БЦ «Интеграл», Лифляндская{" "}
-											<br />
-											ул. 6{"\n\n"}
+											пр. Московский, дом 22, литер Т
 										</Text>
 									</Box>
 									<Box display="flex" flex-direction="column" align-items="flex-start" max-width="300px">

@@ -113,7 +113,7 @@ const overrides = {
 				hover-color="#ffe02d"
 				transition="color 0.2s ease 0s"
 			>
-				Careers for Foreigners
+				Applying from overseas
 			</Link>
 		}
 	},
