@@ -91,7 +91,7 @@ export default (() => {
 								hover-color="#ffe02d"
 								transition="color 0.2s ease 0s"
 							>
-								Careers for Foreigners
+								Applying from overseas
 							</Link>
 						</Text>
 					</Box>
@@ -526,7 +526,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link
-						href="#"
+						href="/vacancies/#msk"
 						text-decoration-line="initial"
 						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
@@ -555,7 +555,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link
-						href="#"
+						href="/vacancies/#spb"
 						text-decoration-line="initial"
 						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
@@ -584,7 +584,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link
-						href="#"
+						href="/vacancies/#rnd"
 						text-decoration-line="initial"
 						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
@@ -613,7 +613,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link
-						href="#"
+						href="/vacancies/#fl"
 						text-decoration-line="initial"
 						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
@@ -722,7 +722,7 @@ export default (() => {
 								hover-color="#ffe02d"
 								transition="color 0.2s ease 0s"
 							>
-								Careers for Foreigners
+								Applying from overseas
 							</Link>
 						</Text>
 					</Box>
