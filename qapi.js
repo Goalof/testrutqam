@@ -21,7 +21,11 @@ export default {
 		"600e0aca11b69c001f4aa728": {
 			"id": "600e0aca11b69c001f4aa728",
 			"name": "index",
-			"pageUrl": "index"
+			"pageUrl": "index",
+			"seo": {
+				"title": "Главная - Работа в uTeam",
+				"description": "Работа в uCoz. Актуальные вакансии компании в российских офисах и удаленная работа. Как попасть в команду, и о нашем коллективе — uTeam."
+			}
 		},
 		"600f46ff5a9875001e4c7d39": {
 			"id": "600f46ff5a9875001e4c7d39",
@@ -183,7 +187,10 @@ export default {
 			"overflow-x": "hidden"
 		},
 		"seo": {
-			"favicon_32px": "https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"
+			"favicon_32px": "https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z",
+			"favicon_apple_152px": "https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z",
+			"favicon_win10_270px": "https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z",
+			"background_win10": "#5291FA"
 		}
 	}
 }
