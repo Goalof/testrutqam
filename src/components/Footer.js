@@ -148,7 +148,7 @@ const overrides = {
 				lg-padding="0px 0px 0px 0px"
 				lg-margin="0px 0px 0px 0px"
 			>
-				Careers for Foreigners
+				Applying from overseas
 			</Link>
 		}
 	},
