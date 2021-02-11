@@ -62,7 +62,7 @@ export default {
 		},
 		"600f470cd34e73001fe66b65": {
 			"id": "600f470cd34e73001fe66b65",
-			"pageUrl": "kak-popast-v-komandu",
+			"pageUrl": "resume",
 			"name": "Как попасть в команду"
 		},
 		"600f4712aae0d1001eea89d8": {

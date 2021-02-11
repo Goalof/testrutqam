@@ -19,7 +19,7 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "kak-popast-v-komandu": {
+    "resume": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },

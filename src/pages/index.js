@@ -463,10 +463,16 @@ export default (() => {
 						nout-padding="0 0% 0 0%"
 						nout-margin="40px 0px 20px 0px"
 					>
-						<Text margin="0px 0px 17px 0px" color="#ffffff" font="bold 24px/30px 'AvenirNextCyrRegular', sans-serif" padding="0 0px 0 0px">
+						<Text
+							margin="0px 0px 17px 0px"
+							color="#ffffff"
+							font="bold 24px/30px 'AvenirNextCyrRegular', sans-serif"
+							padding="0 0px 0 0px"
+							nout-font="bold 21px/30px 'AvenirNextCyrRegular', sans-serif"
+						>
 							и более сотрудников успешно работают и отдыхают с нами на протяжении тринадцати лет и не жалеют об этом
 						</Text>
-						<Text margin="0px 0px 10px 0px" color="#ffffff" font="--lead">
+						<Text margin="0px 0px 10px 0px" color="#ffffff" font="--lead" nout-font="normal 400 16px/24px 'AvenirNextCyrRegular', sans-serif">
 							Мы верим, что в мире есть масса возможностей заниматься тем, что по‑настоящему нравится, и точно знаем, что это можно делать у нас в компании.{" "}
 						</Text>
 					</Box>
@@ -1066,6 +1072,9 @@ export default (() => {
 							color="#263238"
 							hover-color="#4a8cfa"
 						/>
+						<Override slot="link-uteam">
+							uTeam
+						</Override>
 					</Menu>
 					{"        "}
 				</StackItem>
@@ -1573,7 +1582,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" flex-direction="column" />
 					{"        "}
 					<Link
-						href="#"
+						href="/resume"
 						text-align="center"
 						text-decoration-line="initial"
 						color="#ffffff"
