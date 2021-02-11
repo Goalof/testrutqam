@@ -1099,7 +1099,6 @@ export default (() => {
 						sm-margin="0px 0px 30px 0px"
 					>
 						Работай с комфортом!
-						<br />
 					</Text>
 					{"    "}
 				</StackItem>

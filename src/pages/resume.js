@@ -25,7 +25,7 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#5291FA"} />
 		</Helmet>
 		<Components.Header />
-		<Section padding="150px 0 80px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/Advice.jpg?v=2021-01-29T22:37:50.668Z) 0% 0% /cover repeat scroll padding-box" sm-padding="150px 0 60px 0">
+		<Section padding="180px 0 120px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/Advice.jpg?v=2021-01-29T22:37:50.668Z) 0% 0% /cover repeat scroll padding-box" sm-padding="150px 0 60px 0">
 			<Override slot="SectionContent" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" max-width="850px">
 				{"    "}
@@ -256,7 +256,7 @@ export default (() => {
 							</Text>
 						</Components.Tab2>
 					</Components.Tabs2>
-					<Box display="flex" margin="25px 0px 0px 0px">
+					<Box display="flex" margin="35px 0px 0px 0px">
 						<Box width="30%" />
 						<Box display="flex" justify-content="flex-start" margin="0px 0px 0px 0px" width="70%">
 							<Components.PopUp
