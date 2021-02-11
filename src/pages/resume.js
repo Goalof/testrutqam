@@ -53,6 +53,7 @@ export default (() => {
 			<Override slot="SectionContent" align-items="center" font="600 16px 'AvenirNextCyrRegular', sans-serif" />
 			<Stack margin="0px 0px 0px 0px" max-width="1020px" width="100%">
 				<StackItem width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
 					<Components.Tabs2 defaultTab="one" display="flex" width="100%" md-flex-direction="column">
 						<Override
 							slot="TabPanels"
@@ -255,64 +256,67 @@ export default (() => {
 							</Text>
 						</Components.Tab2>
 					</Components.Tabs2>
+					<Box display="flex" margin="25px 0px 0px 0px">
+						<Box width="30%" />
+						<Box display="flex" justify-content="flex-start" margin="0px 0px 0px 0px" width="70%">
+							<Components.PopUp
+								left="-30px"
+								bottom="auto"
+								right="auto"
+								top="40%"
+								transition="all 0.5s ease 0s"
+							>
+								<Override
+									slot="button"
+									className="noprint"
+									color="#263238"
+									font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
+									letter-spacing=".1px"
+									background="#ffd83a"
+									padding="0px 15px 0px 15px"
+									transition="all 0.2s linear 0s"
+									left="-30px"
+									bottom="auto"
+									right="auto"
+									top="40%"
+									hover-left="0px"
+									border-radius="5px"
+									margin="0px 0px 0px 0px"
+									hover-background="#e6c235"
+								>
+									Откликнуться на вакансию
+								</Override>
+								<Override
+									slot="wrapper"
+									background="#ffffff"
+									max-width="672px"
+									width="100%"
+									margin="0px 0px 0px 0px"
+									padding="0px 0px 0px 0px"
+									border-radius="0px"
+									height="100%"
+									overflow-y="scroll"
+									max-height="1150px"
+								/>
+								<Override
+									slot="close"
+									color="#c5cfdb"
+									padding="0.7rem 0.7rem .5rem .5rem"
+									size="20px"
+									hover-color="#333"
+									transition="color 0.3s ease 0s"
+								/>
+								<Section padding="0px 0 40px 0">
+									<Override slot="SectionContent" align-items="center" width="100%" />
+									<Components.EmbedHTML width="100%" />
+									<Components.EmbedJS />
+								</Section>
+							</Components.PopUp>
+						</Box>
+					</Box>
 				</StackItem>
 				{"        "}
 			</Stack>
-			<Box display="flex" justify-content="center" margin="10px 0px 0px 0px">
-				<Components.PopUp
-					left="-30px"
-					bottom="auto"
-					right="auto"
-					top="40%"
-					transition="all 0.5s ease 0s"
-				>
-					<Override
-						slot="button"
-						className="noprint"
-						color="#263238"
-						font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
-						letter-spacing=".1px"
-						background="#ffd83a"
-						padding="0px 15px 0px 15px"
-						transition="all 0.2s linear 0s"
-						left="-30px"
-						bottom="auto"
-						right="auto"
-						top="40%"
-						hover-left="0px"
-						border-radius="5px"
-						margin="0px 0px 0px 0px"
-						hover-background="#e6c235"
-					>
-						Откликнуться на вакансию
-					</Override>
-					<Override
-						slot="wrapper"
-						background="#ffffff"
-						max-width="672px"
-						width="100%"
-						margin="0px 0px 0px 0px"
-						padding="0px 0px 0px 0px"
-						border-radius="0px"
-						height="100%"
-						overflow-y="scroll"
-						max-height="1150px"
-					/>
-					<Override
-						slot="close"
-						color="#c5cfdb"
-						padding="0.7rem 0.7rem .5rem .5rem"
-						size="20px"
-						hover-color="#333"
-						transition="color 0.3s ease 0s"
-					/>
-					<Section padding="0px 0 40px 0">
-						<Override slot="SectionContent" align-items="center" width="100%" />
-						<Components.EmbedHTML width="100%" />
-						<Components.EmbedJS />
-					</Section>
-				</Components.PopUp>
-			</Box>
 		</Section>
 		<Section padding="60px 0 60px 0" sm-padding="60px 0 60px 0" lg-padding="40px 0 40px 0" background="#eef2f3">
 			<Override slot="SectionContent" align-items="center" />
