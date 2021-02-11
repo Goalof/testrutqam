@@ -49,7 +49,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section padding="40px 0 50px 0" sm-padding="30px 0 30px 0" lg-padding="50px 0 50px 0" md-padding="20px 0 20px 0">
+		<Section padding="40px 0 70px 0" sm-padding="30px 0 30px 0" lg-padding="50px 0 50px 0" md-padding="20px 0 20px 0">
 			<Override slot="SectionContent" align-items="center" font="600 16px 'AvenirNextCyrRegular', sans-serif" />
 			<Stack margin="0px 0px 0px 0px" max-width="1020px" width="100%">
 				<StackItem width="100%">
@@ -145,7 +145,7 @@ export default (() => {
 									</Text>
 								</List>
 							</Box>
-							<Box display="flex" justify-content="center" margin="32px 0px 0px 0px" md-display="none">
+							<Box display="none" justify-content="center" margin="32px 0px 0px 0px" md-display="none">
 								<Link
 									href="/resume/#two"
 									text-align="center"
@@ -198,7 +198,7 @@ export default (() => {
 							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px" sm-text-align="center">
 								В случае отказа вы всегда можете связаться с нами через некоторое время, когда появится новая интересная вам вакансия или вы решите, что набрали больше опыта и навыков.
 							</Text>
-							<Box display="flex" justify-content="center" margin="32px 0px 0px 0px" md-display="none">
+							<Box display="none" justify-content="center" margin="32px 0px 0px 0px" md-display="none">
 								<Link
 									href="/resume/#three"
 									text-align="center"
@@ -253,66 +253,66 @@ export default (() => {
 								Часто нам приходится проводить собеседования с кандидатами из других городов удаленно — в Skype. Не забывайте, удаленное собеседование не менее серьезно, чем личное: стоит помнить о пунктуальности и правилах этикета. Мы очень советуем заранее позаботиться о хорошем интернет-соединении, наличии веб-камеры и качественном звуке.
 								<br />
 							</Text>
-							<Box display="flex" justify-content="center" margin="32px 0px 0px 0px">
-								<Components.PopUp
-									left="-30px"
-									bottom="auto"
-									right="auto"
-									top="40%"
-									transition="all 0.5s ease 0s"
-								>
-									<Override
-										slot="button"
-										className="noprint"
-										color="#263238"
-										font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
-										letter-spacing=".1px"
-										background="#ffd83a"
-										padding="0px 15px 0px 15px"
-										transition="all 0.2s linear 0s"
-										left="-30px"
-										bottom="auto"
-										right="auto"
-										top="40%"
-										hover-left="0px"
-										border-radius="5px"
-										margin="0px 0px 10px 0px"
-										hover-background="#e6c235"
-									>
-										Откликнуться на вакансию
-									</Override>
-									<Override
-										slot="wrapper"
-										background="#ffffff"
-										max-width="672px"
-										width="100%"
-										margin="0px 0px 0px 0px"
-										padding="0px 0px 0px 0px"
-										border-radius="0px"
-										height="100%"
-										overflow-y="scroll"
-										max-height="1150px"
-									/>
-									<Override
-										slot="close"
-										color="#c5cfdb"
-										padding="0.7rem 0.7rem .5rem .5rem"
-										size="20px"
-										hover-color="#333"
-										transition="color 0.3s ease 0s"
-									/>
-									<Section padding="0px 0 40px 0">
-										<Override slot="SectionContent" align-items="center" width="100%" />
-										<Components.EmbedHTML width="100%" />
-										<Components.EmbedJS />
-									</Section>
-								</Components.PopUp>
-							</Box>
 						</Components.Tab2>
 					</Components.Tabs2>
 				</StackItem>
 				{"        "}
 			</Stack>
+			<Box display="flex" justify-content="center" margin="10px 0px 0px 0px">
+				<Components.PopUp
+					left="-30px"
+					bottom="auto"
+					right="auto"
+					top="40%"
+					transition="all 0.5s ease 0s"
+				>
+					<Override
+						slot="button"
+						className="noprint"
+						color="#263238"
+						font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
+						letter-spacing=".1px"
+						background="#ffd83a"
+						padding="0px 15px 0px 15px"
+						transition="all 0.2s linear 0s"
+						left="-30px"
+						bottom="auto"
+						right="auto"
+						top="40%"
+						hover-left="0px"
+						border-radius="5px"
+						margin="0px 0px 0px 0px"
+						hover-background="#e6c235"
+					>
+						Откликнуться на вакансию
+					</Override>
+					<Override
+						slot="wrapper"
+						background="#ffffff"
+						max-width="672px"
+						width="100%"
+						margin="0px 0px 0px 0px"
+						padding="0px 0px 0px 0px"
+						border-radius="0px"
+						height="100%"
+						overflow-y="scroll"
+						max-height="1150px"
+					/>
+					<Override
+						slot="close"
+						color="#c5cfdb"
+						padding="0.7rem 0.7rem .5rem .5rem"
+						size="20px"
+						hover-color="#333"
+						transition="color 0.3s ease 0s"
+					/>
+					<Section padding="0px 0 40px 0">
+						<Override slot="SectionContent" align-items="center" width="100%" />
+						<Components.EmbedHTML width="100%" />
+						<Components.EmbedJS />
+					</Section>
+				</Components.PopUp>
+			</Box>
 		</Section>
 		<Section padding="60px 0 60px 0" sm-padding="60px 0 60px 0" lg-padding="40px 0 40px 0" background="#eef2f3">
 			<Override slot="SectionContent" align-items="center" />
