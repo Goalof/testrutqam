@@ -63,7 +63,11 @@ export default {
 		"600f470cd34e73001fe66b65": {
 			"id": "600f470cd34e73001fe66b65",
 			"pageUrl": "resume",
-			"name": "Как попасть в команду"
+			"name": "Как попасть в команду",
+			"seo": {
+				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
+				"title": "Как попасть в команду - Работа в uTeam"
+			}
 		},
 		"600f4712aae0d1001eea89d8": {
 			"id": "600f4712aae0d1001eea89d8",
@@ -190,7 +194,10 @@ export default {
 			"favicon_32px": "https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z",
 			"favicon_apple_152px": "https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z",
 			"favicon_win10_270px": "https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z",
-			"background_win10": "#5291FA"
+			"background_win10": "#5291FA",
+			"og:image": "https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000",
+			"og:title": "Работа в uTeam",
+			"og:description": "Работа в uCoz. Актуальные вакансии компании в российских офисах и удаленная работа. Как попасть в команду, и о нашем коллективе — uTeam."
 		}
 	}
 }
