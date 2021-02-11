@@ -96,40 +96,40 @@ export default (() => {
 									Правила хорошего резюме:
 								</Text>
 								<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-									<Text font="normal 400 18px/30px 'AvenirNextCyrMedium', sans-serif" margin="0px 0px 8px 5px" color="#333">
+									<Text font="normal 400 18px/30px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 8px 5px" color="#333">
 										Четко сформулируйте вашу профессиию, желаемую должность, укажите уровень зарплаты
 										<br />
 									</Text>
 								</List>
 								<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-									<Text font="normal 400 18px/30px 'AvenirNextCyrMedium', sans-serif" margin="0px 0px 8px 5px" color="#333">
+									<Text font="normal 400 18px/30px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 8px 5px" color="#333">
 										В опыте работы не забудьте указать фриланс-проекты
 										<br />
 									</Text>
 								</List>
 								<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-									<Text font="normal 400 18px/30px 'AvenirNextCyrMedium', sans-serif" margin="0px 0px 8px 5px" color="#333">
+									<Text font="normal 400 18px/30px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 8px 5px" color="#333">
 										Не стесняйтесь указать факты, не относящиеся к работе: увлечения, специфические навыки
 									</Text>
 								</List>
 								<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-									<Text font="normal 400 18px/30px 'AvenirNextCyrMedium', sans-serif" margin="0px 0px 8px 5px" color="#333">
+									<Text font="normal 400 18px/30px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 8px 5px" color="#333">
 										Пишите честно, без формализма и стандартных фраз про пунктуальность и стрессоустойчивость
 									</Text>
 								</List>
 								<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-									<Text font="normal 400 18px/30px 'AvenirNextCyrMedium', sans-serif" margin="0px 0px 8px 5px" color="#333">
+									<Text font="normal 400 18px/30px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 8px 5px" color="#333">
 										Дополните резюме свежей фотографией
 										<br />
 									</Text>
 								</List>
 								<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-									<Text font="normal 400 18px/30px 'AvenirNextCyrMedium', sans-serif" margin="0px 0px 8px 5px" color="#333">
+									<Text font="normal 400 18px/30px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 8px 5px" color="#333">
 										Не забудьте про портфолио
 									</Text>
 								</List>
 								<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-									<Text font="normal 400 18px/30px 'AvenirNextCyrMedium', sans-serif" margin="0px 0px 8px 5px" color="#333">
+									<Text font="normal 400 18px/30px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 8px 5px" color="#333">
 										Проверьте резюме на орфографические ошибки
 									</Text>
 								</List>
