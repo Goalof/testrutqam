@@ -135,59 +135,24 @@ export default (() => {
 								</List>
 							</Box>
 							<Box display="flex" justify-content="center" margin="32px 0px 0px 0px">
-								<Components.PopUp
-									left="-30px"
-									bottom="auto"
-									right="auto"
-									top="40%"
-									transition="all 0.5s ease 0s"
+								<Link
+									href="/resume/#two"
+									text-align="center"
+									text-decoration-line="initial"
+									border-width="2px"
+									border-style="solid"
+									border-color="#4a8cfa"
+									background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/arrow-right-blue.svg?v=2021-02-10T23:40:29.406Z) 90% center/auto no-repeat scroll padding-box"
+									padding="0px 68px 1px 15px"
+									color="#4a8cfa"
+									transition="all 0.2s linear 0s"
+									font="600 16px/46px AvenirNextCyrRegular, sans-serif"
+									border-radius="5px"
+									hover-color="#ffffff"
+									hover-background="#4a8cfa url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/arrow-right-white.svg?v=2021-02-10T23:44:24.127Z) 90% center/auto no-repeat scroll padding-box"
 								>
-									<Override
-										slot="button"
-										className="noprint"
-										color="#263238"
-										font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
-										letter-spacing=".1px"
-										background="#ffd83a"
-										padding="0px 15px 0px 15px"
-										transition="all 0.2s linear 0s"
-										left="-30px"
-										bottom="auto"
-										right="auto"
-										top="40%"
-										hover-left="0px"
-										border-radius="5px"
-										margin="0px 0px 10px 0px"
-										hover-background="#e6c235"
-									>
-										Отправить резюме{"\n\n"}
-									</Override>
-									<Override
-										slot="wrapper"
-										background="#ffffff"
-										max-width="672px"
-										width="100%"
-										margin="0px 0px 0px 0px"
-										padding="0px 0px 0px 0px"
-										border-radius="0px"
-										height="100%"
-										overflow-y="scroll"
-										max-height="1150px"
-									/>
-									<Override
-										slot="close"
-										color="#c5cfdb"
-										padding="0.7rem 0.7rem .5rem .5rem"
-										size="20px"
-										hover-color="#333"
-										transition="color 0.3s ease 0s"
-									/>
-									<Section padding="0px 0 40px 0">
-										<Override slot="SectionContent" align-items="center" width="100%" />
-										<Components.EmbedHTML width="100%" />
-										<Components.EmbedJS />
-									</Section>
-								</Components.PopUp>
+									Рассмотрение резюме
+								</Link>
 							</Box>
 						</Components.Tab2>
 						<Components.Tab2 tabId="two">
@@ -278,24 +243,59 @@ export default (() => {
 								<br />
 							</Text>
 							<Box display="flex" justify-content="center" margin="32px 0px 0px 0px">
-								<Link
-									href="/resume/#three"
-									text-align="center"
-									text-decoration-line="initial"
-									border-width="2px"
-									border-style="solid"
-									border-color="#4a8cfa"
-									background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/arrow-right-blue.svg?v=2021-02-10T23:40:29.406Z) 90% center/auto no-repeat scroll padding-box"
-									padding="0px 68px 1px 15px"
-									color="#4a8cfa"
-									transition="all 0.2s linear 0s"
-									font="600 16px/46px AvenirNextCyrRegular, sans-serif"
-									border-radius="5px"
-									hover-color="#ffffff"
-									hover-background="#4a8cfa url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/arrow-right-white.svg?v=2021-02-10T23:44:24.127Z) 90% center/auto no-repeat scroll padding-box"
+								<Components.PopUp
+									left="-30px"
+									bottom="auto"
+									right="auto"
+									top="40%"
+									transition="all 0.5s ease 0s"
 								>
-									Собеседование
-								</Link>
+									<Override
+										slot="button"
+										className="noprint"
+										color="#263238"
+										font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
+										letter-spacing=".1px"
+										background="#ffd83a"
+										padding="0px 15px 0px 15px"
+										transition="all 0.2s linear 0s"
+										left="-30px"
+										bottom="auto"
+										right="auto"
+										top="40%"
+										hover-left="0px"
+										border-radius="5px"
+										margin="0px 0px 10px 0px"
+										hover-background="#e6c235"
+									>
+										Откликнуться на вакансию
+									</Override>
+									<Override
+										slot="wrapper"
+										background="#ffffff"
+										max-width="672px"
+										width="100%"
+										margin="0px 0px 0px 0px"
+										padding="0px 0px 0px 0px"
+										border-radius="0px"
+										height="100%"
+										overflow-y="scroll"
+										max-height="1150px"
+									/>
+									<Override
+										slot="close"
+										color="#c5cfdb"
+										padding="0.7rem 0.7rem .5rem .5rem"
+										size="20px"
+										hover-color="#333"
+										transition="color 0.3s ease 0s"
+									/>
+									<Section padding="0px 0 40px 0">
+										<Override slot="SectionContent" align-items="center" width="100%" />
+										<Components.EmbedHTML width="100%" />
+										<Components.EmbedJS />
+									</Section>
+								</Components.PopUp>
 							</Box>
 						</Components.Tab2>
 					</Components.Tabs2>
