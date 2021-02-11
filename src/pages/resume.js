@@ -51,10 +51,10 @@ export default (() => {
 			<Stack margin="0px 0px 0px 0px" max-width="1020px" width="100%">
 				<StackItem width="100%">
 					<Components.Tabs2 defaultTab="one" display="flex" width="100%">
-						<Override slot="TabPanels" margin="0px 0px 0px 0px" width="75%" />
+						<Override slot="TabPanels" margin="0px 0px 0px 0px" width="70%" />
 						<Override
 							slot="Tablist"
-							width="25%"
+							width="30%"
 							align-items="flex-start"
 							flex-direction="column"
 							padding="7px 0px 0px 0px"
@@ -135,24 +135,59 @@ export default (() => {
 								</List>
 							</Box>
 							<Box display="flex" justify-content="center" margin="32px 0px 0px 0px">
-								<Link
-									href="/resume/#two"
-									text-align="center"
-									text-decoration-line="initial"
-									border-width="2px"
-									border-style="solid"
-									border-color="#4a8cfa"
-									background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/arrow-right-blue.svg?v=2021-02-10T23:40:29.406Z) 90% center/auto no-repeat scroll padding-box"
-									padding="0px 68px 1px 15px"
-									color="#4a8cfa"
-									transition="all 0.2s linear 0s"
-									font="600 16px/46px AvenirNextCyrRegular, sans-serif"
-									border-radius="5px"
-									hover-color="#ffffff"
-									hover-background="#4a8cfa url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/arrow-right-white.svg?v=2021-02-10T23:44:24.127Z) 90% center/auto no-repeat scroll padding-box"
+								<Components.PopUp
+									left="-30px"
+									bottom="auto"
+									right="auto"
+									top="40%"
+									transition="all 0.5s ease 0s"
 								>
-									Рассмотрение резюме
-								</Link>
+									<Override
+										slot="button"
+										className="noprint"
+										color="#263238"
+										font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
+										letter-spacing=".1px"
+										background="#ffd83a"
+										padding="0px 15px 0px 15px"
+										transition="all 0.2s linear 0s"
+										left="-30px"
+										bottom="auto"
+										right="auto"
+										top="40%"
+										hover-left="0px"
+										border-radius="5px"
+										margin="0px 0px 10px 0px"
+										hover-background="#e6c235"
+									>
+										Отправить резюме{"\n\n"}
+									</Override>
+									<Override
+										slot="wrapper"
+										background="#ffffff"
+										max-width="672px"
+										width="100%"
+										margin="0px 0px 0px 0px"
+										padding="0px 0px 0px 0px"
+										border-radius="0px"
+										height="100%"
+										overflow-y="scroll"
+										max-height="1150px"
+									/>
+									<Override
+										slot="close"
+										color="#c5cfdb"
+										padding="0.7rem 0.7rem .5rem .5rem"
+										size="20px"
+										hover-color="#333"
+										transition="color 0.3s ease 0s"
+									/>
+									<Section padding="0px 0 40px 0">
+										<Override slot="SectionContent" align-items="center" width="100%" />
+										<Components.EmbedHTML width="100%" />
+										<Components.EmbedJS />
+									</Section>
+								</Components.PopUp>
 							</Box>
 						</Components.Tab2>
 						<Components.Tab2 tabId="two">
@@ -216,7 +251,6 @@ export default (() => {
 								<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333">
 									Процесс собеседования может включать в себя несколько встреч, которые могут быть как личными, так и удаленными.
 									<br />
-									{"\n\n"}
 								</Text>
 								<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333" margin="20px 0px 16px 0px">
 									Что будет на собеседовании
@@ -225,7 +259,6 @@ export default (() => {
 							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
 								Разговор о вас
 								<br />
-								{"\n\n"}
 							</Text>
 							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
 								При проведении интервью мы будем интересоваться вашими амбициями, активностью жизненной позиции, отношением к себе и окружающим. И про ваши вкусы в искусстве и хобби тоже обязательно спросим.
@@ -233,7 +266,6 @@ export default (() => {
 							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
 								Тестовое задание и профессиональные вопросы
 								<br />
-								{"\n\n"}
 							</Text>
 							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
 								Будьте готовы отвечать на конкретные профессиональные вопросы: если вы программист — писать код, если дизайнер — обсуждать интерфейсные решения. Некоторые позиции в компании предполагают небольшие тестовые задания.
@@ -244,7 +276,6 @@ export default (() => {
 							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
 								Часто нам приходится проводить собеседования с кандидатами из других городов удаленно — в Skype. Не забывайте, удаленное собеседование не менее серьезно, чем личное: стоит помнить о пунктуальности и правилах этикета. Мы очень советуем заранее позаботиться о хорошем интернет-соединении, наличии веб-камеры и качественном звуке.
 								<br />
-								{"\n\n"}
 							</Text>
 							<Box display="flex" justify-content="center" margin="32px 0px 0px 0px">
 								<Link
