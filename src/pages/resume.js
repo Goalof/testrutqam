@@ -49,18 +49,25 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section padding="40px 0 50px 0" sm-padding="110px 0 60px 0" lg-padding="120px 0 80px 0" md-padding="60px 0 60px 0">
+		<Section padding="40px 0 50px 0" sm-padding="30px 0 30px 0" lg-padding="50px 0 50px 0" md-padding="20px 0 20px 0">
 			<Override slot="SectionContent" align-items="center" font="600 16px 'AvenirNextCyrRegular', sans-serif" />
 			<Stack margin="0px 0px 0px 0px" max-width="1020px" width="100%">
 				<StackItem width="100%">
-					<Components.Tabs2 defaultTab="one" display="flex" width="100%">
-						<Override slot="TabPanels" margin="0px 0px 0px 0px" width="70%" />
+					<Components.Tabs2 defaultTab="one" display="flex" width="100%" md-flex-direction="column">
+						<Override
+							slot="TabPanels"
+							margin="0px 0px 0px 0px"
+							width="70%"
+							md-width="100%"
+							md-margin="20px 0px 0px 0px"
+						/>
 						<Override
 							slot="Tablist"
 							width="30%"
 							align-items="flex-start"
 							flex-direction="column"
 							padding="7px 0px 0px 0px"
+							md-width="100%"
 						/>
 						<Override slot="Tab one" border-radius="5px 5px 0px 0px" background="#EEF2F3">
 							Резюме
@@ -78,20 +85,21 @@ export default (() => {
 							width="80%"
 							focus-box-shadow="none"
 							background="#EEF2F3"
+							md-width="100%"
 						/>
 						<Override slot="Tab three" border-radius="0px 0px 5px 5px">
 							Cобеседование
 						</Override>
 						<Components.Tab2 tabId="one" width="100%">
 							<Box>
-								<Text color="#263238" font="36px 'AvenirNextCyrRegular'" margin="0px 0px 16px 0px">
+								<Text color="#263238" font="36px 'AvenirNextCyrRegular'" margin="0px 0px 16px 0px" sm-text-align="center">
 									Написать хорошее резюме
 								</Text>
-								<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333">
+								<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" sm-text-align="center">
 									Хорошее резюме поможет вам презентовать себя, показать свою ценность как профессионала, а нам — составить о вас первое впечатление. Позаботьтесь заранее о том, чтобы это впечатление сложилось правильное.
 									<br />
 								</Text>
-								<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333">
+								<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" sm-text-align="center">
 									Даже если вы хотите работать у нас фрилансером или удаленно, вы должны иметь резюме.
 									<br />
 								</Text>
@@ -137,7 +145,7 @@ export default (() => {
 									</Text>
 								</List>
 							</Box>
-							<Box display="flex" justify-content="center" margin="32px 0px 0px 0px">
+							<Box display="flex" justify-content="center" margin="32px 0px 0px 0px" md-display="none">
 								<Link
 									href="/resume/#two"
 									text-align="center"
@@ -160,37 +168,37 @@ export default (() => {
 						</Components.Tab2>
 						<Components.Tab2 tabId="two">
 							<Box>
-								<Text color="#263238" font="36px 'AvenirNextCyrRegular'" margin="0px 0px 16px 0px">
+								<Text color="#263238" font="36px 'AvenirNextCyrRegular'" margin="0px 0px 16px 0px" sm-text-align="center">
 									Рассмотрение резюме
 								</Text>
-								<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333">
+								<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333" sm-text-align="center">
 									Мы рассматриваем все резюме
 									<br />
 								</Text>
-								<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333">
+								<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" sm-text-align="center">
 									Будьте уверены, мы не имеем привычки терять резюме или бросать читать их на самом интересном месте.
 									<br />
 								</Text>
-								<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333" margin="20px 0px 16px 0px">
+								<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333" margin="20px 0px 16px 0px" sm-text-align="center">
 									Срок рассмотрения резюме может доходить до 2 недель
 								</Text>
 							</Box>
-							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
+							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px" sm-text-align="center">
 								Пожалуйста, будьте терпеливы – при большом потоке кандидатов на рассмотрение резюме требуется немалое время. Мы обязательно свяжемся с вами и пригласим на собеседование.
 							</Text>
-							<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333" margin="20px 0px 16px 0px">
+							<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333" margin="20px 0px 16px 0px" sm-text-align="center">
 								Если вам никто не ответил
 							</Text>
-							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
+							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px" sm-text-align="center">
 								Мы стараемся давать обратную связь по всем резюме. Если же вам все таки не ответили в течение 2 недель, значит вакансия уже занята, либо ваш текущий набор навыков не полностью соответствует нашим требованиям.
 							</Text>
-							<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333" margin="20px 0px 16px 0px">
+							<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333" margin="20px 0px 16px 0px" sm-text-align="center">
 								Всегда можно попробовать ещё раз
 							</Text>
-							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
+							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px" sm-text-align="center">
 								В случае отказа вы всегда можете связаться с нами через некоторое время, когда появится новая интересная вам вакансия или вы решите, что набрали больше опыта и навыков.
 							</Text>
-							<Box display="flex" justify-content="center" margin="32px 0px 0px 0px">
+							<Box display="flex" justify-content="center" margin="32px 0px 0px 0px" md-display="none">
 								<Link
 									href="/resume/#three"
 									text-align="center"
@@ -213,35 +221,35 @@ export default (() => {
 						</Components.Tab2>
 						<Components.Tab2 tabId="three">
 							<Box>
-								<Text color="#263238" font="36px 'AvenirNextCyrRegular'" margin="0px 0px 16px 0px">
+								<Text color="#263238" font="36px 'AvenirNextCyrRegular'" margin="0px 0px 16px 0px" sm-text-align="center">
 									Собеседование
 								</Text>
-								<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333">
+								<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" sm-text-align="center">
 									Процесс собеседования может включать в себя несколько встреч, которые могут быть как личными, так и удаленными.
 									<br />
 								</Text>
-								<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333" margin="20px 0px 16px 0px">
+								<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333" margin="20px 0px 16px 0px" sm-text-align="center">
 									Что будет на собеседовании
 								</Text>
 							</Box>
-							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
+							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px" sm-text-align="center">
 								Разговор о вас
 								<br />
 							</Text>
-							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
+							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px" sm-text-align="center">
 								При проведении интервью мы будем интересоваться вашими амбициями, активностью жизненной позиции, отношением к себе и окружающим. И про ваши вкусы в искусстве и хобби тоже обязательно спросим.
 							</Text>
-							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
+							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px" sm-text-align="center">
 								Тестовое задание и профессиональные вопросы
 								<br />
 							</Text>
-							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
+							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px" sm-text-align="center">
 								Будьте готовы отвечать на конкретные профессиональные вопросы: если вы программист — писать код, если дизайнер — обсуждать интерфейсные решения. Некоторые позиции в компании предполагают небольшие тестовые задания.
 							</Text>
-							<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333" margin="20px 0px 16px 0px">
+							<Text font="24px/30px 'AvenirNextCyrMedium', sans-serif" color="#333" margin="20px 0px 16px 0px" sm-text-align="center">
 								Собеседование может быть удалённым
 							</Text>
-							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px">
+							<Text font="18px/26px 'AvenirNextCyrRegular', sans-serif" color="#333" margin="0px 0px 16px 0px" sm-text-align="center">
 								Часто нам приходится проводить собеседования с кандидатами из других городов удаленно — в Skype. Не забывайте, удаленное собеседование не менее серьезно, чем личное: стоит помнить о пунктуальности и правилах этикета. Мы очень советуем заранее позаботиться о хорошем интернет-соединении, наличии веб-камеры и качественном звуке.
 								<br />
 							</Text>
