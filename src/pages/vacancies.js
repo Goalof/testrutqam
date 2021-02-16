@@ -82,6 +82,7 @@ export default (() => {
 							md-background="#E4E9ED"
 							md-color="#333"
 							md-margin="0px 32px 0px 32px"
+							sm-background="#EEF2F3"
 						/>
 						<Override
 							slot="Tab :active"
@@ -89,6 +90,8 @@ export default (() => {
 							color="#263238"
 							md-border-radius="0px"
 							md-background="#ffe02d"
+							sm-background="#FFE02D"
+							sm-width="100%"
 						>
 							Все вакансии
 						</Override>

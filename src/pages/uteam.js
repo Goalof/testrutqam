@@ -175,6 +175,7 @@ export default (() => {
 								transition="all 0.2s linear 0s"
 								margin="0px 2px 0px 0px"
 								border-radius="5px 0px 0px 5px"
+								sm-width="100%"
 							>
 								<Override
 									slot="Selected Tab"
@@ -193,6 +194,7 @@ export default (() => {
 									transition="all 0.2s linear 0s"
 									border-radius="5px 0px 0px 5px"
 									margin="0px 0px 0px 0px"
+									sm-border-radius="5px 5px 0px 0px"
 								/>
 								<Button
 									background="rgba(0, 119, 204, 0)"
@@ -212,6 +214,7 @@ export default (() => {
 								border-color="#263238"
 								transition="all 0.2s linear 0s"
 								margin="0px 2px 0px 0px"
+								sm-width="100%"
 							>
 								<Override
 									slot="Selected Tab"
@@ -249,6 +252,7 @@ export default (() => {
 								border-color="#263238"
 								transition="all 0.2s linear 0s"
 								margin="0px 2px 0px 0px"
+								sm-width="100%"
 							>
 								<Override
 									slot="Selected Tab"
@@ -286,6 +290,8 @@ export default (() => {
 								border-color="#263238"
 								transition="all 0.2s linear 0s"
 								border-radius="0px 5px 5px 0px"
+								sm-border-radius="0px 0px 5px 5px"
+								sm-width="100%"
 							>
 								<Override
 									slot="Selected Tab"
