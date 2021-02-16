@@ -257,8 +257,15 @@ export default (() => {
 						</Components.Tab2>
 					</Components.Tabs2>
 					<Box display="flex" margin="35px 0px 0px 0px">
-						<Box width="30%" />
-						<Box display="flex" justify-content="flex-start" margin="0px 0px 0px 0px" width="70%">
+						<Box width="30%" sm-display="none" />
+						<Box
+							display="flex"
+							justify-content="flex-start"
+							margin="0px 0px 0px 0px"
+							width="70%"
+							sm-width="100%"
+							sm-justify-content="center"
+						>
 							<Components.PopUp
 								left="-30px"
 								bottom="auto"

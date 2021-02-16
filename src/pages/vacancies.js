@@ -100,6 +100,7 @@ export default (() => {
 							top="-130px"
 							md-position="sticky"
 							md-flex-direction="column"
+							md-width="100%"
 						/>
 						<Override slot="Tab rnd">
 							Ростов-на-Дону
