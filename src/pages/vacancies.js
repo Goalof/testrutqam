@@ -54,13 +54,13 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section padding="0px 0 40px 0" min-width="100vh">
+		<Section padding="0px 0 40px 0" min-height="100vh">
 			<Override slot="SectionContent" align-items="center" md-margin="0px 0px 0px 0px" md-width="100%" />
 			<Stack margin="0px 0px 0px 0px" max-width="1170px" width="100%">
 				<StackItem width="100%">
 					<Override slot="StackItemContent" md-width="100%" />
 					<Components.Tabs2 defaultTab="all" width="100%">
-						<Override slot="Tab all" border-radius="5px 0px 0px 5px" md-border-radius="0px">
+						<Override slot="Tab all" border-radius="5px 0px 0px 5px" md-border-radius="5px 5px 0px 0px">
 							Все вакансии
 						</Override>
 						<Override slot="Tab msk" border-radius="0px">
