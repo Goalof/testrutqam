@@ -537,7 +537,6 @@ export default (() => {
 				/>
 				<Section padding="0px 0 40px 0">
 					<Override slot="SectionContent" align-items="center" width="100%" />
-					<Components.EmbedHTML width="100%" />
 					<Components.EmbedJS />
 				</Section>
 			</Components.PopUp>
