@@ -152,7 +152,7 @@ const BurgerMenu = props => {
 				                    
 				<Box {...override('content')}>
 					                        
-					{children}
+					{isOpen === 'open' ? children : null}
 					                    
 				</Box>
 				                
