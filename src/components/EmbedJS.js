@@ -20,7 +20,6 @@ const EmbedJS = ({
 	...props
 }) => {
 	const ref = useRef(null);
-	console.log(111, props);
 	useLayoutEffect(() => {
 		if (!isOpen || mounted) return;
 		const script = document.createElement("script");
