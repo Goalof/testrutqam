@@ -78,6 +78,10 @@ const pageStyles = {
     "vacancies/technology-evangelistdeveloper-advocate": {
         "overflow-y": "",
         "overflow-x": "hidden"
+    },
+    "vacancies/banneromejker-illyustrator": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
     }
 };
 

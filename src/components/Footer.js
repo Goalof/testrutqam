@@ -173,7 +173,7 @@ const overrides = {
 	"link1": {
 		"kind": "Link",
 		"props": {
-			"href": "https://www.facebook.com/ucoz",
+			"href": "https://vk.com/ucoz",
 			"target": "_blank",
 			"margin": "0px 15px 0px 0px",
 			"border-color": "#AFC1D8",

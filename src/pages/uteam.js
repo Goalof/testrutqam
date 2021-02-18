@@ -326,7 +326,7 @@ export default (() => {
 						<Components.TabPanels margin="5px 0px 0px 0px">
 							<Components.TabPanel tabId="one">
 								<Stack margin="40px 0px 0px 0px">
-									<StackItem width="40%" display="flex" lg-width="50%" sm-width="100%">
+									<StackItem width="40%" display="flex" lg-width="100%" sm-width="100%">
 										<Override
 											slot="StackItemContent"
 											align-items="flex-start"
@@ -574,7 +574,7 @@ export default (() => {
 							</Components.TabPanel>
 							<Components.TabPanel tabId="two">
 								<Stack margin="40px 0px 0px 0px">
-									<StackItem width="40%" display="flex" lg-width="50%" sm-width="100%">
+									<StackItem width="40%" display="flex" lg-width="100%" sm-width="100%">
 										<Override
 											slot="StackItemContent"
 											align-items="flex-start"
@@ -783,7 +783,7 @@ export default (() => {
 							</Components.TabPanel>
 							<Components.TabPanel tabId="three">
 								<Stack margin="40px 0px 0px 0px">
-									<StackItem width="40%" display="flex" lg-width="50%" sm-width="100%">
+									<StackItem width="40%" display="flex" lg-width="100%" sm-width="100%">
 										<Override
 											slot="StackItemContent"
 											align-items="flex-start"
@@ -1127,7 +1127,7 @@ export default (() => {
 							</Components.TabPanel>
 							<Components.TabPanel tabId="four">
 								<Stack margin="40px 0px 0px 0px">
-									<StackItem width="40%" display="flex" lg-width="50%" sm-width="100%">
+									<StackItem width="40%" display="flex" lg-width="100%" sm-width="100%">
 										<Override
 											slot="StackItemContent"
 											align-items="flex-start"
@@ -1748,7 +1748,7 @@ export default (() => {
 						<Image width="100px" height="100px" src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/ucoz.png?v=2021-02-01T22:05:06.991Z" margin="18px 0px 0px 0px" />
 					</Link>
 					<Link
-						href="https://vk.com/ucoz"
+						href="https://vk.com/ukitcom"
 						display="flex"
 						align-items="center"
 						flex-direction="column"
@@ -2033,7 +2033,7 @@ export default (() => {
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"601c3c7d7571e39a08c18a0b"}>
-				{"* {\n    scroll-behavior: smooth;\n    }\n    .active .fileText {\n    display: none;\n    }\n    input.fileText {\n        opacity: 1 !important;\n    }\n    * {\n      -webkit-tap-highlight-color: transparent!important;\n    }\n    @font-face {\n      font-family: 'AvenirNextCyrRegular';\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.eot');\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.woff') format('woff'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.ttf') format('truetype');\n      font-weight: normal;\n      font-style: normal;\n      font-display: swap;\n    }\n    @font-face {\n      font-family: 'AvenirNextCyrMedium';\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.eot');\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.woff') format('woff'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.ttf') format('truetype');\n      font-weight: normal;\n      font-style: normal;\n      font-display: swap;\n    }\n    @font-face {\n      font-family: 'AvenirNextCyrBold';\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.eot');\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.woff') format('woff'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.ttf') format('truetype');\n      font-weight: normal;\n      font-style: normal;\n      font-display: swap;\n    }\n    @font-face {\n      font-family: 'AvenirNextCyrDemi';\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Demi.otf');\n      font-weight: normal;\n      font-style: normal;\n      font-display: swap;\n    }\n    body {\n      font-family: 'AvenirNextCyrRegular', sans-serif;\n      font-weight: normal;\n      -webkit-font-smoothing: antialiased;\n      -moz-osx-font-smoothing: grayscale;\n    }"}
+				{"* {\n    scroll-behavior: smooth;\n    }\n    .active .fileText {\n    display: none;\n    }\n    input.fileText {\n        opacity: 1 !important;\n    }\n    * {\n      -webkit-tap-highlight-color: transparent!important;\n    }\n    @font-face {\n      font-family: 'AvenirNextCyrRegular';\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.eot');\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.woff') format('woff'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Regular.ttf') format('truetype');\n      font-weight: normal;\n      font-style: normal;\n      font-display: swap;\n    }\n    @font-face {\n      font-family: 'AvenirNextCyrMedium';\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.eot');\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.woff') format('woff'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Medium.ttf') format('truetype');\n      font-weight: normal;\n      font-style: normal;\n      font-display: swap;\n    }\n    @font-face {\n      font-family: 'AvenirNextCyrBold';\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.eot');\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.woff') format('woff'), url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Bold.ttf') format('truetype');\n      font-weight: normal;\n      font-style: normal;\n      font-display: swap;\n    }\n    @font-face {\n      font-family: 'AvenirNextCyrDemi';\n      src: url('https://ruteam.netlify.app/fonts/AvenirNextCyr-Demi.otf');\n      font-weight: normal;\n      font-style: normal;\n      font-display: swap;\n    }\n    body {\n      font-family: 'AvenirNextCyrRegular', sans-serif;\n      font-weight: normal;\n      -webkit-font-smoothing: antialiased;\n      -moz-osx-font-smoothing: grayscale;\n    }\n:focus {\n    outline: none;\n}"}
 			</style>
 			<link
 				href={"/nubexPrint.css"}

@@ -175,7 +175,8 @@ const overrides = {
 			"nout-height": "28px",
 			"nout-z-index": "6",
 			"nout-top": "35px",
-			"sm-margin": "-3px 0px 0px 0px"
+			"sm-margin": "-3px 0px 0px 0px",
+			"nout-cursor": "pointer"
 		}
 	},
 	"mobileSideOverride2": {

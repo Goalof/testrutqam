@@ -44,6 +44,7 @@ export default {
 				"6021bbab6c1e89001ea0c504",
 				"6021c2d971e66d001efb27ac",
 				"6021c41a8954e5001ef1565f",
+				"602eda401a979b001ff30e08",
 				"6021c527179f5c0022069847"
 			],
 			"seo": {
@@ -181,6 +182,11 @@ export default {
 			"seo": {
 				"title": "Technology Evangelist/Developer Advocate"
 			}
+		},
+		"602eda401a979b001ff30e08": {
+			"id": "602eda401a979b001ff30e08",
+			"pageUrl": "banneromejker-illyustrator",
+			"name": "Баннеромейкер (иллюстратор)"
 		}
 	},
 	"mode": "production",
