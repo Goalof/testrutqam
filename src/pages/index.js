@@ -1091,7 +1091,7 @@ export default (() => {
 							hover-color="#4a8cfa"
 						/>
 						<Override slot="link-uteam">
-							uTeam
+							Команда
 						</Override>
 					</Menu>
 					{"        "}

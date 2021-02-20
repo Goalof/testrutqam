@@ -665,7 +665,7 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "link-uteam",
-			"children": "uTeam"
+			"children": "Команда"
 		}
 	},
 	"menuOverride11": {
