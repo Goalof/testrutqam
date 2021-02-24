@@ -66,7 +66,7 @@ export default (() => {
 						<Text
 							font="normal 300 14px/19px 'AvenirNextCyrMedium', sans-serif"
 							margin="3px 0px 0px 12px"
-							display="inline-block"
+							display="none"
 							color="#ffffff"
 							nout-display="none"
 						>
@@ -278,6 +278,7 @@ export default (() => {
 								lg-margin="10px 0px 0px 22px"
 								nout-margin="0px 0px 0px 0px"
 								nout-padding="15px 25px 15px 25px"
+								nout-display="none"
 							>
 								<Link
 									href="http://ua.uteam.pro/"
@@ -728,7 +729,7 @@ export default (() => {
 						<Text
 							font="normal 300 14px/19px 'AvenirNextCyrMedium', sans-serif"
 							margin="3px 0px 0px 12px"
-							display="inline-block"
+							display="none"
 							color="#9BABBF"
 							nout-display="none"
 						>
@@ -925,6 +926,7 @@ export default (() => {
 								lg-margin="10px 0px 0px 22px"
 								nout-margin="0px 0px 0px 0px"
 								nout-padding="15px 25px 15px 25px"
+								nout-display="none"
 							>
 								<Link
 									href="http://ua.uteam.pro/"
@@ -1615,7 +1617,9 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Components.Footer />
+		<Components.Footer>
+			<Override slot="text2" />
+		</Components.Footer>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

@@ -113,7 +113,7 @@ const overrides = {
 		"props": {
 			"font": "normal 300 14px/19px 'AvenirNextCyrMedium', sans-serif",
 			"margin": "3px 0px 0px 22px",
-			"display": "inline-block",
+			"display": "none",
 			"color": "#9BABBF",
 			"lg-margin": "10px 0px 0px 0px",
 			"children": <Link
