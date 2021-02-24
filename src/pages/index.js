@@ -550,6 +550,7 @@ export default (() => {
 					hover-color="#333"
 					transition="color 0.3s ease 0s"
 				/>
+				<Override slot="content" margin="25px 0px 0px 0px" />
 				<Section padding="0px 0 40px 0">
 					<Override slot="SectionContent" align-items="center" width="100%" />
 					<Components.EmbedHTML width="100%" />
