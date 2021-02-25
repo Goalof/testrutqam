@@ -206,8 +206,9 @@ export default (() => {
 											color="#333"
 											margin="0px 0px 0px 0px"
 										>
-											ул. Барклая 6, строение 5, БЦ «Барклай Плаза»
+											ул. Барклая 6, строение 5,
 											<br />
+											БЦ «Барклай Плаза»
 										</Text>
 									</Box>
 									<Box display="flex" flex-direction="column" align-items="flex-start" max-width="300px">
@@ -280,7 +281,9 @@ export default (() => {
 											color="#333"
 											margin="0px 0px 0px 0px"
 										>
-											пр. Московский, дом 22, литер Т
+											пр. Московский, дом 22,
+											<br />
+											литер Т
 										</Text>
 									</Box>
 									<Box display="flex" flex-direction="column" align-items="flex-start" max-width="300px">
