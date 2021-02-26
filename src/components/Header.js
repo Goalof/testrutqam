@@ -375,6 +375,14 @@ const overrides = {
 			"children": "Главная"
 		}
 	},
+	"menuOverride5": {
+		"kind": "Override",
+		"props": {
+			"slot": "link-active",
+			"nout-color": "#FFE02D",
+			"nout-cursor": "default"
+		}
+	},
 	"stackItem2": {
 		"kind": "StackItem",
 		"props": {
@@ -621,14 +629,14 @@ const overrides = {
 			"nout-display": "none"
 		}
 	},
-	"menuOverride5": {
+	"menuOverride6": {
 		"kind": "Override",
 		"props": {
 			"slot": "item-404",
 			"display": "none"
 		}
 	},
-	"menuOverride6": {
+	"menuOverride7": {
 		"kind": "Override",
 		"props": {
 			"slot": "link-index",
@@ -636,21 +644,21 @@ const overrides = {
 			"children": "Главная"
 		}
 	},
-	"menuOverride7": {
+	"menuOverride8": {
 		"kind": "Override",
 		"props": {
 			"slot": "item-active",
 			"color": "#4a8cfa"
 		}
 	},
-	"menuOverride8": {
+	"menuOverride9": {
 		"kind": "Override",
 		"props": {
 			"slot": "link-active",
 			"color": "#4a8cfa"
 		}
 	},
-	"menuOverride9": {
+	"menuOverride10": {
 		"kind": "Override",
 		"props": {
 			"slot": "link",
@@ -661,21 +669,21 @@ const overrides = {
 			"hover-color": "#4a8cfa"
 		}
 	},
-	"menuOverride10": {
+	"menuOverride11": {
 		"kind": "Override",
 		"props": {
 			"slot": "link-uteam",
 			"children": "Команда"
 		}
 	},
-	"menuOverride11": {
+	"menuOverride12": {
 		"kind": "Override",
 		"props": {
 			"slot": "item-pr-menedzher",
 			"display": "none"
 		}
 	},
-	"menuOverride12": {
+	"menuOverride13": {
 		"kind": "Override",
 		"props": {
 			"slot": "item-back-end-razrabotchik-php",
@@ -684,7 +692,7 @@ const overrides = {
 	}
 };
 
-const Header = props => {
+const NewHeader = props => {
 	const {
 		override,
 		children,
@@ -733,6 +741,7 @@ const Header = props => {
 						<Override {...override("menuOverride2")} />
 						<Override {...override("menuOverride3")} />
 						<Override {...override("menuOverride4")} />
+						<Override {...override("menuOverride5")} />
 					</Menu>
 					<StackItem {...override("stackItem2")}>
 						<Override {...override("stackItemOverride2")} />
@@ -761,7 +770,6 @@ const Header = props => {
 					</StackItem>
 				</MobileSide>
 				<Menu {...override("menu1")}>
-					<Override {...override("menuOverride5")} />
 					<Override {...override("menuOverride6")} />
 					<Override {...override("menuOverride7")} />
 					<Override {...override("menuOverride8")} />
@@ -769,6 +777,7 @@ const Header = props => {
 					<Override {...override("menuOverride10")} />
 					<Override {...override("menuOverride11")} />
 					<Override {...override("menuOverride12")} />
+					<Override {...override("menuOverride13")} />
 				</Menu>
 				{"        "}
 			</StackItem>
@@ -778,8 +787,8 @@ const Header = props => {
 	</Section>;
 };
 
-Object.assign(Header, { ...Section,
+Object.assign(NewHeader, { ...Section,
 	defaultProps,
 	overrides
 });
-export default Header;
+export default NewHeader;
