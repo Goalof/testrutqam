@@ -1,6 +1,7 @@
 import React from "react";
 import { useOverrides, Override, StackItem, Stack, Section } from "@quarkly/components";
 import { Image, Link, Text, Box, Icon } from "@quarkly/widgets";
+import Metrika from "./Metrika";
 import { FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki } from "react-icons/fa";
 const defaultProps = {
 	"className": "noprint",
@@ -314,10 +315,14 @@ const overrides = {
 			"hover-color": "inherit",
 			"color": "inherit"
 		}
+	},
+	"metrika": {
+		"kind": "Metrika",
+		"props": {}
 	}
 };
 
-const Foooter = props => {
+const FooterMetrok = props => {
 	const {
 		override,
 		children,
@@ -360,12 +365,13 @@ const Foooter = props => {
 			</StackItem>
 			{"        "}
 		</Stack>
+		<Metrika {...override("metrika")} />
 		{children}
 	</Section>;
 };
 
-Object.assign(Foooter, { ...Section,
+Object.assign(FooterMetrok, { ...Section,
 	defaultProps,
 	overrides
 });
-export default Foooter;
+export default FooterMetrok;
