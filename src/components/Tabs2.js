@@ -43,7 +43,20 @@ const overrides = {
 	Tab: {
 		kind: 'Button',
 		props: {
-			children: 'Tab'
+			children: 'Tab',
+			"background": "#fff",
+			"color": "#4a8cfa",
+			"font": "normal 400 14px/22px 'AvenirNextCyrMedium'",
+			"margin": "0px 2px 0px 0px",
+			"focus-box-shadow": "none",
+			"padding": "10px 24px 10px 24px",
+			"border-radius": "0px",
+			"md-width": "100%",
+			"md-background": "#E4E9ED",
+			"md-color": "#333",
+			"md-margin": "0px 32px 0px 32px",
+			"sm-background": "#EEF2F3",
+			"lg-padding": "10px 22px 10px 22px"
 		}
 	},
 	Tablist: {
@@ -51,6 +64,12 @@ const overrides = {
 	},
 	TabPanels: {
 		kind: 'Box'
+	},
+	"Tab spb": {
+		"props": {
+			"border-radius": "0px",
+			"children": "Санкт-Петербург"
+		}
 	}
 };
 const TabsContext = createContext({
