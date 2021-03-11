@@ -538,6 +538,7 @@ export default (() => {
 				rawKey={"601c3cb7f03035695e1bad36"}
 			/>
 			<meta name={"yandex-verification"} content={"7ac9fd5fa6a12f5d"} place={"endOfHead"} rawKey={"604a10bbd967a07a086ed553"} />
+			<meta name={"google-site-verification"} content={"kg7CxTxZRGHaVD8XLuJEWXRQn5pApLyI2aLAmjVtk4U"} place={"endOfHead"} rawKey={"604a6ae061f09e11051188d1"} />
 		</RawHtml>
 	</Theme>;
 });

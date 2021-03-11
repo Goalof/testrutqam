@@ -45,8 +45,7 @@ export default {
 				"6021c2d971e66d001efb27ac",
 				"6021c41a8954e5001ef1565f",
 				"602eda401a979b001ff30e08",
-				"6021c527179f5c0022069847",
-				"603d29097defbd001eed5b8e"
+				"6021c527179f5c0022069847"
 			],
 			"seo": {
 				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
@@ -188,11 +187,6 @@ export default {
 			"id": "602eda401a979b001ff30e08",
 			"pageUrl": "banneromejker-illyustrator",
 			"name": "Баннеромейкер (иллюстратор)"
-		},
-		"603d29097defbd001eed5b8e": {
-			"id": "603d29097defbd001eed5b8e",
-			"pageUrl": "test",
-			"name": "Test"
 		}
 	},
 	"mode": "production",
