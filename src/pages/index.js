@@ -699,6 +699,8 @@ export default (() => {
 			nout-border-radius="6px"
 			lg-position="fixed"
 			background="#ffffff"
+			position="sticky"
+			top="0px"
 		>
 			<Override slot="SectionContent" max-width="none" width="100%" />
 			<Stack margin="0px 0px 0px 0px" gap="0px">

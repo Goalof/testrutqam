@@ -29,7 +29,10 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#5291FA"} />
 		</Helmet>
 		{" "}
-		<Components.Header />
+		<Components.Header>
+			<Override slot="text" />
+			<Override slot="mobileSideOverride11" />
+		</Components.Header>
 		<Section padding="150px 0 150px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/vac_head.jpg?v=2021-01-28T20:18:22.116Z) 0% 0% /cover repeat scroll padding-box" md-padding="150px 0 80px 0" sm-padding="150px 0 80px 0">
 			<Override slot="SectionContent" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" max-width="850px">
