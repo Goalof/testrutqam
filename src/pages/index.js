@@ -591,17 +591,19 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link
+						className="nobutton"
 						href="/vacancies/#spb"
 						text-decoration-line="initial"
-						color="#ffd83a"
+						color="#afc1db"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
 						transition="all 0.2s linear 0s"
+						cursor="default"
 					>
 						Санкт-Петербург
 						<br />
 						<Span
-							color="#ffffff"
+							color="#afc1db"
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
 							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
@@ -611,7 +613,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							4 вакансия
+							0 вакансий
 						</Span>
 					</Link>
 					{"    "}
@@ -669,7 +671,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							3 вакансия
+							4 вакансия
 						</Span>
 					</Link>
 					{"    "}
@@ -1313,7 +1315,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							4 вакансия
+							0 вакансий
 						</Span>
 					</Link>
 					{"    "}
@@ -1371,7 +1373,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							3 вакансия
+							4 вакансия
 						</Span>
 					</Link>
 					{"    "}
@@ -1620,9 +1622,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Components.Footer>
-			<Override slot="text2" />
-		</Components.Footer>
+		<Components.Footer />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
