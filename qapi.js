@@ -8,6 +8,7 @@ export default {
 				"600e0aca11b69c001f4aa726",
 				"600e0aca11b69c001f4aa728",
 				"600f46ff5a9875001e4c7d39",
+				"60531c9683b4ad001e356a53",
 				"600f4705d34e73001fe66b63",
 				"600f470cd34e73001fe66b65",
 				"600f4712aae0d1001eea89d8"
@@ -45,7 +46,9 @@ export default {
 				"6021c2d971e66d001efb27ac",
 				"6021c41a8954e5001ef1565f",
 				"602eda401a979b001ff30e08",
-				"6021c527179f5c0022069847"
+				"6021c527179f5c0022069847",
+				"60534c02f11f97001e8114cc",
+				"60534ef5f2b826001ebe7ff8"
 			],
 			"seo": {
 				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
@@ -187,6 +190,21 @@ export default {
 			"id": "602eda401a979b001ff30e08",
 			"pageUrl": "banneromejker-illyustrator",
 			"name": "Баннеромейкер (иллюстратор)"
+		},
+		"60531c9683b4ad001e356a53": {
+			"id": "60531c9683b4ad001e356a53",
+			"pageUrl": "veb-dizajner",
+			"name": "Веб-дизайнер"
+		},
+		"60534c02f11f97001e8114cc": {
+			"id": "60534c02f11f97001e8114cc",
+			"pageUrl": "junior-nodejs-razrabotchik1",
+			"name": "Junior node.js разработчик"
+		},
+		"60534ef5f2b826001ebe7ff8": {
+			"id": "60534ef5f2b826001ebe7ff8",
+			"pageUrl": "javascript-razrabotchik-react",
+			"name": "JavaScript-разработчик (React)"
 		}
 	},
 	"mode": "production",

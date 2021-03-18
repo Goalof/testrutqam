@@ -82,6 +82,18 @@ const pageStyles = {
     "vacancies/banneromejker-illyustrator": {
         "overflow-y": "",
         "overflow-x": "hidden"
+    },
+    "veb-dizajner": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/junior-nodejs-razrabotchik1": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/javascript-razrabotchik-react": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
     }
 };
 
