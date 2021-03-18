@@ -83,7 +83,7 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "veb-dizajner": {
+    "vacancies/veb-dizajner": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },

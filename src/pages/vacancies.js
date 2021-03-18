@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Menu, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
-import { FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki, FaBoxes, FaRegImages, FaFileCode, FaRegObjectUngroup } from "react-icons/fa";
+import { FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki, FaBoxes, FaRegObjectUngroup, FaFileCode } from "react-icons/fa";
 import { MdTouchApp } from "react-icons/md";
 import { IoIosChatboxes } from "react-icons/io";
 import { BsPieChartFill } from "react-icons/bs";
@@ -583,7 +583,7 @@ export default (() => {
 													<div />
 													<Icon
 														category="fa"
-														icon={FaRegImages}
+														icon={FaRegObjectUngroup}
 														size="20px"
 														color="inherit"
 														margin="0px 8px 0px 0px"
@@ -864,7 +864,7 @@ export default (() => {
 												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
-														href="/vacancies/technology-evangelistdeveloper-advocate"
+														href="/vacancies/veb-dizajner"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -914,10 +914,11 @@ export default (() => {
 														Компания uKit Group приглашает в команду баннеромейкера (иллюстратора для создания баннеров)
 														<br />
 													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
-														href="/vacancies/banneromejker-illyustrator"
+														href="/vacancies/veb-dizajner"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -2066,7 +2067,7 @@ export default (() => {
 												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
-														href="/vacancies/technology-evangelistdeveloper-advocate"
+														href="/vacancies/veb-dizajner"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
