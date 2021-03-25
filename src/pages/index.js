@@ -567,7 +567,7 @@ export default (() => {
 						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
-						transition="all 0.2s linear 0s"
+						transition="color 0.2s linear 0s"
 					>
 						Москва
 						<br />
@@ -597,7 +597,7 @@ export default (() => {
 						color="#afc1db"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
-						transition="all 0.2s linear 0s"
+						transition="color 0.2s linear 0s"
 						cursor="default"
 					>
 						Санкт-Петербург
@@ -627,7 +627,7 @@ export default (() => {
 						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
-						transition="all 0.2s linear 0s"
+						transition="color 0.2s linear 0s"
 					>
 						Ростов-на-Дону
 						<br />
@@ -642,7 +642,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							5 вакансия
+							3 вакансия
 						</Span>
 					</Link>
 					{"    "}
@@ -656,7 +656,7 @@ export default (() => {
 						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
-						transition="all 0.2s linear 0s"
+						transition="color 0.2s linear 0s"
 					>
 						Удаленная работа
 						<br />
@@ -1271,7 +1271,7 @@ export default (() => {
 						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
-						transition="all 0.2s linear 0s"
+						transition="color 0.2s linear 0s"
 					>
 						Москва
 						<br />
@@ -1295,17 +1295,19 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link
+						className="nobutton"
 						href="/vacancies/#spb"
 						text-decoration-line="initial"
-						color="#ffd83a"
+						color="#afc1db"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
-						transition="all 0.2s linear 0s"
+						transition="color 0.2s linear 0s"
+						cursor="default"
 					>
 						Санкт-Петербург
 						<br />
 						<Span
-							color="#ffffff"
+							color="#afc1db"
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
 							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
@@ -1329,7 +1331,7 @@ export default (() => {
 						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
-						transition="all 0.2s linear 0s"
+						transition="color 0.2s linear 0s"
 					>
 						Ростов-на-Дону
 						<br />
@@ -1358,7 +1360,7 @@ export default (() => {
 						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
-						transition="all 0.2s linear 0s"
+						transition="color 0.2s linear 0s"
 					>
 						Удаленная работа
 						<br />
@@ -1612,7 +1614,7 @@ export default (() => {
 						padding="14px 15px 15px 15px"
 						font="600 16px 'AvenirNextCyrRegular', sans-serif"
 						border-radius="5px"
-						transition="all 0.2s linear 0s"
+						transition="background 0.2s linear 0s"
 						margin="40px 0px 0px 0px"
 						hover-background="#437de0"
 					>

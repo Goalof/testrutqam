@@ -562,7 +562,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (9)
+													ВСЕ ВАКАНСИИ (7)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des">
@@ -588,7 +588,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													Дизайн (2)
+													Дизайн (1)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="two">
@@ -610,7 +610,7 @@ export default (() => {
 													РАЗРАБОТКА (3)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three">
+											<Components.TabItem tabId="three" display="none">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -705,49 +705,6 @@ export default (() => {
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
 														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/banneromejker-illyustrator"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Баннеромейкер (иллюстратор)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Компания uKit Group приглашает в команду баннеромейкера (иллюстратора для создания баннеров)
-														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														href="/vacancies/menedzher-dizajner-shablonov"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Менеджер-дизайнер шаблонов
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Компания uKit Group приглашает в свою команду менеджера-дизайнера для создания шаблонов для конструктора сайтов uKit. Эта работа для вас если вы знакомы с процессом создания шаблонов для сайтов, имеете опыт работы в студии веб-дизайна.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -894,28 +851,6 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="three-des" md-width="100%">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/banneromejker-illyustrator"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Баннеромейкер (иллюстратор)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Компания uKit Group приглашает в команду баннеромейкера (иллюстратора для создания баннеров)
-														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
 														href="/vacancies/veb-dizajner"
@@ -1494,10 +1429,10 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (5)
+													ВСЕ ВАКАНСИИ (3)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three-des">
+											<Components.TabItem tabId="three-des" display="none">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -1544,10 +1479,10 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													РАЗРАБОТКА (4)
+													РАЗРАБОТКА (3)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three">
+											<Components.TabItem tabId="three" display="none">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -1599,49 +1534,6 @@ export default (() => {
 										</Components.TabList>
 										<Components.TabPanels width="80%" md-width="100%" lg-width="70%">
 											<Components.TabPanel tabId="one" md-width="100%">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/banneromejker-illyustrator"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Баннеромейкер (иллюстратор)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Компания uKit Group приглашает в команду баннеромейкера (иллюстратора для создания баннеров)
-														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														href="/vacancies/menedzher-dizajner-shablonov"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Менеджер-дизайнер шаблонов
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Компания uKit Group приглашает в свою команду менеджера-дизайнера для создания шаблонов для конструктора сайтов uKit. Эта работа для вас если вы знакомы с процессом создания шаблонов для сайтов, имеете опыт работы в студии веб-дизайна.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														href="/vacancies/senior-nodejs-engineer"
@@ -1736,28 +1628,6 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="two" md-width="100%">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														href="/vacancies/junior-nodejs-razrabotchik"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Junior node.js разработчик
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Приглашаем на работу Junior node.js разработчика.
-														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														href="/vacancies/senior-nodejs-engineer"
