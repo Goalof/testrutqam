@@ -642,7 +642,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							3 вакансия
+							4 вакансия
 						</Span>
 					</Link>
 					{"    "}
@@ -1346,7 +1346,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							5 вакансия
+							4 вакансия
 						</Span>
 					</Link>
 					{"    "}

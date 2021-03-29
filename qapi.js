@@ -48,7 +48,8 @@ export default {
 				"6021c527179f5c0022069847",
 				"60534c02f11f97001e8114cc",
 				"60534ef5f2b826001ebe7ff8",
-				"60531c9683b4ad001e356a53"
+				"60531c9683b4ad001e356a53",
+				"606209b9cb40ac001fc62c5d"
 			],
 			"seo": {
 				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
@@ -205,6 +206,11 @@ export default {
 			"id": "60534ef5f2b826001ebe7ff8",
 			"pageUrl": "javascript-razrabotchik-react",
 			"name": "JavaScript-разработчик (React)"
+		},
+		"606209b9cb40ac001fc62c5d": {
+			"id": "606209b9cb40ac001fc62c5d",
+			"pageUrl": "junior-front-end-developer-js",
+			"name": "Junior front-end developer (js)"
 		}
 	},
 	"mode": "production",

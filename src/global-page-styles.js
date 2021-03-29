@@ -94,6 +94,10 @@ const pageStyles = {
     "vacancies/javascript-razrabotchik-react": {
         "overflow-y": "",
         "overflow-x": "hidden"
+    },
+    "vacancies/junior-front-end-developer-js": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
     }
 };
 

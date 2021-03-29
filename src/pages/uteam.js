@@ -594,7 +594,7 @@ export default (() => {
 											letter-spacing="0.3px"
 											color="#3D72CC"
 										>
-											17 сотрудников
+											18 сотрудников
 										</Text>
 										<Text
 											font="normal 400 18px/26px 'AvenirNextCyrMedium', sans-serif"
@@ -761,7 +761,7 @@ export default (() => {
 											justify-content="center"
 										>
 											<Text font="500 36px 'AvenirNextCyrBold', sans-serif" color="#ffffff">
-												+14
+												+15
 											</Text>
 										</Box>
 										<Text
@@ -1104,7 +1104,7 @@ export default (() => {
 											letter-spacing="0.3px"
 											color="#3D72CC"
 										>
-											25 сотрудников
+											23 сотрудников
 										</Text>
 										<Text
 											font="normal 400 18px/26px 'AvenirNextCyrMedium', sans-serif"
@@ -1360,7 +1360,7 @@ export default (() => {
 											justify-content="center"
 										>
 											<Text font="500 36px 'AvenirNextCyrBold', sans-serif" color="#ffffff">
-												+20
+												+18
 											</Text>
 										</Box>
 										<Text
