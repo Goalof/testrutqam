@@ -1987,7 +1987,6 @@ export default (() => {
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Ищем веб-дизайнера в команду
 														<Strong
-															data-q-widget-type="PRIMITIVE"
 															overflow-wrap="normal"
 															word-break="normal"
 															white-space="normal"
@@ -1999,7 +1998,6 @@ export default (() => {
 														</Strong>
 														нового
 														<Strong
-															data-q-widget-type="PRIMITIVE"
 															overflow-wrap="normal"
 															word-break="normal"
 															white-space="normal"
@@ -2035,7 +2033,6 @@ export default (() => {
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Ищем веб-дизайнера в команду
 														<Strong
-															data-q-widget-type="PRIMITIVE"
 															overflow-wrap="normal"
 															word-break="normal"
 															white-space="normal"
@@ -2047,7 +2044,6 @@ export default (() => {
 														</Strong>
 														нового
 														<Strong
-															data-q-widget-type="PRIMITIVE"
 															overflow-wrap="normal"
 															word-break="normal"
 															white-space="normal"

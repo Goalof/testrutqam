@@ -574,7 +574,6 @@ export default (() => {
 						<Span
 							color="#ffffff"
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -605,7 +604,6 @@ export default (() => {
 						<Span
 							color="#afc1db"
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -634,7 +632,6 @@ export default (() => {
 						<Span
 							color="#ffffff"
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -663,7 +660,6 @@ export default (() => {
 						<Span
 							color="#ffffff"
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -1278,7 +1274,6 @@ export default (() => {
 						<Span
 							color="#ffffff"
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -1309,7 +1304,6 @@ export default (() => {
 						<Span
 							color="#afc1db"
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -1338,7 +1332,6 @@ export default (() => {
 						<Span
 							color="#ffffff"
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -1367,7 +1360,6 @@ export default (() => {
 						<Span
 							color="#ffffff"
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -1489,7 +1481,6 @@ export default (() => {
 						<Strong
 							font="normal bold 48px/42px 'AvenirNextCyrRegular', sans-serif"
 							color="#4a8cfa"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -1531,7 +1522,6 @@ export default (() => {
 						<Strong
 							font="normal bold 48px/42px 'AvenirNextCyrRegular', sans-serif"
 							color="#4a8cfa"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -1573,7 +1563,6 @@ export default (() => {
 						<Strong
 							font="normal bold 48px/42px 'AvenirNextCyrRegular', sans-serif"
 							color="#4a8cfa"
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"

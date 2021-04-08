@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Icon, Text, List, Image, Box } from "@quarkly/widgets";
+import { Theme, Link, Icon, Text, Strong, List, Span, Image, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Section, StackItem, Stack } from "@quarkly/components";
@@ -75,7 +75,7 @@ export default (() => {
 						color="#333"
 						letter-spacing=".2"
 					>
-						Проект Quarkly | Москва
+						Проект uKit | Москва
 					</Text>
 					<Text
 						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
@@ -85,8 +85,7 @@ export default (() => {
 						letter-spacing="0.3px"
 						color="#333"
 					>
-						Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
-						<br />
+						Мы ищем талантливого PR-щика, реализовавшегося в диджитал или мечтающего это сделать.{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
@@ -97,27 +96,42 @@ export default (() => {
 						color="#333"
 						letter-spacing=".2"
 					>
-						Задачи:
+						<Strong>
+							Основные задачи:
+						</Strong>
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Разработка и реализация PR стратегии продвижения проекта Quarkly на российском и зарубежных рынках.
+							Разработка и реализация PR стратегии продвижения продуктов компании на российском и зарубежных рынках.
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Написание и размещение информационных материалов: комментарии, новости, пресс-релизы, аналитические исследования, в том числе и развернутые статьи на технические темы, связанные с деятельностью и продуктами компании.
-							<br />
+							Создание, наполнение и реализация контент-плана.
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Взаимодействие с профессиональными сообществами, инфлюэнсерами. Организация участия в мероприятиях (конференции, митапы и пр.)
+							Взаимодействие с профессиональными сообществами, лидерами мнений.{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Поддержание и расширение контактов со СМИ.
+							Организация участия в мероприятиях (конференции, митапы и пр.).
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							<Span
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Развитие взаимоотношений с целевыми медиа.
+							</Span>
 						</Text>
 					</List>
 					<Text
@@ -129,45 +143,45 @@ export default (() => {
 						color="#333"
 						letter-spacing=".2"
 					>
-						Требования:
+						<Strong>
+							Вы справитесь, если:
+						</Strong>
 						<br />
+						{"\n\n"}
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт публикации вакансий на инфоплощадках IT-тематики (англоязычных и русскоязычных).
+							Есть опыт публикаций на инфоплощадках IT-пространства.
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Естественно, высочайший уровень коммуникативных и презентационных навыков.
-							<br />
+							Умеете понимать задачи бизнеса и генерировать идеи о том, как PR может помочь их достижению.
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Незаурядные способности в написании грамотных, эффективных и интересных текстов.
+							Умеете создавать грамотные, эффективные и интересные тексты.{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Свободный английский язык.
+							Можете легко завязывать и поддерживать рабочие отношения с журналистами и блогерами.{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Инициативность, трезвость мышления и бизнес-ориентированность.
-							<br />
+							Вы любите углубляться в неизвестные ранее темы и не боитесь учиться новому.{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Знание и понимание веба (нужно говорить на одном языке с аудитрией и разработчиками продуктов).
-							<br />
+							Знаете и понимаете веб (нужно говорить на одном языке с аудиторией и разработчиками продуктов).
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Наличие деловых контактов на рынке digital/IT будет бесспорным плюсом.
+							У вас есть деловые контакты на рынке digital/IT.{"\n\n"}
 						</Text>
 					</List>
 					<Text
@@ -198,8 +212,17 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Удаленная работа.
-							<br />
+							<Span
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Молодая, профессиональная….в общем вы знаете ;)
+							</Span>
+							{"\n\n"}
 						</Text>
 					</Box>
 					<Box
@@ -218,7 +241,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							«Белая» заработная плата, уровень определяется по результатам собеседования.
+							Возможна работа в любом из наших офисов (Москва, Санкт-Петербург, Ростов-на-Дону) или удаленная работа на ваш вкус{"\n\n"}
 						</Text>
 					</Box>
 					<Box
@@ -237,8 +260,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Все возможности для профессионального роста и развития. (конференции, обучение).
-							<br />
+							Все возможности для профессионального роста и развития (конференции, обучение).
 						</Text>
 					</Box>
 					<Components.PopUp

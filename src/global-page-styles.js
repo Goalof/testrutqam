@@ -15,18 +15,6 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "uteam": {
-        "overflow-y": "",
-        "overflow-x": "hidden"
-    },
-    "resume": {
-        "overflow-y": "",
-        "overflow-x": "hidden"
-    },
-    "contacts": {
-        "overflow-y": "",
-        "overflow-x": "hidden"
-    },
     "vacancies/pr-menedzher": {
         "overflow-y": "",
         "overflow-x": "hidden"
@@ -75,15 +63,11 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "vacancies/technology-evangelistdeveloper-advocate": {
-        "overflow-y": "",
-        "overflow-x": "hidden"
-    },
     "vacancies/banneromejker-illyustrator": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "vacancies/veb-dizajner": {
+    "vacancies/technology-evangelistdeveloper-advocate": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
@@ -95,11 +79,27 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/veb-dizajner": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "vacancies/junior-front-end-developer-js": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
     "vacancies/ofis-menedzher": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "uteam": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "resume": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "contacts": {
         "overflow-y": "",
         "overflow-x": "hidden"
     }
