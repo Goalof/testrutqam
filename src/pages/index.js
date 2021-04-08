@@ -582,7 +582,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							1 вакансия
+							2 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -1286,7 +1286,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							1 вакансия
+							2 вакансии
 						</Span>
 					</Link>
 					{"    "}

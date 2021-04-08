@@ -98,6 +98,10 @@ const pageStyles = {
     "vacancies/junior-front-end-developer-js": {
         "overflow-y": "",
         "overflow-x": "hidden"
+    },
+    "vacancies/ofis-menedzher": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
     }
 };
 

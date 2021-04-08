@@ -49,7 +49,8 @@ export default {
 				"60534c02f11f97001e8114cc",
 				"60534ef5f2b826001ebe7ff8",
 				"60531c9683b4ad001e356a53",
-				"606209b9cb40ac001fc62c5d"
+				"606209b9cb40ac001fc62c5d",
+				"606ed5c336274f001fc911e5"
 			],
 			"seo": {
 				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
@@ -211,6 +212,11 @@ export default {
 			"id": "606209b9cb40ac001fc62c5d",
 			"pageUrl": "junior-front-end-developer-js",
 			"name": "Junior front-end developer (js)"
+		},
+		"606ed5c336274f001fc911e5": {
+			"id": "606ed5c336274f001fc911e5",
+			"pageUrl": "ofis-menedzher",
+			"name": "Офис-менеджер"
 		}
 	},
 	"mode": "production",
