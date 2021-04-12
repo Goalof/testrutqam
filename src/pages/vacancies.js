@@ -724,7 +724,7 @@ export default (() => {
 														Проект uKit | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем энергичного, аккуратного и внимательного специалиста в команду технической поддержки uKit Group
+														В команду проекта uKit в Ростове-на-Дону требуется разработчик, имеющий не менее первого дана в JavaScript.{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -916,7 +916,7 @@ export default (() => {
 														Проект uKit | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем энергичного, аккуратного и внимательного специалиста в команду технической поддержки uKit Group
+														В команду проекта uKit в Ростове-на-Дону требуется разработчик, имеющий не менее первого дана в JavaScript.{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1610,7 +1610,7 @@ export default (() => {
 														Проект uKit | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем энергичного, аккуратного и внимательного специалиста в команду технической поддержки uKit Group
+														В команду проекта uKit в Ростове-на-Дону требуется разработчик, имеющий не менее первого дана в JavaScript.{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1698,7 +1698,7 @@ export default (() => {
 														Проект uKit | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем энергичного, аккуратного и внимательного специалиста в команду технической поддержки uKit Group
+														В команду проекта uKit в Ростове-на-Дону требуется разработчик, имеющий не менее первого дана в JavaScript.{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1935,7 +1935,7 @@ export default (() => {
 														Проект uKit | Удаленная работа
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем энергичного, аккуратного и внимательного специалиста в команду технической поддержки uKit Group
+														В команду проекта uKit в Ростове-на-Дону требуется разработчик, имеющий не менее первого дана в JavaScript.{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -2067,7 +2067,7 @@ export default (() => {
 														Проект uKit | Удаленная работа
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем энергичного, аккуратного и внимательного специалиста в команду технической поддержки uKit Group
+														В команду проекта uKit в Ростове-на-Дону требуется разработчик, имеющий не менее первого дана в JavaScript.{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>

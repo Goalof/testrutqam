@@ -85,7 +85,7 @@ export default (() => {
 						letter-spacing="0.3px"
 						color="#333"
 					>
-						Мы ищем энергичного, аккуратного и внимательного специалиста в команду технической поддержки uKit Group
+						В команду проекта uKit в Ростове-на-Дону требуется разработчик, имеющий не менее первого дана в JavaScript.
 					</Text>
 					<Text
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
@@ -218,6 +218,19 @@ export default (() => {
 					>
 						Условия:
 						<br />
+					</Text>
+					<Text
+						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
+						margin="0px 0px 10px 0px"
+						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						letter-spacing="0.3px"
+						color="#333"
+					>
+						Мы любим и ценим IT-сообщество и очень стараемся помогать и сотрудникам и друзьям прокачивать личные бренды в IT. Мы помогаем со статьями, пытаемся развивать Open Source, отправляем на конференции не только слушать, но и выступать.{"\n"}
+						<br />
+						<br />
+						Обещаем программу адаптации. Никто не заставит вас писать неподдерживаемый код без тестов. Но если очень хочется, то вам придётся объяснять нашей любимой Code-Review нейросети почему параметры оценки уровня токсичности комментариев к PR нуждаются в мануальной корректировке. И сами её потом лечите :)
 					</Text>
 					<Box
 						display="flex"
@@ -356,6 +369,16 @@ export default (() => {
 							Комфортные условия работы, гибкий график
 						</Text>
 					</Box>
+					<Text
+						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
+						margin="10px 0px 10px 0px"
+						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						letter-spacing="0.3px"
+						color="#333"
+					>
+						Еще у нас есть: печеньки, DevOps, массаж, k8s, ping-pong, IaC, турник, Сloud Native, обеды, Open Tracing, парковка, мангал и “чужеземцы” на уроках английского.
+					</Text>
 					<Components.PopUp
 						left="-30px"
 						bottom="auto"
