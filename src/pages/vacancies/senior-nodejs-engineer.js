@@ -86,7 +86,6 @@ export default (() => {
 						color="#333"
 					>
 						Мы ищем энергичного, аккуратного и внимательного специалиста в команду технической поддержки uKit Group
-						<br />
 					</Text>
 					<Text
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
