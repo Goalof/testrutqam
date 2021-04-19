@@ -174,8 +174,8 @@ export default {
 		},
 		"6021c41a8954e5001ef1565f": {
 			"id": "6021c41a8954e5001ef1565f",
-			"pageUrl": "pr-menedzher1",
-			"name": "PR-менеджер",
+			"pageUrl": "pr-menedzher-quarkly",
+			"name": "PR-менеджер Quarkly",
 			"seo": {
 				"title": "PR-менеджер"
 			}

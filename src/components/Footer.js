@@ -2,6 +2,7 @@ import React from "react";
 import { useOverrides, Override, StackItem, Stack, Section } from "@quarkly/components";
 import { Image, Link, Text, Box, Icon } from "@quarkly/widgets";
 import Metrika from "./Metrika";
+import TagManager from "./TagManager";
 import { FaVk, FaFacebookF, FaTwitter, FaInstagram, FaOdnoklassniki } from "react-icons/fa";
 const defaultProps = {
 	"className": "noprint",
@@ -319,10 +320,14 @@ const overrides = {
 	"metrika": {
 		"kind": "Metrika",
 		"props": {}
+	},
+	"tagManager": {
+		"kind": "TagManager",
+		"props": {}
 	}
 };
 
-const FooterMetrok = props => {
+const FooterNew = props => {
 	const {
 		override,
 		children,
@@ -366,12 +371,13 @@ const FooterMetrok = props => {
 			{"        "}
 		</Stack>
 		<Metrika {...override("metrika")} />
+		<TagManager {...override("tagManager")} />
 		{children}
 	</Section>;
 };
 
-Object.assign(FooterMetrok, { ...Section,
+Object.assign(FooterNew, { ...Section,
 	defaultProps,
 	overrides
 });
-export default FooterMetrok;
+export default FooterNew;

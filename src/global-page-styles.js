@@ -59,7 +59,7 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "vacancies/pr-menedzher1": {
+    "vacancies/pr-menedzher-quarkly": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
