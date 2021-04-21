@@ -95,6 +95,22 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/junior-qa": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/back-end-developer-php": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"

@@ -593,16 +593,15 @@ export default (() => {
 						className="nobutton"
 						href="/vacancies/#spb"
 						text-decoration-line="initial"
-						color="#afc1db"
+						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
 						transition="color 0.2s linear 0s"
-						cursor="default"
 					>
 						Санкт-Петербург
 						<br />
 						<Span
-							color="#afc1db"
+							color="#ffffff"
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
 							overflow-wrap="normal"
 							word-break="normal"
@@ -611,7 +610,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							0 вакансий
+							1 вакансий
 						</Span>
 					</Link>
 					{"    "}
@@ -639,7 +638,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							3 вакансии
+							6 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -1281,7 +1280,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							3 вакансии
+							2 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -1293,16 +1292,15 @@ export default (() => {
 						className="nobutton"
 						href="/vacancies/#spb"
 						text-decoration-line="initial"
-						color="#afc1db"
+						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
 						transition="color 0.2s linear 0s"
-						cursor="default"
 					>
 						Санкт-Петербург
 						<br />
 						<Span
-							color="#afc1db"
+							color="#ffffff"
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
 							overflow-wrap="normal"
 							word-break="normal"
@@ -1311,7 +1309,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							0 вакансий
+							1 вакансий
 						</Span>
 					</Link>
 					{"    "}
@@ -1339,7 +1337,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							2 вакансии
+							6 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -1638,7 +1636,7 @@ export default (() => {
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"601c3c7d7571e39a08c18a0b"}>
-				{"@media (min-width: 1200px) {\n* {\n    scroll-behavior: smooth;\n    }\n    }\n  .active .fileText {\n  display: none;\n  }\n  input.fileText {\n      opacity: 1 !important;\n  }\n  * {\n    -webkit-tap-highlight-color: transparent!important;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrRegular';\n    src: url('/fonts/AvenirNextCyr-Regular.eot');\n    src: url('/fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Regular.woff') format('woff'), url('/fonts/AvenirNextCyr-Regular.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrMedium';\n    src: url('/fonts/AvenirNextCyr-Medium.eot');\n    src: url('/fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Medium.woff') format('woff'), url('/fonts/AvenirNextCyr-Medium.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrBold';\n    src: url('/fonts/AvenirNextCyr-Bold.eot');\n    src: url('/fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Bold.woff') format('woff'), url('/fonts/AvenirNextCyr-Bold.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrDemi';\n    src: url('/fonts/AvenirNextCyr-Demi.otf');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  body {\n    font-family: 'AvenirNextCyrRegular', sans-serif;\n    font-weight: normal;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n:focus {\n  outline: none;\n}\n.nobutton {\npointer-events: none; \n}"}
+				{"@media (min-width: 1200px) {\n* {\n    scroll-behavior: smooth;\n    }\n    }\n  .active .fileText {\n  display: none;\n  }\n  input.fileText {\n      opacity: 1 !important;\n  }\n  * {\n    -webkit-tap-highlight-color: transparent!important;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrRegular';\n    src: url('/fonts/AvenirNextCyr-Regular.eot');\n    src: url('/fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Regular.woff') format('woff'), url('/fonts/AvenirNextCyr-Regular.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrMedium';\n    src: url('/fonts/AvenirNextCyr-Medium.eot');\n    src: url('/fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Medium.woff') format('woff'), url('/fonts/AvenirNextCyr-Medium.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrBold';\n    src: url('/fonts/AvenirNextCyr-Bold.eot');\n    src: url('/fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Bold.woff') format('woff'), url('/fonts/AvenirNextCyr-Bold.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrDemi';\n    src: url('/fonts/AvenirNextCyr-Demi.otf');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  body {\n    font-family: 'AvenirNextCyrRegular', sans-serif;\n    font-weight: normal;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n:focus {\n  outline: none;\n}\n/*\n.nobutton {\npointer-events: none; \n} */"}
 			</style>
 			<link
 				href={"/nubexPrint.css"}

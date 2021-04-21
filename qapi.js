@@ -51,7 +51,11 @@ export default {
 				"60531c9683b4ad001e356a53",
 				"606209b9cb40ac001fc62c5d",
 				"606ed5c336274f001fc911e5",
-				"607d5eb4123639001f37c721"
+				"607d5eb4123639001f37c721",
+				"60805279951877001f1e30b3",
+				"608056ab6de461001eb8805d",
+				"60805966123639001f37ca58",
+				"60805ae092d19d001eee75a2"
 			],
 			"seo": {
 				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
@@ -223,6 +227,26 @@ export default {
 			"id": "607d5eb4123639001f37c721",
 			"pageUrl": "pr-menedzher-ukit",
 			"name": "PR-Менеджер | удаленная работа"
+		},
+		"60805279951877001f1e30b3": {
+			"id": "60805279951877001f1e30b3",
+			"pageUrl": "junior-qa",
+			"name": "Junior QA"
+		},
+		"608056ab6de461001eb8805d": {
+			"id": "608056ab6de461001eb8805d",
+			"pageUrl": "back-end-developer-php",
+			"name": "Back-end developer (PHP)"
+		},
+		"60805966123639001f37ca58": {
+			"id": "60805966123639001f37ca58",
+			"pageUrl": "rukovoditel-sluzhby-tehnicheskoj-podderzhki",
+			"name": "Руководитель службы технической поддержки"
+		},
+		"60805ae092d19d001eee75a2": {
+			"id": "60805ae092d19d001eee75a2",
+			"pageUrl": "rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb",
+			"name": "Руководитель службы технической поддержки - СПБ"
 		}
 	},
 	"mode": "production",
