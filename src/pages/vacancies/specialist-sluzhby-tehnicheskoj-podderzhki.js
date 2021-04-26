@@ -390,6 +390,13 @@ export default (() => {
 			<script place={"endOfHead"} rawKey={"607d5e128c5b715c34cc6769"}>
 				{"(function(w, d, s, l, i) {\n    if (w[l]) return;\n\n    w[l] = w[l] || [];\n    w[l].push({\n        'gtm.start': new Date().getTime(),\n        event: 'gtm.js'\n    });\n    var f = d.getElementsByTagName(s)[0],\n        j = d.createElement(s),\n        dl = l != 'dataLayer' ? '&l=' + l : '';\n    j.async = true;\n    j.src =\n        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\n    f.parentNode.insertBefore(j, f);\n})(window, document, 'script', 'dataLayer', 'GTM-PLFV4KG');"}
 			</script>
+			<meta
+				charset={""}
+				name={"facebook-domain-verification"}
+				content={"3k8kfynnwa8cp30e13qj1ppei7kh1f"}
+				place={"endOfHead"}
+				rawKey={"6086e36e344c4251dc26bfe2"}
+			/>
 		</RawHtml>
 	</Theme>;
 });
