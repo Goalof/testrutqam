@@ -11,7 +11,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"vacancies/senior-nodejs-engineer"} />
 		<Helmet>
 			<title>
-				Senior Node.js engineer
+				Backend Software Engeenier
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<meta property={"og:title"} content={"Работа в uTeam"} />
@@ -64,7 +64,7 @@ export default (() => {
 						sm-font="normal 500 40px/1.2 'AvenirNextCyrDemi', sans-serif"
 						as="h1"
 					>
-						Senior Node.js engineer
+						Backend Software Engeenier
 					</Text>
 					<Text
 						font="normal 400 18px/1.2 'AvenirNextCyrMedium', sans-serif"
@@ -85,7 +85,7 @@ export default (() => {
 						letter-spacing="0.3px"
 						color="#333"
 					>
-						В команду проекта uKit в Ростове-на-Дону требуется разработчик, имеющий не менее первого дана в JavaScript.
+						В команду проекта uKit в Ростове-на-Дону требуется разработчик, заслуживший не менее восьмого дана по решению backend задач.
 					</Text>
 					<Text
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
@@ -100,34 +100,27 @@ export default (() => {
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Работа в команде над большим высоконагруженным проектом;
+							работа в команде над большим высоконагруженным проектом;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Разработка и внедрение нового функционала;
+							разработка и внедрение нового функционала;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Оценка сложности и сроков выполняемых задач;
-							<br />
-							{"\n\n"}
+							участие в проектировании и разработке микросервисов;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Координация работы команды программистов;
+							профилирование и оптимизация узких мест в системе;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Участие в проектировании микросервисов;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Участие в code-review.
+							code-review.
 						</Text>
 					</List>
 					<Text
@@ -156,7 +149,12 @@ export default (() => {
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							гуру в Node.js;
+							опыт коммерческой разработки backend на любом из языков: Java, Go, Python, etc;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							опыт работы с Node.js или готовность изучать;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
@@ -181,29 +179,52 @@ export default (() => {
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт коммерческой разработки на любом из языков: Java, Go, PHP…;
+							опыт проектирования высоконагруженных проектов;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт проектирования высоконагруженных проектов;
+							амбиции и стремление решать сложные и интересные задачи;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Амбиции и стремление решать сложные и интересные задачи;
+							владение английским на уровне “умею курить маны”;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Владение английским на уровне “умею курить маны”;
-							<br />
-							{"\n\n"}
+							опыт работы с linux на уровне пользователя;{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт работы с linux-системами.
+							умение спуститься на самый нижний уровень абстракции и отладить низкоуровнеые проблемы;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							опыт поддержки приложения в production: monitoring, observability, inflight troubleshooting и вот это всё;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							опыт работы с чем-нибудь из современного frontend’a - React/Vue/Angular, на уровне “могу сам накидать прототип решения”;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							умение писать unit/integration тесты в JS экосистеме;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							опыт работы с типизированными языками, в том числе TypeScript;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							привычка думать в контексте целей бизнеса и скилл разговаривать на его языке;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" />
@@ -227,10 +248,11 @@ export default (() => {
 						letter-spacing="0.3px"
 						color="#333"
 					>
-						Мы любим и ценим IT-сообщество и очень стараемся помогать и сотрудникам и друзьям прокачивать личные бренды в IT. Мы помогаем со статьями, пытаемся развивать Open Source, отправляем на конференции не только слушать, но и выступать.{"\n"}
+						Мы любим и ценим IT-сообщество и очень стараемся помогать и сотрудникам и друзьям прокачивать личные бренды в IT. Мы помогаем со статьями, пытаемся развивать Open Source, отправляем на конференции не только слушать, но и выступать.
 						<br />
+						{"\n\n"}
 						<br />
-						Обещаем программу адаптации. Никто не заставит вас писать неподдерживаемый код без тестов. Но если очень хочется, то вам придётся объяснять нашей любимой Code-Review нейросети почему параметры оценки уровня токсичности комментариев к PR нуждаются в мануальной корректировке. И сами её потом лечите :)
+						Обещаем программу адаптации. Никто не заставит тебя писать неподдерживаемый код без тестов, но иногда будешь сталкиваться с таким кодом в затянутых паутиной уголках проекта. Монолитный backend написан на классическом Node.js стэке - Express.js + Mongoose, а новые сервисы пишем в основном на Nest.
 					</Text>
 					<Box
 						display="flex"
@@ -248,7 +270,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Молодой, дружный и профессиональный коллектив
+							молодой, дружный и… вы знаете ;)
 						</Text>
 					</Box>
 					<Box
@@ -267,7 +289,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Официальное оформление с первого рабочего дня.
+							все возможности для профессионального роста и развития;
 						</Text>
 					</Box>
 					<Box
@@ -286,7 +308,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Все возможности для профессионального роста и развития. (конференции, обучение).
+							комфортные условия работы, гибкий график;
 						</Text>
 					</Box>
 					<Box
@@ -305,68 +327,47 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							ДМС (со стоматологией).
+							питание в офисе за счет компании;
+						</Text>
+					</Box>
+					<Box
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
+					>
+						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+						/>
+						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							ДМС со стоматологией.
+						</Text>
+					</Box>
+					<Box
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
+					>
+						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+						/>
+						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							занятия английским языком в офисе за счет компании.
 							<br />
 							{"\n\n"}
-						</Text>
-					</Box>
-					<Box
-						display="flex"
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Питание в офисе за счет компании.
-						</Text>
-					</Box>
-					<Box
-						display="flex"
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Занятия английским языком в офисе за счет компании.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					<Box
-						display="flex"
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Комфортные условия работы, гибкий график
 						</Text>
 					</Box>
 					<Text
