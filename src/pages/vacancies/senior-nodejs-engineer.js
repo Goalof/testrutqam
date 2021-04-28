@@ -64,7 +64,7 @@ export default (() => {
 						sm-font="normal 500 40px/1.2 'AvenirNextCyrDemi', sans-serif"
 						as="h1"
 					>
-						Backend Software Engeenier
+						Backend Software Engineer
 					</Text>
 					<Text
 						font="normal 400 18px/1.2 'AvenirNextCyrMedium', sans-serif"

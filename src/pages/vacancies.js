@@ -406,7 +406,7 @@ export default (() => {
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 													>
-														Backend Software Engeenier
+														Backend Software Engineer
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
 														Проект uKit | Ростов-на-Дону
@@ -589,7 +589,7 @@ export default (() => {
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 													>
-														Backend Software Engeenier
+														Backend Software Engineer
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
 														Проект uKit | Ростов-на-Дону
@@ -1416,7 +1416,7 @@ export default (() => {
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 													>
-														Backend Software Engeenier
+														Backend Software Engineer
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
 														Проект uKit | Ростов-на-Дону
@@ -1592,7 +1592,7 @@ export default (() => {
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 													>
-														Backend Software Engeenier
+														Backend Software Engineer
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
 														Проект uKit | Ростов-на-Дону
