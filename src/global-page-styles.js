@@ -47,7 +47,7 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "vacancies/senior-nodejs-engineer": {
+    "vacancies/backend-software-engineer": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },

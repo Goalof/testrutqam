@@ -157,7 +157,7 @@ export default {
 		},
 		"6021b7b4bfd603001f71cb03": {
 			"id": "6021b7b4bfd603001f71cb03",
-			"pageUrl": "senior-nodejs-engineer",
+			"pageUrl": "backend-software-engineer",
 			"name": "Backend Software Engineer",
 			"seo": {
 				"title": "Backend Software Engeenier"
