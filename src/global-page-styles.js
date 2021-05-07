@@ -119,6 +119,10 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/komyuniti-menedzher": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"

@@ -139,7 +139,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (11)
+													ВСЕ ВАКАНСИИ (12)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -187,7 +187,7 @@ export default (() => {
 													РАЗРАБОТКА (7)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three" display="none">
+											<Components.TabItem tabId="three">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -324,6 +324,31 @@ export default (() => {
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/komyuniti-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Комьюнити-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Graphite | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
+														<Link href="https://quarkly.io/preview#/vacancies/https://quarkly.io/" text-decoration-line="initial" color="--primary">
+															quarkly.io
+														</Link>
+														{" "}— инструмента для быстрого создания сайтов и веб-приложений на React
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -669,7 +694,7 @@ export default (() => {
 											<Components.TabPanel tabId="three" md-width="100%">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
-														href="/vacancies/ofis-menedzher"
+														href="/vacancies/komyuniti-menedzher"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -678,15 +703,18 @@ export default (() => {
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 													>
-														Офис-менеджер
+														Комьюнити-менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Москва{" "}
+														Проект Graphite | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Команда uKit Group в поиске активного и жизнерадостного офис-менеджера на неполный рабочий день (6 часов)
+														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
+														<Link href="https://quarkly.io/preview#/vacancies/https://quarkly.io/" text-decoration-line="initial" color="--primary">
+															quarkly.io
+														</Link>
+														{" "}— инструмента для быстрого создания сайтов и веб-приложений на React
 													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="four" md-width="100%">
@@ -1767,6 +1795,31 @@ export default (() => {
 													РАЗРАБОТКА (1)
 												</Button>
 											</Components.TabItem>
+											<Components.TabItem tabId="three">
+												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Tab" color="#afc1db" />
+												<Button
+													background="rgba(0, 119, 204, 0)"
+													color="inherit"
+													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													letter-spacing=".2px"
+													display="flex"
+													align-items="center"
+													padding="8px 24px 8px 12px"
+													focus-box-shadow="none"
+													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
+													text-transform="uppercase"
+												>
+													<Icon
+														category="md"
+														icon={MdTouchApp}
+														size="20px"
+														color="inherit"
+														margin="0px 8px 0px 0px"
+													/>
+													Менеджмет (1)
+												</Button>
+											</Components.TabItem>
 											<Components.TabItem tabId="four">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
@@ -1836,6 +1889,31 @@ export default (() => {
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														В команду проекта uKit в Ростове-на-Дону требуется разработчик, имеющий не менее первого дана в JavaScript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/komyuniti-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Комьюнити-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Graphite | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
+														<Link href="https://quarkly.io/preview#/vacancies/https://quarkly.io/" text-decoration-line="initial" color="--primary">
+															quarkly.io
+														</Link>
+														{" "}— инструмента для быстрого создания сайтов и веб-приложений на React
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1921,6 +1999,32 @@ export default (() => {
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														В команду проекта uKit в Ростове-на-Дону требуется разработчик, имеющий не менее первого дана в JavaScript.
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel tabId="three" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/komyuniti-menedzher"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Комьюнити-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Graphite | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
+														<Link href="https://quarkly.io/preview#/vacancies/https://quarkly.io/" text-decoration-line="initial" color="--primary">
+															quarkly.io
+														</Link>
+														{" "}— инструмента для быстрого создания сайтов и веб-приложений на React
 													</Text>
 												</Box>
 											</Components.TabPanel>

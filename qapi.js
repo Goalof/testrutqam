@@ -57,7 +57,8 @@ export default {
 				"60805966123639001f37ca58",
 				"60805ae092d19d001eee75a2",
 				"60899b18951877001f1e3b54",
-				"60899d2692d19d001eee7fd3"
+				"60899d2692d19d001eee7fd3",
+				"6095946b2061a7001e176743"
 			],
 			"seo": {
 				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
@@ -259,6 +260,11 @@ export default {
 			"id": "60899d2692d19d001eee7fd3",
 			"pageUrl": "frontend-developer",
 			"name": "Frontend Developer "
+		},
+		"6095946b2061a7001e176743": {
+			"id": "6095946b2061a7001e176743",
+			"pageUrl": "komyuniti-menedzher",
+			"name": "Комьюнити-менеджер"
 		}
 	},
 	"mode": "production",
