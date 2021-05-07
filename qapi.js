@@ -254,17 +254,29 @@ export default {
 		"60899b18951877001f1e3b54": {
 			"id": "60899b18951877001f1e3b54",
 			"pageUrl": "qa-engineer",
-			"name": "QA Engineer - Graphite"
+			"name": "QA Engineer - Graphite",
+			"seo": {
+				"title": "QA Engineer",
+				"description": "Graphite – редактор сайтов для веб-дизайнеров. Мы стартап, и наша цель – вывести дизайнерский опыт на новый уровень.\n\nХотим найти человека, который поможет сделать продукт качественным и с желанием развиваться в автоматизацию."
+			}
 		},
 		"60899d2692d19d001eee7fd3": {
 			"id": "60899d2692d19d001eee7fd3",
 			"pageUrl": "frontend-developer",
-			"name": "Frontend Developer "
+			"name": "Frontend Developer ",
+			"seo": {
+				"title": "Frontend Developer",
+				"description": "Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень — Graphite.space"
+			}
 		},
 		"6095946b2061a7001e176743": {
 			"id": "6095946b2061a7001e176743",
 			"pageUrl": "komyuniti-menedzher",
-			"name": "Комьюнити-менеджер"
+			"name": "Комьюнити-менеджер",
+			"seo": {
+				"title": "Комьюнити-менеджер",
+				"description": "Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями quarkly.io — инструмента для быстрого создания сайтов и веб-приложений на React"
+			}
 		}
 	},
 	"mode": "production",

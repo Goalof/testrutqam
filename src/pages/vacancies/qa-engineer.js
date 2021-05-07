@@ -11,9 +11,9 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"vacancies/qa-engineer"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				QA Engineer
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"Graphite – редактор сайтов для веб-дизайнеров. Мы стартап, и наша цель – вывести дизайнерский опыт на новый уровень.\n\nХотим найти человека, который поможет сделать продукт качественным и с желанием развиваться в автоматизацию."} />
 			<meta property={"og:title"} content={"Работа в uTeam"} />
 			<meta property={"og:description"} content={"Работа в uCoz. Актуальные вакансии компании в российских офисах и удаленная работа. Как попасть в команду, и о нашем коллективе — uTeam."} />
 			<meta property={"og:image"} content={"https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"} />

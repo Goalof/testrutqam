@@ -341,7 +341,7 @@ export default (() => {
 														Комьюнити-менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Graphite | Ростов-на-Дону
+														Проект Quarkly | Удаленная работа{"\n\n"}
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
@@ -706,7 +706,7 @@ export default (() => {
 														Комьюнити-менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Graphite | Ростов-на-Дону
+														Проект Quarkly | Удаленная работа{"\n\n"}
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
@@ -1906,7 +1906,7 @@ export default (() => {
 														Комьюнити-менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Graphite | Ростов-на-Дону
+														Проект Quarkly | Удаленная работа{"\n\n"}
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
@@ -2017,7 +2017,7 @@ export default (() => {
 														Комьюнити-менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Graphite | Ростов-на-Дону
+														Проект Quarkly | Удаленная работа{"\n\n"}
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
