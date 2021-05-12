@@ -354,29 +354,6 @@ export default (() => {
 												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
-														href="/vacancies/junior-qa"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Junior QA
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Сейчас мы ищем ответственного, внимательного к деталям человека, кому было бы интересно
-погрузиться в работу QA и расти в этой области. Мы всегда рады людям нацеленным на
-профессиональное развитие
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
 														href="/vacancies/back-end-developer-php"
 														text-decoration-line="initial"
 														color="#263238"
@@ -580,29 +557,6 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="two" md-width="100%">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/junior-qa"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Junior QA
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Сейчас мы ищем ответственного, внимательного к деталям человека, кому было бы интересно
-погрузиться в работу QA и расти в этой области. Мы всегда рады людям нацеленным на
-профессиональное развитие
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
 														href="/vacancies/backend-software-engineer"
@@ -1389,29 +1343,6 @@ export default (() => {
 												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
-														href="/vacancies/junior-qa"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Junior QA
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Сейчас мы ищем ответственного, внимательного к деталям человека, кому было бы интересно
-погрузиться в работу QA и расти в этой области. Мы всегда рады людям нацеленным на
-профессиональное развитие
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
 														href="/vacancies/back-end-developer-php"
 														text-decoration-line="initial"
 														color="#263238"
@@ -1560,29 +1491,6 @@ export default (() => {
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/junior-qa"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Junior QA
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Сейчас мы ищем ответственного, внимательного к деталям человека, кому было бы интересно
-погрузиться в работу QA и расти в этой области. Мы всегда рады людям нацеленным на
-профессиональное развитие
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
