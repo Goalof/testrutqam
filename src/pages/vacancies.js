@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Button, Hr, Box, Strong } from "@quarkly/widgets";
+import { Theme, Link, Text, Section, Icon, Button, Hr, Box, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
 import { FaBoxes, FaRegObjectUngroup, FaFileCode } from "react-icons/fa";
 import { MdTouchApp } from "react-icons/md";
@@ -287,6 +287,27 @@ export default (() => {
 												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
+														href="/vacancies/sistemnyj-administrator"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Системный администратор
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group открывает вакансию системного администратора.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
 														href="/vacancies/qa-engineer"
 														text-decoration-line="initial"
 														color="#263238"
@@ -341,7 +362,7 @@ export default (() => {
 														Комьюнити-менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Quarkly | Удаленная работа{"\n\n"}
+														Проект Quarkly | Удаленная работа
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
@@ -559,6 +580,27 @@ export default (() => {
 											<Components.TabPanel tabId="two" md-width="100%">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
+														href="/vacancies/sistemnyj-administrator"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Системный администратор
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group открывает вакансию системного администратора.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
 														href="/vacancies/backend-software-engineer"
 														text-decoration-line="initial"
 														color="#263238"
@@ -660,7 +702,7 @@ export default (() => {
 														Комьюнити-менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Quarkly | Удаленная работа{"\n\n"}
+														Проект Quarkly | Удаленная работа
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
@@ -1301,6 +1343,27 @@ export default (() => {
 												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
+														href="/vacancies/sistemnyj-administrator"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Системный администратор
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group открывает вакансию системного администратора.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
 														href="/vacancies/qa-engineer"
 														text-decoration-line="initial"
 														color="#263238"
@@ -1452,6 +1515,27 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="two" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/sistemnyj-administrator"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Системный администратор
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Компания uKit Group открывает вакансию системного администратора.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
 														href="/vacancies/qa-engineer"
@@ -1814,7 +1898,7 @@ export default (() => {
 														Комьюнити-менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Quarkly | Удаленная работа{"\n\n"}
+														Проект Quarkly | Удаленная работа
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
@@ -1925,7 +2009,7 @@ export default (() => {
 														Комьюнити-менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Quarkly | Удаленная работа{"\n\n"}
+														Проект Quarkly | Удаленная работа
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}

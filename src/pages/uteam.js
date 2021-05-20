@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Button, Image, Box, Icon } from "@quarkly/widgets";
+import { Theme, Link, Text, Button, Image, Box, Section, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
 import { FaInstagram } from "react-icons/fa";
 export default (() => {

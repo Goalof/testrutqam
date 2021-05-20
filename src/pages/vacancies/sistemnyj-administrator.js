@@ -8,12 +8,12 @@ import * as Components from "components";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"vacancies/frontend-developer"} />
+		<GlobalQuarklyPageStyles pageUrl={"vacancies/sistemnyj-administrator"} />
 		<Helmet>
 			<title>
-				Frontend Developer
+				Системный администратор
 			</title>
-			<meta name={"description"} content={"Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень — Graphite.space"} />
+			<meta name={"description"} content={"Компания uKit Group открывает вакансию системного администратора."} />
 			<meta property={"og:title"} content={"Работа в uTeam"} />
 			<meta property={"og:description"} content={"Работа в uCoz. Актуальные вакансии компании в российских офисах и удаленная работа. Как попасть в команду, и о нашем коллективе — uTeam."} />
 			<meta property={"og:image"} content={"https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"} />
@@ -64,7 +64,7 @@ export default (() => {
 						sm-font="normal 500 40px/1.2 'AvenirNextCyrDemi', sans-serif"
 						as="h1"
 					>
-						Frontend Developer
+						Системный администратор
 					</Text>
 					<Text
 						font="normal 400 18px/1.2 'AvenirNextCyrMedium', sans-serif"
@@ -75,7 +75,7 @@ export default (() => {
 						color="#333"
 						letter-spacing=".2"
 					>
-						Проект Graphite | Ростов-на-Дону
+						Проект uKit | Ростов-на-Дону{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
@@ -85,10 +85,7 @@ export default (() => {
 						letter-spacing="0.3px"
 						color="#333"
 					>
-						Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень —{" "}
-						<Link href="https://graphite.space/" text-decoration-line="initial" color="#4a8cfa">
-							Graphite.space
-						</Link>
+						Компания uKit Group открывает вакансию системного администратора.
 					</Text>
 					<Text
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
@@ -99,11 +96,87 @@ export default (() => {
 						color="#333"
 						letter-spacing=".2"
 					>
-						Стек:
+						Задачи:
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							JavaScript, React, Redux, Redux-Saga, Facebook Flow, Angular, TypeScript, Node.js, HTML5, CSS3, Git, Firebase, Jest.
+							Техническая, информационная поддержка пользователей;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Установка и настройка оборудования рабочих мест сотрудников;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Администрирование, обновление 1С 8.3;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Ведение реестра программного обеспечения и подменного фонда;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Составлении заявок на приобретение оборудования, запасных частей и комплектующих;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Взаимодействие с дата-центрами и операторами связи, участие в решении организационных вопросов.
+						</Text>
+					</List>
+					<Text
+						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
+						margin="24px 0px 18px 0px"
+						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						text-align="left"
+						color="#333"
+						letter-spacing=".2"
+					>
+						Требования:
+					</Text>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Опыт работы системным администратором (эникейщиком) от 1 года;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Отличное знание офисной техники и ПО;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Понимание устройства компьютера (сервера);
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Понимание принципов работы сети Интернет;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Умение находить общий язык с сотрудниками любых отделов, в том числе не «технарями»;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Опыт работы с Mikrotik;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Опыт работы с Ubiquiti UniFl
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Опыт поддержки 1С 8.3.
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" />
@@ -135,7 +208,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							молодой, дружный и профессиональный коллектив;
+							Молодой, дружный и профессиональный коллектив.
 						</Text>
 					</Box>
 					<Box
@@ -154,7 +227,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							опытного наставника, адаптацию и погружение в процессы;
+							Оформление по ТК с первого рабочего дня.
 						</Text>
 					</Box>
 					<Box
@@ -173,7 +246,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							корпоративный английский;
+							Уровень заработной платы определяется по результатам собеседования.
 						</Text>
 					</Box>
 					<Box
@@ -192,7 +265,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							ДМС со стоматологией;
+							ДМС со стоматологией.
 						</Text>
 					</Box>
 					<Box
@@ -211,7 +284,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							питание в офисе с поваром;
+							Питание в офисе.
 						</Text>
 					</Box>
 					<Box
@@ -230,7 +303,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							массаж в офисе;
+							все возможности для профессионального роста и развития (конференции, обучение).
 						</Text>
 					</Box>
 					<Box
@@ -249,7 +322,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							комфортные условия работы, гибкое утро.
+							Комфортные условия работы, гибкое начало рабочего дня.
 						</Text>
 					</Box>
 					<Components.PopUp

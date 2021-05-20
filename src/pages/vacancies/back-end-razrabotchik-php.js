@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link } from "@quarkly/widgets";
+import { Theme, Link, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, Stack, Section } from "@quarkly/components";
+import { RawHtml, Override, Stack } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -12,7 +12,7 @@ export default (() => {
 			<title>
 				Работа в uCoz – Back-end разработчик (PHP)
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"Компания uKit Group открывает вакансию системного администратора."} />
 			<meta property={"og:title"} content={"Работа в uTeam"} />
 			<meta property={"og:description"} content={"Работа в uCoz. Актуальные вакансии компании в российских офисах и удаленная работа. Как попасть в команду, и о нашем коллективе — uTeam."} />
 			<meta property={"og:image"} content={"https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"} />

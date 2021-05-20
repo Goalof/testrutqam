@@ -123,6 +123,10 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/sistemnyj-administrator": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"
