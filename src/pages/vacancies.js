@@ -139,7 +139,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (12)
+													ВСЕ ВАКАНСИИ (11)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -184,7 +184,7 @@ export default (() => {
 												>
 													<div />
 													<Icon category="fa" icon={FaFileCode} size="20px" margin="0px 8px 0px 0px" />
-													РАЗРАБОТКА (7)
+													РАЗРАБОТКА (5)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three">
@@ -303,27 +303,6 @@ export default (() => {
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Компания uKit Group открывает вакансию системного администратора.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/qa-engineer"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														QA Engineer
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Graphite | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Хотим найти человека, который поможет сделать продукт качественным и с желанием развиваться в автоматизацию.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1214,7 +1193,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (8)
+													ВСЕ ВАКАНСИИ (7)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -1264,7 +1243,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													РАЗРАБОТКА (7)
+													РАЗРАБОТКА (6)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three" display="none">
@@ -1359,27 +1338,6 @@ export default (() => {
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Компания uKit Group открывает вакансию системного администратора.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/qa-engineer"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														QA Engineer
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Graphite | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Хотим найти человека, который поможет сделать продукт качественным и с желанием развиваться в автоматизацию.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1533,27 +1491,6 @@ export default (() => {
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Компания uKit Group открывает вакансию системного администратора.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/qa-engineer"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														QA Engineer
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Graphite | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Хотим найти человека, который поможет сделать продукт качественным и с желанием развиваться в автоматизацию.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
