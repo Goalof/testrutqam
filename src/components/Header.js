@@ -142,10 +142,11 @@ const overrides = {
 			"flex": "1 0 auto",
 			"nout-position": "relative",
 			"nout-z-index": "5",
-			"nout-display": "flex",
+			// "nout-display": "flex",
 			"nout-justify-content": "flex-end",
 			"nout-align-items": "center",
-			"display": "none",
+			// "display": "none",
+			"display": "flex",
 			"nout-top": "0px"
 		}
 	},
@@ -169,8 +170,9 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "Button",
-			"display": "none",
-			"nout-display": "flex",
+			// "display": "none",
+			// "nout-display": "flex",
+			"display": "flex",
 			"nout-width": "33px",
 			"nout-height": "28px",
 			"nout-z-index": "6",

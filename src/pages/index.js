@@ -110,13 +110,12 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" padding="15px 30px 13px 30px" justify-content="flex-end" />
 					<Components.MobileSide2
 						flex="1 0 auto"
-						nout-position="relative"
-						nout-z-index="3"
+						nout-align-items="center"
 						nout-display="flex"
 						nout-justify-content="flex-end"
-						nout-align-items="center"
-						display="none"
+						nout-position="relative"
 						nout-top="0px"
+						nout-z-index="3"
 					>
 						<Override
 							slot="Content2"
@@ -171,13 +170,7 @@ export default (() => {
 						<Override slot="Button Liner3 :closed" nout-width="22px" />
 						<Override slot="Button Liner2 :open" nout-opacity="0" nout-width="32px" />
 						<Override slot="Button Liner1 :open" nout-width="36px" nout-transform="translateY(12px) rotate(225deg)" nout-background="--color-dark" />
-						<Override
-							slot="Button Liner3 :open"
-							nout-width="36px"
-							nout-transform="translateY(-12px) rotate(135deg)"
-							background="--color-green"
-							nout-background="#000000"
-						/>
+						<Override slot="Button Liner3 :open" nout-width="36px" nout-transform="translateY(-12px) rotate(135deg)" nout-background="#000000" />
 						<Override slot="Content2 :closed" nout-opacity="0" nout-transition="transform --transitionDuration-normal step-end 0s,opacity --transitionDuration-normal --transitionTimingFunction-easeOut" nout-transform="translateY(-100%)" />
 						<Override slot="Content2 :open" nout-transform="translateY(0%)" nout-transition="transform --transitionDuration-normal step-start 0s,opacity --transitionDuration-normal --transitionTimingFunction-easeOut" nout-opacity="1" />
 						<Override slot="Button2 :open" nout-position="fixed" />
@@ -447,7 +440,7 @@ export default (() => {
 					</Menu>
 					{"        "}
 				</StackItem>
-				<StackItem width="55%" display="flex" nout-width="100%">
+				<StackItem width="55%" display="flex" nout-width="100%" margin="-70px 0px 0px 0px">
 					<Override slot="StackItemContent" flex-direction="column" nout-align-items="flex-end" />
 					{"        "}
 					<Image
@@ -467,12 +460,15 @@ export default (() => {
 						text-align="right"
 						nout-margin="10px 0px 50px 20px"
 						nout-font="1000 33vw/0.6 'AvenirNextCyrBold', sans-serif"
+						position="relative"
+						right="-50px"
+						top="-10px"
 					>
 						123
 					</Text>
 					<Box
 						padding="0 14% 0 14%"
-						margin="40px 0px 0px 0px"
+						margin="40px 0px 0px 40px"
 						nout-width="55%"
 						nout-display="flex"
 						nout-flex-direction="column"
@@ -777,7 +773,6 @@ export default (() => {
 						nout-display="flex"
 						nout-justify-content="flex-end"
 						nout-align-items="center"
-						display="none"
 						nout-top="0px"
 					>
 						<Override

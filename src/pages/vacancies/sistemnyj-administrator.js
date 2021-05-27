@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Icon, Text, List, Image, Box, Section } from "@quarkly/widgets";
+import { Theme, Link, Icon, Text, List, Image, Box, Section, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -385,6 +385,8 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Components.Footer />
+		<Hr />
+		<Hr />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

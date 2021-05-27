@@ -23,7 +23,7 @@ const MobileSidePanel = props => {
 	      onToggleOpen = useCallback(() => setOpen(!isOpen), [isOpen]),
 	      stateOpen = isOpen ? ':open' : ':closed';
 	return <Box {...rest}>
-		<Box onPointerDown={onToggleOpen} {...override('Button2', `Button2 ${stateOpen}`)}>
+		<Box onPointerDown={onToggleOpen} {...override('Button2', `Button2 ${stateOpen}`)} display="flex">
 			<Box {...override('Button Liner', 'Button Liner1', `Button Liner1 ${stateOpen}`)} />
 			<Box {...override('Button Liner', 'Button Liner2', `Button Liner2 ${stateOpen}`)} />
 			<Box {...override('Button Liner', 'Button Liner3', `Button Liner3 ${stateOpen}`)} />
