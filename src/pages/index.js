@@ -115,7 +115,7 @@ export default (() => {
 						nout-justify-content="flex-end"
 						nout-position="relative"
 						nout-top="0px"
-						nout-z-index="3"
+						nout-z-index="0"
 					>
 						<Override
 							slot="Content2"
@@ -440,7 +440,7 @@ export default (() => {
 					</Menu>
 					{"        "}
 				</StackItem>
-				<StackItem width="55%" display="flex" nout-width="100%" margin="-70px 0px 0px 0px">
+				<StackItem width="55%" display="flex" nout-width="100%" margin="0px 0px 0px 0px">
 					<Override slot="StackItemContent" flex-direction="column" nout-align-items="flex-end" />
 					{"        "}
 					<Image
@@ -455,12 +455,11 @@ export default (() => {
 					<Text
 						color="#ffffff"
 						font="1000 28vw/0.6 'AvenirNextCyrBold', sans-serif"
-						margin="-10px 0px 50px 10px"
+						margin="0px 0px 50px 10px"
 						width="100%"
 						text-align="right"
 						nout-margin="10px 0px 50px 20px"
 						nout-font="1000 33vw/0.6 'AvenirNextCyrBold', sans-serif"
-						position="relative"
 						right="-50px"
 						top="-10px"
 					>
@@ -696,7 +695,7 @@ export default (() => {
 			top="0px"
 		>
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Stack margin="0px 0px 0px 0px" gap="0px">
+			<Stack margin="0px 0px 0px 0px" gap="0px" nout-position="relative" nout-z-index="1">
 				<StackItem
 					width="50%"
 					display="flex"
@@ -706,7 +705,7 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" align-items="flex-start" padding="15px 30px 13px 30px" />
 					{"        "}
-					<Box display="flex" align-items="center">
+					<Box display="flex" align-items="center" nout-position="relative" nout-z-index="1">
 						<Link href="/">
 							<Image
 								src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/logoblue.svg?v=2021-01-25T20:59:50.954Z"
@@ -774,6 +773,7 @@ export default (() => {
 						nout-justify-content="flex-end"
 						nout-align-items="center"
 						nout-top="0px"
+						display="none"
 					>
 						<Override
 							slot="Content"
