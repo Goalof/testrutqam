@@ -95,7 +95,7 @@ export default (() => {
 						<Override slot="Tab fl" border-radius="0px 5px 5px 0px" md-border-radius="0px">
 							Удаленная работа
 						</Override>
-						<Override slot="Tab spb" className="nobutton" pointer-events="none" />
+						<Override slot="Tab spb" className="nobutton" pointer-events="none" opacity=".7" />
 						<Components.Tab2 tabId="all">
 							<Stack margin="0px 0px 0px 0px">
 								<StackItem width="100%" display="flex" sm-width="100%">
@@ -139,7 +139,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (8)
+													ВСЕ ВАКАНСИИ (6)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -187,7 +187,7 @@ export default (() => {
 													РАЗРАБОТКА (2)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three">
+											<Components.TabItem tabId="three" display="none">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -257,34 +257,12 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (3)
+													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (2)
 												</Button>
 											</Components.TabItem>
 										</Components.TabList>
 										<Components.TabPanels width="80%" md-width="100%" lg-width="70%">
 											<Components.TabPanel tabId="one" md-width="100%">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Руководитель службы технической поддержки
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем опытного и неравнодушного повелителя тикетов, спешащего на помощь пользователям
-сервиса uKit.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
 														href="/vacancies/frontend-developer"
@@ -303,53 +281,6 @@ export default (() => {
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/komyuniti-menedzher"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Комьюнити-менеджер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Quarkly | Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
-														<Link href="https://quarkly.io/preview#/vacancies/https://quarkly.io/" text-decoration-line="initial" color="--primary">
-															quarkly.io
-														</Link>
-														{" "}— инструмента для быстрого создания сайтов и веб-приложений на React
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Руководитель службы технической поддержки
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Санкт-Петербург
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем опытного и неравнодушного повелителя тикетов, спешащего на помощь пользователям
-сервиса uKit.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -562,50 +493,6 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="four" md-width="100%">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Руководитель службы технической поддержки
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем опытного и неравнодушного повелителя тикетов, спешащего на помощь пользователям
-сервиса uKit.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Руководитель службы технической поддержки
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Санкт-Петербург
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем опытного и неравнодушного повелителя тикетов, спешащего на помощь пользователям
-сервиса uKit.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														href="/vacancies/specialist-sluzhby-tehnicheskoj-podderzhki1"
@@ -1062,7 +949,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (4)
+													ВСЕ ВАКАНСИИ (3)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -1148,7 +1035,7 @@ export default (() => {
 													color="inherit"
 													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
 													letter-spacing=".2px"
-													display="flex"
+													display="none"
 													align-items="center"
 													padding="8px 24px 8px 12px"
 													focus-box-shadow="none"
@@ -1167,28 +1054,6 @@ export default (() => {
 										</Components.TabList>
 										<Components.TabPanels width="80%" md-width="100%" lg-width="70%">
 											<Components.TabPanel tabId="one" md-width="100%">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Руководитель службы технической поддержки
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем опытного и неравнодушного повелителя тикетов, спешащего на помощь пользователям
-сервиса uKit.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
 														href="/vacancies/frontend-developer"
@@ -1436,7 +1301,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (6)
+													ВСЕ ВАКАНСИИ (4)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="two">
@@ -1463,7 +1328,7 @@ export default (() => {
 													РАЗРАБОТКА (2)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three">
+											<Components.TabItem tabId="three" display="none">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -1471,12 +1336,12 @@ export default (() => {
 													color="inherit"
 													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
 													letter-spacing=".2px"
-													display="flex"
 													align-items="center"
 													padding="8px 24px 8px 12px"
 													focus-box-shadow="none"
 													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
 													text-transform="uppercase"
+													display="flex"
 												>
 													<Icon
 														category="md"
@@ -1488,7 +1353,7 @@ export default (() => {
 													Менеджмет (1)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="four">
+											<Components.TabItem tabId="four" display="none">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -1578,31 +1443,6 @@ export default (() => {
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/komyuniti-menedzher"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														Комьюнити-менеджер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Quarkly | Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
-														<Link href="https://quarkly.io/preview#/vacancies/https://quarkly.io/" text-decoration-line="initial" color="--primary">
-															quarkly.io
-														</Link>
-														{" "}— инструмента для быстрого создания сайтов и веб-приложений на React
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1841,7 +1681,7 @@ export default (() => {
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"601c3c7d7571e39a08c18a0b"}>
-				{"@media (min-width: 1200px) {\n* {\n    scroll-behavior: smooth;\n    }\n    }\n  .active .fileText {\n  display: none;\n  }\n  input.fileText {\n      opacity: 1 !important;\n  }\n  * {\n    -webkit-tap-highlight-color: transparent!important;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrRegular';\n    src: url('/fonts/AvenirNextCyr-Regular.eot');\n    src: url('/fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Regular.woff') format('woff'), url('/fonts/AvenirNextCyr-Regular.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrMedium';\n    src: url('/fonts/AvenirNextCyr-Medium.eot');\n    src: url('/fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Medium.woff') format('woff'), url('/fonts/AvenirNextCyr-Medium.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrBold';\n    src: url('/fonts/AvenirNextCyr-Bold.eot');\n    src: url('/fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Bold.woff') format('woff'), url('/fonts/AvenirNextCyr-Bold.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrDemi';\n    src: url('/fonts/AvenirNextCyr-Demi.otf');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  body {\n    font-family: 'AvenirNextCyrRegular', sans-serif;\n    font-weight: normal;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n:focus {\n  outline: none;\n}\n/*\n.nobutton {\npointer-events: none; \n} */"}
+				{"@media (min-width: 1200px) {\n* {\n    scroll-behavior: smooth;\n    }\n    }\n  .active .fileText {\n  display: none;\n  }\n  input.fileText {\n      opacity: 1 !important;\n  }\n  * {\n    -webkit-tap-highlight-color: transparent!important;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrRegular';\n    src: url('/fonts/AvenirNextCyr-Regular.eot');\n    src: url('/fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Regular.woff') format('woff'), url('/fonts/AvenirNextCyr-Regular.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrMedium';\n    src: url('/fonts/AvenirNextCyr-Medium.eot');\n    src: url('/fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Medium.woff') format('woff'), url('/fonts/AvenirNextCyr-Medium.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrBold';\n    src: url('/fonts/AvenirNextCyr-Bold.eot');\n    src: url('/fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Bold.woff') format('woff'), url('/fonts/AvenirNextCyr-Bold.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrDemi';\n    src: url('/fonts/AvenirNextCyr-Demi.otf');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  body {\n    font-family: 'AvenirNextCyrRegular', sans-serif;\n    font-weight: normal;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n:focus {\n  outline: none;\n}\n\n.nobutton {\npointer-events: none; \n} "}
 			</style>
 			<link
 				href={"/nubexPrint.css"}
