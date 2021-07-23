@@ -139,7 +139,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (6)
+													ВСЕ ВАКАНСИИ (9)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -187,7 +187,7 @@ export default (() => {
 													РАЗРАБОТКА (2)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three" display="none">
+											<Components.TabItem tabId="three">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -257,12 +257,75 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (2)
+													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (4)
 												</Button>
 											</Components.TabItem>
 										</Components.TabList>
 										<Components.TabPanels width="80%" md-width="100%" lg-width="70%">
 											<Components.TabPanel tabId="one" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/seo-specialist-rostov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														SEO специалист
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/deloproizvoditel-pomoshnik-yurista"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Делопроизводитель (помощник юриста)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														IT-компания uKit Group открывает вакансию помощника юриста/делопроизводителя. Мы 15 лет помогаем людям реализовать себя онлайн. Ищем начинающего специалиста, который хотел бы получить опыт в сфере кадрового делопроизводства и юриспруденции.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/seo-specialist"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														SEO специалист
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Москва
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
 														href="/vacancies/backend-software-engineer"
@@ -448,7 +511,7 @@ export default (() => {
 											<Components.TabPanel tabId="three" md-width="100%">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
-														href="/vacancies/komyuniti-menedzher"
+														href="/vacancies/deloproizvoditel-pomoshnik-yurista"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -457,17 +520,13 @@ export default (() => {
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 													>
-														Комьюнити-менеджер
+														Делопроизводитель (помощник юриста)
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Quarkly | Удаленная работа
+														Проект uKit | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем неравнодушного комьюнити-менеджера для организации взаимодействия с пользователями{" "}
-														<Link href="https://quarkly.io/preview#/vacancies/https://quarkly.io/" text-decoration-line="initial" color="--primary">
-															quarkly.io
-														</Link>
-														{" "}— инструмента для быстрого создания сайтов и веб-приложений на React
+														IT-компания uKit Group открывает вакансию помощника юриста/делопроизводителя. Мы 15 лет помогаем людям реализовать себя онлайн. Ищем начинающего специалиста, который хотел бы получить опыт в сфере кадрового делопроизводства и юриспруденции.
 													</Text>
 												</Box>
 											</Components.TabPanel>
@@ -513,6 +572,48 @@ export default (() => {
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем талантливого PR-щика, серьезно увлеченного вебом. Для продвижения на рынке (в первую очередь англоязычном) проекта Quarkly, ориентированного на профессиональных пользователей (веб-дизайнеров, фронтенд-разработчиков, верстальщиков).
 														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/seo-specialist-rostov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														SEO специалист
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/seo-specialist"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														SEO специалист
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Москва
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -586,7 +687,7 @@ export default (() => {
 														margin="0px 8px 0px 0px"
 														size="20px"
 													/>
-													ВСЕ ВАКАНСИИ (1)
+													ВСЕ ВАКАНСИИ (2)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="five">
@@ -610,7 +711,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (1)
+													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (2)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="menedzher" display="none">
@@ -643,7 +744,7 @@ export default (() => {
 											<Components.TabPanel tabId="one" md-width="100%">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
-														href="/vacancies/pr-menedzher"
+														href="/vacancies/seo-specialist"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -652,14 +753,35 @@ export default (() => {
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 													>
-														PR-менеджер
+														SEO специалист
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Москва{" "}
+														Проект uKit | Москва
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем талантливого PR-щика, реализовавшегося в диджитал или мечтающего это сделать.
+														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
 													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+													<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+														<Link
+															href="/vacancies/pr-menedzher"
+															text-decoration-line="initial"
+															color="#263238"
+															font="22px 'AvenirNextCyrMedium', sans-serif"
+															margin="0px 0px 0px 0px"
+															transition="color 0.2s linear 0s"
+															hover-color="#4a8cfa"
+															md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														>
+															PR-менеджер
+														</Link>
+														<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+															Проект uKit | Москва{" "}
+														</Text>
+														<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+															Мы ищем талантливого PR-щика, реализовавшегося в диджитал или мечтающего это сделать.
+														</Text>
+													</Box>
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="menedzher" md-width="100%">
@@ -687,7 +809,7 @@ export default (() => {
 											<Components.TabPanel tabId="five" md-width="100%">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
-														href="/vacancies/pr-menedzher"
+														href="/vacancies/seo-specialist"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -696,14 +818,35 @@ export default (() => {
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 													>
-														PR-менеджер
+														SEO специалист
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Quarkly | Москва{" "}
+														Проект uKit | Москва
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем талантливого PR-щика, реализовавшегося в диджитал или мечтающего это сделать.
+														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
 													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+													<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+														<Link
+															href="/vacancies/pr-menedzher"
+															text-decoration-line="initial"
+															color="#263238"
+															font="22px 'AvenirNextCyrMedium', sans-serif"
+															margin="0px 0px 0px 0px"
+															transition="color 0.2s linear 0s"
+															hover-color="#4a8cfa"
+															md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														>
+															PR-менеджер
+														</Link>
+														<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+															Проект Quarkly | Москва{" "}
+														</Text>
+														<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+															Мы ищем талантливого PR-щика, реализовавшегося в диджитал или мечтающего это сделать.
+														</Text>
+													</Box>
 												</Box>
 											</Components.TabPanel>
 										</Components.TabPanels>
@@ -928,10 +1071,10 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (2)
+													ВСЕ ВАКАНСИИ (4)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three-des" display="none">
+											<Components.TabItem tabId="three">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -947,13 +1090,13 @@ export default (() => {
 													text-transform="uppercase"
 												>
 													<Icon
-														category="fa"
-														icon={FaRegObjectUngroup}
+														category="md"
+														icon={MdTouchApp}
 														size="20px"
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													Дизайн (1)
+													Менеджмет (1)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="two">
@@ -981,7 +1124,7 @@ export default (() => {
 													РАЗРАБОТКА (2)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three" display="none">
+											<Components.TabItem tabId="three-des">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -994,16 +1137,15 @@ export default (() => {
 													padding="8px 24px 8px 12px"
 													focus-box-shadow="none"
 													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
-													text-transform="uppercase"
 												>
 													<Icon
-														category="md"
-														icon={MdTouchApp}
-														size="20px"
+														category="bs"
+														icon={BsPieChartFill}
+														size="18px"
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													Менеджмет (1)
+													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (1)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="four">
@@ -1054,6 +1196,48 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/seo-specialist-rostov"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														SEO специалист
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+													<Link
+														href="/vacancies/deloproizvoditel-pomoshnik-yurista"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+													>
+														Делопроизводитель (помощник юриста)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														IT-компания uKit Group открывает вакансию помощника юриста/делопроизводителя. Мы 15 лет помогаем людям реализовать себя онлайн. Ищем начинающего специалиста, который хотел бы получить опыт в сфере кадрового делопроизводства и юриспруденции.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														href="/vacancies/programmist-perl"
@@ -1079,7 +1263,7 @@ export default (() => {
 											<Components.TabPanel tabId="three-des" md-width="100%">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
-														href="/vacancies/banneromejker-illyustrator"
+														href="/vacancies/deloproizvoditel-pomoshnik-yurista"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -1088,14 +1272,13 @@ export default (() => {
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 													>
-														Баннеромейкер (иллюстратор)
+														Делопроизводитель (помощник юриста)
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
 														Проект uKit | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Компания uKit Group приглашает в команду баннеромейкера (иллюстратора для создания баннеров)
-														<br />
+														IT-компания uKit Group открывает вакансию помощника юриста/делопроизводителя. Мы 15 лет помогаем людям реализовать себя онлайн. Ищем начинающего специалиста, который хотел бы получить опыт в сфере кадрового делопроизводства и юриспруденции.
 													</Text>
 												</Box>
 											</Components.TabPanel>
@@ -1144,9 +1327,9 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="three" md-width="100%">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
-														href="/vacancies/menedzher-dizajner-shablonov"
+														href="/vacancies/deloproizvoditel-pomoshnik-yurista"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -1155,13 +1338,13 @@ export default (() => {
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 													>
-														Менеджер-дизайнер шаблонов
+														Делопроизводитель (помощник юриста)
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
 														Проект uKit | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Компания uKit Group приглашает в свою команду менеджера-дизайнера для создания шаблонов для конструктора сайтов uKit. Эта работа для вас если вы знакомы с процессом создания шаблонов для сайтов, имеете опыт работы в студии веб-дизайна.
+														IT-компания uKit Group открывает вакансию помощника юриста/делопроизводителя. Мы 15 лет помогаем людям реализовать себя онлайн. Ищем начинающего специалиста, который хотел бы получить опыт в сфере кадрового делопроизводства и юриспруденции.
 													</Text>
 												</Box>
 											</Components.TabPanel>

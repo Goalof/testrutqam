@@ -60,7 +60,10 @@ export default {
 				"60899d2692d19d001eee7fd3",
 				"6095946b2061a7001e176743",
 				"60a679842061a7001e177a10",
-				"60b018f2542aaa001f921686"
+				"60b018f2542aaa001f921686",
+				"60fa990cade9cf00181f4f01",
+				"60fa9c649eb82b00171f021b",
+				"60fa9ec6aa9cc700185a3e34"
 			],
 			"seo": {
 				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
@@ -289,6 +292,33 @@ export default {
 			"id": "60b018f2542aaa001f921686",
 			"pageUrl": "frontend-developer-udal",
 			"name": "Frontend Developer "
+		},
+		"60fa990cade9cf00181f4f01": {
+			"id": "60fa990cade9cf00181f4f01",
+			"pageUrl": "seo-specialist",
+			"name": "SEO-специалист в Москве",
+			"seo": {
+				"title": "SEO-специалист в Москве",
+				"description": "Компания uKit Group ищет SEO-специалист в свою команду"
+			}
+		},
+		"60fa9c649eb82b00171f021b": {
+			"id": "60fa9c649eb82b00171f021b",
+			"pageUrl": "seo-specialist-rostov",
+			"name": "SEO-специалист в Ростов-на-Дону",
+			"seo": {
+				"title": "SEO-специалист в Ростове-на-Дону",
+				"description": "Мы ищем SEO специалиста в Ростове-на-Дону"
+			}
+		},
+		"60fa9ec6aa9cc700185a3e34": {
+			"id": "60fa9ec6aa9cc700185a3e34",
+			"pageUrl": "deloproizvoditel-pomoshnik-yurista",
+			"name": "Делопроизводитель (помощник юриста)",
+			"seo": {
+				"title": "Делопроизводитель (помощник юриста)",
+				"description": "Ищем Делопроизводителя в IT компанию uKit Group (помощника юриста)"
+			}
 		}
 	},
 	"mode": "production",

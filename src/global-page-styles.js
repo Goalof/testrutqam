@@ -131,6 +131,18 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/seo-specialist": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/seo-specialist-rostov": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/deloproizvoditel-pomoshnik-yurista": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"
