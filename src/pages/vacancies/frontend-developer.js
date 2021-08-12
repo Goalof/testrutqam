@@ -86,7 +86,17 @@ export default (() => {
 						color="#333"
 					>
 						Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень —{" "}
-						<Link href="https://graphite.space/" text-decoration-line="initial" color="#4a8cfa">
+						<Link
+							href="https://graphite.space/"
+							text-decoration-line="initial"
+							color="#4a8cfa"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							Graphite.space
 						</Link>
 					</Text>

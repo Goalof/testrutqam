@@ -86,7 +86,14 @@ export default (() => {
 						color="#333"
 					>
 						Команде веб-сервиса uCalc требуется{" "}
-						<Strong>
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
 							JavaScript{" "}
 						</Strong>
 						фронтенд-разработчик для участия в работе над интересным и сложным проектом.{"\n\n"}
