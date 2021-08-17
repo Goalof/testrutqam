@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section, Icon, Button, Hr, Box, Strong } from "@quarkly/widgets";
+import { Theme, Link, Text, Section, Icon, Button, Strong, Hr, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -139,7 +139,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (10)
+													ВСЕ ВАКАНСИИ (8)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -257,33 +257,12 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (4)
+													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (2)
 												</Button>
 											</Components.TabItem>
 										</Components.TabList>
 										<Components.TabPanels width="80%" md-width="100%" lg-width="70%">
 											<Components.TabPanel tabId="one" md-width="100%">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/seo-specialist-rostov"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														SEO специалист
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
 														href="/vacancies/javascript-razrabotchik-react"
@@ -323,34 +302,13 @@ export default (() => {
 														Frontend Developer
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Graphite | Ростов-на-Дону{"\n\n"}
+														Проект Graphite | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень —{" "}
 														<Link href="https://quarkly.io/preview#/vacancies/https://graphite.space/">
 															Graphite.space
 														</Link>
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/seo-specialist"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														SEO специалист
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Москва
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -553,7 +511,7 @@ export default (() => {
 														Frontend Developer
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Graphite | Ростов-на-Дону{"\n\n"}
+														Проект Graphite | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень —{" "}
@@ -652,48 +610,6 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/seo-specialist-rostov"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														SEO специалист
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
-														href="/vacancies/seo-specialist"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														SEO специалист
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Москва
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														href="/vacancies/technology-evangelistdeveloper-advocate"
@@ -764,7 +680,7 @@ export default (() => {
 														margin="0px 8px 0px 0px"
 														size="20px"
 													/>
-													ВСЕ ВАКАНСИИ (2)
+													ВСЕ ВАКАНСИИ (1)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="five">
@@ -788,7 +704,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (2)
+													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (1)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="menedzher" display="none">
@@ -821,7 +737,7 @@ export default (() => {
 											<Components.TabPanel tabId="one" md-width="100%">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
-														href="/vacancies/seo-specialist"
+														href="/vacancies/pr-menedzher"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -830,35 +746,14 @@ export default (() => {
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 													>
-														SEO специалист
+														PR-менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Москва
+														Проект uKit | Москва{" "}
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
+														Мы ищем талантливого PR-щика, реализовавшегося в диджитал или мечтающего это сделать.
 													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-													<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-														<Link
-															href="/vacancies/pr-menedzher"
-															text-decoration-line="initial"
-															color="#263238"
-															font="22px 'AvenirNextCyrMedium', sans-serif"
-															margin="0px 0px 0px 0px"
-															transition="color 0.2s linear 0s"
-															hover-color="#4a8cfa"
-															md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														>
-															PR-менеджер
-														</Link>
-														<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-															Проект uKit | Москва{" "}
-														</Text>
-														<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-															Мы ищем талантливого PR-щика, реализовавшегося в диджитал или мечтающего это сделать.
-														</Text>
-													</Box>
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="menedzher" md-width="100%">
@@ -1148,7 +1043,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (5)
+													ВСЕ ВАКАНСИИ (4)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three" display="none">
@@ -1201,7 +1096,7 @@ export default (() => {
 													РАЗРАБОТКА (4)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three-des">
+											<Components.TabItem tabId="three-des" display="none">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -1275,27 +1170,6 @@ export default (() => {
 												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
 													<Link
-														href="/vacancies/seo-specialist-rostov"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-													>
-														SEO специалист
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-													<Link
 														href="/vacancies/javascript-razrabotchik-react"
 														text-decoration-line="initial"
 														color="#263238"
@@ -1333,7 +1207,7 @@ export default (() => {
 														Frontend Developer
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Graphite | Ростов-на-Дону{"\n\n"}
+														Проект Graphite | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень —{" "}
@@ -1448,7 +1322,7 @@ export default (() => {
 														Frontend Developer
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Graphite | Ростов-на-Дону{"\n\n"}
+														Проект Graphite | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень —{" "}
