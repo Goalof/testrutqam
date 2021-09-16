@@ -281,9 +281,10 @@ export default (() => {
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Заниматься разработкой, развитием и поддержкой нового сложного SPA продукта, выводящего дизайнерский опыт на новый уровень —{" "}
-														<Link href="https://quarkly.io/preview#/vacancies/https://graphite.space/">
+														<Link href="https://graphite.space/" color="--primary" text-decoration-line="initial">
 															Graphite.space
 														</Link>
+														{"\n\n"}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>

@@ -89,7 +89,7 @@ export default (() => {
 						<Link
 							href="https://graphite.space/"
 							text-decoration-line="initial"
-							color="#4a8cfa"
+							color="--primary"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
