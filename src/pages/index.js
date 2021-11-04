@@ -550,6 +550,7 @@ export default (() => {
 					<Override slot="SectionContent" align-items="center" width="100%" />
 					<Components.EmbedHTML width="100%" />
 				</Section>
+				<Components.EmbedJS />
 			</Components.PopUp>
 			<Stack margin="0px 0px 0px 0px" max-width="750px" width="100%" gap="16px">
 				{"    "}
@@ -576,7 +577,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							2 вакансии
+							0 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -633,7 +634,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							4 вакансии
+							3 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -661,7 +662,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							4 вакансии
+							3 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -1275,7 +1276,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							2 вакансии
+							0 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -1332,7 +1333,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							4 вакансии
+							3 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -1360,7 +1361,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							4 вакансия
+							3 вакансия
 						</Span>
 					</Link>
 					{"    "}
@@ -1607,6 +1608,7 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Components.Footer />
+		<Components.EmbedJS />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
