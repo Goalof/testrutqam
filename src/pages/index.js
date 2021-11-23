@@ -558,12 +558,14 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link
+						className="nobutton"
 						href="/vacancies/#msk"
 						text-decoration-line="initial"
 						color="#ffd83a"
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
 						transition="color 0.2s linear 0s"
+						opacity=".7"
 					>
 						Москва
 						<br />
@@ -593,6 +595,7 @@ export default (() => {
 						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
 						hover-color="#ffffff"
 						transition="color 0.2s linear 0s"
+						opacity=".7"
 					>
 						Санкт-Петербург
 						<br />
@@ -1607,9 +1610,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Components.Footer>
-			<Override slot="image" />
-		</Components.Footer>
+		<Components.Footer />
 		<Components.EmbedJS />
 		<Link
 			font={"--capture"}
