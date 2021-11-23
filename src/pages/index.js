@@ -1607,7 +1607,9 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Components.Footer />
+		<Components.Footer>
+			<Override slot="image" />
+		</Components.Footer>
 		<Components.EmbedJS />
 		<Link
 			font={"--capture"}

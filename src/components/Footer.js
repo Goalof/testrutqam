@@ -56,7 +56,7 @@ const overrides = {
 	"image": {
 		"kind": "Image",
 		"props": {
-			"src": "https://screenshot.ukit.com/src/goalov/21/2021-01-27-03-36-00.png",
+			"src": "https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/logofooter.png?v=2021-11-23T15:51:40.636Z",
 			"color": "#ffffff",
 			"width": "121px",
 			"height": "40px",
