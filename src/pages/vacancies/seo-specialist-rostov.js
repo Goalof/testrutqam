@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Icon, Text, Strong, List, Image, Box, Section } from "@quarkly/widgets";
+import { Theme, Icon, Link, Text, Strong, List, Image, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -30,18 +30,18 @@ export default (() => {
 			<Override slot="SectionContent" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" max-width="850px">
 				{"    "}
-				<StackItem width="100%" display="flex">
+				<StackItem display="flex" width="100%">
 					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
 					{"        "}
 					<Link
-						href="/vacancies"
 						className="noprint"
-						margin="0px 0px 20px 0px"
 						text-decoration-line="initial"
-						color="#4a8cfa"
-						font="14px 'AvenirNextCyrMedium', sans-serif"
 						transition="color 0.2s linear 0s"
 						hover-color="#3d72cc"
+						href="/vacancies"
+						margin="0px 0px 20px 0px"
+						color="#4a8cfa"
+						font="14px 'AvenirNextCyrMedium', sans-serif"
 						display="flex"
 					>
 						<Icon
@@ -55,14 +55,14 @@ export default (() => {
 						К списку вакансий
 					</Link>
 					<Text
-						font="normal 500 44px/1.2 'AvenirNextCyrDemi', sans-serif"
-						margin="0px 0px 25px -3px"
-						display="inline-block"
 						sm-margin="0px 0px 20px 0px"
 						text-align="left"
 						color="#263238"
 						sm-font="normal 500 40px/1.2 'AvenirNextCyrDemi', sans-serif"
 						as="h1"
+						font="normal 500 44px/1.2 'AvenirNextCyrDemi', sans-serif"
+						margin="0px 0px 25px -3px"
+						display="inline-block"
 					>
 						SEO-специалист
 					</Text>
@@ -78,23 +78,23 @@ export default (() => {
 						Проект uKit | Ростов-на-Дону{"\n\n"}
 					</Text>
 					<Text
+						color="#333"
 						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						sm-margin="10px 0px 20px 0px"
 						letter-spacing="0.3px"
-						color="#333"
 					>
 						В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
 					</Text>
 					<Text
-						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
-						margin="24px 0px 18px 0px"
-						display="inline-block"
 						sm-margin="10px 0px 20px 0px"
 						text-align="left"
 						color="#333"
 						letter-spacing=".2"
+						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
+						margin="24px 0px 18px 0px"
+						display="inline-block"
 					>
 						<Strong
 							overflow-wrap="normal"
@@ -138,13 +138,13 @@ export default (() => {
 						</Text>
 					</List>
 					<Text
-						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
-						margin="20px 0px 18px 0px"
-						display="inline-block"
 						sm-margin="10px 0px 20px 0px"
 						text-align="left"
 						color="#333"
 						letter-spacing=".2"
+						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
+						margin="20px 0px 18px 0px"
+						display="inline-block"
 					>
 						<Strong>
 							Требования:
@@ -156,7 +156,7 @@ export default (() => {
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							опыт по продвижению проектов в высококонкурентных нишах;
 						</Text>
 					</List>
@@ -170,7 +170,7 @@ export default (() => {
 							проведение SEO аудитов крупных проектов;
 						</Text>
 					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
 							анализ и оптимизация ссылочного профиля;
 						</Text>
@@ -196,31 +196,31 @@ export default (() => {
 						</Text>
 					</List>
 					<Text
+						letter-spacing=".2"
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
 						margin="20px 0px 12px 0px"
 						display="inline-block"
 						sm-margin="10px 0px 20px 0px"
 						text-align="left"
 						color="#333"
-						letter-spacing=".2"
 					>
 						Условия:
 						<br />
 					</Text>
 					<Box
+						lg-margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
-						lg-margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
 					>
 						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 							width="15px"
 							height="12px"
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							оформление по ТК с первого дня;
@@ -234,12 +234,12 @@ export default (() => {
 						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
 							height="12px"
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							ДМС со стоматологией;
@@ -253,31 +253,31 @@ export default (() => {
 						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 							width="15px"
 							height="12px"
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							работу в проекте с духом стартапа, опытом сильной компании и узнаваемого бренда;
 						</Text>
 					</Box>
 					<Box
+						lg-padding="0px 0px 0px 0px"
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
 						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							комфортный офис, гибкое утро, возможен гибридный формат работы (офис/удалёнка);
@@ -291,12 +291,12 @@ export default (() => {
 						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
+							lg-margin="12px 10px 0px 0px"
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 							width="15px"
 							height="12px"
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							корпоративный английский;
@@ -329,12 +329,12 @@ export default (() => {
 						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							массажиста в офисе ;)
@@ -348,44 +348,44 @@ export default (() => {
 						transition="all 0.5s ease 0s"
 					>
 						<Override
-							slot="button"
-							color="#263238"
-							font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
-							letter-spacing=".1px"
-							background="#ffd83a"
-							padding="0px 15px 0px 15px"
-							transition="all 0.2s linear 0s"
-							left="-30px"
-							bottom="auto"
-							right="auto"
-							top="40%"
-							hover-left="0px"
-							border-radius="5px"
-							margin="30px 0px 10px 0px"
-							hover-background="#e6c235"
-						>
-							Откликнуться на вакансию
-						</Override>
-						<Override
 							slot="wrapper"
 							background="#ffffff"
-							max-width="672px"
 							width="100%"
-							margin="0px 0px 0px 0px"
 							padding="0px 0px 0px 0px"
-							border-radius="0px"
 							height="100%"
+							max-width="672px"
+							margin="0px 0px 0px 0px"
+							border-radius="0px"
 							overflow-y="scroll"
 							max-height="1150px"
 						/>
 						<Override
 							slot="close"
+							hover-color="#333"
+							transition="color 0.3s ease 0s"
 							color="#c5cfdb"
 							padding="0.7rem 0.7rem .5rem .5rem"
 							size="20px"
-							hover-color="#333"
-							transition="color 0.3s ease 0s"
 						/>
+						<Override
+							slot="button"
+							letter-spacing=".1px"
+							background="#ffd83a"
+							padding="0px 15px 0px 15px"
+							left="-30px"
+							font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
+							right="auto"
+							hover-left="0px"
+							bottom="auto"
+							hover-background="#e6c235"
+							margin="30px 0px 10px 0px"
+							color="#263238"
+							transition="all 0.2s linear 0s"
+							top="40%"
+							border-radius="5px"
+						>
+							Откликнуться на вакансию
+						</Override>
 						<Section padding="0px 0 40px 0">
 							<Override slot="SectionContent" align-items="center" width="100%" />
 							<Components.EmbedHTML width="100%" />
@@ -399,32 +399,7 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Components.Footer />
-		<Link
-			font={"--capture"}
-			font-size={"10px"}
-			position={"fixed"}
-			bottom={"12px"}
-			right={"12px"}
-			z-index={"4"}
-			border-radius={"4px"}
-			padding={"5px 12px 4px"}
-			background-color={"--dark"}
-			opacity={"0.6"}
-			hover-opacity={"1"}
-			color={"--light"}
-			cursor={"pointer"}
-			transition={"--opacityOut"}
-			quarkly-title={"Badge"}
-			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
-			target={"_blank"}
-		>
-			Made on Quarkly
-		</Link>
 		<RawHtml>
-			<style place={"endOfHead"} rawKey={"601c3c7d7571e39a08c18a0b"}>
-				{"@media (min-width: 1200px) {\n* {\n    scroll-behavior: smooth;\n    }\n    }\n  .active .fileText {\n  display: none;\n  }\n  input.fileText {\n      opacity: 1 !important;\n  }\n  * {\n    -webkit-tap-highlight-color: transparent!important;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrRegular';\n    src: url('/fonts/AvenirNextCyr-Regular.eot');\n    src: url('/fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Regular.woff') format('woff'), url('/fonts/AvenirNextCyr-Regular.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrMedium';\n    src: url('/fonts/AvenirNextCyr-Medium.eot');\n    src: url('/fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Medium.woff') format('woff'), url('/fonts/AvenirNextCyr-Medium.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrBold';\n    src: url('/fonts/AvenirNextCyr-Bold.eot');\n    src: url('/fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Bold.woff') format('woff'), url('/fonts/AvenirNextCyr-Bold.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrDemi';\n    src: url('/fonts/AvenirNextCyr-Demi.otf');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  body {\n    font-family: 'AvenirNextCyrRegular', sans-serif;\n    font-weight: normal;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n:focus {\n  outline: none;\n}\n\n.nobutton {\npointer-events: none; \n} "}
-			</style>
 			<link
 				href={"/nubexPrint.css"}
 				media={"print"}
@@ -445,6 +420,9 @@ export default (() => {
 				place={"endOfHead"}
 				rawKey={"6086e36e344c4251dc26bfe2"}
 			/>
+			<style place={"endOfHead"} rawKey={"601c3c7d7571e39a08c18a0b"}>
+				{"@media (min-width: 1200px) {\n* {\n    scroll-behavior: smooth;\n    }\n    }\n  .active .fileText {\n  display: none;\n  }\n  input.fileText {\n      opacity: 1 !important;\n  }\n  * {\n    -webkit-tap-highlight-color: transparent!important;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrRegular';\n    src: url('/fonts/AvenirNextCyr-Regular.eot');\n    src: url('/fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Regular.woff') format('woff'), url('/fonts/AvenirNextCyr-Regular.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrMedium';\n    src: url('/fonts/AvenirNextCyr-Medium.eot');\n    src: url('/fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Medium.woff') format('woff'), url('/fonts/AvenirNextCyr-Medium.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrBold';\n    src: url('/fonts/AvenirNextCyr-Bold.eot');\n    src: url('/fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/AvenirNextCyr-Bold.woff') format('woff'), url('/fonts/AvenirNextCyr-Bold.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  @font-face {\n    font-family: 'AvenirNextCyrDemi';\n    src: url('/fonts/AvenirNextCyr-Demi.otf');\n    font-weight: normal;\n    font-style: normal;\n    font-display: auto;\n  }\n  body {\n    font-family: 'AvenirNextCyrRegular', sans-serif;\n    font-weight: normal;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n:focus {\n  outline: none;\n}\n\n.nobutton {\npointer-events: none; \n} "}
+			</style>
 		</RawHtml>
 	</Theme>;
 });

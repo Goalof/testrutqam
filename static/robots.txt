@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ruteam.netlify.app/sitemap-index.xml
+Sitemap: https://ru.uteam.pro/sitemap-index.xml
