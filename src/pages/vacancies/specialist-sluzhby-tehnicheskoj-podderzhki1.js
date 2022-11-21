@@ -64,7 +64,7 @@ export default (() => {
 						margin="0px 0px 25px -3px"
 						display="inline-block"
 					>
-						Специалист службы технической поддержки{" "}
+						Специалист службы технической поддержки
 					</Text>
 					<Text
 						margin="0px 0px 20px 0px"
