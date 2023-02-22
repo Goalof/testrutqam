@@ -69,12 +69,18 @@ export default (() => {
 						<Override slot="Tab fl" border-radius="0px 5px 5px 0px" md-border-radius="0px">
 							Удаленная работа
 						</Override>
-						<Override slot="Tab spb" className="nobutton" pointer-events="none" opacity=".7" />
+						<Override
+							slot="Tab spb"
+							className="nobutton"
+							pointer-events="none"
+							opacity=".7"
+							display="none"
+						/>
 						<Override slot="Tab all" border-radius="5px 0px 0px 5px" md-border-radius="5px 5px 0px 0px">
 							Все вакансии
 						</Override>
-						<Override slot="Tab msk" border-radius="0px" opacity=".7">
-							Москва
+						<Override slot="Tab msk" border-radius="0px">
+							Баку
 						</Override>
 						<Override
 							slot="Tab :active"
@@ -97,6 +103,7 @@ export default (() => {
 							align-items="center"
 							justify-content="center"
 						/>
+						<Override slot="Tab" />
 						<Components.Tab2 tabId="all">
 							<Stack margin="0px 0px 0px 0px">
 								<StackItem sm-width="100%" width="100%" display="flex">
@@ -140,7 +147,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (1)
+													ВСЕ ВАКАНСИИ (5)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -185,10 +192,10 @@ export default (() => {
 												>
 													<div />
 													<Icon category="fa" icon={FaFileCode} size="20px" margin="0px 8px 0px 0px" />
-													РАЗРАБОТКА (1)
+													РАЗРАБОТКА (2)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three" display="none">
+											<Components.TabItem tabId="three">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -289,6 +296,50 @@ export default (() => {
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/product-marketing-manager-media-buyer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Product Marketing Manager/Media buyer
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону, Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group в поиске Product Marketing Manager/Media buyer, который возьмет на себя ответственность по продвижению наших мобильных приложений.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/technical-team-lead"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Technical Team Lead
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Ростов-на-Дону, Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Основной продукт, которым предстоит заниматься – наша ESP находящаяся на этапе MVP – RuSendener.ru
+														<br />
+														Основной стек: Vue.js, Nuxt.js, Nest.js, PostgreSQL, RabbitMQ, Docker, TypeScript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/programmist-perl"
 														text-decoration-line="initial"
 														color="#263238"
@@ -363,6 +414,29 @@ export default (() => {
 											<Components.TabPanel tabId="two" md-width="100%">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/technical-team-lead"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Technical Team Lead
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Ростов-на-Дону, Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Основной продукт, которым предстоит заниматься – наша ESP находящаяся на этапе MVP – RuSendener.ru
+														<br />
+														Основной стек: Vue.js, Nuxt.js, Nest.js, PostgreSQL, RabbitMQ, Docker, TypeScript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -384,25 +458,24 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="three" md-width="100%">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/ofis-menedzher-or-rostov"
+														href="/vacancies/product-marketing-manager-media-buyer"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
 													>
-														Офис менеджер
+														Product Marketing Manager/Media buyer
 													</Link>
-													<Text md-font="15px 'AvenirNextCyrMedium'" margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
-														Проект uCoz | Ростов-на-Дону
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону, Баку
 													</Text>
-													<Text font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif" margin="12px 0px 0px 0px">
-														IT-компания uKit Group открывает вакансию офис-менеджера.
-Ищем человека, который поддержит комфорт в условиях и атмосфере работы наших айтишников. Тебя ждут не только основные задачи офис-менеджера, но и лампово-развлекательные корпоративы и вечера.
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group в поиске Product Marketing Manager/Media buyer, который возьмет на себя ответственность по продвижению наших мобильных приложений.
 													</Text>
 												</Box>
 											</Components.TabPanel>
@@ -499,34 +572,35 @@ export default (() => {
 														category="fa"
 														icon={FaBoxes}
 													/>
-													ВСЕ ВАКАНСИИ (0)
+													ВСЕ ВАКАНСИИ (2)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="five">
 												<Override slot="Tab" color="#afc1db" />
 												<Override slot="Selected Tab" color="#3d72cc" />
+												<Override slot="Unselected Tab" />
 												<Button
 													color="inherit"
 													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
-													display="flex"
 													align-items="center"
 													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
 													background="rgba(0, 119, 204, 0)"
 													letter-spacing=".2px"
 													padding="8px 24px 8px 12px"
 													focus-box-shadow="none"
+													display="flex"
 												>
 													<Icon
-														icon={BsPieChartFill}
-														size="18px"
-														color="inherit"
 														margin="0px 8px 0px 0px"
-														category="bs"
+														category="fa"
+														icon={FaFileCode}
+														size="20px"
+														color="inherit"
 													/>
-													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (0)
+													РАЗРАБОТКА (1)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem display="none" tabId="menedzher">
+											<Components.TabItem tabId="menedzher">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -553,70 +627,95 @@ export default (() => {
 											</Components.TabItem>
 										</Components.TabList>
 										<Components.TabPanels lg-width="70%" width="80%" md-width="100%">
-											<Components.TabPanel tabId="one" md-width="100%" />
-											<Components.TabPanel md-width="100%" tabId="menedzher">
-												<Box padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%" width="90%">
+											<Components.TabPanel tabId="one" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/technical-team-lead"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
 														margin="0px 0px 0px 0px"
 														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/ofis-menedzher"
 													>
-														Офис-менеджер
+														Technical Team Lead
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Москва{" "}
+														Проект RuSender | Ростов-на-Дону, Баку
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Команда uKit Group в поиске активного и жизнерадостного офис-менеджера на неполный рабочий день (6 часов)
+														Основной продукт, которым предстоит заниматься – наша ESP находящаяся на этапе MVP – RuSendener.ru
+														<br />
+														Основной стек: Vue.js, Nuxt.js, Nest.js, PostgreSQL, RabbitMQ, Docker, TypeScript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/product-marketing-manager-media-buyer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Product Marketing Manager/Media buyer
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону, Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group в поиске Product Marketing Manager/Media buyer, который возьмет на себя ответственность по продвижению наших мобильных приложений.
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel md-width="100%" tabId="menedzher">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/product-marketing-manager-media-buyer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Product Marketing Manager/Media buyer
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону, Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group в поиске Product Marketing Manager/Media buyer, который возьмет на себя ответственность по продвижению наших мобильных приложений.
 													</Text>
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="five" md-width="100%">
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/technical-team-lead"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
 														margin="0px 0px 0px 0px"
 														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/seo-specialist"
 													>
-														SEO специалист
+														Technical Team Lead
 													</Link>
-													<Text md-font="15px 'AvenirNextCyrMedium'" margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333">
-														Проект uKit | Москва
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Ростов-на-Дону, Баку
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														В команду конструктора сайтов uKit ищем опытного SEO-специалиста.
+														Основной продукт, которым предстоит заниматься – наша ESP находящаяся на этапе MVP – RuSendener.ru
+														<br />
+														Основной стек: Vue.js, Nuxt.js, Nest.js, PostgreSQL, RabbitMQ, Docker, TypeScript.
 													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-													<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
-														<Link
-															font="22px 'AvenirNextCyrMedium', sans-serif"
-															margin="0px 0px 0px 0px"
-															transition="color 0.2s linear 0s"
-															hover-color="#4a8cfa"
-															md-font="20px 'AvenirNextCyrMedium', sans-serif"
-															href="/vacancies/pr-menedzher"
-															text-decoration-line="initial"
-															color="#263238"
-														>
-															PR-менеджер
-														</Link>
-														<Text color="#333" md-font="15px 'AvenirNextCyrMedium'" margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'">
-															Проект Quarkly | Москва{" "}
-														</Text>
-														<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-															Мы ищем талантливого PR-щика, реализовавшегося в диджитал или мечтающего это сделать.
-														</Text>
-													</Box>
 												</Box>
 											</Components.TabPanel>
 										</Components.TabPanels>
@@ -841,10 +940,10 @@ export default (() => {
 														category="fa"
 														icon={FaBoxes}
 													/>
-													ВСЕ ВАКАНСИИ (1)
+													ВСЕ ВАКАНСИИ (3)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three" display="none">
+											<Components.TabItem tabId="three">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -891,7 +990,7 @@ export default (() => {
 														size="20px"
 														color="inherit"
 													/>
-													РАЗРАБОТКА (1)
+													РАЗРАБОТКА (2)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -947,6 +1046,50 @@ export default (() => {
 											<Components.TabPanel tabId="one" md-width="100%">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/product-marketing-manager-media-buyer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Product Marketing Manager/Media buyer
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону, Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group в поиске Product Marketing Manager/Media buyer, который возьмет на себя ответственность по продвижению наших мобильных приложений.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/technical-team-lead"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Technical Team Lead
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Ростов-на-Дону, Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Основной продукт, которым предстоит заниматься – наша ESP находящаяся на этапе MVP – RuSendener.ru
+														<br />
+														Основной стек: Vue.js, Nuxt.js, Nest.js, PostgreSQL, RabbitMQ, Docker, TypeScript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
 														font="22px 'AvenirNextCyrMedium', sans-serif"
 														margin="0px 0px 0px 0px"
 														transition="color 0.2s linear 0s"
@@ -992,6 +1135,29 @@ export default (() => {
 											<Components.TabPanel md-width="100%" tabId="two">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/technical-team-lead"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Technical Team Lead
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Ростов-на-Дону, Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Основной продукт, которым предстоит заниматься – наша ESP находящаяся на этапе MVP – RuSendener.ru
+														<br />
+														Основной стек: Vue.js, Nuxt.js, Nest.js, PostgreSQL, RabbitMQ, Docker, TypeScript.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
 														margin="0px 0px 0px 0px"
@@ -1013,25 +1179,24 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="three" md-width="100%">
-												<Box md-width="100%" width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
-														href="/vacancies/ofis-menedzher-or-rostov"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/product-marketing-manager-media-buyer"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
 														margin="0px 0px 0px 0px"
 														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 													>
-														Офис менеджер
+														Product Marketing Manager/Media buyer
 													</Link>
-													<Text font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'" margin="12px 0px 0px 0px">
-														Проект uCoz | Ростов-на-Дону
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону, Баку
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														IT-компания uKit Group открывает вакансию офис-менеджера.
-Ищем человека, который поддержит комфорт в условиях и атмосфере работы наших айтишников. Тебя ждут не только основные задачи офис-менеджера, но и лампово-развлекательные корпоративы и вечера.
+														uKit Group в поиске Product Marketing Manager/Media buyer, который возьмет на себя ответственность по продвижению наших мобильных приложений.
 													</Text>
 												</Box>
 											</Components.TabPanel>

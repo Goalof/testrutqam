@@ -156,7 +156,9 @@ export default {
 				"60fa9ec6aa9cc700185a3e34",
 				"61388db9466b8c001e9af628",
 				"614c5a7a7514e1001f25b90d",
-				"62b04291fedca4001e33000b"
+				"62b04291fedca4001e33000b",
+				"63f608f3f2f031001fb91072",
+				"63f60ea4f0019100229032f1"
 			],
 			"seo": {
 				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
@@ -346,6 +348,28 @@ export default {
 			},
 			"id": "62b04291fedca4001e33000b",
 			"name": "SEO-специалист в Москве"
+		},
+		"63f608f3f2f031001fb91072": {
+			"pageUrl": "product-marketing-manager-media-buyer",
+			"seo": {
+				"title": "Product Marketing Manager/Media buyer",
+				"description": "uKit Group в поиске Product Marketing Manager/Media buyer, который возьмет на себя ответственность по продвижению наших мобильных приложений.",
+				"og:title": "Product Marketing Manager/Media buyer",
+				"og:description": "uKit Group в поиске Product Marketing Manager/Media buyer, который возьмет на себя ответственность по продвижению наших мобильных приложений."
+			},
+			"id": "63f608f3f2f031001fb91072",
+			"name": "Product Marketing Manager/Media buyer"
+		},
+		"63f60ea4f0019100229032f1": {
+			"pageUrl": "technical-team-lead",
+			"seo": {
+				"title": "Technical Team Lead",
+				"description": "Команда uKit Group в поиске Technical Team Lead.\n\nОсновной продукт, которым предстоит заниматься – наша ESP находящаяся на этапе MVP – RuSendener.ru",
+				"og:title": "Product Marketing Manager/Media buyer",
+				"og:description": "Команда uKit Group в поиске Technical Team Lead.\n\nОсновной продукт, которым предстоит заниматься – наша ESP находящаяся на этапе MVP – RuSendener.ru"
+			},
+			"id": "63f60ea4f0019100229032f1",
+			"name": "Technical Team Lead"
 		}
 	},
 	"mode": "production",

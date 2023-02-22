@@ -554,12 +554,10 @@ export default (() => {
 			</Components.PopUp>
 			<Stack margin="0px 0px 0px 0px" max-width="750px" width="100%" gap="16px">
 				{"    "}
-				<StackItem width="25%" display="flex">
+				<StackItem width="33.333%" display="flex">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link
-						opacity=".7"
-						className="nobutton"
 						href="/vacancies/#msk"
 						text-decoration-line="initial"
 						color="#ffd83a"
@@ -567,7 +565,7 @@ export default (() => {
 						hover-color="#ffffff"
 						transition="color 0.2s linear 0s"
 					>
-						Москва
+						Баку
 						<br />
 						<Span
 							text-overflow="clip"
@@ -578,43 +576,15 @@ export default (() => {
 							word-break="normal"
 							white-space="normal"
 							text-indent="0"
+							user-select="auto"
+							pointer-events="auto"
 						>
-							0 вакансии
+							2 вакансии
 						</Span>
 					</Link>
 					{"    "}
 				</StackItem>
-				<StackItem width="25%" display="flex">
-					<Override slot="StackItemContent" justify-content="flex-start" align-items="center" />
-					{"        "}
-					<Link
-						text-decoration-line="initial"
-						color="#ffd83a"
-						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
-						hover-color="#ffffff"
-						transition="color 0.2s linear 0s"
-						opacity=".7"
-						className="nobutton"
-						href="/vacancies/#spb"
-					>
-						Санкт-Петербург
-						<br />
-						<Span
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							color="#ffffff"
-							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
-						>
-							0 вакансий
-						</Span>
-					</Link>
-					{"    "}
-				</StackItem>
-				<StackItem display="flex" width="25%">
+				<StackItem display="flex" width="33.333%">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link
@@ -636,13 +606,15 @@ export default (() => {
 							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
 							overflow-wrap="normal"
 							word-break="normal"
+							user-select="auto"
+							pointer-events="auto"
 						>
 							3 вакансии
 						</Span>
 					</Link>
 					{"    "}
 				</StackItem>
-				<StackItem width="25%" display="flex">
+				<StackItem width="33.333%" display="flex">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link
@@ -1258,7 +1230,7 @@ export default (() => {
 			</Stack>
 			<Stack gap="--cmp-stack-gap-small" margin="0px 0px 0px 0px" max-width="750px" width="100%">
 				{"    "}
-				<StackItem width="25%" display="flex" sm-width="100%" md-width="50%">
+				<StackItem width="33.33%" display="flex" sm-width="100%" md-width="50%">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link
@@ -1269,7 +1241,7 @@ export default (() => {
 						text-decoration-line="initial"
 						color="#ffd83a"
 					>
-						Москва
+						Баку
 						<br />
 						<Span
 							text-indent="0"
@@ -1280,42 +1252,15 @@ export default (() => {
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
+							user-select="auto"
+							pointer-events="auto"
 						>
-							0 вакансии
+							2 вакансии
 						</Span>
 					</Link>
 					{"    "}
 				</StackItem>
-				<StackItem width="25%" display="flex" sm-width="100%" md-width="50%">
-					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
-					{"        "}
-					<Link
-						className="nobutton"
-						href="/vacancies/#spb"
-						text-decoration-line="initial"
-						color="#ffd83a"
-						font="normal 600 18px/24px 'AvenirNextCyrRegular', sans-serif"
-						hover-color="#ffffff"
-						transition="color 0.2s linear 0s"
-					>
-						Санкт-Петербург
-						<br />
-						<Span
-							hyphens="manual"
-							color="#ffffff"
-							font="600 12px/24px AvenirNextCyrRegular, sans-serif"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-						>
-							0 вакансий
-						</Span>
-					</Link>
-					{"    "}
-				</StackItem>
-				<StackItem width="25%" display="flex" sm-width="100%" md-width="50%">
+				<StackItem width="33.33%" display="flex" sm-width="100%" md-width="50%">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link
@@ -1343,7 +1288,7 @@ export default (() => {
 					</Link>
 					{"    "}
 				</StackItem>
-				<StackItem width="25%" display="flex" sm-width="100%" md-width="50%">
+				<StackItem width="33.33%" display="flex" sm-width="100%" md-width="50%">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					{"        "}
 					<Link

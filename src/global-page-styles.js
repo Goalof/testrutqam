@@ -155,6 +155,14 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/product-marketing-manager-media-buyer": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/technical-team-lead": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"
