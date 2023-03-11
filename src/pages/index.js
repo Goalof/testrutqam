@@ -675,7 +675,7 @@ export default (() => {
 			<Override slot="SectionContent" max-width="none" width="100%" />
 			<Stack nout-z-index="1" margin="0px 0px 0px 0px" gap="0px" nout-position="relative">
 				<StackItem
-					sm-width="85%"
+					sm-width="70%"
 					width="50%"
 					display="flex"
 					nout-width="70%"
@@ -739,7 +739,7 @@ export default (() => {
 					display="flex"
 					nout-width="30%"
 					lg-width="30%"
-					sm-width="15%"
+					sm-width="30%"
 					width="50%"
 				>
 					<Override slot="StackItemContent" align-items="center" padding="15px 30px 13px 30px" justify-content="flex-end" />
