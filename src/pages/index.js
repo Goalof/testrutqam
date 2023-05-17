@@ -463,7 +463,7 @@ export default (() => {
 						nout-font="1000 33vw/0.6 'AvenirNextCyrBold', sans-serif"
 						right="-50px"
 					>
-						123
+						80
 					</Text>
 					<Box
 						margin="40px 0px 0px 40px"
@@ -483,7 +483,7 @@ export default (() => {
 							font="bold 24px/30px 'AvenirNextCyrRegular', sans-serif"
 							padding="0 0px 0 0px"
 						>
-							и более сотрудников успешно работают и отдыхают с нами на протяжении тринадцати лет и не жалеют об этом
+							и более сотрудников успешно работают и отдыхают с нами на протяжении семнадцати лет и не жалеют об этом
 						</Text>
 						<Text margin="0px 0px 10px 0px" color="#ffffff" font="--lead" nout-font="normal 400 16px/24px 'AvenirNextCyrRegular', sans-serif">
 							Мы верим, что в мире есть масса возможностей заниматься тем, что по‑настоящему нравится, и точно знаем, что это можно делать у нас в компании.{" "}
@@ -1433,8 +1433,10 @@ export default (() => {
 							hyphens="manual"
 							font="normal bold 48px/42px 'AvenirNextCyrRegular', sans-serif"
 							color="#4a8cfa"
+							user-select="auto"
+							pointer-events="auto"
 						>
-							15
+							17
 						</Strong>
 					</Text>
 					<Text
@@ -1474,8 +1476,10 @@ export default (() => {
 							color="#4a8cfa"
 							overflow-wrap="normal"
 							word-break="normal"
+							user-select="auto"
+							pointer-events="auto"
 						>
-							120+
+							80+
 						</Strong>
 					</Text>
 					<Text
@@ -1515,8 +1519,10 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 							font="normal bold 48px/42px 'AvenirNextCyrRegular', sans-serif"
+							user-select="auto"
+							pointer-events="auto"
 						>
-							5
+							3
 						</Strong>
 						{" "}
 					</Text>
@@ -1528,12 +1534,9 @@ export default (() => {
 						margin="23px 0px 0px 0px"
 						display="inline-block"
 					>
-						комфортных офисов
+						комфортных офиса{"\n"}
 						<br />
-						в 4-х городах
-						<br />
-						России и Украины
-						<br />
+						в России, Украине и Азербайджане
 					</Text>
 					{"    "}
 				</StackItem>
