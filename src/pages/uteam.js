@@ -490,48 +490,6 @@ export default (() => {
 										</Text>
 										{"    "}
 									</StackItem>
-									<StackItem width="20%" display="flex" lg-width="50%" sm-width="100%">
-										<Override
-											slot="StackItemContent"
-											align-items="flex-start"
-											justify-content="center"
-											flex-direction="column"
-											lg-align-items="center"
-										/>
-										{"        "}
-										<Image
-											height="90px"
-											margin="0px 0px 24px 0px"
-											src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/popov.jpg?v=2021-02-02T11:19:38.411Z"
-											border-radius="100%"
-											width="90px"
-										/>
-										<Text
-											letter-spacing="0.3px"
-											color="#3D72CC"
-											font="normal 400 18px/18px 'AvenirNextCyrMedium', sans-serif"
-											margin="0px 0px 12px 0px"
-											display="inline-block"
-											sm-text-align="center"
-											sm-margin="0px 0px 30px 0px"
-											text-align="left"
-										>
-											Алексей Попов
-										</Text>
-										<Text
-											sm-margin="0px 0px 30px 0px"
-											text-align="left"
-											letter-spacing="0.3px"
-											color="#9BABBF"
-											font="normal 400 14px/18px 'AvenirNextCyrMedium', sans-serif"
-											margin="0px 0px 0px 0px"
-											display="inline-block"
-											sm-text-align="center"
-										>
-											Менеджер проектов
-										</Text>
-										{"    "}
-									</StackItem>
 									<StackItem sm-width="100%" width="20%" display="flex" lg-width="50%">
 										<Override
 											slot="StackItemContent"
@@ -552,7 +510,7 @@ export default (() => {
 											display="flex"
 										>
 											<Text color="#ffffff" font="500 36px 'AvenirNextCyrBold', sans-serif">
-												+5
+												+6
 											</Text>
 										</Box>
 										<Text

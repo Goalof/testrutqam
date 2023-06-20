@@ -38,6 +38,7 @@ module.exports = [
 	"/vacancies/seo-specialist-rusender/",
 	"/vacancies/product-marketing-manager-media-buyer/",
 	"/vacancies/technical-team-lead/",
+	"/vacancies/email-marketolog/",
 	"/uteam/",
 	"/resume/",
 	"/contacts/",
