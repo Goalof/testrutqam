@@ -167,6 +167,14 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/team-lead-sre": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/fullstack-react-laravel": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"

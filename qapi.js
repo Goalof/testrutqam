@@ -159,7 +159,9 @@ export default {
 				"62b04291fedca4001e33000b",
 				"63f608f3f2f031001fb91072",
 				"63f60ea4f0019100229032f1",
-				"649169e972a6d300182437ff"
+				"649169e972a6d300182437ff",
+				"64adac9d8bd7e600185add64",
+				"64adae6072a6d3001825696f"
 			],
 			"seo": {
 				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
@@ -382,6 +384,28 @@ export default {
 			},
 			"id": "649169e972a6d300182437ff",
 			"name": "Email-маркетолог"
+		},
+		"64adac9d8bd7e600185add64": {
+			"pageUrl": "team-lead-sre",
+			"seo": {
+				"title": "Team Lead (SRE)",
+				"description": "Команда состоит из опытных специалистов, занимающихся эксплуатацией веб-проектов. Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой наших проектов uKit и RuSender.\n\nЕсли ты любишь задачи, где можешь реализовать такие свои компетенции, как лидерство, инициативность, ответственность, работа на результат – будем рады видеть тебя в рядах uKit Group!\n\nОсновной стек c которым предстоит работать: Nginx, Traefik, PM2, Node.js, NestJs, PHP, PostgreSQL, MongoDB, Redis, RabbitMQ, Docker, GitLab, Elasticsearch, Kibana, Grafana, Zabbix, Ansible.",
+				"og:title": "Team Lead (SRE)",
+				"og:description": "Команда состоит из опытных специалистов, занимающихся эксплуатацией веб-проектов. Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой наших проектов uKit и RuSender.\n\nЕсли ты любишь задачи, где можешь реализовать такие свои компетенции, как лидерство, инициативность, ответственность, работа на результат – будем рады видеть тебя в рядах uKit Group!\n\nОсновной стек c которым предстоит работать: Nginx, Traefik, PM2, Node.js, NestJs, PHP, PostgreSQL, MongoDB, Redis, RabbitMQ, Docker, GitLab, Elasticsearch, Kibana, Grafana, Zabbix, Ansible."
+			},
+			"id": "64adac9d8bd7e600185add64",
+			"name": "Team Lead (SRE)"
+		},
+		"64adae6072a6d3001825696f": {
+			"pageUrl": "fullstack-react-laravel",
+			"seo": {
+				"title": "Fullstack разработчик (React/Laravel)",
+				"description": "uKit Group в поиске fullstack разработчика для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).\n\n",
+				"og:title": "Fullstack разработчик (React/Laravel)",
+				"og:description": "uKit Group в поиске fullstack разработчика для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).\n\n"
+			},
+			"id": "64adae6072a6d3001825696f",
+			"name": "Fullstack разработчик (React/Laravel)"
 		}
 	},
 	"mode": "production",

@@ -39,6 +39,8 @@ module.exports = [
 	"/vacancies/product-marketing-manager-media-buyer/",
 	"/vacancies/technical-team-lead/",
 	"/vacancies/email-marketolog/",
+	"/vacancies/team-lead-sre/",
+	"/vacancies/fullstack-react-laravel/",
 	"/uteam/",
 	"/resume/",
 	"/contacts/",
