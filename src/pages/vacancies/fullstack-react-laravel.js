@@ -142,9 +142,7 @@ export default (() => {
 						text-align="left"
 						color="#333"
 					>
-						Frontend (70%, middle)
-						<br />
-						{"\n\n"}
+						Backend (30%, junior)
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
