@@ -344,7 +344,7 @@ export default (() => {
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
+														href="/vacancies/team-lead-sre"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -453,7 +453,7 @@ export default (() => {
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
+														href="/vacancies/team-lead-sre"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -701,7 +701,7 @@ export default (() => {
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
+														href="/vacancies/team-lead-sre"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -1160,7 +1160,7 @@ export default (() => {
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
+														href="/vacancies/team-lead-sre"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -1502,7 +1502,7 @@ export default (() => {
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
+														href="/vacancies/team-lead-sre"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"

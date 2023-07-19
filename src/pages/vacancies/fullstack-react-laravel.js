@@ -64,7 +64,7 @@ export default (() => {
 						as="h1"
 						font="normal 500 44px/1.2 'AvenirNextCyrDemi', sans-serif"
 					>
-						Team Lead (SRE){"\n\n\n"}
+						Fullstack разработчик (React/Laravel)
 					</Text>
 					<Text
 						sm-margin="0px 0px 10px 0px"
