@@ -340,35 +340,6 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/team-lead-sre"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Team Lead (SRE)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Команда состоит из опытных специалистов, занимающихся эксплуатацией
-веб-проектов.
-Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой
-наших проектов uKit и RuSender.
-														<br />
-														<br />
-														Если ты любишь задачи, где можешь реализовать такие свои компетенции, как
-лидерство, инициативность, ответственность, работа на результат – будем рады
-видеть тебя в рядах uKit Group!
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" width="90%">
 													<Link
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
@@ -446,35 +417,6 @@ export default (() => {
 														</Strong>
 														для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).
 														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/team-lead-sre"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Team Lead (SRE)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Команда состоит из опытных специалистов, занимающихся эксплуатацией
-веб-проектов.
-Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой
-наших проектов uKit и RuSender.
-														<br />
-														<br />
-														Если ты любишь задачи, где можешь реализовать такие свои компетенции, как
-лидерство, инициативность, ответственность, работа на результат – будем рады
-видеть тебя в рядах uKit Group!
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -697,34 +639,6 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/team-lead-sre"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Team Lead (SRE)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Команда состоит из опытных специалистов, занимающихся эксплуатацией
-веб-проектов.
-Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой
-наших проектов uKit и RuSender.
-														<br />
-														<br />
-														Если ты любишь задачи, где можешь реализовать такие свои компетенции, как
-лидерство, инициативность, ответственность, работа на результат – будем рады
-видеть тебя в рядах uKit Group!
-													</Text>
-												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel md-width="100%" tabId="menedzher">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
@@ -774,34 +688,6 @@ export default (() => {
 														<br />
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Team Lead (SRE)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Команда состоит из опытных специалистов, занимающихся эксплуатацией
-веб-проектов.
-Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой
-наших проектов uKit и RuSender.
-														<br />
-														<br />
-														Если ты любишь задачи, где можешь реализовать такие свои компетенции, как
-лидерство, инициативность, ответственность, работа на результат – будем рады
-видеть тебя в рядах uKit Group!
-													</Text>
 												</Box>
 											</Components.TabPanel>
 										</Components.TabPanels>
@@ -1156,34 +1042,6 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/team-lead-sre"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Team Lead (SRE)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Команда состоит из опытных специалистов, занимающихся эксплуатацией
-веб-проектов.
-Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой
-наших проектов uKit и RuSender.
-														<br />
-														<br />
-														Если ты любишь задачи, где можешь реализовать такие свои компетенции, как
-лидерство, инициативность, ответственность, работа на результат – будем рады
-видеть тебя в рядах uKit Group!
-													</Text>
-												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel md-width="100%" tabId="three-des">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
@@ -1498,35 +1356,6 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/team-lead-sre"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Team Lead (SRE)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Команда состоит из опытных специалистов, занимающихся эксплуатацией
-веб-проектов.
-Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой
-наших проектов uKit и RuSender.
-														<br />
-														<br />
-														Если ты любишь задачи, где можешь реализовать такие свои компетенции, как
-лидерство, инициативность, ответственность, работа на результат – будем рады
-видеть тебя в рядах uKit Group!
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box margin="0px 0px 0px 0px" width="90%" padding="0px 0px 15px 0px">
 													<Link
 														color="#263238"
@@ -1572,35 +1401,6 @@ export default (() => {
 														</Strong>
 														для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).
 														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Team Lead (SRE)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Команда состоит из опытных специалистов, занимающихся эксплуатацией
-веб-проектов.
-Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой
-наших проектов uKit и RuSender.
-														<br />
-														<br />
-														Если ты любишь задачи, где можешь реализовать такие свои компетенции, как
-лидерство, инициативность, ответственность, работа на результат – будем рады
-видеть тебя в рядах uKit Group!
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
