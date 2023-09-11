@@ -106,7 +106,7 @@ export default (() => {
 							Задачи:{" "}
 						</Strong>
 						<br />
-						Командная разработка нового продукта компании rusender.ru: сервиса email рассылок на стеке: Nest.JS, PostgreSQL, Redis, RabbitMQ.
+						Командная разработка нового продукта компании rusender.ru: сервиса email рассылок на стеке:  Vue.js, Nuxt.js, Nest.JS, PostgreSQL, Redis, RabbitMQ.
 						<br />
 						{"\n\n"}
 					</Text>

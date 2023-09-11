@@ -414,7 +414,6 @@ export default (() => {
 														<br />
 														<br />
 														RuSender.ru - это умная система для email-рассылок
-														<br />
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>

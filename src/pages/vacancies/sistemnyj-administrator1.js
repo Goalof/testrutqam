@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Icon, Link, Text, List, Image, Box, Section, Hr } from "@quarkly/widgets";
+import { Theme, Icon, Link, Text, List, Strong, Image, Box, Section, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -101,26 +101,30 @@ export default (() => {
 						letter-spacing=".2"
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
 					>
-						Задачи:
+						Обязанности:
+						<br />
+						{"\n\n"}
 					</Text>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Техническая, информационная поддержка пользователей;
+							Техническая, информационная поддержка пользователей;{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Установка и настройка оборудования рабочих мест сотрудников;
+							Администрирование 1С;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Администрирование, обновление 1С 8.3;
+							Установка и настройка оборудования рабочих мест сотрудников;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							Управление учетными записями, аккаунтами, чатами;{"\n\n"}
+							<Strong />
+							{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
@@ -135,7 +139,7 @@ export default (() => {
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Составлении заявок на приобретение оборудования, запасных частей и комплектующих;
+							Помощь в составлении заявок на приобретение оборудования, запасных частей и комплектующих;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
@@ -156,27 +160,32 @@ export default (() => {
 					</Text>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт работы системным администратором (эникейщиком) от 1 года;
+							Отличное знание офисной техники и ПО (навыки эникейщика);{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Отличное знание офисной техники и ПО;
+							Понимание устройства компьютера (сервера);{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Понимание устройства компьютера (сервера);
+							Понимание принципов работы сети Интернет;{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Понимание принципов работы сети Интернет;
+							Умение находить общий язык с сотрудниками любых отделов, в том числе не «технарями»;{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Умение находить общий язык с сотрудниками любых отделов, в том числе не «технарями»;
+							Аналитический склад ума;{"\n\n"}
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Честность и ответственность{"\n\n"}
 						</Text>
 					</List>
 					<Text
@@ -193,16 +202,6 @@ export default (() => {
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
 							Опыт работы с Linux.{"\n\n"}
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт работы с Mikrotik;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт работы с Ubiquiti UniFl
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" />
