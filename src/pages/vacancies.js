@@ -147,7 +147,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (5)
+													ВСЕ ВАКАНСИИ (8)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -192,7 +192,7 @@ export default (() => {
 												>
 													<div />
 													<Icon category="fa" icon={FaFileCode} size="20px" margin="0px 8px 0px 0px" />
-													РАЗРАБОТКА (3)
+													РАЗРАБОТКА (5)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three" display="none">
@@ -265,7 +265,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (1)
+													{" "}МАРКЕТИНГ, РЕКЛАМА, PR (2)
 												</Button>
 											</Components.TabItem>
 										</Components.TabList>
@@ -337,6 +337,119 @@ export default (() => {
 														</Strong>
 														для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).
 														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/sistemnyj-administrator1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Системный администратор
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону и Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В ростовский офис команды uKit Group ищем энергичного и талантливого системного администратора.
+														<br />
+														<br />
+														Путь "через эникей в админы" доступен (у нас Linux).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/junior-it-recruiter"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Junior IT Recruiter
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону и Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем в команду организованного, проактивного специалиста, которому интересен рост в рекрутменте.
+														<br />
+														<br />
+														Ты получишь  inhouse опыт в известной продуктовой IT компании, приобретешь навыки профессионального подбора специалистов.{" "}
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-fullstack"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Fullstack-разработчик
+														<br />
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group рада принять в свои ряды Middle Fullstack-разработчика в офис или на удаленную работу.{"  "}
+														<br />
+														Больше года мы работали над новым проектом и успешно его запустили.
+														<br />
+														<br />
+														RuSender.ru - это умная система для email-рассылок
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-backend-developer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Backend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Продуктовая IT компания uKit Group рада принять в свои ряды{" "}
+														<Strong>
+															Middle Backend-разработчика.
+														</Strong>
+														<br />
+														<br />
+														<Strong>
+															Задачи:
+														</Strong>
+														<br />
+														Командная разработка нашего нового продукта RuSender.
+														<br />
+														RuSender.ru - это умный сервис для email-рассылок (ESP).
+														<br />
+														Стек: NestJS, PostgreSQL, Redis, RabbitMQ.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -422,6 +535,94 @@ export default (() => {
 												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/sistemnyj-administrator1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Системный администратор
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону и Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В ростовский офис команды uKit Group ищем энергичного и талантливого системного администратора.
+														<br />
+														<br />
+														Путь "через эникей в админы" доступен (у нас Linux).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-fullstack"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Fullstack-разработчик
+														<br />
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group рада принять в свои ряды Middle Fullstack-разработчика в офис или на удаленную работу.{"  "}
+														<br />
+														Больше года мы работали над новым проектом и успешно его запустили.
+														<br />
+														<br />
+														RuSender.ru - это умная система для email-рассылок
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-backend-developer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Backend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Продуктовая IT компания uKit Group рада принять в свои ряды{" "}
+														<Strong>
+															Middle Backend-разработчика.
+														</Strong>
+														<br />
+														<br />
+														<Strong>
+															Задачи:
+														</Strong>
+														<br />
+														Командная разработка нашего нового продукта RuSender.
+														<br />
+														RuSender.ru - это умный сервис для email-рассылок (ESP).
+														<br />
+														Стек: NestJS, PostgreSQL, Redis, RabbitMQ.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -487,6 +688,31 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="five" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/junior-it-recruiter"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Junior IT Recruiter
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону и Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем в команду организованного, проактивного специалиста, которому интересен рост в рекрутменте.
+														<br />
+														<br />
+														Ты получишь  inhouse опыт в известной продуктовой IT компании, приобретешь навыки профессионального подбора специалистов.{" "}
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
 													<Link
 														color="#263238"
@@ -557,7 +783,7 @@ export default (() => {
 														category="fa"
 														icon={FaBoxes}
 													/>
-													ВСЕ ВАКАНСИИ (2)
+													ВСЕ ВАКАНСИИ (5)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="five">
@@ -582,10 +808,10 @@ export default (() => {
 														size="20px"
 														color="inherit"
 													/>
-													РАЗРАБОТКА (2)
+													РАЗРАБОТКА (4)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="menedzher" display="none">
+											<Components.TabItem tabId="menedzher">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -639,26 +865,142 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
-											</Components.TabPanel>
-											<Components.TabPanel md-width="100%" tabId="menedzher">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/product-marketing-manager-media-buyer"
+														href="/vacancies/sistemnyj-administrator1"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
 														margin="0px 0px 0px 0px"
 														transition="color 0.2s linear 0s"
 													>
-														Product Marketing Manager/Media buyer
+														Системный администратор
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону, Баку
+														Проект uKit | Ростов-на-Дону и Баку
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group в поиске Product Marketing Manager/Media buyer, который возьмет на себя ответственность по продвижению наших мобильных приложений.
+														В ростовский офис команды uKit Group ищем энергичного и талантливого системного администратора.
+														<br />
+														<br />
+														Путь "через эникей в админы" доступен (у нас Linux).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/junior-it-recruiter"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Junior IT Recruiter
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону и Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем в команду организованного, проактивного специалиста, которому интересен рост в рекрутменте.
+														<br />
+														<br />
+														Ты получишь  inhouse опыт в известной продуктовой IT компании, приобретешь навыки профессионального подбора специалистов.{" "}
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-fullstack"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Fullstack-разработчик
+														<br />
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group рада принять в свои ряды Middle Fullstack-разработчика в офис или на удаленную работу.{"  "}
+														<br />
+														Больше года мы работали над новым проектом и успешно его запустили.
+														<br />
+														<br />
+														RuSender.ru - это умная система для email-рассылок
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-backend-developer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Backend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Продуктовая IT компания uKit Group рада принять в свои ряды{" "}
+														<Strong>
+															Middle Backend-разработчика.
+														</Strong>
+														<br />
+														<br />
+														<Strong>
+															Задачи:
+														</Strong>
+														<br />
+														Командная разработка нашего нового продукта RuSender.
+														<br />
+														RuSender.ru - это умный сервис для email-рассылок (ESP).
+														<br />
+														Стек: NestJS, PostgreSQL, Redis, RabbitMQ.
+													</Text>
+												</Box>
+											</Components.TabPanel>
+											<Components.TabPanel md-width="100%" tabId="menedzher">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/junior-it-recruiter"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Junior IT Recruiter
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону и Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем в команду организованного, проактивного специалиста, которому интересен рост в рекрутменте.
+														<br />
+														<br />
+														Ты получишь  inhouse опыт в известной продуктовой IT компании, приобретешь навыки профессионального подбора специалистов.{" "}
+														<br />
 													</Text>
 												</Box>
 											</Components.TabPanel>
@@ -686,6 +1028,94 @@ export default (() => {
 														</Strong>
 														для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).
 														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/sistemnyj-administrator1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Системный администратор
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону и Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В ростовский офис команды uKit Group ищем энергичного и талантливого системного администратора.
+														<br />
+														<br />
+														Путь "через эникей в админы" доступен (у нас Linux).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-fullstack"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Fullstack-разработчик
+														<br />
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group рада принять в свои ряды Middle Fullstack-разработчика в офис или на удаленную работу.{"  "}
+														<br />
+														Больше года мы работали над новым проектом и успешно его запустили.
+														<br />
+														<br />
+														RuSender.ru - это умная система для email-рассылок
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-backend-developer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Backend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Продуктовая IT компания uKit Group рада принять в свои ряды{" "}
+														<Strong>
+															Middle Backend-разработчика.
+														</Strong>
+														<br />
+														<br />
+														<Strong>
+															Задачи:
+														</Strong>
+														<br />
+														Командная разработка нашего нового продукта RuSender.
+														<br />
+														RuSender.ru - это умный сервис для email-рассылок (ESP).
+														<br />
+														Стек: NestJS, PostgreSQL, Redis, RabbitMQ.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -912,10 +1342,10 @@ export default (() => {
 														category="fa"
 														icon={FaBoxes}
 													/>
-													ВСЕ ВАКАНСИИ (2)
+													ВСЕ ВАКАНСИИ (6)
 												</Button>
 											</Components.TabItem>
-											<Components.TabItem tabId="three" display="none">
+											<Components.TabItem tabId="three">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
@@ -962,7 +1392,7 @@ export default (() => {
 														size="20px"
 														color="inherit"
 													/>
-													РАЗРАБОТКА (2)
+													РАЗРАБОТКА (5)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -1020,6 +1450,119 @@ export default (() => {
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/sistemnyj-administrator1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Системный администратор
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону и Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В ростовский офис команды uKit Group ищем энергичного и талантливого системного администратора.
+														<br />
+														<br />
+														Путь "через эникей в админы" доступен (у нас Linux).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/junior-it-recruiter"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Junior IT Recruiter
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону и Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем в команду организованного, проактивного специалиста, которому интересен рост в рекрутменте.
+														<br />
+														<br />
+														Ты получишь  inhouse опыт в известной продуктовой IT компании, приобретешь навыки профессионального подбора специалистов.{" "}
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-fullstack"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Fullstack-разработчик
+														<br />
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group рада принять в свои ряды Middle Fullstack-разработчика в офис или на удаленную работу.{"  "}
+														<br />
+														Больше года мы работали над новым проектом и успешно его запустили.
+														<br />
+														<br />
+														RuSender.ru - это умная система для email-рассылок
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-backend-developer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Backend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Продуктовая IT компания uKit Group рада принять в свои ряды{" "}
+														<Strong>
+															Middle Backend-разработчика.
+														</Strong>
+														<br />
+														<br />
+														<Strong>
+															Задачи:
+														</Strong>
+														<br />
+														Командная разработка нашего нового продукта RuSender.
+														<br />
+														RuSender.ru - это умный сервис для email-рассылок (ESP).
+														<br />
+														Стек: NestJS, PostgreSQL, Redis, RabbitMQ.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/fullstack-react-laravel"
 														text-decoration-line="initial"
 														color="#263238"
@@ -1040,7 +1583,6 @@ export default (() => {
 														для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).
 														<br />
 													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel md-width="100%" tabId="three-des">
@@ -1066,6 +1608,119 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel md-width="100%" tabId="two">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/sistemnyj-administrator1"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Системный администратор
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону и Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														В ростовский офис команды uKit Group ищем энергичного и талантливого системного администратора.
+														<br />
+														<br />
+														Путь "через эникей в админы" доступен (у нас Linux).
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/junior-it-recruiter"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Junior IT Recruiter
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit | Ростов-на-Дону и Баку
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем в команду организованного, проактивного специалиста, которому интересен рост в рекрутменте.
+														<br />
+														<br />
+														Ты получишь  inhouse опыт в известной продуктовой IT компании, приобретешь навыки профессионального подбора специалистов.{" "}
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-fullstack"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Fullstack-разработчик
+														<br />
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group рада принять в свои ряды Middle Fullstack-разработчика в офис или на удаленную работу.{"  "}
+														<br />
+														Больше года мы работали над новым проектом и успешно его запустили.
+														<br />
+														<br />
+														RuSender.ru - это умная система для email-рассылок
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-backend-developer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Backend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Продуктовая IT компания uKit Group рада принять в свои ряды{" "}
+														<Strong>
+															Middle Backend-разработчика.
+														</Strong>
+														<br />
+														<br />
+														<Strong>
+															Задачи:
+														</Strong>
+														<br />
+														Командная разработка нашего нового продукта RuSender.
+														<br />
+														RuSender.ru - это умный сервис для email-рассылок (ESP).
+														<br />
+														Стек: NestJS, PostgreSQL, Redis, RabbitMQ.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														hover-color="#4a8cfa"
@@ -1116,20 +1771,24 @@ export default (() => {
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/product-marketing-manager-media-buyer"
+														href="/vacancies/junior-it-recruiter"
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
 														margin="0px 0px 0px 0px"
 														transition="color 0.2s linear 0s"
 													>
-														Product Marketing Manager/Media buyer
+														Junior IT Recruiter
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Ростов-на-Дону, Баку
+														Проект uKit | Ростов-на-Дону и Баку
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group в поиске Product Marketing Manager/Media buyer, который возьмет на себя ответственность по продвижению наших мобильных приложений.
+														Ищем в команду организованного, проактивного специалиста, которому интересен рост в рекрутменте.
+														<br />
+														<br />
+														Ты получишь  inhouse опыт в известной продуктовой IT компании, приобретешь навыки профессионального подбора специалистов.{" "}
+														<br />
 													</Text>
 												</Box>
 											</Components.TabPanel>
@@ -1206,7 +1865,7 @@ export default (() => {
 														category="fa"
 														icon={FaBoxes}
 													/>
-													ВСЕ ВАКАНСИИ (4)
+													ВСЕ ВАКАНСИИ (5)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="two">
@@ -1356,6 +2015,69 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-fullstack"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Fullstack-разработчик
+														<br />
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group рада принять в свои ряды Middle Fullstack-разработчика в офис или на удаленную работу.{"  "}
+														<br />
+														Больше года мы работали над новым проектом и успешно его запустили.
+														<br />
+														<br />
+														RuSender.ru - это умная система для email-рассылок
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-backend-developer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Backend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Продуктовая IT компания uKit Group рада принять в свои ряды{" "}
+														<Strong>
+															Middle Backend-разработчика.
+														</Strong>
+														<br />
+														<br />
+														<Strong>
+															Задачи:
+														</Strong>
+														<br />
+														Командная разработка нашего нового продукта RuSender.
+														<br />
+														RuSender.ru - это умный сервис для email-рассылок (ESP).
+														<br />
+														Стек: NestJS, PostgreSQL, Redis, RabbitMQ.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box margin="0px 0px 0px 0px" width="90%" padding="0px 0px 15px 0px">
 													<Link
 														color="#263238"
@@ -1404,24 +2126,66 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px" md-width="100%">
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-fullstack"
+														text-decoration-line="initial"
+														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
 														margin="0px 0px 0px 0px"
 														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/senior-nodejs-engineer"
-														text-decoration-line="initial"
-														color="#263238"
 													>
-														Senior Node.js engineer
+														Middle Fullstack-разработчик
+														<br />
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit | Удаленная работа
+														Проект RuSender | Офис или Удаленная работа
 													</Text>
-													<Text color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif" margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif">
-														В команду проекта uKit в Ростове-на-Дону требуется разработчик, имеющий не менее первого дана в JavaScript.
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group рада принять в свои ряды Middle Fullstack-разработчика в офис или на удаленную работу.{"  "}
+														<br />
+														Больше года мы работали над новым проектом и успешно его запустили.
+														<br />
+														<br />
+														RuSender.ru - это умная система для email-рассылок
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+													<Link
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/middle-backend-developer"
+														text-decoration-line="initial"
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+													>
+														Middle Backend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Офис или Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Продуктовая IT компания uKit Group рада принять в свои ряды{" "}
+														<Strong>
+															Middle Backend-разработчика.
+														</Strong>
+														<br />
+														<br />
+														<Strong>
+															Задачи:
+														</Strong>
+														<br />
+														Командная разработка нашего нового продукта RuSender.
+														<br />
+														RuSender.ru - это умный сервис для email-рассылок (ESP).
+														<br />
+														Стек: NestJS, PostgreSQL, Redis, RabbitMQ.
 													</Text>
 												</Box>
 											</Components.TabPanel>

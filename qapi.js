@@ -161,7 +161,11 @@ export default {
 				"63f60ea4f0019100229032f1",
 				"649169e972a6d300182437ff",
 				"64adac9d8bd7e600185add64",
-				"64adae6072a6d3001825696f"
+				"64adae6072a6d3001825696f",
+				"64fefe1f098f0700199ba63d",
+				"64ff010b91dc650018452b9e",
+				"64ff04b772a6d30018289ca8",
+				"64ff0b108bd7e600185e250b"
 			],
 			"seo": {
 				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
@@ -406,6 +410,41 @@ export default {
 			},
 			"id": "64adae6072a6d3001825696f",
 			"name": "Fullstack разработчик (React/Laravel)"
+		},
+		"64fefe1f098f0700199ba63d": {
+			"pageUrl": "sistemnyj-administrator1",
+			"id": "64fefe1f098f0700199ba63d",
+			"name": "Системный администратор"
+		},
+		"64ff010b91dc650018452b9e": {
+			"pageUrl": "junior-it-recruiter",
+			"seo": {
+				"title": "Junior IT Recruiter"
+			},
+			"id": "64ff010b91dc650018452b9e",
+			"name": "Junior IT Recruiter"
+		},
+		"64ff04b772a6d30018289ca8": {
+			"pageUrl": "middle-fullstack",
+			"seo": {
+				"title": "Middle Fullstack-разработчик",
+				"description": "uKit Group рада принять в свои ряды Middle Fullstack-разработчика в офис города Ростов-на-Дону.  \nБольше года мы работали над новым проектом и успешно его запустили.\nRuSender.ru - это умная система для email-рассылок\n",
+				"og:title": "Middle Fullstack-разработчик",
+				"og:description": "uKit Group рада принять в свои ряды Middle Fullstack-разработчика в офис города Ростов-на-Дону.  \nБольше года мы работали над новым проектом и успешно его запустили.\nRuSender.ru - это умная система для email-рассылок\n"
+			},
+			"id": "64ff04b772a6d30018289ca8",
+			"name": "Middle Fullstack-разработчик"
+		},
+		"64ff0b108bd7e600185e250b": {
+			"pageUrl": "middle-backend-developer",
+			"seo": {
+				"title": "Middle Backend-разработчик",
+				"description": "Продуктовая IT компания uKit Group рада принять в свои ряды Middle Backend-разработчика.\n\nЗадачи:\n\nКомандная разработка нашего нового продукта RuSender.\n\nRuSender.ru - это умный сервис для email-рассылок (ESP).\n\nСтек: NestJS, PostgreSQL, Redis, RabbitMQ.",
+				"og:title": "Middle Backend-разработчик",
+				"og:description": "Продуктовая IT компания uKit Group рада принять в свои ряды Middle Backend-разработчика.\n\nЗадачи:\n\nКомандная разработка нашего нового продукта RuSender.\n\nRuSender.ru - это умный сервис для email-рассылок (ESP).\n\nСтек: NestJS, PostgreSQL, Redis, RabbitMQ."
+			},
+			"id": "64ff0b108bd7e600185e250b",
+			"name": "Middle Backend-разработчик"
 		}
 	},
 	"mode": "production",

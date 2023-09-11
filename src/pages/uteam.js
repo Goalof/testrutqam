@@ -379,6 +379,8 @@ export default (() => {
 											src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/kurt.jpg?v=2021-01-28T13:05:31.217Z"
 											border-radius="100%"
 											width="90px"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kurt.jpg?v=2021-01-28T13%3A05%3A31.217Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kurt.jpg?v=2021-01-28T13%3A05%3A31.217Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kurt.jpg?v=2021-01-28T13%3A05%3A31.217Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kurt.jpg?v=2021-01-28T13%3A05%3A31.217Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kurt.jpg?v=2021-01-28T13%3A05%3A31.217Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kurt.jpg?v=2021-01-28T13%3A05%3A31.217Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kurt.jpg?v=2021-01-28T13%3A05%3A31.217Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											margin="0px 0px 12px 0px"
@@ -421,6 +423,8 @@ export default (() => {
 											margin="0px 0px 24px 0px"
 											src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/cherepanova.jpg?v=2021-02-02T11:19:38.438Z"
 											border-radius="100%"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/cherepanova.jpg?v=2021-02-02T11%3A19%3A38.438Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/cherepanova.jpg?v=2021-02-02T11%3A19%3A38.438Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/cherepanova.jpg?v=2021-02-02T11%3A19%3A38.438Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/cherepanova.jpg?v=2021-02-02T11%3A19%3A38.438Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/cherepanova.jpg?v=2021-02-02T11%3A19%3A38.438Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/cherepanova.jpg?v=2021-02-02T11%3A19%3A38.438Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/cherepanova.jpg?v=2021-02-02T11%3A19%3A38.438Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											sm-margin="0px 0px 30px 0px"
@@ -463,6 +467,8 @@ export default (() => {
 											src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tatrova.jpg?v=2021-02-02T11:19:38.406Z"
 											border-radius="100%"
 											width="90px"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/tatrova.jpg?v=2021-02-02T11%3A19%3A38.406Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/tatrova.jpg?v=2021-02-02T11%3A19%3A38.406Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/tatrova.jpg?v=2021-02-02T11%3A19%3A38.406Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/tatrova.jpg?v=2021-02-02T11%3A19%3A38.406Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/tatrova.jpg?v=2021-02-02T11%3A19%3A38.406Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/tatrova.jpg?v=2021-02-02T11%3A19%3A38.406Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/tatrova.jpg?v=2021-02-02T11%3A19%3A38.406Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											margin="0px 0px 12px 0px"
@@ -585,6 +591,8 @@ export default (() => {
 											border-radius="100%"
 											width="90px"
 											height="90px"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/lisovenko.jpg?v=2021-02-02T11%3A26%3A45.639Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/lisovenko.jpg?v=2021-02-02T11%3A26%3A45.639Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/lisovenko.jpg?v=2021-02-02T11%3A26%3A45.639Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/lisovenko.jpg?v=2021-02-02T11%3A26%3A45.639Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/lisovenko.jpg?v=2021-02-02T11%3A26%3A45.639Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/lisovenko.jpg?v=2021-02-02T11%3A26%3A45.639Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/lisovenko.jpg?v=2021-02-02T11%3A26%3A45.639Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											font="normal 400 18px/18px 'AvenirNextCyrMedium', sans-serif"
@@ -628,6 +636,8 @@ export default (() => {
 											width="90px"
 											height="90px"
 											margin="0px 0px 24px 0px"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pavlov.jpg?v=2021-02-02T11%3A26%3A45.643Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pavlov.jpg?v=2021-02-02T11%3A26%3A45.643Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pavlov.jpg?v=2021-02-02T11%3A26%3A45.643Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pavlov.jpg?v=2021-02-02T11%3A26%3A45.643Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pavlov.jpg?v=2021-02-02T11%3A26%3A45.643Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pavlov.jpg?v=2021-02-02T11%3A26%3A45.643Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pavlov.jpg?v=2021-02-02T11%3A26%3A45.643Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											display="inline-block"
@@ -671,6 +681,8 @@ export default (() => {
 											src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/kuznetcov.jpg?v=2021-02-02T11:26:45.640Z"
 											border-radius="100%"
 											width="90px"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kuznetcov.jpg?v=2021-02-02T11%3A26%3A45.640Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kuznetcov.jpg?v=2021-02-02T11%3A26%3A45.640Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kuznetcov.jpg?v=2021-02-02T11%3A26%3A45.640Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kuznetcov.jpg?v=2021-02-02T11%3A26%3A45.640Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kuznetcov.jpg?v=2021-02-02T11%3A26%3A45.640Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kuznetcov.jpg?v=2021-02-02T11%3A26%3A45.640Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kuznetcov.jpg?v=2021-02-02T11%3A26%3A45.640Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											sm-text-align="center"
@@ -794,6 +806,8 @@ export default (() => {
 											border-radius="100%"
 											width="90px"
 											height="90px"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kudinov.jpg?v=2021-02-03T10%3A12%3A38.861Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kudinov.jpg?v=2021-02-03T10%3A12%3A38.861Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kudinov.jpg?v=2021-02-03T10%3A12%3A38.861Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kudinov.jpg?v=2021-02-03T10%3A12%3A38.861Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kudinov.jpg?v=2021-02-03T10%3A12%3A38.861Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kudinov.jpg?v=2021-02-03T10%3A12%3A38.861Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kudinov.jpg?v=2021-02-03T10%3A12%3A38.861Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											letter-spacing="0.3px"
@@ -837,6 +851,8 @@ export default (() => {
 											margin="0px 0px 24px 0px"
 											src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/zhukova.jpg?v=2021-02-03T10:12:38.858Z"
 											border-radius="100%"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/zhukova.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/zhukova.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/zhukova.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/zhukova.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/zhukova.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/zhukova.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/zhukova.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											display="inline-block"
@@ -883,6 +899,8 @@ export default (() => {
 											src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/mudrov.jpg?v=2021-02-03T10:12:38.864Z"
 											border-radius="100%"
 											width="90px"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/mudrov.jpg?v=2021-02-03T10%3A12%3A38.864Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/mudrov.jpg?v=2021-02-03T10%3A12%3A38.864Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/mudrov.jpg?v=2021-02-03T10%3A12%3A38.864Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/mudrov.jpg?v=2021-02-03T10%3A12%3A38.864Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/mudrov.jpg?v=2021-02-03T10%3A12%3A38.864Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/mudrov.jpg?v=2021-02-03T10%3A12%3A38.864Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/mudrov.jpg?v=2021-02-03T10%3A12%3A38.864Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											text-align="left"
@@ -928,6 +946,8 @@ export default (() => {
 											margin="0px 0px 24px 0px"
 											src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/derbitov.jpg?v=2021-02-03T10:12:38.858Z"
 											border-radius="100%"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/derbitov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/derbitov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/derbitov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/derbitov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/derbitov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/derbitov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/derbitov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											display="inline-block"
@@ -971,6 +991,8 @@ export default (() => {
 											margin="0px 0px 24px 0px"
 											src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/kadnikov.jpg?v=2021-02-03T10:12:38.858Z"
 											border-radius="100%"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kadnikov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kadnikov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kadnikov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kadnikov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kadnikov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kadnikov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kadnikov.jpg?v=2021-02-03T10%3A12%3A38.858Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											display="inline-block"
@@ -1095,6 +1117,8 @@ export default (() => {
 											margin="0px 0px 24px 0px"
 											src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/kolpakov.jpg?v=2021-02-03T12:07:48.618Z"
 											border-radius="100%"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kolpakov.jpg?v=2021-02-03T12%3A07%3A48.618Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kolpakov.jpg?v=2021-02-03T12%3A07%3A48.618Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kolpakov.jpg?v=2021-02-03T12%3A07%3A48.618Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kolpakov.jpg?v=2021-02-03T12%3A07%3A48.618Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kolpakov.jpg?v=2021-02-03T12%3A07%3A48.618Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kolpakov.jpg?v=2021-02-03T12%3A07%3A48.618Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/kolpakov.jpg?v=2021-02-03T12%3A07%3A48.618Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											margin="0px 0px 12px 0px"
@@ -1138,6 +1162,8 @@ export default (() => {
 											height="90px"
 											margin="0px 0px 24px 0px"
 											src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/donets.jpg?v=2021-02-03T12:07:48.614Z"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/donets.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/donets.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/donets.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/donets.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/donets.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/donets.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/donets.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											letter-spacing="0.3px"
@@ -1183,6 +1209,8 @@ export default (() => {
 											border-radius="100%"
 											width="90px"
 											height="90px"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/latanuk.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/latanuk.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/latanuk.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/latanuk.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/latanuk.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/latanuk.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/latanuk.jpg?v=2021-02-03T12%3A07%3A48.614Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											letter-spacing="0.3px"
@@ -1226,6 +1254,8 @@ export default (() => {
 											width="90px"
 											height="90px"
 											margin="0px 0px 24px 0px"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pereyaslovets.jpg?v=2021-02-03T12%3A07%3A48.623Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pereyaslovets.jpg?v=2021-02-03T12%3A07%3A48.623Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pereyaslovets.jpg?v=2021-02-03T12%3A07%3A48.623Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pereyaslovets.jpg?v=2021-02-03T12%3A07%3A48.623Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pereyaslovets.jpg?v=2021-02-03T12%3A07%3A48.623Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pereyaslovets.jpg?v=2021-02-03T12%3A07%3A48.623Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/pereyaslovets.jpg?v=2021-02-03T12%3A07%3A48.623Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											display="inline-block"
@@ -1270,6 +1300,8 @@ export default (() => {
 											border-radius="100%"
 											width="90px"
 											height="90px"
+											srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/chubenko.jpg?v=2021-02-03T12%3A07%3A48.638Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/chubenko.jpg?v=2021-02-03T12%3A07%3A48.638Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/chubenko.jpg?v=2021-02-03T12%3A07%3A48.638Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/chubenko.jpg?v=2021-02-03T12%3A07%3A48.638Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/chubenko.jpg?v=2021-02-03T12%3A07%3A48.638Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/chubenko.jpg?v=2021-02-03T12%3A07%3A48.638Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/chubenko.jpg?v=2021-02-03T12%3A07%3A48.638Z&quality=85&w=3200 3200w"
+											sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 										/>
 										<Text
 											sm-margin="0px 0px 30px 0px"
@@ -1475,6 +1507,8 @@ export default (() => {
 						height="100%"
 						max-height="146px"
 						src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/14828273.jpg?v=2021-02-03T13:44:49.980Z"
+						srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/14828273.jpg?v=2021-02-03T13%3A44%3A49.980Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/14828273.jpg?v=2021-02-03T13%3A44%3A49.980Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/14828273.jpg?v=2021-02-03T13%3A44%3A49.980Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/14828273.jpg?v=2021-02-03T13%3A44%3A49.980Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/14828273.jpg?v=2021-02-03T13%3A44%3A49.980Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/14828273.jpg?v=2021-02-03T13%3A44%3A49.980Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/14828273.jpg?v=2021-02-03T13%3A44%3A49.980Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 					/>
 					<Text nout-font="20px/23px 'AvenirNextCyrMedium', sans-serif" sm-font="16px/20px 'AvenirNextCyrMedium', sans-serif" margin="0px 0px 12px 0px" font="20px/28px 'AvenirNextCyrMedium', sans-serif">
 						С Наступающим Новым годом!
@@ -1516,6 +1550,8 @@ export default (() => {
 						max-height="146px"
 						src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/20886398%20(1).png?v=2021-02-03T15:47:32.977Z"
 						width="100%"
+						srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/20886398%20(1).png?v=2021-02-03T15%3A47%3A32.977Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/20886398%20(1).png?v=2021-02-03T15%3A47%3A32.977Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/20886398%20(1).png?v=2021-02-03T15%3A47%3A32.977Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/20886398%20(1).png?v=2021-02-03T15%3A47%3A32.977Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/20886398%20(1).png?v=2021-02-03T15%3A47%3A32.977Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/20886398%20(1).png?v=2021-02-03T15%3A47%3A32.977Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/20886398%20(1).png?v=2021-02-03T15%3A47%3A32.977Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 					/>
 					<Text margin="0px 0px 12px 0px" font="20px/28px 'AvenirNextCyrMedium', sans-serif" nout-font="20px/23px 'AvenirNextCyrMedium', sans-serif" sm-font="16px/20px 'AvenirNextCyrMedium', sans-serif">
 						Подводим итоги 2020 и встречаем Новый год со скидками!
@@ -1549,6 +1585,8 @@ export default (() => {
 						height="100%"
 						max-height="146px"
 						src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/57744999.png?v=2021-02-03T15:47:32.979Z"
+						srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/57744999.png?v=2021-02-03T15%3A47%3A32.979Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/57744999.png?v=2021-02-03T15%3A47%3A32.979Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/57744999.png?v=2021-02-03T15%3A47%3A32.979Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/57744999.png?v=2021-02-03T15%3A47%3A32.979Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/57744999.png?v=2021-02-03T15%3A47%3A32.979Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/57744999.png?v=2021-02-03T15%3A47%3A32.979Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/57744999.png?v=2021-02-03T15%3A47%3A32.979Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 					/>
 					<Text margin="0px 0px 12px 0px" font="20px/28px 'AvenirNextCyrMedium', sans-serif" nout-font="20px/23px 'AvenirNextCyrMedium', sans-serif" sm-font="16px/20px 'AvenirNextCyrMedium', sans-serif">
 						Нам 15 лет! Празднуем и ностальгируем вместе!
@@ -1588,6 +1626,8 @@ export default (() => {
 						width="100%"
 						margin="0px 0px 18px 0px"
 						height="100%"
+						srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/05479122.png?v=2021-02-03T15%3A47%3A52.340Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/05479122.png?v=2021-02-03T15%3A47%3A52.340Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/05479122.png?v=2021-02-03T15%3A47%3A52.340Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/05479122.png?v=2021-02-03T15%3A47%3A52.340Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/05479122.png?v=2021-02-03T15%3A47%3A52.340Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/05479122.png?v=2021-02-03T15%3A47%3A52.340Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/05479122.png?v=2021-02-03T15%3A47%3A52.340Z&quality=85&w=3200 3200w"
+						sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
 					/>
 					<Text margin="0px 0px 12px 0px" font="20px/28px 'AvenirNextCyrMedium', sans-serif" nout-font="20px/23px 'AvenirNextCyrMedium', sans-serif" sm-font="16px/20px 'AvenirNextCyrMedium', sans-serif">
 						Большое обновление виджетов и новые шаблоны
@@ -1660,7 +1700,14 @@ export default (() => {
 						color="#263238"
 					>
 						uCoz в ВК
-						<Image src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/ucoz.png?v=2021-02-01T22:05:06.991Z" margin="18px 0px 0px 0px" width="100px" height="100px" />
+						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/ucoz.png?v=2021-02-01T22:05:06.991Z"
+							margin="18px 0px 0px 0px"
+							width="100px"
+							height="100px"
+							srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/ucoz.png?v=2021-02-01T22%3A05%3A06.991Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/ucoz.png?v=2021-02-01T22%3A05%3A06.991Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/ucoz.png?v=2021-02-01T22%3A05%3A06.991Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/ucoz.png?v=2021-02-01T22%3A05%3A06.991Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/ucoz.png?v=2021-02-01T22%3A05%3A06.991Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/ucoz.png?v=2021-02-01T22%3A05%3A06.991Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/ucoz.png?v=2021-02-01T22%3A05%3A06.991Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
+						/>
 					</Link>
 					<Link
 						transition="color 0.2s ease 0s"
@@ -1676,7 +1723,14 @@ export default (() => {
 						text-decoration-line="initial"
 					>
 						uKit в ВК
-						<Image width="100px" height="100px" src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/5.png?v=2021-01-28T01:00:02.248Z" margin="18px 0px 0px 0px" />
+						<Image
+							width="100px"
+							height="100px"
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/5.png?v=2021-01-28T01:00:02.248Z"
+							margin="18px 0px 0px 0px"
+							srcSet="https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/5.png?v=2021-01-28T01%3A00%3A02.248Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/5.png?v=2021-01-28T01%3A00%3A02.248Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/5.png?v=2021-01-28T01%3A00%3A02.248Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/5.png?v=2021-01-28T01%3A00%3A02.248Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/5.png?v=2021-01-28T01%3A00%3A02.248Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/5.png?v=2021-01-28T01%3A00%3A02.248Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/600e0aca11b69c001f4aa723/images/5.png?v=2021-01-28T01%3A00%3A02.248Z&quality=85&w=3200 3200w"
+							sizes="(max-width: 576px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 1280px) 100vw,100vw"
+						/>
 					</Link>
 					{"            "}
 				</StackItem>

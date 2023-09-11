@@ -175,6 +175,22 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/sistemnyj-administrator1": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/junior-it-recruiter": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/middle-fullstack": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/middle-backend-developer": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"
