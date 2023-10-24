@@ -75,8 +75,10 @@ export default (() => {
 						letter-spacing=".2"
 						font="normal 400 18px/1.2 'AvenirNextCyrMedium', sans-serif"
 					>
-						Проект uKit | Санкт-Петербург
-						<br />
+						Проект 
+uKit Group
+
+ | В офис или на удаленную работу
 					</Text>
 					<Text
 						sm-margin="10px 0px 20px 0px"
@@ -86,8 +88,29 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 					>
-						Мы ищем опытного и неравнодушного повелителя тикетов, спешащего на помощь пользователям
-сервиса uKit.
+						uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.
+						<br />
+						<br />
+						Наиболее известны такие наши проекты, как:{" "}
+						<Strong>
+							uCoz
+						</Strong>
+						,{" "}
+						<Strong>
+							uKit
+						</Strong>
+						,{" "}
+						<Strong>
+							WebAsk
+						</Strong>
+						,{" "}
+						<Strong>
+							RuSender{" "}
+						</Strong>
+						etc.
+						<br />
+						<br />
+						Мы ищем опытного и неравнодушного специалиста на должность Руководителя службы технической поддержки, который умеет управлять людьми и тикетами. Поддержка пользователей осуществляется в письменном формате.{"\n\n"}
 					</Text>
 					<Text
 						sm-margin="10px 0px 20px 0px"
@@ -111,51 +134,45 @@ export default (() => {
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							формирование команды технической поддержки проекта uKit, проведение собеседований;
+							Выстраивание и улучшение процессов работы команды поддержки, обучение сотрудников;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							организация быстрого реагирования на запросы, письменная поддержка пользователей сервиса;
+							Выстраивание мотивационной схемы, системы оценки работы отдела;
 						</Text>
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							организация и улучшение процессов работы команды поддержки (до 10 человек), обучения
-сотрудников;
+							Выстраивание эффективного взаимодействия с продакт-менеджерами, командами разработчиков, тестировщиков;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							выстраивание эффективного взаимодействия с продакт-менеджерами, командами разработчиков,
-тестировщиков;
+							Написание и поддержка внутренних регламентов поддержки;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							написание и поддержка внутренних регламентов поддержки;
+							Ведение пользовательской базы знаний;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							ведение пользовательской базы знаний;
+							Предложение улучшений по работе продукта на основе пользовательских обращений и личного видения;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							предложение улучшений по работе продукта на основе пользовательских обращений и личного
-видения;
+							Решение сопутствующих интересных задач.
+							<br />
+							{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							частичное взаимодействие с менеджерами и поддержкой компаний, оказывающих услуги нашему
+							Частичное взаимодействие с менеджерами и поддержкой компаний, оказывающих услуги нашему
 продукту;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							решение сопутствующих интересных задач.
 						</Text>
 					</List>
 					<Text
@@ -173,52 +190,63 @@ export default (() => {
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							аналогичный опыт на руководящей позиции, или трезвое понимание, что Ваш опыт и потенциал действительно позволяют претендовать на данный уровень; —
+							Аналогичный опыт на руководящей позиции, или понимание, что ваш опыт и потенциал действительно позволяют претендовать на данный уровень;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							опыт формирования и обучения команды желателен, но необязателен;
+							<Strong>
+								Понимание базовых принципов работы сайтов на уровне веб-мастера;
+							</Strong>
+							<br />
+							{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							умение принимать ответственные решения;
+							<Strong>
+								Увлеченность современными веб-технологиями;
+							</Strong>
 						</Text>
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							внимательность и аккуратность;
+							Опыт работы с любыми CMS, конструкторами сайтов;
+							<br />
+							{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							высокий уровень письменной грамотности;
+							Опыт формирования и обучения команды желателен, но необязателен;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							понимание базовых принципов работы сайтов на уровне веб-мастера.
+							Умение принимать ответственные решения;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							увлеченность современными веб-технологиями;
+							Внимательность и аккуратность;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							умение слушать и слышать пользователя;
+							Высокий уровень письменной грамотности;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							безграничная любовь к людям и такая же безграничная стрессоустойчивость :)
+							Умение слушать и слышать клиента (и руководство);
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							умение ставить себе задачи для постоянного развития отдела;
+							Безграничная любовь к людям и такая же безграничная стрессоустойчивость :)
+						</Text>
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Умение ставить подчиненным задачи и контролировать их выполнение.
 						</Text>
 					</List>
 					<Text
@@ -235,17 +263,17 @@ export default (() => {
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							знание английского языка;
+							Знание английского языка;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							опыт создания и ведения собственного сайта;
+							Умение ориентироваться в helpdesk-системах;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							опыт работы в поддержке хостинга/регистратора доменов/веб-студии
+							Опыт работы в поддержке хостинга / регистратора доменов / веб-студии / SaaS-системы.
 						</Text>
 					</List>
 					<Text
@@ -276,7 +304,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							оформление по ТК с первого дня;
+							Официальное трудоустройство с первого дня работы;
 						</Text>
 					</Box>
 					<Box
@@ -295,7 +323,7 @@ export default (() => {
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							ДМС со стоматологией;
+							График 5/2 в офисе, гибридный или удаленный формат работы;
 						</Text>
 					</Box>
 					<Box
@@ -314,7 +342,7 @@ export default (() => {
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							работу в проекте с духом стартапа, опытом сильной компании и узнаваемого бренда;
+							Начало рабочего дня до 11:00;
 						</Text>
 					</Box>
 					<Box
@@ -333,7 +361,7 @@ export default (() => {
 							padding="0px 0px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							комфортный офис, гибкое утро;
+							Расширенная программа ДМС (включая стоматологию);
 						</Text>
 					</Box>
 					<Box
@@ -352,7 +380,132 @@ export default (() => {
 							margin="0px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							корпоративное питание, печеньки, чай, кофе за счет компании.
+							Современная рабочая техника;
+						</Text>
+					</Box>
+					<Box
+						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
+						display="flex"
+						align-items="center"
+					>
+						<Image
+							lg-margin="12px 10px 0px 0px"
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Профессиональный рост.{"\n\n"}
+						</Text>
+					</Box>
+					<Box
+						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
+						display="flex"
+						align-items="center"
+					>
+						<Image
+							lg-margin="12px 10px 0px 0px"
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Корпоративное питание, печеньки, чай, кофе за счет компании.
+						</Text>
+					</Box>
+					<Text
+						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
+						margin="20px 0px 12px 0px"
+						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						text-align="left"
+						color="#333"
+						letter-spacing=".2"
+					>
+						Еще мы предлагаем:
+					</Text>
+					<Box
+						lg-margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+					>
+						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Возможности для профессионального роста и развития (конференции, обучение, доступ к корпоративной библиотеке);
+						</Text>
+					</Box>
+					<Box
+						lg-margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+					>
+						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Работу в команде опытных специалистов, у которых можно многому научиться;
+						</Text>
+					</Box>
+					<Box
+						lg-margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+					>
+						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Культуру открытости и взаимопомощи: у нас работают увлеченные и не безразличные к тому, что они делают, люди;
+						</Text>
+					</Box>
+					<Box
+						lg-margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+					>
+						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Культуру доверия: мы не используем системы контроля времени, для нас показатель – выполненная в срок задача.
 						</Text>
 					</Box>
 					<Components.PopUp

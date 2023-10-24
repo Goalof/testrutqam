@@ -107,10 +107,6 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb": {
-        "overflow-y": "",
-        "overflow-x": "hidden"
-    },
     "vacancies/qa-engineer": {
         "overflow-y": "",
         "overflow-x": "hidden"
@@ -188,6 +184,10 @@ const pageStyles = {
         "overflow-x": "hidden"
     },
     "vacancies/middle-backend-developer": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
