@@ -75,7 +75,7 @@ const overrides = {
 			"display": "inline-block",
 			"color": "#ffffff",
 			"children": <Link href="https://ru.uteam.pro/" color="#000000" text-decoration-line="initial" font="500 18px/50px 'AvenirNextCyrMedium', sans-serif">
-				Вакансии в России
+				Вакансии
 			</Link>
 		}
 	},
@@ -386,7 +386,7 @@ const overrides = {
 			"nout-width": "90%",
 			"nout-margin": "24px 0px 24px 12px",
 			"nout-font": "normal 500 18px/42px 'AvenirNextCyrMedium', sans-serif",
-			"children": "Вакансии в России"
+			"children": "Вакансии"
 		}
 	},
 	"menu1": {

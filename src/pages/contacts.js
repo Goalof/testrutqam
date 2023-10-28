@@ -116,10 +116,16 @@ export default (() => {
 									font="normal 400 16px/22px 'AvenirNextCyrMedium'"
 									transition="all 0.2s linear 0s"
 								>
-									Москва
+									Баку
 								</Button>
 							</Components.TabItem>
-							<Components.TabItem color="#263238" border-color="#263238" transition="all 0.2s linear 0s" tabId="two">
+							<Components.TabItem
+								color="#263238"
+								border-color="#263238"
+								transition="all 0.2s linear 0s"
+								tabId="two"
+								display="none"
+							>
 								<Override
 									slot="Selected Tab"
 									color="#4a8cfa"
@@ -180,7 +186,7 @@ export default (() => {
 						</Components.TabList>
 						<Components.TabPanels>
 							<Components.TabPanel tabId="one">
-								<GoogleMap sm-margin="15px 0px 20px 0px" query="ул. Барклая 6, строение 5, БЦ" margin="15px 0px 0px 0px" z-index="0" />
+								<GoogleMap sm-margin="15px 0px 20px 0px" query="г. Баку, проспект Гейдара Алиева, 205" margin="15px 0px 0px 0px" z-index="0" />
 								<Box display="flex" margin="0px 0px 25px 0px" sm-flex-direction="column">
 									<Box
 										display="flex"
@@ -206,9 +212,7 @@ export default (() => {
 											color="#333"
 											margin="0px 0px 0px 0px"
 										>
-											ул. Барклая 6, строение 5,
-											<br />
-											БЦ «Барклай Плаза»
+											г. Баку, проспект Гейдара Алиева, 205{"\n\n"}
 										</Text>
 									</Box>
 									<Box display="flex" flex-direction="column" align-items="flex-start" max-width="300px">
@@ -363,7 +367,7 @@ export default (() => {
 											display="inline-block"
 											sm-margin="0px 0px 30px 0px"
 										>
-											Ростов-на-Дону, ул. Алексея Береста, 6{"\n\n"}
+											Ростов-на-Дону, ул. Алексея Береста, 6
 										</Text>
 									</Box>
 									<Box max-width="300px" display="flex" flex-direction="column" align-items="flex-start">

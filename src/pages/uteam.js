@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Text, Button, Image, Box, Section, Link, Icon } from "@quarkly/widgets";
+import { Theme, Link, Text, Button, Image, Box, Section, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -25,7 +25,26 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} />
 			<meta name={"msapplication-TileColor"} content={"#5291FA"} />
 		</Helmet>
-		<Components.HeaderNew />
+		<Components.HeaderNew>
+			<Override slot="text">
+				<Link
+					href="https://ru.uteam.pro/"
+					color="#000000"
+					text-decoration-line="initial"
+					font="500 18px/50px 'AvenirNextCyrMedium', sans-serif"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Вакансии
+				</Link>
+			</Override>
+		</Components.HeaderNew>
 		<Section padding="120px 0 100px 0" sm-padding="110px 0 0px 0" lg-padding="120px 0 80px 0">
 			<Override slot="SectionContent" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" max-width="850px">
@@ -204,7 +223,7 @@ export default (() => {
 									transition="all 0.2s linear 0s"
 									focus-box-shadow="none"
 								>
-									Москва
+									Баку
 								</Button>
 							</Components.TabItem>
 							<Components.TabItem
@@ -215,6 +234,7 @@ export default (() => {
 								background="#E4E9ED"
 								color="#263238"
 								border-color="#263238"
+								display="none"
 							>
 								<Override
 									slot="Selected Tab"
@@ -359,8 +379,7 @@ export default (() => {
 											sm-margin="0px 0px 30px 0px"
 											lg-text-align="center"
 										>
-											В московском офисе компании находится руководство, команды продуктологов, маркетинга, PR и бухгалтерия.
-											<br />
+											В Баку в офисе у компании находится руководство, команды продуктологов, маркетинга, PR и бухгалтерия.
 										</Text>
 										{"    "}
 									</StackItem>
@@ -1406,7 +1425,7 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" justify-content="flex-start" flex-direction="column" align-items="center" />
 					<Text font="42px/28px 'AvenirNextCyrBold', sans-serif" margin="0px 0px 16px 0px" color="#fff">
-						15 лет
+						18 лет
 					</Text>
 					<Text font="18px/28px 'AvenirNextCyrMedium', sans-serif" margin="8px 0px 0px 0px" text-align="center" color="#fff">
 						на рынке SaaS-решений для создания сайтов и оптимизации их конверсии
@@ -1737,6 +1756,7 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Components.Footer />
+		<Components.Header />
 		<RawHtml>
 			<link
 				href={"/nubexPrint.css"}

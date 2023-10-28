@@ -8,14 +8,14 @@ import * as Components from "components";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb"} />
+		<GlobalQuarklyPageStyles pageUrl={"vacancies/ui-ux-dizayner"} />
 		<Helmet>
 			<title>
-				Системный администратор
+				UI/UX дизайнер
 			</title>
-			<meta name={"description"} content={"Компания uKit Group открывает вакансию системного администратора."} />
-			<meta property={"og:title"} content={"Работа в uTeam"} />
-			<meta property={"og:description"} content={"Работа в uCoz. Актуальные вакансии компании в российских офисах и удаленная работа. Как попасть в команду, и о нашем коллективе — uTeam."} />
+			<meta name={"description"} content={"uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.\n\nМы в поиске UI/UX дизайнера junior/middle в нашу команду. "} />
+			<meta property={"og:title"} content={"UI/UX дизайнер"} />
+			<meta property={"og:description"} content={"uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.\n\nМы в поиске UI/UX дизайнера junior/middle в нашу команду. "} />
 			<meta property={"og:image"} content={"https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} />
@@ -64,7 +64,7 @@ export default (() => {
 						margin="0px 0px 25px -3px"
 						display="inline-block"
 					>
-						Руководитель службы технической поддержки
+						UI/UX дизайнер{"\n\n"}
 					</Text>
 					<Text
 						margin="0px 0px 20px 0px"
@@ -88,29 +88,13 @@ uKit Group
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 					>
-						uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.
+						{"\n"}uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.
 						<br />
 						<br />
-						Наиболее известны такие наши проекты, как:{" "}
-						<Strong>
-							uCoz
-						</Strong>
-						,{" "}
-						<Strong>
-							uKit
-						</Strong>
-						,{" "}
-						<Strong>
-							WebAsk
-						</Strong>
-						,{" "}
-						<Strong>
-							RuSender{" "}
-						</Strong>
-						etc.
 						<br />
+						Мы в поиске UI/UX дизайнера junior/middle в нашу команду.{" "}
 						<br />
-						Мы ищем опытного и неравнодушного специалиста на должность Руководителя службы технической поддержки, который умеет управлять людьми и тикетами. Поддержка пользователей осуществляется в письменном формате.{"\n\n"}
+						{"\n\n"}
 					</Text>
 					<Text
 						sm-margin="10px 0px 20px 0px"
@@ -121,58 +105,23 @@ uKit Group
 						margin="24px 0px 18px 0px"
 						display="inline-block"
 					>
-						<Strong
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-						>
-							Обязанности:
+						<Strong>
+							Задачи:
 						</Strong>
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Выстраивание и улучшение процессов работы команды поддержки, обучение сотрудников;
+							Сопровождение дизайна продуктов компании на всех этапах разработки;{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Выстраивание мотивационной схемы, системы оценки работы отдела;
+							Разработка концепций новых решений;
 						</Text>
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Выстраивание эффективного взаимодействия с продакт-менеджерами, командами разработчиков, тестировщиков;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Написание и поддержка внутренних регламентов поддержки;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Ведение пользовательской базы знаний;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Предложение улучшений по работе продукта на основе пользовательских обращений и личного видения;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Решение сопутствующих интересных задач;
-							<br />
-							{"\n\n"}
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Частичное взаимодействие с менеджерами и поддержкой компаний, оказывающих услуги нашему
-продукту;
+							Анализ продуктов конкурентов и трендов UI и UX.
 						</Text>
 					</List>
 					<Text
@@ -185,68 +134,38 @@ uKit Group
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
 					>
 						<Strong>
-							Требования:
+							Обязательные требования:
 						</Strong>
+						{"\n\n"}
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Аналогичный опыт на руководящей позиции, или понимание, что ваш опыт и потенциал действительно позволяют претендовать на данный уровень;
+							Опыт создания UI/UX дизайна веб-интерфейсов;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							<Strong>
-								Понимание базовых принципов работы сайтов на уровне веб-мастера;
-							</Strong>
-							<br />
-							{"\n\n"}
+							Опыт дизайна лендингов;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							<Strong>
-								Увлеченность современными веб-технологиями;
-							</Strong>
+							Уверенное владение Figma;
 						</Text>
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Опыт работы с любыми CMS, конструкторами сайтов;
-							<br />
-							{"\n\n"}
+							Умение следовать заданному стилю интерфейса, реализовывать удобный и понятный дизайн;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт формирования и обучения команды желателен, но необязателен;
+							Интерес и готовность исследовать наши продукты;{" \n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Умение принимать ответственные решения;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Внимательность и аккуратность;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Высокий уровень письменной грамотности;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Умение слушать и слышать клиента (и руководство);
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Безграничная любовь к людям и такая же безграничная стрессоустойчивость :)
-						</Text>
-						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Умение ставить подчиненным задачи и контролировать их выполнение.
+							Умение презентовать и обосновывать свою точку зрения.
 						</Text>
 					</List>
 					<Text
@@ -258,22 +177,22 @@ uKit Group
 						color="#333"
 					>
 						<Strong>
-							Большим плюсом будут:
+							Отлично, если вы:
 						</Strong>
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Знание английского языка;
+							Имеете опыт создания дизайн-систем, гайдлайнов, UI-китов, интерактивных прототипов;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Умение ориентироваться в helpdesk-системах;
+							Имеете опыт создания изображений с помощью нейросетей;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт работы в поддержке хостинга / регистратора доменов / веб-студии / SaaS-системы.
+							Работаете с готовыми иллюстрациями в векторе и создаете собственные, знаете 3D редактор (Blender, Spline).
 						</Text>
 					</List>
 					<Text
@@ -286,7 +205,6 @@ uKit Group
 						letter-spacing=".2"
 					>
 						Условия:
-						<br />
 					</Text>
 					<Box
 						lg-margin="0px 0px 6px 0px"
@@ -323,7 +241,7 @@ uKit Group
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							График 5/2 в офисе, гибридный или удаленный формат работы;
+							Белая заработная плата, бонусы за успехи на проекте;
 						</Text>
 					</Box>
 					<Box
@@ -340,28 +258,47 @@ uKit Group
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							График 5/2 в офисе или гибридный формат работы, возможна полностью удаленная работа;
+						</Text>
+					</Box>
+					<Box
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
+					>
+						<Image
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							Начало рабочего дня до 11:00;
 						</Text>
 					</Box>
 					<Box
-						display="flex"
-						align-items="center"
 						margin="0px 0px 6px 0px"
 						lg-align-items="flex-start"
 						lg-padding="0px 0px 0px 0px"
+						display="flex"
+						align-items="center"
 					>
 						<Image
-							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 							width="15px"
 							height="12px"
 							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Расширенная программа ДМС (включая стоматологию);
+							Питание в офисе;
 						</Text>
 					</Box>
 					<Box
@@ -380,45 +317,7 @@ uKit Group
 							margin="0px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Современная рабочая техника;
-						</Text>
-					</Box>
-					<Box
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-						align-items="center"
-					>
-						<Image
-							lg-margin="12px 10px 0px 0px"
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Профессиональный рост;
-						</Text>
-					</Box>
-					<Box
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-						align-items="center"
-					>
-						<Image
-							lg-margin="12px 10px 0px 0px"
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Корпоративное питание, печеньки, чай, кофе за счет компании.
+							Современная рабочая техника.
 						</Text>
 					</Box>
 					<Text
@@ -448,7 +347,26 @@ uKit Group
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Возможности для профессионального роста и развития (конференции, обучение, доступ к корпоративной библиотеке);
+							Работу в IT компании, которая уже 18 лет создает онлайн-продукты, помогающие людям достигать своих целей: uCoz, uKit, WebAsk, uCalc, RuSender;
+						</Text>
+					</Box>
+					<Box
+						lg-margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+					>
+						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Возможности для профессионального роста и развития;
 						</Text>
 					</Box>
 					<Box
@@ -486,7 +404,7 @@ uKit Group
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Культуру открытости и взаимопомощи: у нас работают увлеченные и не безразличные к тому, что они делают, люди;
+							Культуру открытости и взаимопомощи: у нас работают увлеченные и небезразличные к тому, что они делают, люди;
 						</Text>
 					</Box>
 					<Box
@@ -505,7 +423,7 @@ uKit Group
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Культуру доверия: мы не используем системы контроля времени, для нас показатель – выполненная в срок задача.
+							Культуру доверия: мы не используем системы контроля времени, для нас показатель - выполненная в срок задача.
 						</Text>
 					</Box>
 					<Components.PopUp

@@ -45,6 +45,7 @@ module.exports = [
 	"/vacancies/middle-fullstack/",
 	"/vacancies/middle-backend-developer/",
 	"/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb/",
+	"/vacancies/ui-ux-dizayner/",
 	"/uteam/",
 	"/resume/",
 	"/contacts/",

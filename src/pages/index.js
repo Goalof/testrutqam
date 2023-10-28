@@ -483,7 +483,7 @@ export default (() => {
 							font="bold 24px/30px 'AvenirNextCyrRegular', sans-serif"
 							padding="0 0px 0 0px"
 						>
-							и более сотрудников успешно работают и отдыхают с нами на протяжении семнадцати лет и не жалеют об этом
+							и более сотрудников успешно работают и отдыхают с нами на протяжении восемнадцати лет и не жалеют об этом
 						</Text>
 						<Text margin="0px 0px 10px 0px" color="#ffffff" font="--lead" nout-font="normal 400 16px/24px 'AvenirNextCyrRegular', sans-serif">
 							Мы верим, что в мире есть масса возможностей заниматься тем, что по‑настоящему нравится, и точно знаем, что это можно делать у нас в компании.{" "}
@@ -579,7 +579,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							2 вакансии
+							4 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -639,7 +639,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							4 вакансии
+							5 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -696,7 +696,7 @@ export default (() => {
 						</Link>
 						<Text font="normal 600 18px/50px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 0px 0px" display="inline-block" color="#ffffff">
 							<Link text-decoration-line="initial" font="500 18px/50px 'AvenirNextCyrMedium', sans-serif" href="https://ru.uteam.pro/" color="#000000">
-								Вакансии в России
+								Вакансии
 							</Link>
 						</Text>
 						<Text
@@ -1255,7 +1255,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							2 вакансии
+							4 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -1313,7 +1313,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							4 вакансия
+							5 вакансия
 						</Span>
 					</Link>
 					{"    "}
