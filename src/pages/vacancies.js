@@ -327,36 +327,6 @@ uKit Group
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb"
-														text-decoration-line="initial"
-													>
-														Руководитель службы технической поддержки
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект 
-uKit Group
-
- | В офис или на удаленную работу
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Наиболее известны такие наши проекты, как: uCoz, uKit, WebAsk, RuSender etc.
-														<br />
-														<br />
-														Мы ищем опытного и неравнодушного специалиста на должность Руководителя службы технической поддержки, который умеет управлять людьми и тикетами. Поддержка пользователей осуществляется в письменном формате.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/email-marketolog"
 														text-decoration-line="initial"
 													>
@@ -392,32 +362,6 @@ uKit Group
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Вы не знакомы с Perl, но не боитесь попробовать? Это верный выбор и не смотря на то, что данный язык на сегодня не является мейнстримом, как специалист вы только выиграете: перловики на сегодня весьма востребованы именно по причине своей редкости.
-														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Fullstack разработчик (React/Laravel)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект WebAsk | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group в поиске{" "}
-														<Strong>
-															fullstack разработчика{" "}
-														</Strong>
-														для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).
 														<br />
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
@@ -478,32 +422,6 @@ uKit Group
 											<Components.TabPanel tabId="two" md-width="100%">
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Fullstack разработчик (React/Laravel)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект WebAsk | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group в поиске{" "}
-														<Strong>
-															fullstack разработчика{" "}
-														</Strong>
-														для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).
-														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
 														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
@@ -547,36 +465,6 @@ uKit Group
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="four" md-width="100%">
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb"
-														text-decoration-line="initial"
-													>
-														Руководитель службы технической поддержки
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект 
-uKit Group
-
- | В офис или на удаленную работу
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Наиболее известны такие наши проекты, как: uCoz, uKit, WebAsk, RuSender etc.
-														<br />
-														<br />
-														Мы ищем опытного и неравнодушного специалиста на должность Руководителя службы технической поддержки, который умеет управлять людьми и тикетами. Поддержка пользователей осуществляется в письменном формате.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														transition="color 0.2s linear 0s"
@@ -758,36 +646,6 @@ uKit Group
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb"
-														text-decoration-line="initial"
-													>
-														Руководитель службы технической поддержки
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект 
-uKit Group
-
- | В офис или на удаленную работу
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Наиболее известны такие наши проекты, как: uCoz, uKit, WebAsk, RuSender etc.
-														<br />
-														<br />
-														Мы ищем опытного и неравнодушного специалиста на должность Руководителя службы технической поддержки, который умеет управлять людьми и тикетами. Поддержка пользователей осуществляется в письменном формате.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/ui-ux-dizayner"
 														text-decoration-line="initial"
 													>
@@ -804,32 +662,6 @@ uKit Group
 														<br />
 														<br />
 														Мы в поиске UI/UX дизайнера junior/middle в нашу команду.{" "}
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Fullstack разработчик (React/Laravel)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект WebAsk | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group в поиске{" "}
-														<Strong>
-															fullstack разработчика{" "}
-														</Strong>
-														для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).
-														<br />
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1233,7 +1065,7 @@ uKit Group
 											</Components.TabItem>
 											<Components.TabItem tabId="three">
 												<Override slot="Selected Tab" color="#3d72cc" display="none" />
-												<Override slot="Tab" color="#afc1db" />
+												<Override slot="Tab" color="#afc1db" display="none" />
 												<Button
 													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
 													letter-spacing=".2px"
@@ -1258,7 +1090,7 @@ uKit Group
 											</Components.TabItem>
 											<Components.TabItem tabId="two">
 												<Override slot="Selected Tab" color="#3d72cc" />
-												<Override slot="Tab" color="#afc1db" />
+												<Override slot="Tab" color="#afc1db" display="none" />
 												<Button
 													color="inherit"
 													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
@@ -1340,36 +1172,6 @@ uKit Group
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb"
-														text-decoration-line="initial"
-													>
-														Руководитель службы технической поддержки
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект 
-uKit Group
-
- | В офис или на удаленную работу
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Наиболее известны такие наши проекты, как: uCoz, uKit, WebAsk, RuSender etc.
-														<br />
-														<br />
-														Мы ищем опытного и неравнодушного специалиста на должность Руководителя службы технической поддержки, который умеет управлять людьми и тикетами. Поддержка пользователей осуществляется в письменном формате.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/ui-ux-dizayner"
 														text-decoration-line="initial"
 													>
@@ -1388,31 +1190,6 @@ uKit Group
 														Мы в поиске UI/UX дизайнера junior/middle в нашу команду.{" "}
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Fullstack разработчик (React/Laravel)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект WebAsk | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group в поиске{" "}
-														<Strong>
-															fullstack разработчика{" "}
-														</Strong>
-														для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).
-														<br />
-													</Text>
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel md-width="100%" tabId="three-des">
@@ -1570,6 +1347,7 @@ uKit Group
 											<Components.TabItem tabId="two">
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
+												<Override slot="Unselected Tab" display="none" />
 												<Button
 													color="inherit"
 													letter-spacing=".2px"
@@ -1723,36 +1501,6 @@ uKit Group
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb"
-														text-decoration-line="initial"
-													>
-														Руководитель службы технической поддержки
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект 
-uKit Group
-
- | В офис или на удаленную работу
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Наиболее известны такие наши проекты, как: uCoz, uKit, WebAsk, RuSender etc.
-														<br />
-														<br />
-														Мы ищем опытного и неравнодушного специалиста на должность Руководителя службы технической поддержки, который умеет управлять людьми и тикетами. Поддержка пользователей осуществляется в письменном формате.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/email-marketolog"
 														text-decoration-line="initial"
 													>
@@ -1767,32 +1515,6 @@ uKit Group
 														<br />
 														<br />
 														Вакансия будет интересна тем, кто хочет развиваться в область продуктового маркетинга, потому что прямо сейчас наша команда занимается разработкой ESP-системы RuSender.ru
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Fullstack разработчик (React/Laravel)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект WebAsk | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group в поиске{" "}
-														<Strong>
-															fullstack разработчика{" "}
-														</Strong>
-														для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).
-														<br />
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1872,36 +1594,6 @@ uKit Group
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="four" md-width="100%">
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb"
-														text-decoration-line="initial"
-													>
-														Руководитель службы технической поддержки
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект 
-uKit Group
-
- | В офис или на удаленную работу
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Наиболее известны такие наши проекты, как: uCoz, uKit, WebAsk, RuSender etc.
-														<br />
-														<br />
-														Мы ищем опытного и неравнодушного специалиста на должность Руководителя службы технической поддержки, который умеет управлять людьми и тикетами. Поддержка пользователей осуществляется в письменном формате.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														font="22px 'AvenirNextCyrMedium', sans-serif"
