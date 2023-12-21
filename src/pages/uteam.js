@@ -312,6 +312,7 @@ export default (() => {
 								sm-width="100%"
 								tabId="four"
 								background="#E4E9ED"
+								display="none"
 							>
 								<Override
 									slot="Selected Tab"
