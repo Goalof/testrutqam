@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Icon, Link, Text, Strong, List, Span, Image, Box, Section } from "@quarkly/widgets";
+import { Theme, Link, Icon, Text, Strong, List, Span, Image, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -25,7 +25,27 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} />
 			<meta name={"msapplication-TileColor"} content={"#5291FA"} />
 		</Helmet>
-		<Components.Header />
+		<Components.Header>
+			<Override slot="text2">
+				<Link
+					href="http://en.uteam.pro/"
+					color="#9BABBF"
+					text-decoration-line="initial"
+					hover-color="#ffe02d"
+					transition="color 0.2s ease 0s"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					user-select="auto"
+					pointer-events="auto"
+				>
+					Applying from overseas
+				</Link>
+			</Override>
+		</Components.Header>
 		<Section padding="140px 0 60px 0" sm-padding="110px 0 40px 0" lg-padding="120px 0 80px 0">
 			<Override slot="SectionContent" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" max-width="850px">

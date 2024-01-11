@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Icon, Link, Text, List, Image, Box, Section } from "@quarkly/widgets";
+import { Theme, Icon, Link, Text, List, Strong, Image, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -11,11 +11,11 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"vacancies/ofis-menedzher"} />
 		<Helmet>
 			<title>
-				Системный администратор
+				Офис менеджер
 			</title>
-			<meta name={"description"} content={"Компания uKit Group открывает вакансию системного администратора."} />
-			<meta property={"og:title"} content={"Работа в uTeam"} />
-			<meta property={"og:description"} content={"Работа в uCoz. Актуальные вакансии компании в российских офисах и удаленная работа. Как попасть в команду, и о нашем коллективе — uTeam."} />
+			<meta name={"description"} content={"Команда uKit Group в поиске активного и жизнерадостного офис-менеджера на неполный рабочий день (6 часов)"} />
+			<meta property={"og:title"} content={"Офис менеджер"} />
+			<meta property={"og:description"} content={"Команда uKit Group в поиске активного и жизнерадостного офис-менеджера на неполный рабочий день (6 часов)"} />
 			<meta property={"og:image"} content={"https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} />
@@ -75,7 +75,7 @@ export default (() => {
 						display="inline-block"
 						sm-margin="0px 0px 10px 0px"
 					>
-						Проект uCoz | Москва
+						Проект uCoz | Баку
 					</Text>
 					<Text
 						letter-spacing="0.3px"
@@ -85,7 +85,10 @@ export default (() => {
 						display="inline-block"
 						sm-margin="10px 0px 20px 0px"
 					>
-						Команда uKit Group в поиске активного и жизнерадостного офис-менеджера на неполный рабочий день (6 часов)
+						Мы ищем собранного, организованного и проактивного специалиста в нашу команду.
+						<br />
+						<br />
+						Весь уклон деятельности связан со спецификой IT-отрасли.{"\n\n"}
 					</Text>
 					<Text
 						sm-margin="10px 0px 20px 0px"
@@ -111,32 +114,41 @@ export default (() => {
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							отправка/получение почтовой корреспонденции (экспресс-почта);
+							Жизнеобеспечение офиса (заказ воды, канцелярии и прочее);
+							<br />
+							{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							бронирование и заказ билетов, номеров в гостиницах;
+							Делопроизводство: работа с внутренней документацией, входящей корреспонденцией;
 						</Text>
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							бюджетирование расходов, ведение учета, подготовка соответствующей отчетности для бухгалтерии;
+							Формирование почтовых отправлений, взаимодействие с курьерскими службами;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							жизнеобеспечение офиса (заказ канцелярии, воды, хозяйственных средств и т.д.);
+							Оперативный и качественный поиск необходимой информации по запросу руководителя;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							оперативное решение возникающих вопросов, личных поручений;
+							Подготовка и организация совещаний, встреч, деловых поездок, командировок;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							контроль чистоты и порядка офиса.
+							Travel-поддержка: бронирование билетов, гостиниц, трансфера, продумывание логистики;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Выполнение различных поручений руководителя.
+							<br />
+							{"\n\n"}
 						</Text>
 					</List>
 					<Text
@@ -157,11 +169,6 @@ export default (() => {
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							участие в планировании и организации офисных посиделок, развлекательных мероприятий, корпоративов;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
 							любые разумные инициативы, связанные с улучшением комфорта для сотрудников и т.д. будут приветствоваться.
 						</Text>
 					</List>
@@ -174,21 +181,62 @@ export default (() => {
 						margin="20px 0px 18px 0px"
 						display="inline-block"
 					>
-						Требуется:
+						Требования:
+						<br />
+						{"\n\n"}
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							уверенный пользователь ПК, оргтехники;
+							Релевантный опыт на аналогичной позиции от 1 года;
 						</Text>
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							приветствуется увлеченность интернетом и веб-технологиями;{"\n\n"}
+							Навыки организации работы офиса;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							дисциплинированность, энергичность.
+							Знание русского и азербайджанского языков;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Навыки эффективных коммуникаций, грамотная устная и письменная речь;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Собранность, навыки эффективной самоорганизации;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Умение решать нестандартные бизнес-задачи;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Умение осуществлять research быстро и эффективно;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							<Strong>
+								Опытный пользователь ПК, умение работать с документами и таблицами;
+							</Strong>
+							<br />
+							{"\n\n"}
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Доброжелательность, корректность, знание основ деловой этики;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Здоровые амбиции, желание расти и развиваться в компании.
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" />
@@ -204,7 +252,7 @@ export default (() => {
 						sm-margin="10px 0px 20px 0px"
 						text-align="left"
 					>
-						Мы предлагаем:
+						Условия работы:
 					</Text>
 					<Box
 						align-items="center"
@@ -222,7 +270,9 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							молодой, дружный, профессиональный коллектив;{"\n\n\n\n"}
+							График работы: фулл-тайм в офисе или гибридный режим с 10:00 до 19:00;
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					<Box
@@ -241,7 +291,7 @@ export default (() => {
 							width="15px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							оформление по ТК;
+							Заработная плата зависит от опыта и навыков конкретного кандидата;
 						</Text>
 					</Box>
 					<Box
@@ -260,7 +310,7 @@ export default (() => {
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							ДМС;
+							Профессиональный рост — приветствуется! В компании множество направлений, в которых вы сможете найти себя - от управления персоналом, бухгалтерии, маркетинга до технических специализаций;
 						</Text>
 					</Box>
 					<Box
@@ -279,26 +329,7 @@ export default (() => {
 							height="12px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							комфортные условия работы;
-						</Text>
-					</Box>
-					<Box
-						display="flex"
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-					>
-						<Image
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							гибкое начало рабочего дня длительностью 6 часов.
+							Расположение: г. Баку, пр-кт. Гейдара Алиева, 205.
 						</Text>
 					</Box>
 					<Components.PopUp

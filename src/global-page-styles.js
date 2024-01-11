@@ -87,10 +87,6 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "vacancies/ofis-menedzher": {
-        "overflow-y": "",
-        "overflow-x": "hidden"
-    },
     "vacancies/pr-menedzher-ukit": {
         "overflow-y": "",
         "overflow-x": "hidden"
@@ -192,6 +188,18 @@ const pageStyles = {
         "overflow-x": "hidden"
     },
     "vacancies/ui-ux-dizayner": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/ofis-menedzher": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/sistemnyj-administrator-linux": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/sistemnyj-administrator-linux2": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
