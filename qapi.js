@@ -168,7 +168,9 @@ export default {
 				"653d7870fea63c0021a82237",
 				"606ed5c336274f001fc911e5",
 				"659facd08e2e8e00217613b3",
-				"659faf1b8d4a0c0020299fc9"
+				"659faf1b8d4a0c0020299fc9",
+				"65aa6052fdcae00021dd04c4",
+				"65abdd838d4a0c00202a1641"
 			],
 			"seo": {
 				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
@@ -487,6 +489,28 @@ export default {
 			},
 			"id": "659faf1b8d4a0c0020299fc9",
 			"name": "Системный администратор Linux"
+		},
+		"65aa6052fdcae00021dd04c4": {
+			"pageUrl": "team-lead",
+			"seo": {
+				"title": "Team Lead",
+				"description": "Команда состоит из опытных специалистов, занимающихся эксплуатацией веб-проектов. Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой наших проектов uKit и RuSender.\n\nЕсли ты любишь задачи, где можешь реализовать такие свои компетенции, как лидерство, инициативность, ответственность, работа на результат – будем рады видеть тебя в рядах uKit Group!\n\nОсновной стек c которым предстоит работать: Nginx, Traefik, PM2, Node.js, NestJs, PHP, PostgreSQL, MongoDB, Redis, RabbitMQ, Docker, GitLab, Elasticsearch, Kibana, Grafana, Zabbix, Ansible.",
+				"og:title": "Team Lead ",
+				"og:description": "Команда состоит из опытных специалистов, занимающихся эксплуатацией веб-проектов. Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой наших проектов uKit и RuSender.\n\nЕсли ты любишь задачи, где можешь реализовать такие свои компетенции, как лидерство, инициативность, ответственность, работа на результат – будем рады видеть тебя в рядах uKit Group!\n\nОсновной стек c которым предстоит работать: Nginx, Traefik, PM2, Node.js, NestJs, PHP, PostgreSQL, MongoDB, Redis, RabbitMQ, Docker, GitLab, Elasticsearch, Kibana, Grafana, Zabbix, Ansible."
+			},
+			"id": "65aa6052fdcae00021dd04c4",
+			"name": "Team Lead"
+		},
+		"65abdd838d4a0c00202a1641": {
+			"pageUrl": "frontend-developer-rusender",
+			"id": "65abdd838d4a0c00202a1641",
+			"name": "Frontend разработчик",
+			"seo": {
+				"title": "Frontend разработчик",
+				"og:title": "Frontend разработчик",
+				"description": "uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.\n\nСейчас мы в поиске Frontend разработчика на Vue.js.\nУровень навыков Junior/Junior+, опыт от 1-го года.",
+				"og:description": "uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.\n\nСейчас мы в поиске Frontend разработчика на Vue.js.\nУровень навыков Junior/Junior+, опыт от 1-го года."
+			}
 		}
 	},
 	"mode": "production",

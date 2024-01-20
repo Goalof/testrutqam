@@ -64,7 +64,7 @@ export default (() => {
 						sm-margin="0px 0px 20px 0px"
 						text-align="left"
 					>
-						Офис менеджер
+						Офис-менеджер
 					</Text>
 					<Text
 						text-align="center"

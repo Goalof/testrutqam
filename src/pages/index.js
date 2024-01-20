@@ -60,7 +60,7 @@ export default (() => {
 						</Link>
 						<Text color="#ffffff" font="normal 500 18px/50px 'AvenirNextCyrMedium', sans-serif" margin="0px 0px 0px 0px" display="inline-block">
 							<Link color="#ffffff" text-decoration-line="initial" font="500 18px/50px " href="https://ru.uteam.pro/">
-								Вакансии в России
+								Вакансии
 							</Link>
 						</Text>
 						<Text

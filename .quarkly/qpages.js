@@ -48,6 +48,8 @@ module.exports = [
 	"/vacancies/ofis-menedzher/",
 	"/vacancies/sistemnyj-administrator-linux/",
 	"/vacancies/sistemnyj-administrator-linux2/",
+	"/vacancies/team-lead/",
+	"/vacancies/frontend-developer-rusender/",
 	"/uteam/",
 	"/resume/",
 	"/contacts/",

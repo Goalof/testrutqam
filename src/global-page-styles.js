@@ -203,6 +203,14 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/team-lead": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/frontend-developer-rusender": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"

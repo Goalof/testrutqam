@@ -8,14 +8,14 @@ import * as Components from "components";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"vacancies/ui-ux-dizayner"} />
+		<GlobalQuarklyPageStyles pageUrl={"vacancies/team-lead"} />
 		<Helmet>
 			<title>
-				UI/UX дизайнер
+				Team Lead
 			</title>
-			<meta name={"description"} content={"uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.\n\nМы в поиске UI/UX дизайнера junior/middle в нашу команду. "} />
-			<meta property={"og:title"} content={"UI/UX дизайнер"} />
-			<meta property={"og:description"} content={"uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.\n\nМы в поиске UI/UX дизайнера junior/middle в нашу команду. "} />
+			<meta name={"description"} content={"Команда состоит из опытных специалистов, занимающихся эксплуатацией веб-проектов. Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой наших проектов uKit и RuSender.\n\nЕсли ты любишь задачи, где можешь реализовать такие свои компетенции, как лидерство, инициативность, ответственность, работа на результат – будем рады видеть тебя в рядах uKit Group!\n\nОсновной стек c которым предстоит работать: Nginx, Traefik, PM2, Node.js, NestJs, PHP, PostgreSQL, MongoDB, Redis, RabbitMQ, Docker, GitLab, Elasticsearch, Kibana, Grafana, Zabbix, Ansible."} />
+			<meta property={"og:title"} content={"Team Lead "} />
+			<meta property={"og:description"} content={"Команда состоит из опытных специалистов, занимающихся эксплуатацией веб-проектов. Ты будешь выступать в роли руководителя, а также заниматься инфраструктурой наших проектов uKit и RuSender.\n\nЕсли ты любишь задачи, где можешь реализовать такие свои компетенции, как лидерство, инициативность, ответственность, работа на результат – будем рады видеть тебя в рядах uKit Group!\n\nОсновной стек c которым предстоит работать: Nginx, Traefik, PM2, Node.js, NestJs, PHP, PostgreSQL, MongoDB, Redis, RabbitMQ, Docker, GitLab, Elasticsearch, Kibana, Grafana, Zabbix, Ansible."} />
 			<meta property={"og:image"} content={"https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} />
@@ -30,188 +30,254 @@ export default (() => {
 			<Override slot="SectionContent" align-items="center" />
 			<Stack margin="0px 0px 0px 0px" max-width="850px">
 				{"    "}
-				<StackItem width="100%" display="flex">
+				<StackItem display="flex" width="100%">
 					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
 					{"        "}
 					<Link
+						text-decoration-line="initial"
+						font="14px 'AvenirNextCyrMedium', sans-serif"
+						transition="color 0.2s linear 0s"
 						hover-color="#3d72cc"
-						href="/vacancies"
+						display="flex"
 						className="noprint"
 						margin="0px 0px 20px 0px"
+						href="/vacancies"
 						color="#4a8cfa"
-						font="14px 'AvenirNextCyrMedium', sans-serif"
-						text-decoration-line="initial"
-						transition="color 0.2s linear 0s"
-						display="flex"
 					>
 						<Icon
-							category="md"
-							icon={MdKeyboardArrowLeft}
 							color="inherit"
 							size="20px"
 							margin="-1px 2px 0px -2px"
 							hover-color="inherit"
+							category="md"
+							icon={MdKeyboardArrowLeft}
 						/>
 						К списку вакансий
 					</Link>
 					<Text
+						margin="0px 0px 25px -3px"
+						display="inline-block"
 						sm-margin="0px 0px 20px 0px"
 						text-align="left"
 						color="#263238"
 						sm-font="normal 500 40px/1.2 'AvenirNextCyrDemi', sans-serif"
 						as="h1"
 						font="normal 500 44px/1.2 'AvenirNextCyrDemi', sans-serif"
-						margin="0px 0px 25px -3px"
-						display="inline-block"
 					>
-						UI/UX-дизайнер{"\n\n"}
+						Team Lead
 					</Text>
 					<Text
-						margin="0px 0px 20px 0px"
-						display="inline-block"
 						sm-margin="0px 0px 10px 0px"
 						text-align="center"
 						color="#333"
 						letter-spacing=".2"
 						font="normal 400 18px/1.2 'AvenirNextCyrMedium', sans-serif"
+						margin="0px 0px 20px 0px"
+						display="inline-block"
 					>
-						Проект 
-uKit Group
-
- | В офис или на удаленную работу
+						Проект RuSender | 
+Ростов-на-Дону, Баку и Удаленная работа
 					</Text>
 					<Text
-						sm-margin="10px 0px 20px 0px"
-						letter-spacing="0.3px"
-						color="#333"
 						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
 						margin="0px 0px 0px 0px"
 						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						letter-spacing="0.3px"
+						color="#333"
 					>
-						uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 17-ти лет создает онлайн-продукты, у которых миллионы пользователей.
+						uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
 						<br />
 						<br />
+						Сейчас мы в поиске Тимлида в нашу команду. В идеале – это специалист, который умеет выстраивать процессы в команде, фуллстек или бекенд-разработчик с менеджерским опытом.
 						<br />
-						Мы в поиске UI/UX-дизайнера junior/middle в нашу команду.{" "}
 						<br />
-						{"\n\n"}
+						Основной продукт, которым предстоит заниматься –{" "}
+						<Strong>
+							Rusender.
+						</Strong>
+						<br />
+						<br />
+						Это умный сервис для email-рассылок (ESP). Релиз проекта состоялся в августе 2023.
+						<br />
+						<br />
+						Стек:{" "}
+						<Strong>
+							Nest.js,
+						</Strong>
+						{" "}Vue.js, Nuxt.js,
+						<Strong>
+							{" "}
+						</Strong>
+						PostgreSQL, RabbitMQ, Docker, TypeScript.
+						<br />
+						<br />
+						Методология: Scrum.
+						<br />
+						<br />
+						Команда: 12 человек.
+						<br />
+						<br />
+						Поддержка проекта{" "}
+						<Strong>
+							uKit
+						</Strong>
+						{" "}(около 20% от общего объема работы).
+						<br />
+						<br />
+						Стек: Node.js, MongoDB, RabbitMQ, React, Redux, JQuery.
+						<br />
+						<br />
+						Методология: Scrumban.
+						<br />
+						<br />
+						Если у тебя уже есть опыт управления командой и ты ищешь задачи, которые позволят тебе проявить менеджерские навыки, умение строить процессы и достигать поставленных целей – будем рады видеть тебя в рядах uKit Group!{"\n\n"}
 					</Text>
 					<Text
-						sm-margin="10px 0px 20px 0px"
-						text-align="left"
-						color="#333"
 						letter-spacing=".2"
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
 						margin="24px 0px 18px 0px"
 						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						text-align="left"
+						color="#333"
 					>
-						<Strong>
-							Задачи:
-						</Strong>
+						Ты тот, кого мы ищем, если:
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Сопровождение дизайна продуктов компании на всех этапах разработки;{"\n\n"}
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Разработка концепций новых решений;
+							У тебя есть опыт руководства командой JavaScript-разработчиков;
+							<br />
+							{"\n\n"}
 						</Text>
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Анализ продуктов конкурентов и трендов UI и UX.
+							Ты умеешь выстраивать и улучшать процессы в команде;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							У тебя есть опыт организации и координации работы команды, включая планирование, приоритизацию и мониторинг прогресса;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Умеешь декомпозировать задачи, распределять их между разработчиками, оценивать сроки, трудозатраты и контролировать прогресс;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Ты сам являешься опытным программистом и можешь взять на себя решение сложной задачи, помочь коллегам принять решение, провести код-ревью;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							У тебя есть практический опыт работы от 3-х лет с NestJS, Node.js, SQL, Docker;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Знание протоколов SMTP/HTTP и других.
+						</Text>
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Понимание DNS и записей SPF, DKIM, DMARC.
 						</Text>
 					</List>
 					<Text
+						letter-spacing=".2"
+						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
 						margin="20px 0px 18px 0px"
 						display="inline-block"
 						sm-margin="10px 0px 20px 0px"
 						text-align="left"
 						color="#333"
-						letter-spacing=".2"
-						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
 					>
-						<Strong>
-							Обязательные требования:
-						</Strong>
-						{"\n\n"}
+						Типичные задачи:
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт создания UI/UX дизайна веб-интерфейсов;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт дизайна лендингов;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Уверенное владение Figma;
+							Проверка работы команды и код-ревью;
+							<br />
+							{"\n\n"}
 						</Text>
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
-						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Умение следовать заданному стилю интерфейса, реализовывать удобный и понятный дизайн;
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Планирование задач, контроль их выполнения;
 						</Text>
 					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Интерес и готовность исследовать наши продукты;{" \n\n"}
+							Распределение задач между сотрудниками;
 						</Text>
 					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Умение презентовать и обосновывать свою точку зрения.
+							Участие в груминге и оценка сложности задач;
+						</Text>
+					</List>
+					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Работа с мотивацией команды.
 						</Text>
 					</List>
 					<Text
-						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
-						margin="0px 0px 5px 0px"
-						display="inline-block"
-						sm-margin="10px 0px 20px 0px"
-						letter-spacing="0.3px"
 						color="#333"
-					>
-						<Strong>
-							Отлично, если вы:
-						</Strong>
-					</Text>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Имеете опыт создания дизайн-систем, гайдлайнов, UI-китов, интерактивных прототипов;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Имеете опыт создания изображений с помощью нейросетей;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Работаете с готовыми иллюстрациями в векторе и создаете собственные, знаете 3D редактор (Blender, Spline).
-						</Text>
-					</List>
-					<Text
+						letter-spacing=".2"
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
 						margin="20px 0px 12px 0px"
 						display="inline-block"
 						sm-margin="10px 0px 20px 0px"
 						text-align="left"
-						color="#333"
-						letter-spacing=".2"
 					>
 						Условия:
+						<br />
 					</Text>
 					<Box
-						lg-margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
+						lg-margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+					>
+						<Image
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Участие в процессе принятия ключевых технических решений;
+						</Text>
+					</Box>
+					<Box
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+					>
+						<Image
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Профессиональный рост и возможность развития в качестве руководителя команды;
+						</Text>
+					</Box>
+					<Box
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
@@ -233,34 +299,15 @@ uKit Group
 						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 							width="15px"
 							height="12px"
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Белая заработная плата, бонусы за успехи на проекте;
-						</Text>
-					</Box>
-					<Box
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-					>
-						<Image
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							График 5/2 в офисе или гибридный формат работы, возможна полностью удаленная работа;
+							Высокая заработная плата, бонусы за успехи на проекте;
 						</Text>
 					</Box>
 					<Box
@@ -271,72 +318,91 @@ uKit Group
 						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 							width="15px"
 							height="12px"
 							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Расширенная программа ДМС после испытательного срока (включая стоматологию);
+						</Text>
+					</Box>
+					<Box
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
+					>
+						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
 							Начало рабочего дня до 11:00;
 						</Text>
 					</Box>
 					<Box
+						display="flex"
+						align-items="center"
 						margin="0px 0px 6px 0px"
 						lg-align-items="flex-start"
 						lg-padding="0px 0px 0px 0px"
-						display="flex"
-						align-items="center"
 					>
 						<Image
-							lg-margin="12px 10px 0px 0px"
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 							width="15px"
 							height="12px"
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Питание в офисе;
+							Рабочее место в офисе, оборудованное современной техникой;
 						</Text>
 					</Box>
 					<Box
+						display="flex"
+						align-items="center"
 						margin="0px 0px 6px 0px"
 						lg-align-items="flex-start"
 						lg-padding="0px 0px 0px 0px"
-						display="flex"
-						align-items="center"
 					>
 						<Image
-							lg-margin="12px 10px 0px 0px"
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 							width="15px"
 							height="12px"
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Современная рабочая техника.
+							График 5/2 в офисе, возможен гибридный или удаленный формат работы.
 						</Text>
 					</Box>
 					<Text
+						color="#333"
+						letter-spacing=".2"
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
 						margin="20px 0px 12px 0px"
 						display="inline-block"
 						sm-margin="10px 0px 20px 0px"
 						text-align="left"
-						color="#333"
-						letter-spacing=".2"
 					>
 						Еще мы предлагаем:
 					</Text>
 					<Box
-						lg-margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
@@ -347,15 +413,15 @@ uKit Group
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Работу в IT компании, которая уже 18 лет создает онлайн-продукты, помогающие людям достигать своих целей: uCoz, uKit, WebAsk, uCalc, RuSender;
+							Работу в аккредитованной IT-компании, которая уже 17 лет создает продукты, помогающие многим людям достигать свои цели онлайн: uCoz, uKit, WebAsk etc.
 						</Text>
 					</Box>
 					<Box
-						lg-margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
@@ -366,15 +432,15 @@ uKit Group
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Возможности для профессионального роста и развития;
+							Возможности для профессионального роста и развития (конференции, обучение, доступ к корпоративной библиотеке);
 						</Text>
 					</Box>
 					<Box
-						lg-margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
@@ -389,11 +455,11 @@ uKit Group
 						</Text>
 					</Box>
 					<Box
-						lg-margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
@@ -404,15 +470,15 @@ uKit Group
 							lg-margin="12px 10px 0px 0px"
 						/>
 						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Культуру открытости и взаимопомощи: у нас работают увлеченные и небезразличные к тому, что они делают, люди;
+							Культуру открытости и взаимопомощи: у нас работают увлеченные и не безразличные к тому, что они делают, люди;
 						</Text>
 					</Box>
 					<Box
-						lg-margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
@@ -427,50 +493,50 @@ uKit Group
 						</Text>
 					</Box>
 					<Components.PopUp
-						transition="all 0.5s ease 0s"
 						left="-30px"
 						bottom="auto"
 						right="auto"
 						top="40%"
+						transition="all 0.5s ease 0s"
 					>
 						<Override
+							slot="close"
+							padding="0.7rem 0.7rem .5rem .5rem"
+							size="20px"
+							hover-color="#333"
+							transition="color 0.3s ease 0s"
+							color="#c5cfdb"
+						/>
+						<Override
 							slot="button"
-							background="#ffd83a"
-							left="-30px"
-							hover-background="#e6c235"
-							font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
-							transition="all 0.2s linear 0s"
-							top="40%"
-							color="#263238"
-							padding="0px 15px 0px 15px"
-							bottom="auto"
-							letter-spacing=".1px"
 							right="auto"
-							hover-left="0px"
+							top="40%"
+							letter-spacing=".1px"
+							font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
+							background="#ffd83a"
+							padding="0px 15px 0px 15px"
+							left="-30px"
+							bottom="auto"
 							border-radius="5px"
+							color="#263238"
+							hover-left="0px"
+							hover-background="#e6c235"
+							transition="all 0.2s linear 0s"
 							margin="30px 0px 10px 0px"
 						>
 							Откликнуться на вакансию
 						</Override>
 						<Override
 							slot="wrapper"
-							overflow-y="scroll"
-							max-height="1150px"
+							max-width="672px"
 							width="100%"
 							margin="0px 0px 0px 0px"
-							padding="0px 0px 0px 0px"
 							height="100%"
+							overflow-y="scroll"
 							background="#ffffff"
-							max-width="672px"
+							padding="0px 0px 0px 0px"
 							border-radius="0px"
-						/>
-						<Override
-							slot="close"
-							transition="color 0.3s ease 0s"
-							color="#c5cfdb"
-							padding="0.7rem 0.7rem .5rem .5rem"
-							size="20px"
-							hover-color="#333"
+							max-height="1150px"
 						/>
 						<Section padding="0px 0 40px 0">
 							<Override slot="SectionContent" align-items="center" width="100%" />
