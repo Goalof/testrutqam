@@ -64,8 +64,17 @@ export default (() => {
 						text-align="left"
 						color="#263238"
 					>
-						<Strong>
-							Frontend разработчик
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
+							Frontend-разработчик
 						</Strong>
 						{"\n\n"}
 					</Text>
@@ -94,11 +103,21 @@ export default (() => {
 						<br />
 						Сейчас мы в поиске Frontend разработчика на Vue.js.
 						<br />
-						Уровень навыков Junior/Junior+, опыт от 1-го года.
+						Уровень навыков Junior+/Pre-Middle, опыт от 1-го года.
 						<br />
 						<br />
 						Основной продукт, которым предстоит заниматься –{" "}
-						<Link href="https://rusender.ru">
+						<Link
+							href="https://rusender.ru"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							Rusender
 						</Link>
 						.{" "}

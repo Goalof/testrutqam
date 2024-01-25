@@ -139,10 +139,6 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "vacancies/ofis-menedzher-or-rostov": {
-        "overflow-y": "",
-        "overflow-x": "hidden"
-    },
     "vacancies/seo-specialist-rusender": {
         "overflow-y": "",
         "overflow-x": "hidden"
@@ -192,6 +188,10 @@ const pageStyles = {
         "overflow-x": "hidden"
     },
     "vacancies/ofis-menedzher": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/ofis-menedzher-or-rostov": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
