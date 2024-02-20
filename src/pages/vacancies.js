@@ -217,7 +217,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													Менеджмет (1)
+													Менеджмент (1)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="four">
@@ -380,31 +380,7 @@ uKit Group
 														Офис-менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Баку
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем собранного, организованного и проактивного специалиста в нашу команду.
-														<br />
-														<br />
-														Весь уклон деятельности связан со спецификой IT-отрасли.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/ofis-menedzher-or-rostov"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Офис-менеджер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Ростов
+														Проект uKit Group| Баку
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем собранного, организованного и проактивного специалиста в нашу команду.
@@ -438,61 +414,6 @@ uKit Group
 														<Strong>
 															uCoz.
 														</Strong>
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/sistemnyj-administrator-linux2"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Системный администратор Linux
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект RuSender | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске опытного Системного администратора в команду проекта{" "}
-														<Strong>
-															RuSender
-														</Strong>
-														.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-developer-rusender"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Frontend-разработчик
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект RuSender | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске Frontend разработчика на Vue.js.
-														<br />
-														Уровень навыков Junior/Junior+, опыт от 1-го года.
-														<br />
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -634,33 +555,6 @@ uKit Group
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-developer-rusender"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Frontend разработчик
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект RuSender | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске Frontend разработчика на Vue.js.
-														<br />
-														Уровень навыков Junior/Junior+, опыт от 1-го года.
-														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/team-lead"
 														text-decoration-line="initial"
 														color="#263238"
@@ -747,7 +641,7 @@ uKit Group
 														Офис менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Баку
+														Проект uKit Group | Баку
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем собранного, организованного и проактивного специалиста в нашу команду.
@@ -875,7 +769,7 @@ uKit Group
 														category="fa"
 														icon={FaBoxes}
 													/>
-													ВСЕ ВАКАНСИИ (6)
+													ВСЕ ВАКАНСИИ (4)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="five">
@@ -900,7 +794,7 @@ uKit Group
 														size="20px"
 														color="inherit"
 													/>
-													РАЗРАБОТКА (4)
+													РАЗРАБОТКА (3)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="menedzher">
@@ -945,7 +839,7 @@ uKit Group
 														Офис менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Баку
+														Проект uKit Group | Баку
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем собранного, организованного и проактивного специалиста в нашу команду.
@@ -986,33 +880,6 @@ uKit Group
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-developer-rusender"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Frontend разработчик
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект RuSender | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске Frontend разработчика на Vue.js.
-														<br />
-														Уровень навыков Junior/Junior+, опыт от 1-го года.
-														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/team-lead"
 														text-decoration-line="initial"
 														color="#263238"
@@ -1031,34 +898,6 @@ uKit Group
 														<br />
 														Сейчас мы в поиске Тимлида в нашу команду. В идеале – это специалист, который умеет выстраивать процессы в команде, фуллстек или бекенд-разработчик с менеджерским опытом.
 														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/sistemnyj-administrator-linux2"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Системный администратор Linux
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект RuSender | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске опытного Системного администратора в команду проекта{" "}
-														<Strong>
-															RuSender
-														</Strong>
-														.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1445,7 +1284,7 @@ uKit Group
 														category="fa"
 														icon={FaBoxes}
 													/>
-													ВСЕ ВАКАНСИИ (5)
+													ВСЕ ВАКАНСИИ (3)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three">
@@ -1580,57 +1419,6 @@ uKit Group
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/ofis-menedzher-or-rostov"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Офис-менеджер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Ростов
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем собранного, организованного и проактивного специалиста в нашу команду.
-														<br />
-														<br />
-														Весь уклон деятельности связан со спецификой IT-отрасли.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-developer-rusender"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Frontend разработчик
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект RuSender | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске Frontend разработчика на Vue.js.
-														<br />
-														Уровень навыков Junior/Junior+, опыт от 1-го года.
-														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/team-lead"
 														text-decoration-line="initial"
 														color="#263238"
@@ -1649,34 +1437,6 @@ uKit Group
 														<br />
 														Сейчас мы в поиске Тимлида в нашу команду. В идеале – это специалист, который умеет выстраивать процессы в команде, фуллстек или бекенд-разработчик с менеджерским опытом.
 														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/sistemnyj-administrator-linux2"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Системный администратор Linux
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект RuSender | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске опытного Системного администратора в команду проекта{" "}
-														<Strong>
-															RuSender
-														</Strong>
-														.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1857,7 +1617,7 @@ uKit Group
 														category="fa"
 														icon={FaBoxes}
 													/>
-													ВСЕ ВАКАНСИИ (7)
+													ВСЕ ВАКАНСИИ (5)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="two">
@@ -1882,7 +1642,7 @@ uKit Group
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													РАЗРАБОТКА (3)
+													РАЗРАБОТКА (2)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three" display="none">
@@ -1931,7 +1691,7 @@ uKit Group
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ПОДДЕРЖКА (2)
+													ПОДДЕРЖКА (1)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="five">
@@ -1992,33 +1752,6 @@ uKit Group
 													<Link
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-developer-rusender"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Frontend разработчик
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект RuSender | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске Frontend разработчика на Vue.js.
-														<br />
-														Уровень навыков Junior/Junior+, опыт от 1-го года.
-														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/team-lead"
 														text-decoration-line="initial"
 														color="#263238"
@@ -2037,34 +1770,6 @@ uKit Group
 														<br />
 														Сейчас мы в поиске Тимлида в нашу команду. В идеале – это специалист, который умеет выстраивать процессы в команде, фуллстек или бекенд-разработчик с менеджерским опытом.
 														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/sistemnyj-administrator-linux2"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Системный администратор Linux
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект RuSender | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске опытного Системного администратора в команду проекта{" "}
-														<Strong>
-															RuSender
-														</Strong>
-														.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -2163,33 +1868,6 @@ uKit Group
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="two" md-width="100%">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-developer-rusender"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Frontend разработчик
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект RuSender | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске Frontend разработчика на Vue.js.
-														<br />
-														Уровень навыков Junior/Junior+, опыт от 1-го года.
-														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														hover-color="#4a8cfa"
