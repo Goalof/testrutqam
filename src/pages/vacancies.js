@@ -300,6 +300,28 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb"
+														text-decoration-line="initial"
+													>
+														Руководитель службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем опытного и неравнодушного специалиста на должность Руководителя службы технической поддержки, который умеет управлять людьми и тикетами. Поддержка пользователей сервисов осуществляется в письменном формате.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/ui-ux-dizayner"
 														text-decoration-line="initial"
 													>
@@ -358,7 +380,8 @@ uKit Group
 														Программист Perl
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Ростов-на-Дону
+														Проект uCoz
+ | Ростов-на-Дону
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Вы не знакомы с Perl, но не боитесь попробовать? Это верный выбор и не смотря на то, что данный язык на сегодня не является мейнстримом, как специалист вы только выиграете: перловики на сегодня весьма востребованы именно по причине своей редкости.
@@ -380,7 +403,7 @@ uKit Group
 														Офис-менеджер
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group| Баку
+														Проект uKit Group | Баку
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Мы ищем собранного, организованного и проактивного специалиста в нашу команду.
@@ -484,10 +507,13 @@ uKit Group
 														Специалист службы технической поддержки
 													</Link>
 													<Text color="#333" md-font="15px 'AvenirNextCyrMedium'" margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'">
-														Проект uCoz | Удаленная работа
+														Проект uKit Group | Удаленная работа
 													</Text>
 													<Text md-font="14px 'AvenirNextCyrRegular', sans-serif" margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333">
-														Требуется специалист тех.поддержки: внимательный, грамотный, заинтересованный и просто хороший человек.
+														uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов, у которых миллионы пользователей.
+														<br />
+														<br />
+														Мы ищем в команду грамотного и внимательного специалиста технической поддержки для работы на наших проектах.
 													</Text>
 												</Box>
 											</Components.TabPanel>
@@ -652,6 +678,28 @@ uKit Group
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="four" md-width="100%">
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb"
+														text-decoration-line="initial"
+													>
+														Руководитель службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем опытного и неравнодушного специалиста на должность Руководителя службы технической поддержки, который умеет управлять людьми и тикетами. Поддержка пользователей сервисов осуществляется в письменном формате.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														transition="color 0.2s linear 0s"
@@ -666,7 +714,7 @@ uKit Group
 														Специалист службы технической поддержки
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Удаленная работа
+														Проект uKit Group| Удаленная работа
 													</Text>
 													<Text font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif" margin="12px 0px 0px 0px">
 														Требуется специалист тех.поддержки: внимательный, грамотный, заинтересованный и просто хороший человек.
@@ -1388,6 +1436,28 @@ uKit Group
 										</Components.TabList>
 										<Components.TabPanels md-width="100%" lg-width="70%" width="80%">
 											<Components.TabPanel tabId="one" md-width="100%">
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/rukovoditel-sluzhby-tehnicheskoj-podderzhki-spb"
+														text-decoration-line="initial"
+													>
+														Руководитель службы технической поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем опытного и неравнодушного специалиста на должность Руководителя службы технической поддержки, который умеет управлять людьми и тикетами. Поддержка пользователей сервисов осуществляется в письменном формате.
+														<br />
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														hover-color="#4a8cfa"
@@ -1860,10 +1930,13 @@ uKit Group
 														Специалист службы технической поддержки
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Удаленная работа
+														Проект uKit Group | Удаленная работа
 													</Text>
 													<Text md-font="14px 'AvenirNextCyrRegular', sans-serif" margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333">
-														Требуется специалист тех.поддержки: внимательный, грамотный, заинтересованный и просто хороший человек.
+														uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов, у которых миллионы пользователей.
+														<br />
+														<br />
+														Мы ищем в команду грамотного и внимательного специалиста технической поддержки для работы на наших проектах.
 													</Text>
 												</Box>
 											</Components.TabPanel>

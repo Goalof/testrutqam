@@ -75,7 +75,7 @@ export default (() => {
 						display="inline-block"
 						sm-margin="0px 0px 10px 0px"
 					>
-						Проект uCoz | Баку
+						Проект uKit Group | Баку
 					</Text>
 					<Text
 						letter-spacing="0.3px"

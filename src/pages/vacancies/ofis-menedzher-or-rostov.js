@@ -75,7 +75,7 @@ export default (() => {
 						display="inline-block"
 						sm-margin="0px 0px 10px 0px"
 					>
-						Проект uCoz | Ростов-на-Дону{"\n\n"}
+						Проект uKit Group | Ростов-на-Дону{"\n\n"}
 					</Text>
 					<Text
 						color="#333"
