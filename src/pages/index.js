@@ -609,7 +609,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							3 вакансии
+							6 вакансии
 						</Span>
 					</Link>
 					{"    "}
@@ -639,7 +639,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							5 вакансии
+							7 вакансии
 						</Span>
 					</Link>
 					{"    "}

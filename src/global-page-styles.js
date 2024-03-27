@@ -211,6 +211,18 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/menedzher-po-rabote-s-kliyentami": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/kontent-marketolog": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/mladshiy-yurist": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"

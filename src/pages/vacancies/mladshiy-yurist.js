@@ -8,14 +8,14 @@ import * as Components from "components";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"vacancies/specialist-sluzhby-tehnicheskoj-podderzhki1"} />
+		<GlobalQuarklyPageStyles pageUrl={"vacancies/mladshiy-yurist"} />
 		<Helmet>
 			<title>
-				Специалист службы технической поддержки
+				Младший юрист
 			</title>
-			<meta name={"description"} content={"Компания uKit Group открывает вакансию системного администратора."} />
-			<meta property={"og:title"} content={"Работа в uTeam"} />
-			<meta property={"og:description"} content={"Работа в uCoz. Актуальные вакансии компании в российских офисах и удаленная работа. Как попасть в команду, и о нашем коллективе — uTeam."} />
+			<meta name={"description"} content={"uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.\n\nМы ищем в команду грамотного и внимательного специалиста, который хотел бы развиваться и получать опыт в сфере кадрового делопроизводства и юриспруденции."} />
+			<meta property={"og:title"} content={"Младший юрист"} />
+			<meta property={"og:description"} content={"uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.\n\nМы ищем в команду грамотного и внимательного специалиста, который хотел бы развиваться и получать опыт в сфере кадрового делопроизводства и юриспруденции."} />
 			<meta property={"og:image"} content={"https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} />
@@ -26,179 +26,188 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#5291FA"} />
 		</Helmet>
 		<Components.Header />
-		<Section lg-padding="120px 0 80px 0" padding="140px 0 60px 0" sm-padding="110px 0 40px 0">
+		<Section padding="140px 0 60px 0" sm-padding="110px 0 40px 0" lg-padding="120px 0 80px 0">
 			<Override slot="SectionContent" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" max-width="850px">
+			<Stack max-width="850px" margin="0px 0px 0px 0px">
 				{"    "}
 				<StackItem width="100%" display="flex">
-					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" flex-direction="column" />
+					<Override slot="StackItemContent" justify-content="flex-start" flex-direction="column" align-items="flex-start" />
 					{"        "}
 					<Link
-						className="noprint"
-						href="/vacancies"
-						text-decoration-line="initial"
 						transition="color 0.2s linear 0s"
 						hover-color="#3d72cc"
-						display="flex"
+						className="noprint"
 						margin="0px 0px 20px 0px"
+						text-decoration-line="initial"
+						display="flex"
+						href="/vacancies"
 						color="#4a8cfa"
 						font="14px 'AvenirNextCyrMedium', sans-serif"
 					>
 						<Icon
-							margin="-1px 2px 0px -2px"
-							hover-color="inherit"
-							category="md"
 							icon={MdKeyboardArrowLeft}
 							color="inherit"
 							size="20px"
+							margin="-1px 2px 0px -2px"
+							hover-color="inherit"
+							category="md"
 						/>
 						К списку вакансий
 					</Link>
 					<Text
-						sm-margin="0px 0px 20px 0px"
-						text-align="left"
-						color="#263238"
 						sm-font="normal 500 40px/1.2 'AvenirNextCyrDemi', sans-serif"
 						as="h1"
 						font="normal 500 44px/1.2 'AvenirNextCyrDemi', sans-serif"
 						margin="0px 0px 25px -3px"
 						display="inline-block"
+						sm-margin="0px 0px 20px 0px"
+						text-align="left"
+						color="#263238"
 					>
-						Специалист службы технической поддержки
+						Младший юрист
+						<br />
+						{"\n\n"}
 					</Text>
 					<Text
-						margin="0px 0px 20px 0px"
 						display="inline-block"
 						sm-margin="0px 0px 10px 0px"
 						text-align="center"
 						color="#333"
 						letter-spacing=".2"
 						font="normal 400 18px/1.2 'AvenirNextCyrMedium', sans-serif"
+						margin="0px 0px 20px 0px"
 					>
-						Проект uKit Group | Удаленная работа
+						Проект uKit Group | Ростов-на-Дону{"\n\n"}
 					</Text>
 					<Text
-						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
-						margin="0px 0px 0px 0px"
 						display="inline-block"
 						sm-margin="10px 0px 20px 0px"
 						letter-spacing="0.3px"
 						color="#333"
+						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
+						margin="0px 0px 0px 0px"
 					>
-						uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов, у которых миллионы пользователей.
+						uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов и вот уже более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
 						<br />
 						<br />
-						Мы ищем в команду грамотного и внимательного специалиста технической поддержки для работы на наших проектах.
-						<br />
-						<br />
-						График работы{" "}
-						<Strong>
-							2/2 с 10:00 до 22:00
-						</Strong>
-						{" "}или{" "}
-						<Strong>
-							5/2 с 22:00 до 06:00
-						</Strong>
-						{" "}
-						<Strong>
-							по МСК
-						</Strong>
-						{" "}(обсуждается на собеседовании, возможны варианты).
-						<br />
-						<br />
-						uKit – конструктор бизнес-сайтов нового поколения.
-						<br />
-						<br />
-						RuSender – умный сервис для email-рассылок (ESP).
-						<br />
-						<br />
-						Если у Вас есть опыт работы в техподдержке{" "}
-						<Strong>
-							ESP
-						</Strong>
-						{" "}(сервис email-рассылок), укажите, пожалуйста, это в сопроводительном письме. В этом случае{" "}
-						<Strong>
-							заработная плата
-						</Strong>
-						{" "}будет обсуждаться индивидуально.{"\n\n"}
+						Мы ищем в команду грамотного и внимательного специалиста, который хотел бы развиваться и получать опыт в сфере кадрового делопроизводства и юриспруденции.{"\n\n"}
 					</Text>
 					<Text
+						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						text-align="left"
+						color="#333"
 						letter-spacing=".2"
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
 						margin="24px 0px 18px 0px"
-						display="inline-block"
-						sm-margin="10px 0px 20px 0px"
-						text-align="left"
-						color="#333"
 					>
-						Задачи:
-					</Text>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Ответы на письменные обращения пользователей uKit/RuSender;
-						</Text>
-					</List>
-					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Решение проблем пользователей, связанных с услугами uKit/RuSender;
-						</Text>
-					</List>
-					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Разработка клиентских веб-проектов разного уровня сложности, поддержка существующих проектов.
-						</Text>
-					</List>
-					<Text
-						color="#333"
-						letter-spacing=".2"
-						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
-						margin="20px 0px 18px 0px"
-						display="inline-block"
-						sm-margin="10px 0px 20px 0px"
-						text-align="left"
-					>
-						Требования:
+						Задачи будут делиться на 2 блока:
+						<Strong />
 						<br />
+						{"\n\n"}
+					</Text>
+					<Text
+						sm-margin="10px 0px 20px 0px"
+						letter-spacing="0.3px"
+						color="#333"
+						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
+						margin="0px 0px 10px 0px"
+						display="inline-block"
+					>
+						<Strong>
+							Помощь юристу:
+						</Strong>
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Грамотная письменная речь, внимательность и вовлеченность;
+							организация учета и хранения юридических документов;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Четкое понимание работы WEB;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт создания/поддержки сайтов;
+							разработка проектов юридических документов;
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Активность на форуме сообщества uKit/RuSender (+3 в карму);
+							поиск юридической информации, анализ судебной и правоприменительной практики, подготовка заключений по правовым вопросам;
 						</Text>
 					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Знание систем uKit, uCoz или uWeb будет огромным плюсом;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Базовые знания HTML, CSS  приветствуются.
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" />
 					<Text
+						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						letter-spacing="0.3px"
+						color="#333"
+						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
+						margin="0px 0px 10px 0px"
+					>
+						<Strong
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Помощь HR отделу:
+						</Strong>
+					</Text>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							частичное ведение кадрового документооборота: прием, увольнение, декрет, иностранные сотрудники, отпуска;
+						</Text>
+					</List>
+					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							оформление трудовых договоров, ведение трудовых книжек;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							выдача копий документов, справок сотрудникам;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							внутренняя отчетность.
+						</Text>
+					</List>
+					<Text
+						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						text-align="left"
 						color="#333"
 						letter-spacing=".2"
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
+						margin="20px 0px 18px 0px"
+					>
+						<Strong>
+							Требования:
+						</Strong>
+					</Text>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							высшее юридическое образование (возможно неоконченное);
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							опыт ведения документооборота;
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							самостоятельность, ответственность, внимательность.
+						</Text>
+					</List>
+					<Text
 						margin="20px 0px 12px 0px"
 						display="inline-block"
 						sm-margin="10px 0px 20px 0px"
 						text-align="left"
+						color="#333"
+						letter-spacing=".2"
+						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
 					>
 						Условия:
 						<br />
@@ -211,34 +220,15 @@ export default (() => {
 						align-items="center"
 					>
 						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 							width="15px"
 							height="12px"
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 						/>
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="3px 0px 3px 0px">
-							Стартовая позиция для тех, кто хочет войти в айти и развиваться в нём;
-						</Text>
-					</Box>
-					<Box
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-						align-items="center"
-						margin="0px 0px 6px 0px"
-					>
-						<Image
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							График обсуждается на собеседовании, возможны варианты;
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							оформление по ТК с первого дня;
 						</Text>
 					</Box>
 					<Box
@@ -249,23 +239,61 @@ export default (() => {
 						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
 							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+							lg-margin="12px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							ДМС со стоматологией;
+						</Text>
+					</Box>
+					<Box
+						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
+					>
+						<Image
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 							width="15px"
+							height="12px"
 						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							На этапе обучения (до трех месяцев) график 5/2;
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Молодой, дружный и профессиональный коллектив.
 						</Text>
 					</Box>
 					<Box
+						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
 						lg-align-items="flex-start"
 						lg-padding="0px 0px 0px 0px"
+					>
+						<Image
+							lg-margin="12px 10px 0px 0px"
+							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
+							width="15px"
+							height="12px"
+							padding="0px 0px 0px 0px"
+							margin="0px 10px 0px 0px"
+						/>
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							График 5/2 (выходные суббота, воскресенье). Гибкое начало рабочего дня (выбираете удобное для себя время).
+						</Text>
+					</Box>
+					<Box
 						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
+						lg-align-items="flex-start"
+						lg-padding="0px 0px 0px 0px"
 					>
 						<Image
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
@@ -275,164 +303,93 @@ export default (() => {
 							margin="0px 10px 0px 0px"
 							lg-margin="12px 10px 0px 0px"
 						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Первый этап — тестовое задание.
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Занятия английским языком в офисе за счет компании.
 						</Text>
 					</Box>
-					<Text
-						color="#333"
-						letter-spacing=".2"
-						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
-						margin="20px 0px 12px 0px"
-						display="inline-block"
-						sm-margin="10px 0px 20px 0px"
-						text-align="left"
-					>
-						Еще мы предлагаем:
-						<br />
-						{"\n\n"}
-					</Text>
 					<Box
+						lg-padding="0px 0px 0px 0px"
+						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
 						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
 					>
 						<Image
+							lg-margin="12px 10px 0px 0px"
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 							width="15px"
 							height="12px"
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
 						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Работу в аккредитованной IT компании, которая уже 18 лет создает онлайн-продукты, помогающие людям достигать своих целей: uCoz, uKit, WebAsk, uCalc, RuSender;
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Питание в офисе (есть свой повар).
 						</Text>
 					</Box>
 					<Box
-						align-items="center"
-						margin="0px 0px 6px 0px"
 						lg-align-items="flex-start"
 						lg-padding="0px 0px 0px 0px"
 						display="flex"
+						align-items="center"
+						margin="0px 0px 6px 0px"
 					>
 						<Image
+							lg-margin="12px 10px 0px 0px"
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 							width="15px"
 							height="12px"
 							padding="0px 0px 0px 0px"
 							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
 						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Возможности для профессионального роста и развития;
-						</Text>
-					</Box>
-					<Box
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Работу в команде опытных специалистов, у которых можно многому научиться;
-						</Text>
-					</Box>
-					<Box
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Культуру открытости и взаимопомощи: у нас работают увлеченные и небезразличные к тому, что они делают, люди;
-						</Text>
-					</Box>
-					<Box
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Культуру доверия: мы не используем системы контроля времени, для нас показатель - выполненная в срок задача.
+						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Офис в районе Сельмаш/Шолохова.
 						</Text>
 					</Box>
 					<Components.PopUp
+						right="auto"
+						top="40%"
 						transition="all 0.5s ease 0s"
 						left="-30px"
 						bottom="auto"
-						right="auto"
-						top="40%"
 					>
 						<Override
 							slot="button"
-							letter-spacing=".1px"
+							bottom="auto"
+							top="40%"
 							margin="30px 0px 10px 0px"
 							hover-background="#e6c235"
-							background="#ffd83a"
-							transition="all 0.2s linear 0s"
-							bottom="auto"
-							border-radius="5px"
-							className="noprint"
-							color="#263238"
-							padding="0px 15px 0px 15px"
-							right="auto"
-							top="40%"
-							font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
 							left="-30px"
+							background="#ffd83a"
+							padding="0px 15px 0px 15px"
 							hover-left="0px"
+							font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
+							transition="all 0.2s linear 0s"
+							letter-spacing=".1px"
+							right="auto"
+							border-radius="5px"
+							color="#263238"
 						>
 							Откликнуться на вакансию
 						</Override>
 						<Override
 							slot="wrapper"
-							border-radius="0px"
+							background="#ffffff"
 							max-width="672px"
 							width="100%"
-							margin="0px 0px 0px 0px"
-							padding="0px 0px 0px 0px"
-							background="#ffffff"
+							border-radius="0px"
 							height="100%"
 							overflow-y="scroll"
 							max-height="1150px"
+							margin="0px 0px 0px 0px"
+							padding="0px 0px 0px 0px"
 						/>
 						<Override
 							slot="close"
-							hover-color="#333"
 							transition="color 0.3s ease 0s"
 							color="#c5cfdb"
 							padding="0.7rem 0.7rem .5rem .5rem"
 							size="20px"
+							hover-color="#333"
 						/>
 						<Section padding="0px 0 40px 0">
 							<Override slot="SectionContent" align-items="center" width="100%" />
