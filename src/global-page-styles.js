@@ -103,10 +103,6 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "vacancies/qa-engineer": {
-        "overflow-y": "",
-        "overflow-x": "hidden"
-    },
     "vacancies/frontend-developer": {
         "overflow-y": "",
         "overflow-x": "hidden"
@@ -220,6 +216,18 @@ const pageStyles = {
         "overflow-x": "hidden"
     },
     "vacancies/mladshiy-yurist": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/middle-РНР-razrabotchik": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/qa-engineer": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/razrabotchik-Node-js-NestJS": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },

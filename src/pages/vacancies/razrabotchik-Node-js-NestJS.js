@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Icon, Link, Text, List, Image, Box, Section } from "@quarkly/widgets";
+import { Theme, Icon, Link, Text, Strong, List, Image, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -8,14 +8,14 @@ import * as Components from "components";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"vacancies/qa-engineer"} />
+		<GlobalQuarklyPageStyles pageUrl={"vacancies/razrabotchik-Node-js-NestJS"} />
 		<Helmet>
 			<title>
-				QA Engineer
+				Разработчик Node.js/NestJS
 			</title>
-			<meta name={"description"} content={"Мы ищем ответственного, внимательного к деталям человека, которому будет интересно погрузиться в работу QA и расти в этой области. Мы всегда рады людям, нацеленным на профессиональное развитие.\n\n"} />
-			<meta property={"og:title"} content={"QA Engineer"} />
-			<meta property={"og:description"} content={"Мы ищем ответственного, внимательного к деталям человека, которому будет интересно погрузиться в работу QA и расти в этой области. Мы всегда рады людям, нацеленным на профессиональное развитие.\n\n"} />
+			<meta name={"description"} content={"uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.\n\nСейчас ищем разработчика, который не только хорошо справляется со своими задачами, но и умеет работать в команде."} />
+			<meta property={"og:title"} content={"Разработчик Node.js/NestJS"} />
+			<meta property={"og:description"} content={"uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.\n\nСейчас ищем разработчика, который не только хорошо справляется со своими задачами, но и умеет работать в команде."} />
 			<meta property={"og:image"} content={"https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/favicon_uteam.png?v=2021-02-01T19:35:08.128Z"} />
@@ -64,7 +64,7 @@ export default (() => {
 						color="#263238"
 						sm-font="normal 500 40px/1.2 'AvenirNextCyrDemi', sans-serif"
 					>
-						QA Engineer
+						Разработчик Node.js/NestJS
 					</Text>
 					<Text
 						font="normal 400 18px/1.2 'AvenirNextCyrMedium', sans-serif"
@@ -75,7 +75,7 @@ export default (() => {
 						color="#333"
 						letter-spacing=".2"
 					>
-						Проект uKit Group | Баку, Ростов-на-Дону, Удаленно{"\n\n"}
+						Проект RuSender | Баку, Ростов-на-Дону, Удаленно{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
@@ -85,9 +85,34 @@ export default (() => {
 						letter-spacing="0.3px"
 						color="#333"
 					>
-						Мы ищем ответственного, внимательного к деталям человека, которому будет интересно погрузиться в работу QA и расти в этой области. Мы всегда рады людям, нацеленным на профессиональное развитие.
+						uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
 						<br />
-						{"\n\n"}
+						<br />
+						Сейчас ищем разработчика, который не только хорошо справляется со своими задачами, но и умеет работать в команде.
+						<br />
+						<br />
+						Уровень навыков:{" "}
+						<Strong>
+							pre-middle/middle.
+						</Strong>
+						<br />
+						Продукт:
+						<Strong>
+							{" "}Rusender.
+						</Strong>
+						{" "}Это умный сервис для email-рассылок (ESP).
+						<br />
+						Стек: Vue.js, Nuxt.js, Nest.js, PostgreSQL, RabbitMQ, Docker.
+						<br />
+						Методология: Scrum.
+						<br />
+						Команда: 12 человек.
+						<br />
+						Поддержка проекта uKit (до 20% от общего объема работы).
+						<br />
+						Стек: Node.js, MongoDB, RabbitMQ, React, Redux, JQuery.
+						<br />
+						Методология: Scrumban.{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
@@ -98,47 +123,33 @@ export default (() => {
 						color="#333"
 						letter-spacing=".2"
 					>
-						Обязанности:
+						Требования:
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							функциональное тестирование продукта;
+							Отличное знание JavaScript
 							<br />
 							{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							описание и мониторинг дефектов;
+							Практический опыт работы с Node.js от 2-х лет, а также с NestJS
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							исследование проблем пользователей;
+							Опыт работы с реляционными СУБД
 						</Text>
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							мониторинг качества продукта;
+							Опыт использования систем контроля версий Git
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							взаимодействие с командой разработки, саппорта и PO;
-							<br />
-							{"\n\n"}
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							создание и поддержка тест-кейсов и планов тестирования;
-							<br />
-							{"\n\n"}
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							участие в процессе непрерывных улучшений методики тестирования.
+							Знание английского языка на уровне чтения технической документации
 						</Text>
 					</List>
 					<Text
@@ -150,60 +161,26 @@ export default (() => {
 						text-align="left"
 						color="#333"
 					>
-						Требования:
-						<br />
+						Будет преимуществом:
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							понимание принципов организации контроля качества ПО;
+							Практический опыт работы с Vue.js, Nuxt.js
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							понимание жизненного цикла разработки ПО;
+							Опыт применения гексагональной архитектуры
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							опыт тестирования веб-сервисов;
+							Опыт настройки Postfix/Exim/Qmail
 						</Text>
 					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							опыт работы с багтрекинговыми системами (JIRA);
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							умение планировать процесс тестирования и оценивать трудозатраты.
-						</Text>
-					</List>
-					<Text
-						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
-						margin="20px 0px 18px 0px"
-						display="inline-block"
-						sm-margin="10px 0px 20px 0px"
-						text-align="left"
-						color="#333"
-						letter-spacing=".2"
-					>
-						Будет плюсом, но не обязательно:
-					</Text>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							знание средств автоматизации тестирования;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							представление о Scrum-процессах;
-						</Text>
-					</List>
-					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
-						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							опыт работы с Gitlab: Pipelines, Issues, Merge Request.
-						</Text>
-					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" />
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" />
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" />
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" />
 					<Text
 						sm-margin="10px 0px 20px 0px"
