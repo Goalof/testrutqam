@@ -88,7 +88,7 @@ export default (() => {
 				<StackItem width="100%" display="flex">
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					{"        "}
-					<Components.Slider width="100%" slides="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/24.jpg?v=2021-02-26T13:53:35.834Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/23s.jpg?v=2021-02-26T13:54:01.485Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/20s.jpg?v=2021-02-26T14:07:34.397Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/19s.jpg?v=2021-02-26T14:07:21.150Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/18s.jpg?v=2021-02-26T14:06:53.166Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/17s.jpg?v=2021-02-26T14:06:30.779Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/16s.jpg?v=2021-02-26T14:03:55.799Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/15s.jpg?v=2021-02-26T14:03:15.590Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/14s.jpg?v=2021-02-26T14:02:30.775Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/13s.jpg?v=2021-02-26T14:02:04.660Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/12s.jpg?v=2021-02-26T13:59:25.121Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/10s.jpg?v=2021-02-26T13:58:35.804Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/09s.jpg?v=2021-02-26T13:58:11.424Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/08s.jpg?v=2021-02-26T13:57:20.677Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/07s.jpg?v=2021-02-26T13:56:59.810Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/06s.jpg?v=2021-02-26T13:56:28.482Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/05s.jpg?v=2021-02-26T13:56:05.742Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/04s.jpg?v=2021-02-26T13:55:43.709Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/03s.jpg?v=2021-02-26T13:55:16.193Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/02s.jpg?v=2021-02-26T13:54:49.366Z">
+					<Components.Slider width="100%" slides="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/23s.jpg?v=2021-02-26T13:54:01.485Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/20s.jpg?v=2021-02-26T14:07:34.397Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/19s.jpg?v=2021-02-26T14:07:21.150Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/18s.jpg?v=2021-02-26T14:06:53.166Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/17s.jpg?v=2021-02-26T14:06:30.779Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/16s.jpg?v=2021-02-26T14:03:55.799Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/15s.jpg?v=2021-02-26T14:03:15.590Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/14s.jpg?v=2021-02-26T14:02:30.775Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/13s.jpg?v=2021-02-26T14:02:04.660Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/12s.jpg?v=2021-02-26T13:59:25.121Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/10s.jpg?v=2021-02-26T13:58:35.804Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/09s.jpg?v=2021-02-26T13:58:11.424Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/08s.jpg?v=2021-02-26T13:57:20.677Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/07s.jpg?v=2021-02-26T13:56:59.810Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/06s.jpg?v=2021-02-26T13:56:28.482Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/05s.jpg?v=2021-02-26T13:56:05.742Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/04s.jpg?v=2021-02-26T13:55:43.709Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/03s.jpg?v=2021-02-26T13:55:16.193Z,https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/02s.jpg?v=2021-02-26T13:54:49.366Z">
 						<Override slot="Slide 12 Description">
 							uTeam, ростовский офис
 						</Override>
@@ -107,7 +107,7 @@ export default (() => {
 							font="400 14px/18px 'AvenirNextCyrMedium'"
 							color="#ffffff"
 						>
-							Slide 1 text
+							Павел Кудинов, технический директор uKit, руководитель uKit AI, Ростов-на-Дону
 						</Override>
 						<Override slot="Slide 1 Description">
 							Команда uKit, Ростов-на-Дону
@@ -151,7 +151,7 @@ export default (() => {
 							Команда uCoz, Черкассы (Украина)
 						</Override>
 						<Override slot="Slide 2 Description">
-							Павел Кудинов, технический директор uKit, руковдитель uKit AI, Ростов-на-Дону
+							Павел Кудинов, технический директор uKit, руководитель uKit AI, Ростов-на-Дону
 						</Override>
 						<Override slot="Slide 9 Description">
 							Дмитрий Молчанов, руководитель проекта uCalc, Ростов-на-Дону
