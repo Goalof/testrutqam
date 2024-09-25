@@ -231,6 +231,14 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/testirovshchik": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/frontend-razrabotchik": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"

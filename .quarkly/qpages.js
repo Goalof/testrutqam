@@ -55,6 +55,8 @@ module.exports = [
 	"/vacancies/middle-РНР-razrabotchik/",
 	"/vacancies/qa-engineer/",
 	"/vacancies/razrabotchik-Node-js-NestJS/",
+	"/vacancies/testirovshchik/",
+	"/vacancies/frontend-razrabotchik/",
 	"/uteam/",
 	"/resume/",
 	"/contacts/",

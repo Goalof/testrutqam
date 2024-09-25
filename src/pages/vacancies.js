@@ -279,19 +279,37 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/middle-РНР-razrabotchik"
+														href="/vacancies/testirovshchik"
 														text-decoration-line="initial"
 													>
-														Middle РНР разработчик
+														Тестировщик
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Ростов-на-Дону, Баку, Удаленная работа
+														Проект uCoz | Удаленно
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.{" "}
-														<br />
-														<br />
-														Сейчас мы в поиске опытного РНР разработчика.
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/frontend-razrabotchik"
+														text-decoration-line="initial"
+													>
+														Frontend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -442,19 +460,37 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/middle-РНР-razrabotchik"
+														href="/vacancies/testirovshchik"
 														text-decoration-line="initial"
 													>
-														Middle РНР разработчик
+														Тестировщик
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Ростов-на-Дону, Баку, Удаленная работа
+														Проект uCoz | Удаленно
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.{" "}
-														<br />
-														<br />
-														Сейчас мы в поиске опытного РНР разработчика.
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/frontend-razrabotchik"
+														text-decoration-line="initial"
+													>
+														Frontend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -665,6 +701,7 @@ export default (() => {
 											<Components.TabItem tabId="menedzher">
 												<Override slot="Selected Tab" color="#3d72cc" display="none" />
 												<Override slot="Tab" color="#afc1db" />
+												<Override slot="Unselected Tab" display="none" />
 												<Button
 													align-items="center"
 													padding="8px 24px 8px 12px"
@@ -698,19 +735,16 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/middle-РНР-razrabotchik"
+														href="/vacancies/frontend-razrabotchik"
 														text-decoration-line="initial"
 													>
-														Middle РНР разработчик
+														Frontend-разработчик
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Ростов-на-Дону, Баку, Удаленная работа
+														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.{" "}
-														<br />
-														<br />
-														Сейчас мы в поиске опытного РНР разработчика.
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -771,92 +805,8 @@ export default (() => {
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
 											</Components.TabPanel>
-											<Components.TabPanel md-width="100%" tabId="menedzher">
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/menedzher-po-rabote-s-kliyentami"
-														text-decoration-line="initial"
-													>
-														Менеджер по работе с клиентами
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Divly | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														<Strong>
-															Divly
-														</Strong>
-														{" "}— официальный представитель uKit Group.
-														<br />
-														Команда более 10-ти лет решает весь спектр задач по разработке сайтов: создает сайты-визитки, интернет-магазины, предоставляет услуги по SEO-оптимизации сайтов под ключ.
-														<br />
-														Сейчас мы расширяем команду и ищем{" "}
-														<Strong>
-															менеджера по работе с клиентами
-														</Strong>
-														{" "}для коммуникации с клиентами веб-студии.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/kontent-marketolog"
-														text-decoration-line="initial"
-													>
-														Контент-маркетолог
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group — это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Наши наиболее известные продукты — это uCoz, uKit, WebAsk, uCalc, RuSender.
-														<br />
-														<br />
-														Ищем контент-маркетолога в команду (middle+ или выше).
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-											</Components.TabPanel>
+											<Components.TabPanel md-width="100%" tabId="menedzher" />
 											<Components.TabPanel tabId="five" md-width="100%">
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/middle-РНР-razrabotchik"
-														text-decoration-line="initial"
-													>
-														Middle РНР разработчик
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.{" "}
-														<br />
-														<br />
-														Сейчас мы в поиске опытного РНР разработчика.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														hover-color="#4a8cfa"
@@ -884,30 +834,45 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
 													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-developer-rusender"
-														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
 														margin="0px 0px 0px 0px"
 														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/testirovshchik"
+														text-decoration-line="initial"
 													>
-														Frontend разработчик
+														Тестировщик
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект RuSender | Баку, Ростов-на-Дону, Удаленная работа
+														Проект uCoz | Удаленно
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске Frontend разработчика на Vue.js.
-														<br />
-														Уровень навыков Junior/Junior+, опыт от 1-го года.
-														<br />
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/frontend-razrabotchik"
+														text-decoration-line="initial"
+													>
+														Frontend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1246,19 +1211,37 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/middle-РНР-razrabotchik"
+														href="/vacancies/testirovshchik"
 														text-decoration-line="initial"
 													>
-														Middle РНР разработчик
+														Тестировщик
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Ростов-на-Дону, Баку, Удаленная работа
+														Проект uCoz | Удаленно
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.{" "}
-														<br />
-														<br />
-														Сейчас мы в поиске опытного РНР разработчика.
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/frontend-razrabotchik"
+														text-decoration-line="initial"
+													>
+														Frontend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1556,19 +1539,37 @@ uKit Group
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/middle-РНР-razrabotchik"
+														href="/vacancies/testirovshchik"
 														text-decoration-line="initial"
 													>
-														Middle РНР разработчик
+														Тестировщик
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Ростов-на-Дону, Баку, Удаленная работа
+														Проект uCoz | Удаленно
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.{" "}
-														<br />
-														<br />
-														Сейчас мы в поиске опытного РНР разработчика.
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/frontend-razrabotchik"
+														text-decoration-line="initial"
+													>
+														Frontend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1685,19 +1686,37 @@ uKit Group
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/middle-РНР-razrabotchik"
+														href="/vacancies/testirovshchik"
 														text-decoration-line="initial"
 													>
-														Middle РНР разработчик
+														Тестировщик
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Ростов-на-Дону, Баку, Удаленная работа
+														Проект uCoz | Удаленно
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.{" "}
-														<br />
-														<br />
-														Сейчас мы в поиске опытного РНР разработчика.
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/frontend-razrabotchik"
+														text-decoration-line="initial"
+													>
+														Frontend-разработчик
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
