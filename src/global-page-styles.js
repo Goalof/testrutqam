@@ -239,6 +239,14 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/razrabotchik-NestJS": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/it-hr-menedjer": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"

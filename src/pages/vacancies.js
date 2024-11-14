@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Text, Section, Icon, Button, Link, Hr, Box, Strong } from "@quarkly/widgets";
+import { Theme, Text, Section, Icon, Button, Link, Strong, Hr, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -147,7 +147,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (7)
+													ВСЕ ВАКАНСИИ (5)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -192,7 +192,7 @@ export default (() => {
 												>
 													<div />
 													<Icon category="fa" icon={FaFileCode} size="20px" margin="0px 8px 0px 0px" />
-													РАЗРАБОТКА (4)
+													РАЗРАБОТКА (2)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three">
@@ -217,7 +217,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													Менеджмент (1)
+													Менеджмент (2)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="four">
@@ -246,7 +246,7 @@ export default (() => {
 											</Components.TabItem>
 											<Components.TabItem tabId="five">
 												<Override slot="Selected Tab" color="#3d72cc" />
-												<Override slot="Tab" color="#afc1db" />
+												<Override slot="Tab" color="#afc1db" display="none" />
 												<Button
 													padding="8px 24px 8px 12px"
 													focus-box-shadow="none"
@@ -279,27 +279,6 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-razrabotchik"
-														text-decoration-line="initial"
-													>
-														Frontend-разработчик
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/menedzher-po-rabote-s-kliyentami"
 														text-decoration-line="initial"
 													>
@@ -324,6 +303,75 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/razrabotchik-NestJS"
+														text-decoration-line="initial"
+													>
+														Старший разработчик NestJS
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Баку, Ростов-на-Дону, Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем опытного{" "}
+														<Strong>
+															Backend-разработчика с экспертизой в NestJS
+														</Strong>
+														, который сможет внести вклад в развитие наших продуктов.
+														<br />
+														<br />
+														Уровень навыков:{" "}
+														<Strong>
+															middle+/senior
+														</Strong>
+														<br />
+														<br />
+														Продукт:
+														<Strong>
+															{" "}Rusender.
+														</Strong>
+														{" "}Это умный сервис для email-рассылок (ESP).
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/it-hr-menedjer"
+														text-decoration-line="initial"
+													>
+														IT HR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем{" "}
+														<Strong>
+															HR-менеджера
+														</Strong>
+														, который станет важной частью нашей команды и поможет развивать корпоративную культуру и сотрудников.
+														<br />
+														<br />
+														Ты получишь inhouse опыт в успешной продуктовой IT-компании, прокачаешь свои навыки в найме и управлении персоналом
+														<br />
+														<br />
+														Мы нацелены на кандидатов уровня мидл.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														hover-color="#4a8cfa"
@@ -344,33 +392,6 @@ export default (() => {
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Вы не знакомы с Perl, но не боитесь попробовать? Это верный выбор и не смотря на то, что данный язык на сегодня не является мейнстримом, как специалист вы только выиграете: перловики на сегодня весьма востребованы именно по причине своей редкости.
 														<br />
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/sistemnyj-administrator-linux"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Системный администратор Linux
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске опытного Системного администратора на проект{" "}
-														<Strong>
-															uCoz.
-														</Strong>
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -439,43 +460,33 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-razrabotchik"
+														href="/vacancies/razrabotchik-NestJS"
 														text-decoration-line="initial"
 													>
-														Frontend-разработчик
+														Старший разработчик NestJS
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
+														Проект RuSender | Баку, Ростов-на-Дону, Удаленно
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/sistemnyj-administrator-linux"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Системный администратор Linux
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске опытного Системного администратора на проект{" "}
+														Ищем опытного{" "}
 														<Strong>
-															uCoz.
+															Backend-разработчика с экспертизой в NestJS
 														</Strong>
+														, который сможет внести вклад в развитие наших продуктов.
+														<br />
+														<br />
+														Уровень навыков:{" "}
+														<Strong>
+															middle+/senior
+														</Strong>
+														<br />
+														<br />
+														Продукт:
+														<Strong>
+															{" "}Rusender.
+														</Strong>
+														{" "}Это умный сервис для email-рассылок (ESP).
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -502,6 +513,37 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="three" md-width="100%">
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/it-hr-menedjer"
+														text-decoration-line="initial"
+													>
+														IT HR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем{" "}
+														<Strong>
+															HR-менеджера
+														</Strong>
+														, который станет важной частью нашей команды и поможет развивать корпоративную культуру и сотрудников.
+														<br />
+														<br />
+														Ты получишь inhouse опыт в успешной продуктовой IT-компании, прокачаешь свои навыки в найме и управлении персоналом
+														<br />
+														<br />
+														Мы нацелены на кандидатов уровня мидл.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
 													<Link
 														color="#263238"
@@ -693,27 +735,6 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-razrabotchik"
-														text-decoration-line="initial"
-													>
-														Frontend-разработчик
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/menedzher-po-rabote-s-kliyentami"
 														text-decoration-line="initial"
 													>
@@ -735,6 +756,44 @@ export default (() => {
 															менеджера по работе с клиентами
 														</Strong>
 														{" "}для коммуникации с клиентами веб-студии.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/razrabotchik-NestJS"
+														text-decoration-line="initial"
+													>
+														Старший разработчик NestJS
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Баку, Ростов-на-Дону, Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем опытного{" "}
+														<Strong>
+															Backend-разработчика с экспертизой в NestJS
+														</Strong>
+														, который сможет внести вклад в развитие наших продуктов.
+														<br />
+														<br />
+														Уровень навыков:{" "}
+														<Strong>
+															middle+/senior
+														</Strong>
+														<br />
+														<br />
+														Продукт:
+														<Strong>
+															{" "}Rusender.
+														</Strong>
+														{" "}Это умный сервис для email-рассылок (ESP).
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -765,33 +824,6 @@ export default (() => {
 											</Components.TabPanel>
 											<Components.TabPanel md-width="100%" tabId="menedzher" />
 											<Components.TabPanel tabId="five" md-width="100%">
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/sistemnyj-administrator-linux"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Системный администратор Linux
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске опытного Системного администратора на проект{" "}
-														<Strong>
-															uCoz.
-														</Strong>
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
 													<Link
 														color="#263238"
@@ -800,16 +832,33 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-razrabotchik"
+														href="/vacancies/razrabotchik-NestJS"
 														text-decoration-line="initial"
 													>
-														Frontend-разработчик
+														Старший разработчик NestJS
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
+														Проект RuSender | Баку, Ростов-на-Дону, Удаленно
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
+														Ищем опытного{" "}
+														<Strong>
+															Backend-разработчика с экспертизой в NestJS
+														</Strong>
+														, который сможет внести вклад в развитие наших продуктов.
+														<br />
+														<br />
+														Уровень навыков:{" "}
+														<Strong>
+															middle+/senior
+														</Strong>
+														<br />
+														<br />
+														Продукт:
+														<Strong>
+															{" "}Rusender.
+														</Strong>
+														{" "}Это умный сервис для email-рассылок (ESP).
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1036,7 +1085,7 @@ export default (() => {
 														category="fa"
 														icon={FaBoxes}
 													/>
-													ВСЕ ВАКАНСИИ (4)
+													ВСЕ ВАКАНСИИ (3)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three">
@@ -1148,27 +1197,6 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-razrabotchik"
-														text-decoration-line="initial"
-													>
-														Frontend-разработчик
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/menedzher-po-rabote-s-kliyentami"
 														text-decoration-line="initial"
 													>
@@ -1190,6 +1218,75 @@ export default (() => {
 															менеджера по работе с клиентами
 														</Strong>
 														{" "}для коммуникации с клиентами веб-студии.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/it-hr-menedjer"
+														text-decoration-line="initial"
+													>
+														IT HR-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Ростов-на-Дону
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Мы ищем{" "}
+														<Strong>
+															HR-менеджера
+														</Strong>
+														, который станет важной частью нашей команды и поможет развивать корпоративную культуру и сотрудников.
+														<br />
+														<br />
+														Ты получишь inhouse опыт в успешной продуктовой IT-компании, прокачаешь свои навыки в найме и управлении персоналом
+														<br />
+														<br />
+														Мы нацелены на кандидатов уровня мидл.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/razrabotchik-NestJS"
+														text-decoration-line="initial"
+													>
+														Старший разработчик NestJS
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект RuSender | Баку, Ростов-на-Дону, Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем опытного{" "}
+														<Strong>
+															Backend-разработчика с экспертизой в NestJS
+														</Strong>
+														, который сможет внести вклад в развитие наших продуктов.
+														<br />
+														<br />
+														Уровень навыков:{" "}
+														<Strong>
+															middle+/senior
+														</Strong>
+														<br />
+														<br />
+														Продукт:
+														<Strong>
+															{" "}Rusender.
+														</Strong>
+														{" "}Это умный сервис для email-рассылок (ESP).
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1455,27 +1552,6 @@ uKit Group
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-razrabotchik"
-														text-decoration-line="initial"
-													>
-														Frontend-разработчик
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/menedzher-po-rabote-s-kliyentami"
 														text-decoration-line="initial"
 													>
@@ -1500,30 +1576,41 @@ uKit Group
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
 													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/sistemnyj-administrator-linux"
-														text-decoration-line="initial"
 														color="#263238"
 														font="22px 'AvenirNextCyrMedium', sans-serif"
 														margin="0px 0px 0px 0px"
 														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/razrabotchik-NestJS"
+														text-decoration-line="initial"
 													>
-														Системный администратор Linux
+														Старший разработчик NestJS
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uCoz | Баку, Ростов-на-Дону, Удаленная работа
+														Проект RuSender | Баку, Ростов-на-Дону, Удаленно
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 18-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-														<br />
-														<br />
-														Сейчас мы в поиске опытного Системного администратора на проект{" "}
+														Ищем опытного{" "}
 														<Strong>
-															uCoz.
+															Backend-разработчика с экспертизой в NestJS
 														</Strong>
+														, который сможет внести вклад в развитие наших продуктов.
+														<br />
+														<br />
+														Уровень навыков:{" "}
+														<Strong>
+															middle+/senior
+														</Strong>
+														<br />
+														<br />
+														Продукт:
+														<Strong>
+															{" "}Rusender.
+														</Strong>
+														{" "}Это умный сервис для email-рассылок (ESP).
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1581,42 +1668,33 @@ uKit Group
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/frontend-razrabotchik"
+														href="/vacancies/razrabotchik-NestJS"
 														text-decoration-line="initial"
 													>
-														Frontend-разработчик
+														Старший разработчик NestJS
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Баку, Ростов-на-Дону, Удаленная работа
+														Проект RuSender | Баку, Ростов-на-Дону, Удаленно
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем ответственного, внимательного к деталям человека, со знанием системы uCoz которому будет интересно погрузиться в работу по тестированию нового функционала конструктора сайтов uCoz, включая смежные продукты конструктора, такие как Telegram uShop bot и даже конструктор сайтов uKit. Мы всегда рады людям, нацеленным на профессиональное развитие.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
-													<Link
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/fullstack-react-laravel"
-														text-decoration-line="initial"
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-													>
-														Fullstack разработчик (React/Laravel)
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект WebAsk | Ростов-на-Дону, Баку, Удаленная работа
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group в поиске{" "}
+														Ищем опытного{" "}
 														<Strong>
-															fullstack разработчика{" "}
+															Backend-разработчика с экспертизой в NestJS
 														</Strong>
-														для участия в работе над интересным и сложным проектом WebAsk (https://webask.io).
+														, который сможет внести вклад в развитие наших продуктов.
 														<br />
+														<br />
+														Уровень навыков:{" "}
+														<Strong>
+															middle+/senior
+														</Strong>
+														<br />
+														<br />
+														Продукт:
+														<Strong>
+															{" "}Rusender.
+														</Strong>
+														{" "}Это умный сервис для email-рассылок (ESP).
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
