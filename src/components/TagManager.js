@@ -3,7 +3,7 @@ import atomize from "@quarkly/atomize"; // Put your HTML here:
 
 const customHtml = `
 
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLFV4KG"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MS77SWK5"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 `;
 
