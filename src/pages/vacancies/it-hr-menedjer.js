@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Icon, Link, Text, Strong, List, Image, Box, Section } from "@quarkly/widgets";
+import { Theme, Icon, Link, Text, List, Image, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -85,20 +85,15 @@ export default (() => {
 						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
 						margin="0px 0px 0px 0px"
 					>
-						Мы ищем{" "}
-						<Strong>
-							HR-менеджера
-						</Strong>
-						, который станет важной частью нашей команды и поможет развивать корпоративную культуру и сотрудников.
+						Мы ищем HR-менеджера, который станет неотъемлемой частью нашей команды.
 						<br />
 						<br />
-						Ты получишь inhouse опыт в успешной продуктовой IT-компании, прокачаешь свои навыки в найме и управлении персоналом
+						Ты получишь опыт работы в успешной продуктовой IT-компании, сможешь улучшить навыки в найме и управлении персоналом.
 						<br />
 						<br />
-						Мы нацелены на кандидатов уровня мидл.
+						Мы ориентированы на кандидатов уровня middle, но готовы рассмотреть способных junior-специалистов с сильным желанием расти и развиваться в сфере HR и IT.
 						<br />
-						<br />
-						Но готовы рассмотреть способных джуниоров с огромным желанием расти и развиваться в сфере HR и IT. Напиши пару слов в сопроводительном, возможно мы подойдем друг другу.{"\n\n\n\n"}
+						Напиши несколько слов в сопроводительном письме — возможно, мы подходим друг другу.{"\n\n\n\n\n\n"}
 					</Text>
 					<Text
 						display="inline-block"
@@ -176,7 +171,14 @@ export default (() => {
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" color="#333">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Навыки организации внутренних и внешних мероприятий.
+							Опыт использования телеграмм чатов/каналов как одного из основных источников кандидатов.
+							<br />
+							{"\n\n"}
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" color="#333">
+						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
+							Навыки организации корпоративных мероприятий, team building и HR-активностей.
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" color="#333">
