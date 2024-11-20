@@ -2,13 +2,13 @@ import React, { useRef, useLayoutEffect } from "react";
 import atomize from "@quarkly/atomize"; // Put your JS here:
 
 const customJs = `
-    var widgetOptions331723 = {
+    var widgetOptions460542 = {
         bg_color: "transparent"
     };
     (function() {
         var a = document.createElement("script"), h = "head";
         a.async = true;
-        a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=331723&t="+Math.floor(new Date()/18e5);
+        a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=460542&t="+Math.floor(new Date()/18e5);
         document.getElementsByTagName(h)[0].appendChild(a)
     })(); 
 `;
