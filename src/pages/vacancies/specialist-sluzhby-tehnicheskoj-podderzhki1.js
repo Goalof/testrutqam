@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Icon, Link, Text, Strong, List, Image, Box, Section } from "@quarkly/widgets";
+import { Theme, Icon, Link, Text, List, Image, Box, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -64,7 +64,7 @@ export default (() => {
 						margin="0px 0px 25px -3px"
 						display="inline-block"
 					>
-						Специалист службы технической поддержки
+						Специалист технической поддержки в чатах
 					</Text>
 					<Text
 						margin="0px 0px 20px 0px"
@@ -85,43 +85,29 @@ export default (() => {
 						letter-spacing="0.3px"
 						color="#333"
 					>
-						uKit Group – это аккредитованная IT-компания, которая специализируется на создании SaaS-конструкторов, у которых миллионы пользователей.
+						uKit Group — это аккредитованная IT-компания с 19-летней историей.{" "}
 						<br />
 						<br />
-						Мы ищем в команду грамотного и внимательного специалиста технической поддержки для работы на наших проектах.
+						Мы создаем продукты, которые помогают миллионам пользователей достигать своих целей.{" "}
 						<br />
 						<br />
-						График работы{" "}
-						<Strong>
-							2/2 с 10:00 до 22:00
-						</Strong>
-						{" "}или{" "}
-						<Strong>
-							5/2 с 22:00 до 06:00
-						</Strong>
-						{" "}
-						<Strong>
-							по МСК
-						</Strong>
-						{" "}(обсуждается на собеседовании, возможны варианты).
+						Сейчас мы ищем специалиста с опытом работы в IT-поддержке или с базовыми знаниями основ web.
 						<br />
 						<br />
-						uKit – конструктор бизнес-сайтов нового поколения.
+						{"\n"}Поручим тебе поддержку наших сервисов:
 						<br />
-						<br />
-						RuSender – умный сервис для email-рассылок (ESP).
-						<br />
-						<br />
-						Если у Вас есть опыт работы в техподдержке{" "}
-						<Strong>
-							ESP
-						</Strong>
-						{" "}(сервис email-рассылок), укажите, пожалуйста, это в сопроводительном письме. В этом случае{" "}
-						<Strong>
-							заработная плата
-						</Strong>
-						{" "}будет обсуждаться индивидуально.{"\n\n"}
+						{"\n\n\n\n"}
 					</Text>
+					<List margin="8px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							uKit — конструктор бизнес-сайтов нового поколения.
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							RuSender — умный сервис email-рассылок (ESP).
+						</Text>
+					</List>
 					<Text
 						letter-spacing=".2"
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
@@ -131,21 +117,26 @@ export default (() => {
 						text-align="left"
 						color="#333"
 					>
-						Задачи:
+						Чем тебе предстоит заниматься:
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Ответы на письменные обращения пользователей uKit/RuSender;
+							Отвечать на письменные обращения пользователей uKit и RuSender.
 						</Text>
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Решение проблем пользователей, связанных с услугами uKit/RuSender;
+							Решать вопросы пользователей, связанные с функциональностью наших сервисов.
 						</Text>
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Разработка клиентских веб-проектов разного уровня сложности, поддержка существующих проектов.
+							Давать рекомендации, которые помогут пользователям эффективно использовать возможности сервисов.
+						</Text>
+					</List>
+					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Взаимодействовать с другими отделами для решения сложных технических вопросов.
 						</Text>
 					</List>
 					<Text
@@ -157,32 +148,47 @@ export default (() => {
 						sm-margin="10px 0px 20px 0px"
 						text-align="left"
 					>
-						Требования:
-						<br />
+						Кого мы ищем:
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Грамотная письменная речь, внимательность и вовлеченность;
+							У тебя есть опыт работы в IT-поддержке, базовое понимание основ web.
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Четкое понимание работы WEB;
+							Ты умеешь коротко и по существу отвечать на вопросы пользователей и оперативно искать информацию во внутренних регламентах и базах знаний.
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Опыт создания/поддержки сайтов;
+							Ты внимательный, ответственный, любишь помогать людям в решении их вопросов.
 						</Text>
 					</List>
+					<Text
+						color="#333"
+						letter-spacing=".2"
+						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
+						margin="20px 0px 18px 0px"
+						display="inline-block"
+						sm-margin="10px 0px 20px 0px"
+						text-align="left"
+					>
+						Будет плюсом:
+					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text margin="0px 0px 12px 5px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Активность на форуме сообщества uKit/RuSender (+3 в карму);
+							У тебя есть опыт работы с конструкторами сайтов.
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Знание систем uKit, uCoz или uWeb будет огромным плюсом;
+							Ты понимаешь принципы работы почтовых сервисов.
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Если у тебя есть опыт работы с сервисами email-рассылок (ESP), обязательно укажи это в сопроводительном письме.
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
@@ -219,7 +225,7 @@ export default (() => {
 							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
 						/>
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="3px 0px 3px 0px">
-							Стартовая позиция для тех, кто хочет войти в айти и развиваться в нём;
+							Официальное трудоустройство с первого дня работы.
 						</Text>
 					</Box>
 					<Box
@@ -238,7 +244,7 @@ export default (() => {
 							padding="0px 0px 0px 0px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							График обсуждается на собеседовании, возможны варианты;
+							График работы 5/2 с 10:00 до 19:00 по МСК (возможны варианты).{"\n\n"}
 						</Text>
 					</Box>
 					<Box
@@ -257,134 +263,7 @@ export default (() => {
 							width="15px"
 						/>
 						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							На этапе обучения (до трех месяцев) график 5/2;
-						</Text>
-					</Box>
-					<Box
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Первый этап — тестовое задание.
-						</Text>
-					</Box>
-					<Text
-						color="#333"
-						letter-spacing=".2"
-						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
-						margin="20px 0px 12px 0px"
-						display="inline-block"
-						sm-margin="10px 0px 20px 0px"
-						text-align="left"
-					>
-						Еще мы предлагаем:
-						<br />
-						{"\n\n"}
-					</Text>
-					<Box
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Работу в аккредитованной IT компании, которая уже 18 лет создает онлайн-продукты, помогающие людям достигать своих целей: uCoz, uKit, WebAsk, uCalc, RuSender;
-						</Text>
-					</Box>
-					<Box
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Возможности для профессионального роста и развития;
-						</Text>
-					</Box>
-					<Box
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Работу в команде опытных специалистов, у которых можно многому научиться;
-						</Text>
-					</Box>
-					<Box
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Культуру открытости и взаимопомощи: у нас работают увлеченные и небезразличные к тому, что они делают, люди;
-						</Text>
-					</Box>
-					<Box
-						align-items="center"
-						margin="0px 0px 6px 0px"
-						lg-align-items="flex-start"
-						lg-padding="0px 0px 0px 0px"
-						display="flex"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="3px 0px 3px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Культуру доверия: мы не используем системы контроля времени, для нас показатель - выполненная в срок задача.
+							Удаленный режим работы.
 						</Text>
 					</Box>
 					<Components.PopUp
