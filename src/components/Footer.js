@@ -50,7 +50,7 @@ const overrides = {
 	"link": {
 		"kind": "Link",
 		"props": {
-			"href": "/"
+			"href": "https://ukit.group/"
 		}
 	},
 	"image": {
