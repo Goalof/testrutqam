@@ -147,7 +147,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (5)
+													ВСЕ ВАКАНСИИ (6)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -192,7 +192,7 @@ export default (() => {
 												>
 													<div />
 													<Icon category="fa" icon={FaFileCode} size="20px" margin="0px 8px 0px 0px" />
-													РАЗРАБОТКА (2)
+													РАЗРАБОТКА (3)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three">
@@ -311,6 +311,27 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/prompt-inzhener"
+														text-decoration-line="initial"
+													>
+														Prompt-инженер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 19-ти лет создает онлайн-продукты, у которых миллионы пользователей.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/razrabotchik-NestJS"
 														text-decoration-line="initial"
 													>
@@ -366,7 +387,7 @@ export default (() => {
 														<br />
 														Мы ориентированы на кандидатов уровня middle, но готовы рассмотреть способных junior-специалистов с сильным желанием расти и развиваться в сфере HR и IT.
 														<br />
-														Напиши несколько слов в сопроводительном письме — возможно, мы подходим друг другу.{"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
+														Напиши несколько слов в сопроводительном письме — возможно, мы подходим друг другу.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -488,6 +509,27 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/prompt-inzhener"
+														text-decoration-line="initial"
+													>
+														Prompt-инженер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 19-ти лет создает онлайн-продукты, у которых миллионы пользователей.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														text-decoration-line="initial"
@@ -542,7 +584,7 @@ export default (() => {
 														<br />
 														Мы ориентированы на кандидатов уровня middle, но готовы рассмотреть способных junior-специалистов с сильным желанием расти и развиваться в сфере HR и IT.
 														<br />
-														Напиши несколько слов в сопроводительном письме — возможно, мы подходим друг другу.{"\n\n\n\n\n\n\n\n"}
+														Напиши несколько слов в сопроводительном письме — возможно, мы подходим друг другу.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1248,7 +1290,7 @@ export default (() => {
 														<br />
 														Мы ориентированы на кандидатов уровня middle, но готовы рассмотреть способных junior-специалистов с сильным желанием расти и развиваться в сфере HR и IT.
 														<br />
-														Напиши несколько слов в сопроводительном письме — возможно, мы подходим друг другу.{"\n\n\n\n\n\n\n\n"}
+														Напиши несколько слов в сопроводительном письме — возможно, мы подходим друг другу.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1465,7 +1507,7 @@ uKit Group
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													РАЗРАБОТКА (4)
+													РАЗРАБОТКА (2)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three" display="none">
@@ -1514,7 +1556,7 @@ uKit Group
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ПОДДЕРЖКА (1)
+													ПОДДЕРЖКА (3)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="five">
@@ -1573,6 +1615,27 @@ uKit Group
 															менеджера по работе с клиентами
 														</Strong>
 														{" "}для коммуникации с клиентами веб-студии.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/prompt-inzhener"
+														text-decoration-line="initial"
+													>
+														Prompt-инженер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 19-ти лет создает онлайн-продукты, у которых миллионы пользователей.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1695,6 +1758,27 @@ uKit Group
 															{" "}Rusender.
 														</Strong>
 														{" "}Это умный сервис для email-рассылок (ESP).
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/prompt-inzhener"
+														text-decoration-line="initial"
+													>
+														Prompt-инженер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 19-ти лет создает онлайн-продукты, у которых миллионы пользователей.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
