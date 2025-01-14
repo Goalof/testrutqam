@@ -311,16 +311,43 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/prompt-inzhener"
+														href="/vacancies/junior-product-manager"
 														text-decoration-line="initial"
 													>
-														Prompt-инженер
+														Junior Product Manager (email\crm)
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Удаленно
+														Проект Rusander | Удаленная работа
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 19-ти лет создает онлайн-продукты, у которых миллионы пользователей.
+														Vы ищем нового сотрудника: чтобы разгрузить CPO от операционных задач и помочь развивать ключевой продукт RuSender.
+														<br />
+														<br />
+														Мы готовы рассмотреть специалистов с опытом от junior в email/crm-маркетинге.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/email-marketolog"
+														text-decoration-line="initial"
+													>
+														Email-маркетолог
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Rusander | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group в поиске Middle Email-маркетолога, готового взять на себя всю ответственность по обеспечению внутренних рассылок и push-уведомлений проектов uKit и uCoz.
+														<br />
+														<br />
+														Вакансия будет интересна тем, кто хочет развиваться в область продуктового маркетинга, потому что прямо сейчас наша команда занимается разработкой собственного сервиса для email-рассылок (ESP).
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -359,35 +386,6 @@ export default (() => {
 															{" "}Rusender.
 														</Strong>
 														{" "}Это умный сервис для email-рассылок (ESP).
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/it-hr-menedjer"
-														text-decoration-line="initial"
-													>
-														IT HR-менеджер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем HR-менеджера, который станет неотъемлемой частью нашей команды.
-														<br />
-														<br />
-														Ты получишь опыт работы в успешной продуктовой IT-компании, сможешь улучшить навыки в найме и управлении персоналом.
-														<br />
-														<br />
-														Мы ориентированы на кандидатов уровня middle, но готовы рассмотреть способных junior-специалистов с сильным желанием расти и развиваться в сфере HR и IT.
-														<br />
-														Напиши несколько слов в сопроводительном письме — возможно, мы подходим друг другу.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -509,27 +507,6 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/prompt-inzhener"
-														text-decoration-line="initial"
-													>
-														Prompt-инженер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Удаленно
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 19-ти лет создает онлайн-продукты, у которых миллионы пользователей.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														text-decoration-line="initial"
@@ -561,30 +538,43 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/it-hr-menedjer"
+														href="/vacancies/email-marketolog"
 														text-decoration-line="initial"
 													>
-														IT HR-менеджер
+														Email-маркетолог
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Ростов-на-Дону
+														Проект Rusander | Удаленная работа
 													</Text>
-													<Text
-														margin="12px 0px 0px 0px"
-														font="16px/1.4 'AvenirNextCyrRegular', sans-serif"
-														color="#333"
-														md-font="14px 'AvenirNextCyrRegular', sans-serif"
-														text-transform="uppercase"
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group в поиске Middle Email-маркетолога, готового взять на себя всю ответственность по обеспечению внутренних рассылок и push-уведомлений проектов uKit и uCoz.
+														<br />
+														<br />
+														Вакансия будет интересна тем, кто хочет развиваться в область продуктового маркетинга, потому что прямо сейчас наша команда занимается разработкой собственного сервиса для email-рассылок (ESP).
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/junior-product-manager"
+														text-decoration-line="initial"
 													>
-														Мы ищем HR-менеджера, который станет неотъемлемой частью нашей команды.
+														Junior Product Manager (email\crm)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Rusander | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Vы ищем нового сотрудника: чтобы разгрузить CPO от операционных задач и помочь развивать ключевой продукт RuSender.
 														<br />
 														<br />
-														Ты получишь опыт работы в успешной продуктовой IT-компании, сможешь улучшить навыки в найме и управлении персоналом.
-														<br />
-														<br />
-														Мы ориентированы на кандидатов уровня middle, но готовы рассмотреть способных junior-специалистов с сильным желанием расти и развиваться в сфере HR и IT.
-														<br />
-														Напиши несколько слов в сопроводительном письме — возможно, мы подходим друг другу.
+														Мы готовы рассмотреть специалистов с опытом от junior в email/crm-маркетинге.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1273,35 +1263,6 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/it-hr-menedjer"
-														text-decoration-line="initial"
-													>
-														IT HR-менеджер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Ростов-на-Дону
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Мы ищем HR-менеджера, который станет неотъемлемой частью нашей команды.
-														<br />
-														<br />
-														Ты получишь опыт работы в успешной продуктовой IT-компании, сможешь улучшить навыки в найме и управлении персоналом.
-														<br />
-														<br />
-														Мы ориентированы на кандидатов уровня middle, но готовы рассмотреть способных junior-специалистов с сильным желанием расти и развиваться в сфере HR и IT.
-														<br />
-														Напиши несколько слов в сопроводительном письме — возможно, мы подходим друг другу.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/razrabotchik-NestJS"
 														text-decoration-line="initial"
 													>
@@ -1495,7 +1456,7 @@ uKit Group
 													focus-box-shadow="none"
 													lg-font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
 													background="rgba(0, 119, 204, 0)"
-													display="flex"
+													display="none"
 													align-items="center"
 													padding="8px 24px 8px 12px"
 													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
@@ -1539,7 +1500,7 @@ uKit Group
 												<Override slot="Selected Tab" color="#3d72cc" />
 												<Override slot="Tab" color="#afc1db" />
 												<Button
-													display="flex"
+													display="none"
 													align-items="center"
 													background="rgba(0, 119, 204, 0)"
 													font="normal 500 12px/24px 'AvenirNextCyrDemi', sans-serif"
@@ -1594,6 +1555,54 @@ uKit Group
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/email-marketolog"
+														text-decoration-line="initial"
+													>
+														Email-маркетолог
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Rusander | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group в поиске Middle Email-маркетолога, готового взять на себя всю ответственность по обеспечению внутренних рассылок и push-уведомлений проектов uKit и uCoz.
+														<br />
+														<br />
+														Вакансия будет интересна тем, кто хочет развиваться в область продуктового маркетинга, потому что прямо сейчас наша команда занимается разработкой собственного сервиса для email-рассылок (ESP).
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/junior-product-manager"
+														text-decoration-line="initial"
+													>
+														Junior Product Manager (email\crm)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект Rusander | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Vы ищем нового сотрудника: чтобы разгрузить CPO от операционных задач и помочь развивать ключевой продукт RuSender.
+														<br />
+														<br />
+														Мы готовы рассмотреть специалистов с опытом от junior в email/crm-маркетинге.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/menedzher-po-rabote-s-kliyentami"
 														text-decoration-line="initial"
 													>
@@ -1615,27 +1624,6 @@ uKit Group
 															менеджера по работе с клиентами
 														</Strong>
 														{" "}для коммуникации с клиентами веб-студии.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/prompt-inzhener"
-														text-decoration-line="initial"
-													>
-														Prompt-инженер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект uKit Group | Удаленно
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 19-ти лет создает онлайн-продукты, у которых миллионы пользователей.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>

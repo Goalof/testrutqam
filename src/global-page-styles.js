@@ -147,10 +147,6 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
-    "vacancies/email-marketolog": {
-        "overflow-y": "",
-        "overflow-x": "hidden"
-    },
     "vacancies/team-lead-sre": {
         "overflow-y": "",
         "overflow-x": "hidden"
@@ -248,6 +244,14 @@ const pageStyles = {
         "overflow-x": "hidden"
     },
     "vacancies/prompt-inzhener": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/email-marketolog": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/junior-product-manager": {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
