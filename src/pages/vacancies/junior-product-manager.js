@@ -111,7 +111,7 @@ export default (() => {
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
-							Помогать в разработке и запуске идей для новых фич и улучшений в RuSeder.
+							Помогать в разработке и запуске идей для новых фич и улучшений в RuSender.
 						</Text>
 					</List>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">

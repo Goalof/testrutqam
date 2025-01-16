@@ -317,7 +317,7 @@ export default (() => {
 														Junior Product Manager (email\crm)
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Rusander | Удаленная работа
+														Проект RuSender | Удаленная работа{"\n\n"}
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														Vы ищем нового сотрудника: чтобы разгрузить CPO от операционных задач и помочь развивать ключевой продукт RuSender.
@@ -341,7 +341,7 @@ export default (() => {
 														Email-маркетолог
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект Rusander | Удаленная работа
+														Проект RuSender | Удаленная работа{"\n\n\n\n"}
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
 														uKit Group в поиске Middle Email-маркетолога, готового взять на себя всю ответственность по обеспечению внутренних рассылок и push-уведомлений проектов uKit и uCoz.
