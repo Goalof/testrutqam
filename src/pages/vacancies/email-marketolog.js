@@ -187,7 +187,7 @@ export default (() => {
 						text-align="left"
 						color="#333"
 					>
-						Что важно уметь и знать
+						Что будет преимуществом
 					</Text>
 					<List padding="0px 0px 0px 20px" margin="0px 0px 0px 0px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
@@ -372,112 +372,41 @@ export default (() => {
 							Работа в сильной команде опытных специалистов, у которых можно многому научиться.
 						</Text>
 					</Box>
-					<Text
-						color="#333"
-						letter-spacing=".2"
-						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
-						margin="20px 0px 12px 0px"
-						display="inline-block"
-						sm-margin="10px 0px 20px 0px"
-						text-align="left"
-					>
-						Еще мы предлагаем:
-					</Text>
 					<Box
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
 						lg-align-items="flex-start"
 						lg-padding="0px 0px 0px 0px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Работу в аккредитованной IT-компании, которая уже 17 лет создает продукты, помогающие многим людям достигать свои цели онлайн: uCoz, uKit, WebAsk etc.
-						</Text>
-					</Box>
+					/>
 					<Box
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
 						lg-align-items="flex-start"
 						lg-padding="0px 0px 0px 0px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Возможности для профессионального роста и развития (конференции, обучение, доступ к корпоративной библиотеке);
-						</Text>
-					</Box>
+					/>
 					<Box
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
 						lg-align-items="flex-start"
 						lg-padding="0px 0px 0px 0px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Работу в команде опытных специалистов, у которых можно многому научиться;
-						</Text>
-					</Box>
+					/>
 					<Box
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
 						lg-align-items="flex-start"
 						lg-padding="0px 0px 0px 0px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Культуру открытости и взаимопомощи: у нас работают увлеченные и не безразличные к тому, что они делают, люди;
-						</Text>
-					</Box>
+					/>
 					<Box
 						display="flex"
 						align-items="center"
 						margin="0px 0px 6px 0px"
 						lg-align-items="flex-start"
 						lg-padding="0px 0px 0px 0px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/600e0aca11b69c001f4aa723/images/tick.svg?v=2021-02-04T00:08:19.533Z"
-							width="15px"
-							height="12px"
-							padding="0px 0px 0px 0px"
-							margin="0px 10px 0px 0px"
-							lg-margin="12px 10px 0px 0px"
-						/>
-						<Text margin="6px 0px 6px 0px" font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif">
-							Культуру доверия: мы не используем системы контроля времени, для нас показатель - выполненная в срок задача.
-						</Text>
-					</Box>
+					/>
 					<Text
 						font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif"
 						margin="0px 0px 0px 0px"
