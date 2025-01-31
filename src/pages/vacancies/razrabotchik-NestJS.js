@@ -85,20 +85,25 @@ export default (() => {
 						letter-spacing="0.3px"
 						color="#333"
 					>
-						uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 19-ти лет создает онлайн-продукты, у которых миллионы пользователей.
+						uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 19 лет создает онлайн-продукты, у которых миллионы пользователей.
 						<br />
 						<br />
-						Сейчас ищем опытного{" "}
+						Сейчас ищем опытного
 						<Strong>
-							Backend-разработчика с экспертизой в NestJS
+							{" "}backend-разработчика Node.js/NestJS
 						</Strong>
-						, который сможет внести вклад в развитие наших продуктов.
+						, который усилит команду и сможет внести вклад в развитие наших продуктов.
 						<br />
 						<br />
-						Уровень навыков:{" "}
+						Уровень навыков:
 						<Strong>
-							middle+/senior
+							{" "}middle+
 						</Strong>
+						/
+						<Strong>
+							senior
+						</Strong>
+						<br />
 						<br />
 						Продукт:
 						<Strong>
@@ -115,9 +120,8 @@ export default (() => {
 						<br />
 						Поддержка проекта uKit (до 20% от общего объема работы).
 						<br />
-						Стек: Node.js, MongoDB, RabbitMQ, React, Redux, JQuery.
 						<br />
-						Методология: Scrumban.{"\n\n\n\n"}
+						Стек: Node.js, MongoDB, RabbitMQ, React, Redux, JQuery.{"\n\n"}
 					</Text>
 					<Text
 						font="normal 400 20px/1.2 'AvenirNextCyrMedium', sans-serif"
@@ -128,7 +132,9 @@ export default (() => {
 						color="#333"
 						letter-spacing=".2"
 					>
-						Требования:
+						Обязанности:
+						<br />
+						{"\n\n"}
 					</Text>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
@@ -148,6 +154,13 @@ export default (() => {
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
 							Поддержка проекта uKit
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Проведение регулярных код-ревью, помощь коллегам в выявлении и исправлении ошибок
+							<br />
+							{"\n\n"}
 						</Text>
 					</List>
 					<Text
@@ -215,6 +228,18 @@ export default (() => {
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
 						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
 							Практический опыт создания гексагональной архитектуры
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Знание почтовых серверов (Postfix, Exim, Qmai, Haraka)
+						</Text>
+					</List>
+					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px">
+						<Text font="normal 400 16px/28px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 12px 5px">
+							Опыт работы с MongoDB, React, Redux, JQuery
+							<br />
+							{"\n\n"}
 						</Text>
 					</List>
 					<List margin="0px 0px 0px 0px" padding="0px 0px 0px 20px" />
