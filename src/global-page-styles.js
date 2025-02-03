@@ -255,6 +255,18 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/spetsializirovannaya-podderzhka-Assistent-prodakt-menedzher": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/spetsialist-tekhnicheskoy-podderzhki-uCoz": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
+    "vacancies/spetsialist-tekhnicheskoy-podderzhki-nochnaya-smena": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"

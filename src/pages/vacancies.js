@@ -147,7 +147,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ВСЕ ВАКАНСИИ (4)
+													ВСЕ ВАКАНСИИ (8)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="three-des" display="none">
@@ -241,7 +241,7 @@ export default (() => {
 														color="inherit"
 														margin="0px 8px 0px 0px"
 													/>
-													ПОДДЕРЖКА (1)
+													ПОДДЕРЖКА (4)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="five">
@@ -311,10 +311,79 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/spetsialist-tekhnicheskoy-podderzhki-nochnaya-smena"
+														text-decoration-line="initial"
+													>
+														Специалист технической поддержки (ночная смена)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Vы ищем специалиста с опытом работы в IT-поддержке или с базовыми знаниями основ web.
+														<br />
+														<br />
+														График работы: 5/2 с 22:00 до 7:00.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/spetsialist-tekhnicheskoy-podderzhki-uCoz"
+														text-decoration-line="initial"
+													>
+														Специалист технической поддержки uCoz
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем внимательного и компетентного специалиста для работы в команде поддержки uCoz.
+														<br />
+														<br />
+														Если ты внимателен к деталям, любишь помогать людям, понимаешь основы веб-технологий и хочешь развиваться в сфере IT, то эта вакансия — для тебя!
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/spetsializirovannaya-podderzhka-Assistent-prodakt-menedzher"
+														text-decoration-line="initial"
+													>
+														Специалист поддержки / Ассистент продакт-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект WebAsk, uCalc | Баку, Ростов-на-Дону, Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем специалиста, который хочет начать карьеру в IT и готов развиваться в направлении управления продуктом. Эта позиция — отличная стартовая точка для тех, кто хочет погрузиться в работу с digital-продуктами, совмещая поддержку пользователей с участием в развитии сервисов.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/razrabotchik-NestJS"
 														text-decoration-line="initial"
 													>
-														Старший разработчик NestJS
+														Старший разработчик Node.js/NestJS
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
 														Проект RuSender | Баку, Ростов-на-Дону, Удаленно
@@ -432,7 +501,7 @@ export default (() => {
 														href="/vacancies/razrabotchik-NestJS"
 														text-decoration-line="initial"
 													>
-														Старший разработчик NestJS
+														Старший разработчик Node.js/NestJS
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
 														Проект RuSender | Баку, Ростов-на-Дону, Удаленно
@@ -516,6 +585,75 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="four" md-width="100%">
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/spetsialist-tekhnicheskoy-podderzhki-nochnaya-smena"
+														text-decoration-line="initial"
+													>
+														Специалист технической поддержки (ночная смена)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Vы ищем специалиста с опытом работы в IT-поддержке или с базовыми знаниями основ web.
+														<br />
+														<br />
+														График работы: 5/2 с 22:00 до 7:00.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/spetsialist-tekhnicheskoy-podderzhki-uCoz"
+														text-decoration-line="initial"
+													>
+														Специалист технической поддержки uCoz
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем внимательного и компетентного специалиста для работы в команде поддержки uCoz.
+														<br />
+														<br />
+														Если ты внимателен к деталям, любишь помогать людям, понимаешь основы веб-технологий и хочешь развиваться в сфере IT, то эта вакансия — для тебя!
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/spetsializirovannaya-podderzhka-Assistent-prodakt-menedzher"
+														text-decoration-line="initial"
+													>
+														Специалист поддержки / Ассистент продакт-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект WebAsk, uCalc | Баку, Ростов-на-Дону, Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем специалиста, который хочет начать карьеру в IT и готов развиваться в направлении управления продуктом. Эта позиция — отличная стартовая точка для тех, кто хочет погрузиться в работу с digital-продуктами, совмещая поддержку пользователей с участием в развитии сервисов.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														transition="color 0.2s linear 0s"
@@ -608,7 +746,7 @@ export default (() => {
 														category="fa"
 														icon={FaBoxes}
 													/>
-													ВСЕ ВАКАНСИИ (3)
+													ВСЕ ВАКАНСИИ (4)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="five">
@@ -705,10 +843,31 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/spetsializirovannaya-podderzhka-Assistent-prodakt-menedzher"
+														text-decoration-line="initial"
+													>
+														Специалист поддержки / Ассистент продакт-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект WebAsk, uCalc | Баку, Ростов-на-Дону, Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем специалиста, который хочет начать карьеру в IT и готов развиваться в направлении управления продуктом. Эта позиция — отличная стартовая точка для тех, кто хочет погрузиться в работу с digital-продуктами, совмещая поддержку пользователей с участием в развитии сервисов.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/razrabotchik-NestJS"
 														text-decoration-line="initial"
 													>
-														Старший разработчик NestJS
+														Старший разработчик Node.js/NestJS
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
 														Проект RuSender | Баку, Ростов-на-Дону, Удаленно
@@ -1167,10 +1326,31 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/spetsializirovannaya-podderzhka-Assistent-prodakt-menedzher"
+														text-decoration-line="initial"
+													>
+														Специалист поддержки / Ассистент продакт-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект WebAsk, uCalc | Баку, Ростов-на-Дону, Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем специалиста, который хочет начать карьеру в IT и готов развиваться в направлении управления продуктом. Эта позиция — отличная стартовая точка для тех, кто хочет погрузиться в работу с digital-продуктами, совмещая поддержку пользователей с участием в развитии сервисов.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/razrabotchik-NestJS"
 														text-decoration-line="initial"
 													>
-														Старший разработчик NestJS
+														Старший разработчик Node.js/NestJS
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
 														Проект RuSender | Баку, Ростов-на-Дону, Удаленно
@@ -1347,7 +1527,7 @@ uKit Group
 														category="fa"
 														icon={FaBoxes}
 													/>
-													ВСЕ ВАКАНСИИ (4)
+													ВСЕ ВАКАНСИИ (8)
 												</Button>
 											</Components.TabItem>
 											<Components.TabItem tabId="two">
@@ -1491,10 +1671,79 @@ uKit Group
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/spetsialist-tekhnicheskoy-podderzhki-nochnaya-smena"
+														text-decoration-line="initial"
+													>
+														Специалист технической поддержки (ночная смена)
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit Group | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Vы ищем специалиста с опытом работы в IT-поддержке или с базовыми знаниями основ web.
+														<br />
+														<br />
+														График работы: 5/2 с 22:00 до 7:00.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/spetsialist-tekhnicheskoy-podderzhki-uCoz"
+														text-decoration-line="initial"
+													>
+														Специалист технической поддержки uCoz
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uCoz | Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем внимательного и компетентного специалиста для работы в команде поддержки uCoz.
+														<br />
+														<br />
+														Если ты внимателен к деталям, любишь помогать людям, понимаешь основы веб-технологий и хочешь развиваться в сфере IT, то эта вакансия — для тебя!
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/spetsializirovannaya-podderzhka-Assistent-prodakt-menedzher"
+														text-decoration-line="initial"
+													>
+														Специалист поддержки / Ассистент продакт-менеджер
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект WebAsk, uCalc | Баку, Ростов-на-Дону, Удаленно
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														Ищем специалиста, который хочет начать карьеру в IT и готов развиваться в направлении управления продуктом. Эта позиция — отличная стартовая точка для тех, кто хочет погрузиться в работу с digital-продуктами, совмещая поддержку пользователей с участием в развитии сервисов.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/razrabotchik-NestJS"
 														text-decoration-line="initial"
 													>
-														Старший разработчик NestJS
+														Старший разработчик Node.js/NestJS
 													</Link>
 													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
 														Проект RuSender | Баку, Ростов-на-Дону, Удаленно
