@@ -64,6 +64,7 @@ module.exports = [
 	"/vacancies/spetsializirovannaya-podderzhka-Assistent-prodakt-menedzher/",
 	"/vacancies/spetsialist-tekhnicheskoy-podderzhki-uCoz/",
 	"/vacancies/spetsialist-tekhnicheskoy-podderzhki-nochnaya-smena/",
+	"/vacancies/rukovoditel-sluzhby-podderzhki-kliyentov/",
 	"/uteam/",
 	"/resume/",
 	"/contacts/",

@@ -267,6 +267,10 @@ const pageStyles = {
         "overflow-y": "",
         "overflow-x": "hidden"
     },
+    "vacancies/rukovoditel-sluzhby-podderzhki-kliyentov": {
+        "overflow-y": "",
+        "overflow-x": "hidden"
+    },
     "uteam": {
         "overflow-y": "",
         "overflow-x": "hidden"

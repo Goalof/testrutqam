@@ -311,6 +311,30 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/rukovoditel-sluzhby-podderzhki-kliyentov"
+														text-decoration-line="initial"
+													>
+														Руководитель службы клиентской поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit, Rusender | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 19 лет создает онлайн-продукты, у которых миллионы пользователей.
+														<br />
+														<br />
+														Ищем руководителя службы клиентской поддержки.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/spetsialist-tekhnicheskoy-podderzhki-nochnaya-smena"
 														text-decoration-line="initial"
 													>
@@ -585,6 +609,30 @@ export default (() => {
 												</Box>
 											</Components.TabPanel>
 											<Components.TabPanel tabId="four" md-width="100%">
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/rukovoditel-sluzhby-podderzhki-kliyentov"
+														text-decoration-line="initial"
+													>
+														Руководитель службы клиентской поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit, Rusender | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 19 лет создает онлайн-продукты, у которых миллионы пользователей.
+														<br />
+														<br />
+														Ищем руководителя службы клиентской поддержки.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
 													<Link
 														color="#263238"
@@ -1631,6 +1679,30 @@ uKit Group
 										</Components.TabList>
 										<Components.TabPanels width="80%" md-width="100%" lg-width="70%">
 											<Components.TabPanel tabId="one" md-width="100%">
+												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
+													<Link
+														color="#263238"
+														font="22px 'AvenirNextCyrMedium', sans-serif"
+														margin="0px 0px 0px 0px"
+														transition="color 0.2s linear 0s"
+														hover-color="#4a8cfa"
+														md-font="20px 'AvenirNextCyrMedium', sans-serif"
+														href="/vacancies/rukovoditel-sluzhby-podderzhki-kliyentov"
+														text-decoration-line="initial"
+													>
+														Руководитель службы клиентской поддержки
+													</Link>
+													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
+														Проект uKit, Rusender | Удаленная работа
+													</Text>
+													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
+														uKit Group (uCoz, uKit, RuSender, WebAsk) – это аккредитованная IT-компания, которая специализируется на создании SaaS-сервисов и более 19 лет создает онлайн-продукты, у которых миллионы пользователей.
+														<br />
+														<br />
+														Ищем руководителя службы клиентской поддержки.
+													</Text>
+													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
+												</Box>
 												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
 													<Link
 														color="#263238"
