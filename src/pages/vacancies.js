@@ -650,7 +650,7 @@ export default (() => {
 														Проект uKit Group | Удаленная работа
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Vы ищем специалиста с опытом работы в IT-поддержке или с базовыми знаниями основ web.
+														Мы ищем специалиста с опытом работы в IT-поддержке или с базовыми знаниями основ web.
 														<br />
 														<br />
 														График работы: 5/2 с 22:00 до 7:00.
@@ -1752,7 +1752,7 @@ uKit Group
 														Проект uKit Group | Удаленная работа
 													</Text>
 													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Vы ищем специалиста с опытом работы в IT-поддержке или с базовыми знаниями основ web.
+														Мы ищем специалиста с опытом работы в IT-поддержке или с базовыми знаниями основ web.
 														<br />
 														<br />
 														График работы: 5/2 с 22:00 до 7:00.
