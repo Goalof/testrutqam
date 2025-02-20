@@ -383,27 +383,6 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/spetsializirovannaya-podderzhka-Assistent-prodakt-menedzher"
-														text-decoration-line="initial"
-													>
-														Специалист поддержки / Ассистент продакт-менеджер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект WebAsk, uCalc | Баку, Ростов-на-Дону, Удаленно
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Ищем специалиста, который хочет начать карьеру в IT и готов развиваться в направлении управления продуктом. Эта позиция — отличная стартовая точка для тех, кто хочет погрузиться в работу с digital-продуктами, совмещая поддержку пользователей с участием в развитии сервисов.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/razrabotchik-NestJS"
 														text-decoration-line="initial"
 													>
@@ -681,27 +660,6 @@ export default (() => {
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/spetsializirovannaya-podderzhka-Assistent-prodakt-menedzher"
-														text-decoration-line="initial"
-													>
-														Специалист поддержки / Ассистент продакт-менеджер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект WebAsk, uCalc | Баку, Ростов-на-Дону, Удаленно
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Ищем специалиста, который хочет начать карьеру в IT и готов развиваться в направлении управления продуктом. Эта позиция — отличная стартовая точка для тех, кто хочет погрузиться в работу с digital-продуктами, совмещая поддержку пользователей с участием в развитии сервисов.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
 												<Box width="90%" padding="0px 0px 15px 0px" margin="0px 0px 0px 0px">
 													<Link
 														transition="color 0.2s linear 0s"
@@ -880,27 +838,6 @@ export default (() => {
 															менеджера по работе с клиентами
 														</Strong>
 														{" "}для коммуникации с клиентами веб-студии.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/spetsializirovannaya-podderzhka-Assistent-prodakt-menedzher"
-														text-decoration-line="initial"
-													>
-														Специалист поддержки / Ассистент продакт-менеджер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект WebAsk, uCalc | Баку, Ростов-на-Дону, Удаленно
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Ищем специалиста, который хочет начать карьеру в IT и готов развиваться в направлении управления продуктом. Эта позиция — отличная стартовая точка для тех, кто хочет погрузиться в работу с digital-продуктами, совмещая поддержку пользователей с участием в развитии сервисов.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
@@ -1374,27 +1311,6 @@ export default (() => {
 														transition="color 0.2s linear 0s"
 														hover-color="#4a8cfa"
 														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/spetsializirovannaya-podderzhka-Assistent-prodakt-menedzher"
-														text-decoration-line="initial"
-													>
-														Специалист поддержки / Ассистент продакт-менеджер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект WebAsk, uCalc | Баку, Ростов-на-Дону, Удаленно
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Ищем специалиста, который хочет начать карьеру в IT и готов развиваться в направлении управления продуктом. Эта позиция — отличная стартовая точка для тех, кто хочет погрузиться в работу с digital-продуктами, совмещая поддержку пользователей с участием в развитии сервисов.
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
 														href="/vacancies/razrabotchik-NestJS"
 														text-decoration-line="initial"
 													>
@@ -1780,27 +1696,6 @@ uKit Group
 														<br />
 														<br />
 														Если ты внимателен к деталям, любишь помогать людям, понимаешь основы веб-технологий и хочешь развиваться в сфере IT, то эта вакансия — для тебя!
-													</Text>
-													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
-												</Box>
-												<Box margin="0px 0px 0px 0px" md-width="100%" width="90%" padding="0px 0px 15px 0px">
-													<Link
-														color="#263238"
-														font="22px 'AvenirNextCyrMedium', sans-serif"
-														margin="0px 0px 0px 0px"
-														transition="color 0.2s linear 0s"
-														hover-color="#4a8cfa"
-														md-font="20px 'AvenirNextCyrMedium', sans-serif"
-														href="/vacancies/spetsializirovannaya-podderzhka-Assistent-prodakt-menedzher"
-														text-decoration-line="initial"
-													>
-														Специалист поддержки / Ассистент продакт-менеджер
-													</Link>
-													<Text margin="12px 0px 0px 0px" font="16px 'AvenirNextCyrMedium'" color="#333" md-font="15px 'AvenirNextCyrMedium'">
-														Проект WebAsk, uCalc | Баку, Ростов-на-Дону, Удаленно
-													</Text>
-													<Text margin="12px 0px 0px 0px" font="16px/1.4 'AvenirNextCyrRegular', sans-serif" color="#333" md-font="14px 'AvenirNextCyrRegular', sans-serif">
-														Ищем специалиста, который хочет начать карьеру в IT и готов развиваться в направлении управления продуктом. Эта позиция — отличная стартовая точка для тех, кто хочет погрузиться в работу с digital-продуктами, совмещая поддержку пользователей с участием в развитии сервисов.
 													</Text>
 													<Hr background="rgb(219, 230, 244)" height="1px" padding="0px 0px 0px 0px" margin="30px 0px 16px 0px" />
 												</Box>
