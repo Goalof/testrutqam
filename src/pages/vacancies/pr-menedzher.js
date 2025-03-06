@@ -306,6 +306,7 @@ export default (() => {
 							right="auto"
 							font="normal 500 16px/50px 'AvenirNextCyrMedium', sans-serif"
 							margin="30px 0px 10px 0px"
+							type="submit"
 						>
 							Откликнуться на вакансию
 						</Override>

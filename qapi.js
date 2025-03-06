@@ -187,7 +187,8 @@ export default {
 				"67a1262b9335410018ca07fd",
 				"67a1285f9335410018ca089f",
 				"67a12cc628b5e30023b031f9",
-				"67adf2d0e5d27700189be22b"
+				"67adf2d0e5d27700189be22b",
+				"67ca1ba041a0cf0024a8773a"
 			],
 			"seo": {
 				"description": "Вакансии в uCoz. Все вакансии компании по направлениям и проектам. В офисах в Москве, Санкт-Петербурге, Ростове-на-Дону. Удаленная работа.",
@@ -693,6 +694,17 @@ export default {
 			"pageUrl": "rukovoditel-sluzhby-podderzhki-kliyentov",
 			"id": "67adf2d0e5d27700189be22b",
 			"name": "Специалист технической поддержки uCoz"
+		},
+		"67ca1ba041a0cf0024a8773a": {
+			"pageUrl": "middle-email-marketolog",
+			"seo": {
+				"title": "Middle Email-маркетолог (Проект RuSender)",
+				"description": "Зачем мы ищем нового сотрудника: чтобы разгрузить CPO от операционных задач и помочь развивать ключевой продукт RuSender.\n\nМы готовы рассмотреть специалистов с опытом от junior в email/crm-маркетинге.",
+				"og:title": "Middle Email-маркетолог (Проект RuSender)",
+				"og:description": "Зачем мы ищем нового сотрудника: чтобы разгрузить CPO от операционных задач и помочь развивать ключевой продукт RuSender.\n\nМы готовы рассмотреть специалистов с опытом от junior в email/crm-маркетинге."
+			},
+			"id": "67ca1ba041a0cf0024a8773a",
+			"name": "Middle Email-маркетолог (Проект RuSender)"
 		}
 	},
 	"mode": "production",
